@@ -31,10 +31,16 @@ function renderLine({ catalog, daily }, state, today) {
   const model = state.chartModel ?? catalog.models[0].id;
   const { labels, datasets } = chartSeries(daily, catalog, model, state.chartCap, state.range, today);
   const apple = catalog.variants.find((v) => v.model === model && v.capacity === state.chartCap)?.apple_price ?? null;
+  const canvas = document.querySelector("#line-chart");
+  const noData = datasets.every((s) => s.data.every((v) => v == null));
+  document.querySelector("#line-empty").hidden = !noData;
+  canvas.parentElement.hidden = noData;
+  lineChart?.destroy();
+  lineChart = null;
+  if (noData) return;
   const shopName = (id) => catalog.shops.find((s) => s.id === id)?.name ?? id;
 
-  lineChart?.destroy();
-  lineChart = new Chart(document.querySelector("#line-chart"), {
+  lineChart = new Chart(canvas, {
     type: "line",
     data: {
       labels,
@@ -88,7 +94,9 @@ function renderLine({ catalog, daily }, state, today) {
 }
 
 function renderWeekday({ catalog, daily }, state, today) {
-  const variant = catalog.variants.find((v) => v.capacity === state.chartCap && v.color === state.chartColor);
+  const variant = catalog.variants.find(
+    (v) => v.model === state.chartModel && v.capacity === state.chartCap && v.color === state.chartColor,
+  );
   const stats = variant ? weekdayStats(daily, variant.id, today) : { ready: false, needDays: 14 };
   const empty = document.querySelector("#weekday-empty");
   const canvas = document.querySelector("#weekday-chart");
