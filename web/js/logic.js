@@ -103,6 +103,14 @@ export function filterVariants(variants, { model = "all", cap = "all", color = "
   );
 }
 
+const FILTER_KEYS = ["model", "cap", "color"];
+
+// Link có bộ lọc thì chỉ dùng link (để link chia sẻ luôn ra đúng kết quả); không có mới dùng bộ lọc đã lưu.
+export function pickFilters(params, saved) {
+  const source = FILTER_KEYS.some((key) => params.has(key)) ? (key) => params.get(key) : (key) => saved[key] ?? null;
+  return Object.fromEntries(FILTER_KEYS.map((key) => [key, source(key)]));
+}
+
 export function modelColors(catalog, model) {
   const models = model === "all" ? catalog.models : catalog.models.filter((m) => m.id === model);
   return [...new Set(models.flatMap((m) => m.colors))];

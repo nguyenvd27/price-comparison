@@ -1,7 +1,7 @@
 import { DATA_BASE } from "./config.js";
 import {
   bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, groupLabel, isStale, isUsable, jstDate, modelColors,
-  openStatus, rankOffers,
+  openStatus, pickFilters, rankOffers,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
 
@@ -38,14 +38,10 @@ function readState() {
   } catch {
     saved = {};
   }
-  const url = new URLSearchParams(location.search);
-  const pick = (key) => url.get(key) || saved[key];
+  const { model, cap, color } = pickFilters(new URLSearchParams(location.search), saved);
   const { models } = data.catalog;
-  const model = pick("model");
   state.model = models.some((m) => m.id === model) ? model : "all";
-  const cap = pick("cap");
   state.cap = capacities().includes(cap) ? cap : "all";
-  const color = pick("color");
   state.color = modelColors(data.catalog, state.model).includes(color) ? color : "all";
   state.chartModel = state.model !== "all" ? state.model : state.color !== "all" ? modelOf(state.color) : models[0].id;
   state.chartCap = state.cap !== "all" ? state.cap : capacities()[0];
