@@ -1,6 +1,6 @@
 import { DATA_BASE } from "./config.js";
 import {
-  bestOffer, esc, filterShops, filterVariants, formatDiff, formatTime, formatYen, isStale, openStatus,
+  bestOffer, esc, filterShops, filterVariants, formatDiff, formatTime, formatYen, isStale, isUsable, openStatus,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
 
@@ -118,14 +118,15 @@ function renderTable() {
   const rows = filterVariants(catalog.variants, state)
     .map((v) => {
       const color = catalog.colors[v.color];
-      const best = bestOffer(v.id, latest, shopIds);
+      const best = bestOffer(v.id, latest, shopIds, now);
       const diff = best ? best.price - v.apple_price : null;
       const diffClass = diff == null ? "" : diff >= 0 ? "pos" : "neg";
       const cells = shops
         .map((s) => {
           const price = latest.shops?.[s.id]?.prices?.[v.id];
-          const isBest = best && price === best.price;
-          return `<td class="${isBest ? "best" : ""}">${formatYen(price)}</td>`;
+          const usable = isUsable(latest.shops?.[s.id], now);
+          const cls = !usable ? "muted" : best && price === best.price ? "best" : "";
+          return `<td class="${cls}">${formatYen(price)}</td>`;
         })
         .join("");
       return `<tr>

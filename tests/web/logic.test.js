@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
   addDays, bestOffer, esc, filterShops, filterVariants, formatDiff, formatTime, formatYen,
-  isStale, isWeekend, jstDate, openStatus, weekdayIndex,
+  isStale, isUsable, isWeekend, jstDate, openStatus, weekdayIndex,
 } from "../../web/js/logic.js";
 
 test("formatYen and formatDiff", () => {
@@ -90,4 +90,17 @@ test("openStatus skips Sunday and closed_dates", () => {
 
 test("openStatus uses JST even when given UTC", () => {
   assert.equal(openStatus(SHOP, at("2026-10-02T03:00:00Z")).open, true); // 12:00 JST
+});
+
+test("bestOffer skips stale or erroring shops", () => {
+  const now = new Date("2026-10-02T12:00:00+09:00");
+  const latest = { shops: {
+    fresh: { last_success_at: "2026-10-02T11:30:00+09:00", error: null, prices: { "pm-256-black": 236000 } },
+    stale: { last_success_at: "2026-09-30T11:30:00+09:00", error: null, prices: { "pm-256-black": 270000 } },
+    broken: { last_success_at: "2026-10-02T11:30:00+09:00", error: "HTTPError: 503", prices: { "pm-256-black": 280000 } },
+  } };
+  assert.deepEqual(bestOffer("pm-256-black", latest, ["fresh", "stale", "broken"], now), { shop: "fresh", price: 236000 });
+  assert.equal(isUsable(latest.shops.stale, now), false);
+  assert.equal(isUsable(latest.shops.broken, now), false);
+  assert.equal(isUsable(latest.shops.fresh, now), true);
 });

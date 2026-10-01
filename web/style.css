@@ -49,6 +49,7 @@ th.shop span { display: block; font-weight: 400; font-size: 11px; }
 .status.closed { color: var(--muted); }
 .stale { color: var(--warn); }
 td.best { background: var(--good-bg); color: var(--good); font-weight: 700; }
+td.muted { color: #b0b4ba; }
 .pos { color: var(--good); font-weight: 700; }
 .neg { color: var(--bad); font-weight: 700; }
 td.empty { text-align: center; color: var(--muted); }

@@ -58,9 +58,15 @@ export function isWeekend(dateStr) {
   return weekdayIndex(dateStr) >= 5;
 }
 
-export function bestOffer(variantId, latest, shopIds) {
+// Cửa hàng đang lỗi hoặc dữ liệu đã cũ: vẫn hiện giá nhưng không tính là giá tốt nhất.
+export function isUsable(shopState, now) {
+  return Boolean(shopState) && !shopState.error && !isStale(shopState.last_success_at, now);
+}
+
+export function bestOffer(variantId, latest, shopIds, now = null) {
   let best = null;
   for (const id of shopIds) {
+    if (now && !isUsable(latest.shops?.[id], now)) continue;
     const price = latest.shops?.[id]?.prices?.[variantId];
     if (price != null && (best === null || price > best.price)) best = { shop: id, price };
   }
