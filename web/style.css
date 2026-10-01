@@ -32,12 +32,15 @@ footer { padding-bottom: 24px; }
 .chip.swatch .dot { margin: 0; width: 18px; height: 18px; }
 .chip.swatch.on { background: var(--surface); border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 
-.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.table-wrap { overflow: auto; max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
 table { border-collapse: separate; border-spacing: 0; width: 100%; }
 th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; background: var(--surface); font-variant-numeric: tabular-nums; }
 th { font-size: 12px; color: var(--muted); font-weight: 600; background: #fafafa; vertical-align: top; }
 tbody tr:last-child td { border-bottom: 0; }
 .s1, .s2, .s3 { position: sticky; z-index: 2; }
+/* Dòng tiêu đề (tên kaitori) dính ở mép trên khung bảng khi cuộn dọc; ô góc dính cả hai chiều */
+thead th { position: sticky; top: 0; z-index: 3; }
+thead th.s1, thead th.s2, thead th.s3 { z-index: 4; }
 .s1 { left: 0; min-width: 100px; width: 100px; text-align: left; }
 .s2 { left: 100px; min-width: 80px; width: 80px; }
 .s3 { left: 180px; min-width: 90px; width: 90px; border-right: 2px solid var(--line); }
