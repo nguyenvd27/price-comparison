@@ -1,0 +1,48 @@
+{
+ "model": "iPhone 18 Pro Max",
+ "colors": {
+  "burgundy": {"vi": "Burgundy", "hex": "#7a1f3d", "aliases": ["バーガンディ"]},
+  "glacier": {"vi": "Glacier", "hex": "#7fa9bd", "aliases": ["グレイシャー", "グレイシャ"]},
+  "black": {"vi": "Đen", "hex": "#333333", "aliases": ["ブラック"]},
+  "silver": {"vi": "Bạc", "hex": "#a9adb3", "aliases": ["シルバー"]}
+ },
+ "variants": [
+  {"id": "pm-256-burgundy", "capacity": "256GB", "color": "burgundy", "apple_price": 239800},
+  {"id": "pm-256-glacier", "capacity": "256GB", "color": "glacier", "apple_price": 239800},
+  {"id": "pm-256-black", "capacity": "256GB", "color": "black", "apple_price": 239800},
+  {"id": "pm-256-silver", "capacity": "256GB", "color": "silver", "apple_price": 239800},
+  {"id": "pm-512-burgundy", "capacity": "512GB", "color": "burgundy", "apple_price": 274800},
+  {"id": "pm-512-glacier", "capacity": "512GB", "color": "glacier", "apple_price": 274800},
+  {"id": "pm-512-black", "capacity": "512GB", "color": "black", "apple_price": 274800},
+  {"id": "pm-512-silver", "capacity": "512GB", "color": "silver", "apple_price": 274800},
+  {"id": "pm-1tb-burgundy", "capacity": "1TB", "color": "burgundy", "apple_price": 344800},
+  {"id": "pm-1tb-glacier", "capacity": "1TB", "color": "glacier", "apple_price": 344800},
+  {"id": "pm-1tb-black", "capacity": "1TB", "color": "black", "apple_price": 344800},
+  {"id": "pm-1tb-silver", "capacity": "1TB", "color": "silver", "apple_price": 344800},
+  {"id": "pm-2tb-burgundy", "capacity": "2TB", "color": "burgundy", "apple_price": 449800},
+  {"id": "pm-2tb-glacier", "capacity": "2TB", "color": "glacier", "apple_price": 449800},
+  {"id": "pm-2tb-black", "capacity": "2TB", "color": "black", "apple_price": 449800},
+  {"id": "pm-2tb-silver", "capacity": "2TB", "color": "silver", "apple_price": 449800}
+ ],
+ "shops": [
+  {"id": "morimori", "name": "森森", "url": "https://www.morimori-kaitori.jp/category/0301070",
+   "hours": {"mon": ["11:00", "20:00"], "tue": ["11:00", "20:00"], "wed": ["11:00", "20:00"], "thu": ["11:00", "20:00"], "fri": ["11:00", "20:00"], "sat": ["11:00", "20:00"], "sun": ["11:00", "20:00"]},
+   "closed_dates": [], "note": "Giờ của 秋葉原本店"},
+  {"id": "ichiban", "name": "海峡", "url": "https://www.mobile-ichiban.com/Prod/1/01/40",
+   "hours": {"mon": ["10:00", "19:00"], "tue": ["10:00", "19:00"], "wed": ["10:00", "19:00"], "thu": ["10:00", "19:00"], "fri": ["10:00", "19:00"], "sat": ["10:00", "19:00"], "sun": null},
+   "closed_dates": [], "note": "モバイル一番 · giờ của 池袋駅前店"},
+  {"id": "mobaste", "name": "モバステ", "url": "https://pastec.net/iphone?series_child_id=644",
+   "hours": {"mon": ["11:00", "19:30"], "tue": ["11:00", "19:30"], "wed": ["11:00", "19:30"], "thu": ["11:00", "19:30"], "fri": ["11:00", "19:30"], "sat": ["11:00", "19:30"], "sun": ["11:00", "19:30"]},
+   "closed_dates": [], "note": "Giờ của 秋葉原店 · nhận gửi bưu điện"},
+  {"id": "shouten", "name": "買取商店", "url": "https://www.kaitorishouten-co.jp/category/1/747",
+   "hours": {"mon": ["10:20", "19:00"], "tue": ["10:20", "19:00"], "wed": ["10:20", "19:00"], "thu": ["10:20", "19:00"], "fri": ["10:20", "19:00"], "sat": ["10:20", "19:00"], "sun": null},
+   "closed_dates": [], "note": "Giờ của 秋葉原店"},
+  {"id": "ichome", "name": "一丁目", "url": "https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt",
+   "hours": {"mon": ["10:00", "19:00"], "tue": ["10:00", "19:00"], "wed": ["10:00", "19:00"], "thu": ["10:00", "19:00"], "fri": ["10:00", "19:00"], "sat": ["10:00", "19:00"], "sun": null},
+   "closed_dates": [], "note": "Giờ của 秋葉原本店"},
+  {"id": "mix", "name": "MIX", "url": "https://mobile-mix.jp/?category=7",
+   "hours": {"mon": ["11:00", "19:00"], "tue": ["11:00", "19:00"], "wed": ["11:00", "19:00"], "thu": ["11:00", "19:00"], "fri": ["11:00", "19:00"], "sat": ["11:00", "19:00"], "sun": null},
+   "closed_dates": ["2026-10-12", "2026-11-03", "2026-11-23", "2027-01-01", "2027-01-11", "2027-02-11", "2027-02-23"],
+   "note": "Giờ của 秋葉原中央通り店 · nghỉ ngày lễ"}
+ ]
+}
