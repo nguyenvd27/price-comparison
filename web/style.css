@@ -24,7 +24,6 @@ footer { padding-bottom: 24px; }
 .error { background: #fdecea; color: var(--bad); padding: 10px 12px; border-radius: 8px; }
 
 .filters { display: flex; flex-direction: column; gap: 8px; margin: 16px 0 12px; }
-#q { max-width: 320px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--text); }
 .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }

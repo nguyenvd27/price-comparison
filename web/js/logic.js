@@ -77,12 +77,6 @@ export function filterVariants(variants, { cap = "all", color = "all" } = {}) {
   return variants.filter((v) => (cap === "all" || v.capacity === cap) && (color === "all" || v.color === color));
 }
 
-export function filterShops(shops, query = "") {
-  const q = query.trim().toLowerCase();
-  if (!q) return shops;
-  return shops.filter((s) => s.name.toLowerCase().includes(q) || s.id.includes(q));
-}
-
 function hoursOn(shop, dateStr) {
   if ((shop.closed_dates ?? []).includes(dateStr)) return null;
   return shop.hours?.[WEEKDAYS[weekdayIndex(dateStr)]] ?? null;

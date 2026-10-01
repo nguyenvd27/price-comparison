@@ -1,10 +1,10 @@
 import { DATA_BASE } from "./config.js";
 import {
-  bestOffer, esc, filterShops, filterVariants, formatDiff, formatTime, formatYen, isStale, isUsable, openStatus,
+  bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, isStale, isUsable, openStatus,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
 
-const state = { cap: "all", color: "all", q: "", chartCap: null, chartColor: null, range: 30 };
+const state = { cap: "all", color: "all", chartCap: null, chartColor: null, range: 30 };
 let data = null;
 
 const $ = (selector) => document.querySelector(selector);
@@ -109,7 +109,7 @@ function shopHeader(shop, shopState, now) {
 function renderTable() {
   const { catalog, latest } = data;
   const now = new Date();
-  const shops = filterShops(catalog.shops, state.q);
+  const shops = catalog.shops;
   const shopIds = shops.map((s) => s.id);
   const head = `<thead><tr><th class="s1">Phiên bản</th><th class="s2">Apple</th><th class="s3">Chênh lệch</th>${shops
     .map((s) => shopHeader(s, latest.shops?.[s.id], now))
@@ -158,10 +158,6 @@ async function init() {
     return;
   }
   readState();
-  $("#q").addEventListener("input", (event) => {
-    state.q = event.target.value;
-    renderTable();
-  });
   update();
   // Cập nhật lại trạng thái mở cửa và nhãn "dữ liệu cũ" mỗi phút mà không cần tải lại trang.
   setInterval(renderTable, 60 * 1000);

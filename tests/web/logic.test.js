@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
-  addDays, bestOffer, esc, filterShops, filterVariants, formatDiff, formatTime, formatYen,
+  addDays, bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen,
   isStale, isUsable, isWeekend, jstDate, openStatus, weekdayIndex,
 } from "../../web/js/logic.js";
 
@@ -51,7 +51,7 @@ test("bestOffer picks highest among given shops", () => {
   assert.equal(bestOffer("pm-2tb-black", latest, ["a", "b"]), null);
 });
 
-test("filterVariants and filterShops", () => {
+test("filterVariants", () => {
   const variants = [
     { id: "1", capacity: "256GB", color: "black" },
     { id: "2", capacity: "256GB", color: "silver" },
@@ -59,10 +59,6 @@ test("filterVariants and filterShops", () => {
   ];
   assert.deepEqual(filterVariants(variants, { cap: "all", color: "all" }).map((v) => v.id), ["1", "2", "3"]);
   assert.deepEqual(filterVariants(variants, { cap: "256GB", color: "black" }).map((v) => v.id), ["1"]);
-  const shops = [{ id: "morimori", name: "森森" }, { id: "mix", name: "MIX" }];
-  assert.deepEqual(filterShops(shops, "森").map((s) => s.id), ["morimori"]);
-  assert.deepEqual(filterShops(shops, " Mi ").map((s) => s.id), ["mix"]);
-  assert.equal(filterShops(shops, "").length, 2);
 });
 
 const SHOP = {

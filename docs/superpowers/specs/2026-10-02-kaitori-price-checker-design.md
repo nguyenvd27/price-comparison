@@ -142,7 +142,6 @@ Toàn bộ chữ tiếng Việt, tối giản, nền sáng, ưu tiên điện th
 
 - Nút chọn dung lượng: Tất cả / 256GB / 512GB / 1TB / 2TB.
 - Nút chọn màu: Mọi màu / từng màu (có chấm màu).
-- Ô tìm kiếm: lọc **cột cửa hàng** theo tên (tiếng Nhật hoặc mã).
 - Lựa chọn lọc được lưu trong URL query (`?cap=256&color=blue`) để chia sẻ link, và trong `localStorage` (bọc try/catch).
 
 ### Biểu đồ giá theo ngày (Chart.js, dạng đường)
