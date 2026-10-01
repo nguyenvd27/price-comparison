@@ -1,0 +1,17 @@
+{"code": 200, "msg": "success", "data": {"totalElements": 2, "content": [
+  {"title": "iPhone 18 Pro Max 256GB", "kbName": "新品",
+   "goodsKbDetails": [
+     {"allGoodsKbDetailId": 4011, "kbDetailName": "未開封", "kbDetailPrice": 262000},
+     {"allGoodsKbDetailId": 4012, "kbDetailName": "開封済未使用品", "kbDetailPrice": 229000}],
+   "keitaiColorOptions": [
+     {"color": "ブラック", "publicPrice": 239800, "keitaiKbDetailColorRels": [
+       {"keitaiKbDetailId": 4012, "varPrice": -20000},
+       {"keitaiKbDetailId": 4011, "varPrice": -26000}]},
+     {"color": "グレイシャ-", "publicPrice": 239800, "keitaiKbDetailColorRels": [
+       {"keitaiKbDetailId": 4011, "varPrice": -27000}]},
+     {"color": " バーガンディ", "publicPrice": 239800, "keitaiKbDetailColorRels": [
+       {"keitaiKbDetailId": 4011, "varPrice": null}]}]},
+  {"title": "iPhone 18 Pro 256GB", "kbName": "新品",
+   "goodsKbDetails": [{"allGoodsKbDetailId": 5000, "kbDetailName": "未開封", "kbDetailPrice": 217000}],
+   "keitaiColorOptions": [{"color": "ブラック", "keitaiKbDetailColorRels": []}]}
+]}}
