@@ -3,11 +3,12 @@ import { test } from "node:test";
 import { addDays, chartSeries, dateRange, weekdayIndex, weekdayStats } from "../../web/js/logic.js";
 
 const CATALOG = {
-  colors: { black: { vi: "Đen", hex: "#333" }, silver: { vi: "Bạc", hex: "#aaa" } },
+  colors: { black: { vi: "Đen", hex: "#333" }, silver: { vi: "Bạc", hex: "#aaa" }, nightsky: { vi: "Night Sky", hex: "#123" } },
   variants: [
-    { id: "pm-256-black", capacity: "256GB", color: "black", apple_price: 239800 },
-    { id: "pm-256-silver", capacity: "256GB", color: "silver", apple_price: 239800 },
-    { id: "pm-1tb-black", capacity: "1TB", color: "black", apple_price: 344800 },
+    { id: "pm-256-black", model: "pm", capacity: "256GB", color: "black", apple_price: 239800 },
+    { id: "pm-256-silver", model: "pm", capacity: "256GB", color: "silver", apple_price: 239800 },
+    { id: "pm-1tb-black", model: "pm", capacity: "1TB", color: "black", apple_price: 344800 },
+    { id: "duo-256-nightsky", model: "duo", capacity: "256GB", color: "nightsky", apple_price: 364800 },
   ],
 };
 
@@ -22,7 +23,7 @@ test("chartSeries fills missing days with null", () => {
     "2026-09-30": { "pm-256-black": { max: 236000, shop: "a" } },
     "2026-10-02": { "pm-256-black": { max: 238000, shop: "b" }, "pm-256-silver": { max: 231000, shop: "a" } },
   };
-  const { labels, datasets } = chartSeries(daily, CATALOG, "256GB", 3, "2026-10-02");
+  const { labels, datasets } = chartSeries(daily, CATALOG, "pm", "256GB", 3, "2026-10-02");
   assert.deepEqual(labels, ["2026-09-30", "2026-10-01", "2026-10-02"]);
   assert.deepEqual(datasets.map((d) => d.variant), ["pm-256-black", "pm-256-silver"]);
   assert.deepEqual(datasets[0].data, [236000, null, 238000]);

@@ -97,8 +97,27 @@ export function rankOffers(variantId, latest, shops, applePrice, now) {
   return rows;
 }
 
-export function filterVariants(variants, { cap = "all", color = "all" } = {}) {
-  return variants.filter((v) => (cap === "all" || v.capacity === cap) && (color === "all" || v.color === color));
+export function filterVariants(variants, { model = "all", cap = "all", color = "all" } = {}) {
+  return variants.filter(
+    (v) => (model === "all" || v.model === model) && (cap === "all" || v.capacity === cap) && (color === "all" || v.color === color),
+  );
+}
+
+export function modelColors(catalog, model) {
+  const models = model === "all" ? catalog.models : catalog.models.filter((m) => m.id === model);
+  return [...new Set(models.flatMap((m) => m.colors))];
+}
+
+export function hasPrices(latest, variantIds) {
+  return Object.values(latest.shops ?? {}).some((shop) => variantIds.some((id) => shop.prices?.[id] != null));
+}
+
+// Tiêu đề nhóm trong bảng, ví dụ "iPhone Duo · mở bán 10/23 · chưa có giá kaitori".
+export function groupLabel(model, variantIds, latest, today) {
+  const parts = [model.name];
+  if (model.release && today < model.release) parts.push(`mở bán ${model.release.slice(5).replace("-", "/")}`);
+  if (!hasPrices(latest, variantIds)) parts.push("chưa có giá kaitori");
+  return parts.join(" · ");
 }
 
 function hoursOn(shop, dateStr) {
@@ -136,10 +155,10 @@ export function dateRange(daily, today, range) {
   return dates;
 }
 
-export function chartSeries(daily, catalog, cap, range, today) {
+export function chartSeries(daily, catalog, model, cap, range, today) {
   const labels = dateRange(daily, today, range);
   const datasets = catalog.variants
-    .filter((v) => v.capacity === cap)
+    .filter((v) => v.model === model && v.capacity === cap)
     .map((v) => ({
       variant: v.id,
       color: v.color,

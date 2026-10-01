@@ -28,8 +28,9 @@ export function renderCharts(data, state) {
 }
 
 function renderLine({ catalog, daily }, state, today) {
-  const { labels, datasets } = chartSeries(daily, catalog, state.chartCap, state.range, today);
-  const apple = catalog.variants.find((v) => v.capacity === state.chartCap)?.apple_price ?? null;
+  const model = state.chartModel ?? catalog.models[0].id;
+  const { labels, datasets } = chartSeries(daily, catalog, model, state.chartCap, state.range, today);
+  const apple = catalog.variants.find((v) => v.model === model && v.capacity === state.chartCap)?.apple_price ?? null;
   const shopName = (id) => catalog.shops.find((s) => s.id === id)?.name ?? id;
 
   lineChart?.destroy();
