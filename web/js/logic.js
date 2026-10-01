@@ -181,6 +181,7 @@ export function chartSeries(daily, catalog, model, cap, range, today) {
       hex: catalog.colors[v.color].hex,
       data: labels.map((d) => daily[d]?.[v.id]?.max ?? null),
       shops: labels.map((d) => daily[d]?.[v.id]?.shop ?? null),
+      samples: labels.map((d) => Boolean(daily[d]?.[v.id]?.sample)),
     }));
   return { labels, datasets };
 }
@@ -189,8 +190,8 @@ export function weekdayStats(daily, variantId, today, windowDays = 28) {
   const values = [];
   for (let i = windowDays - 1; i >= 0; i--) {
     const d = addDays(today, -i);
-    const v = daily[d]?.[variantId]?.max;
-    if (v != null) values.push({ d, v });
+    const entry = daily[d]?.[variantId];
+    if (entry?.max != null) values.push({ d, v: entry.max, sample: Boolean(entry.sample) });
   }
   if (values.length < MIN_DAYS) return { ready: false, needDays: MIN_DAYS - values.length };
 
@@ -216,5 +217,6 @@ export function weekdayStats(daily, variantId, today, windowDays = 28) {
   const known = deltas.map((v, i) => [v, i]).filter(([v]) => v != null);
   const best = known.reduce((a, b) => (b[0] > a[0] ? b : a))[1];
   const worst = known.reduce((a, b) => (b[0] < a[0] ? b : a))[1];
-  return { ready: true, deltas, best, worst, gap: Math.round((deltas[best] - deltas[worst]) / 100) * 100 };
+  const gap = Math.round((deltas[best] - deltas[worst]) / 100) * 100;
+  return { ready: true, deltas, best, worst, gap, sample: values.some((x) => x.sample) };
 }

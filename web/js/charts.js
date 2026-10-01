@@ -49,6 +49,10 @@ function renderLine({ catalog, daily }, state, today) {
           label: s.label,
           data: s.data,
           shops: s.shops,
+          samples: s.samples,
+          // Dữ liệu mẫu vẽ điểm rỗng ruột, dữ liệu thật vẽ điểm đặc
+          pointBackgroundColor: s.samples.map((isSample) => (isSample ? "#ffffff" : s.hex)),
+          pointBorderColor: s.hex,
           borderColor: s.hex,
           backgroundColor: s.hex,
           borderWidth: 2,
@@ -83,7 +87,8 @@ function renderLine({ catalog, daily }, state, today) {
             label: (ctx) => {
               if (!ctx.dataset.shops) return `Giá Apple: ¥${formatYen(ctx.parsed.y)}`;
               const shop = ctx.dataset.shops[ctx.dataIndex];
-              return `¥${formatYen(ctx.parsed.y)}${shop ? ` · ${shopName(shop)}` : ""}`;
+              const note = ctx.dataset.samples?.[ctx.dataIndex] ? " · dữ liệu mẫu" : "";
+              return `¥${formatYen(ctx.parsed.y)}${shop ? ` · ${shopName(shop)}` : ""}${note}`;
             },
           },
         },
@@ -137,5 +142,6 @@ function renderWeekday({ catalog, daily }, state, today) {
       scales: { y: { ticks: { callback: (v) => `${v >= 0 ? "+" : ""}${(v / 1000).toFixed(1)}k` } } },
     },
   });
-  tip.textContent = `Nên bán: ${WEEKDAY_FULL[stats.best]}, trung bình cao hơn ${WEEKDAY_FULL[stats.worst]} khoảng ¥${formatYen(stats.gap)}`;
+  const sampleNote = stats.sample ? " (tính trên dữ liệu mẫu)" : "";
+  tip.textContent = `Nên bán: ${WEEKDAY_FULL[stats.best]}, trung bình cao hơn ${WEEKDAY_FULL[stats.worst]} khoảng ¥${formatYen(stats.gap)}${sampleNote}`;
 }
