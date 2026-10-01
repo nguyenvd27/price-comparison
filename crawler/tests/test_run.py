@@ -7,7 +7,11 @@ from crawler.run import main
 from crawler.update import JST
 
 NOW = datetime(2026, 10, 2, 12, 0, tzinfo=JST)
-CATALOG = {"colors": {"black": {"aliases": ["ブラック"]}}, "shops": [{"id": "a"}, {"id": "b"}]}
+CATALOG = {
+    "models": [{"id": "pm", "colors": ["black"], "crawl": True}],
+    "colors": {"black": {"aliases": ["ブラック"]}},
+    "shops": [{"id": "a"}, {"id": "b"}],
+}
 
 
 def ok_shop(price=236000):
@@ -54,3 +58,23 @@ def test_run_does_not_rewrite_latest_when_nothing_changed(tmp_path):
     main(data_dir, shops, NOW.replace(minute=15))
     assert (data_dir / "latest.json").read_text(encoding="utf-8") == before
     assert len(read(data_dir / "history" / "2026-10.json")) == 2
+
+
+def test_run_only_passes_colors_of_crawled_models(tmp_path):
+    catalog = {
+        "models": [
+            {"id": "pm", "colors": ["black"], "crawl": True},
+            {"id": "duo", "colors": ["nightsky"], "crawl": False},
+        ],
+        "colors": {"black": {"aliases": ["ブラック"]}, "nightsky": {"aliases": ["ナイトスカイ"]}},
+        "shops": [{"id": "a"}],
+    }
+    (tmp_path / "catalog.json").write_text(json.dumps(catalog), encoding="utf-8")
+    seen = []
+
+    def parse(raw, colors):
+        seen.append(colors)
+        return [Offer("pm-256-black", 236000)]
+
+    main(tmp_path, {"a": SimpleNamespace(fetch=lambda session: "raw", parse=parse)}, NOW)
+    assert seen == [{"black": ["ブラック"]}]

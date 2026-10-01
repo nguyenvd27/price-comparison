@@ -17,9 +17,15 @@ def crawl_shop(module, session, colors) -> ShopResult:
         return ShopResult({}, f"{type(exc).__name__}: {exc}")
 
 
+def crawl_colors(catalog: dict) -> dict[str, list[str]]:
+    """Chỉ các màu thuộc dòng máy đang crawl, để parser không sinh giá cho màu của dòng máy khác."""
+    wanted = {color for model in catalog["models"] if model["crawl"] for color in model["colors"]}
+    return {color_id: color["aliases"] for color_id, color in catalog["colors"].items() if color_id in wanted}
+
+
 def main(data_dir: Path = DATA_DIR, shops: dict = SHOPS, now: datetime | None = None) -> int:
     catalog = load_json(data_dir / "catalog.json", None)
-    colors = {color_id: color["aliases"] for color_id, color in catalog["colors"].items()}
+    colors = crawl_colors(catalog)
     session = new_session()
 
     results = {}
