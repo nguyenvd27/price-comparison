@@ -43,3 +43,30 @@ def parse_price(text: str | None) -> int | None:
 
 def variant_id(capacity: str, color: str) -> str:
     return f"pm-{capacity}-{color}"
+
+AMOUNT = re.compile(r"[-−‐]\s*(\d[\d,]*)")
+
+
+def parse_deductions(text: str, colors: dict[str, list[str]]) -> dict[str, int | None]:
+    """Đọc ghi chú kiểu "シルバー/グレイシャー -18000 ブラック-11000".
+
+    Mỗi số tiền áp cho các màu đứng ngay trước nó (chưa được gán).
+    "Xのみ ... 不可" nghĩa là chỉ thu mua màu X, các màu khác là None.
+    """
+    normalized = nfkc(text)
+    if "のみ" in normalized and "不可" in normalized:
+        allowed = {color for _, color in find_colors(normalized.split("のみ")[0], colors)}
+        return {color: (0 if color in allowed else None) for color in colors}
+
+    result: dict[str, int | None] = {color: 0 for color in colors}
+    tokens = [(pos, "color", color) for pos, color in find_colors(normalized, colors)]
+    tokens += [(m.start(), "amount", int(m.group(1).replace(",", ""))) for m in AMOUNT.finditer(normalized)]
+    pending: list[str] = []
+    for _, kind, value in sorted(tokens, key=lambda token: token[0]):
+        if kind == "color":
+            pending.append(value)
+        else:
+            for color in pending:
+                result[color] = -value
+            pending = []
+    return result
