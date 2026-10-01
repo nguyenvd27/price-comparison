@@ -40,6 +40,13 @@ export function formatTime(iso) {
   return `${p.month}/${p.day} ${p.time}`;
 }
 
+// Bản rút gọn cho điện thoại: hôm nay chỉ hiện giờ, ngày khác chỉ hiện ngày.
+export function formatShortTime(iso, now) {
+  if (!iso) return "—";
+  const p = jstParts(new Date(iso));
+  return p.date === jstParts(now).date ? p.time : `${p.month}/${p.day}`;
+}
+
 export function isStale(iso, now, hours = 2) {
   return !iso || now - new Date(iso) > hours * 3600 * 1000;
 }

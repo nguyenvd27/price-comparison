@@ -84,14 +84,25 @@ td.clickable:hover, td.clickable:focus-visible { outline: 2px solid var(--link);
 .rank-table tr.picked td { background: #eef4ff; font-weight: 700; }
 .rank-table tr.muted td { color: #b0b4ba; }
 
+.short, th.shop .short { display: none; }
+
 @media (max-width: 600px) {
-  /* Điện thoại: 3 cột cố định chỉ chiếm khoảng 220px */
-  .s1 { min-width: 84px; width: 84px; }
-  .s2 { left: 84px; min-width: 64px; width: 64px; }
-  .s3 { left: 148px; min-width: 70px; width: 70px; }
-  th, td { padding: 6px 6px; font-size: 13px; }
-  th.shop { min-width: 104px; }
+  /* Điện thoại: giữ 3 cột đầu nhưng thu nhỏ (~164px) để thấy khoảng 3 cột cửa hàng */
+  .long, th.shop .long { display: none; }
+  .short { display: inline; }
+  th.shop .short { display: block; font-weight: 400; font-size: 10px; white-space: nowrap; }
+  .table-wrap { margin: 0 -16px; border-radius: 0; border-left: 0; border-right: 0; }
+  th, td { padding: 6px 5px; font-size: 13px; }
+  .s1, .s2, .s3 { font-size: 11px; padding: 6px 4px; }
+  .s1 { min-width: 52px; width: 52px; }
+  .s1 .dot { width: 10px; height: 10px; margin-right: 4px; vertical-align: -1px; }
+  .s2 { left: 52px; min-width: 56px; width: 56px; }
+  .s3 { left: 108px; min-width: 56px; width: 56px; }
+  th.shop { min-width: 68px; }
+  th.shop a { font-size: 12px; }
+  tr.group td span { left: 6px; }
   .chart-box { height: 240px; }
   .modal { width: calc(100vw - 16px); max-height: calc(100vh - 16px); }
   #modal-body { padding: 12px; }
 }
+

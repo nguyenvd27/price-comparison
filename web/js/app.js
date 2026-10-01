@@ -1,6 +1,6 @@
 import { DATA_BASE } from "./config.js";
 import {
-  bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, groupLabel, isStale, isUsable, jstDate, modelColors,
+  bestOffer, esc, filterVariants, formatDiff, formatShortTime, formatTime, formatYen, groupLabel, isStale, isUsable, jstDate, modelColors,
   openStatus, pickFilters, rankOffers,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
@@ -127,10 +127,13 @@ function renderFilters() {
 function shopHeader(shop, shopState, now) {
   const status = openStatus(shop, now);
   const stale = shopState && isStale(shopState.last_success_at, now);
-  return `<th class="shop" title="${esc(shop.note ?? "")}">
+  const icon = status.open ? "🟢" : "🔴";
+  const tip = [status.text, shop.note].filter(Boolean).join(" · ");
+  return `<th class="shop" title="${esc(tip)}">
     <a href="${esc(shop.url)}" target="_blank" rel="noopener">${esc(shop.name)} ↗</a>
-    <span class="time">${formatTime(shopState?.display_at)}</span>
-    <span class="status ${status.open ? "open" : "closed"}">${status.open ? "🟢" : "🔴"} ${esc(status.text)}</span>
+    <span class="time long">${formatTime(shopState?.display_at)}</span>
+    <span class="status long ${status.open ? "open" : "closed"}">${icon} ${esc(status.text)}</span>
+    <span class="short">${icon} ${formatShortTime(shopState?.display_at, now)}</span>
     ${stale ? '<span class="stale">⚠ dữ liệu cũ</span>' : ""}
   </th>`;
 }
@@ -149,7 +152,7 @@ function variantRow(v, shops, shopIds, latest, now) {
     })
     .join("");
   return `<tr>
-    <td class="s1" title="${esc(color.vi)}"><span class="dot" style="background:${esc(color.hex)}" aria-label="${esc(color.vi)}"></span>${esc(v.capacity)}</td>
+    <td class="s1" title="${esc(color.vi)}"><span class="dot" style="background:${esc(color.hex)}" aria-label="${esc(color.vi)}"></span><span class="long">${esc(v.capacity)}</span><span class="short">${esc(v.capacity.replace("GB", ""))}</span></td>
     <td class="s2">${formatYen(v.apple_price)}</td>
     <td class="s3 ${diff == null ? "" : diffClass(diff)}">${formatDiff(diff)}</td>${cells}
   </tr>`;
@@ -162,7 +165,7 @@ function renderTable() {
   const shops = catalog.shops;
   const shopIds = shops.map((s) => s.id);
   const columns = 3 + shops.length;
-  const head = `<thead><tr><th class="s1">Phiên bản</th><th class="s2">Apple</th><th class="s3">Chênh lệch</th>${shops
+  const head = `<thead><tr><th class="s1"><span class="long">Phiên bản</span><span class="short">Máy</span></th><th class="s2">Apple</th><th class="s3"><span class="long">Chênh lệch</span><span class="short">Lệch</span></th>${shops
     .map((s) => shopHeader(s, latest.shops?.[s.id], now))
     .join("")}</tr></thead>`;
 
