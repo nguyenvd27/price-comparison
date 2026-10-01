@@ -101,3 +101,62 @@ export function openStatus(shop, now) {
   }
   return { open: false, text: "Đã đóng" };
 }
+
+export const MIN_DAYS = 14;
+
+export function dateRange(daily, today, range) {
+  const first = Object.keys(daily).sort()[0] ?? today;
+  const start = range === "all" ? first : addDays(today, -(range - 1));
+  const dates = [];
+  for (let d = start; d <= today; d = addDays(d, 1)) dates.push(d);
+  return dates;
+}
+
+export function chartSeries(daily, catalog, cap, range, today) {
+  const labels = dateRange(daily, today, range);
+  const datasets = catalog.variants
+    .filter((v) => v.capacity === cap)
+    .map((v) => ({
+      variant: v.id,
+      color: v.color,
+      label: catalog.colors[v.color].vi,
+      hex: catalog.colors[v.color].hex,
+      data: labels.map((d) => daily[d]?.[v.id]?.max ?? null),
+      shops: labels.map((d) => daily[d]?.[v.id]?.shop ?? null),
+    }));
+  return { labels, datasets };
+}
+
+export function weekdayStats(daily, variantId, today, windowDays = 28) {
+  const values = [];
+  for (let i = windowDays - 1; i >= 0; i--) {
+    const d = addDays(today, -i);
+    const v = daily[d]?.[variantId]?.max;
+    if (v != null) values.push({ d, v });
+  }
+  if (values.length < MIN_DAYS) return { ready: false, needDays: MIN_DAYS - values.length };
+
+  // So mỗi ngày với trung bình của chính tuần đó, để xu hướng tăng/giảm dài hạn không làm lệch kết quả.
+  const weeks = new Map();
+  for (const x of values) {
+    const monday = addDays(x.d, -weekdayIndex(x.d));
+    if (!weeks.has(monday)) weeks.set(monday, []);
+    weeks.get(monday).push(x);
+  }
+  const sums = Array(7).fill(0);
+  const counts = Array(7).fill(0);
+  for (const list of weeks.values()) {
+    if (list.length < 2) continue;
+    const mean = list.reduce((s, x) => s + x.v, 0) / list.length;
+    for (const x of list) {
+      const w = weekdayIndex(x.d);
+      sums[w] += x.v - mean;
+      counts[w] += 1;
+    }
+  }
+  const deltas = sums.map((s, i) => (counts[i] ? Math.round(s / counts[i]) : null));
+  const known = deltas.map((v, i) => [v, i]).filter(([v]) => v != null);
+  const best = known.reduce((a, b) => (b[0] > a[0] ? b : a))[1];
+  const worst = known.reduce((a, b) => (b[0] < a[0] ? b : a))[1];
+  return { ready: true, deltas, best, worst, gap: Math.round((deltas[best] - deltas[worst]) / 100) * 100 };
+}
