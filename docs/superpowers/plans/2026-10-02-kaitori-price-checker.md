@@ -13,6 +13,7 @@
 ## Global Constraints
 
 - Mọi chữ hiển thị cho người dùng là tiếng Việt; tên cửa hàng giữ nguyên tiếng Nhật.
+- Màu máy chỉ hiển thị bằng chấm màu (swatch), không hiện tên màu. Tên màu chỉ nằm trong `title`/`aria-label` để di chuột hoặc dùng trình đọc màn hình. Giờ mở cửa lấy theo cửa hàng chính của mỗi kaitori.
 - Chỉ iPhone 18 Pro Max, 4 dung lượng `256GB`, `512GB`, `1TB`, `2TB` × 4 màu `burgundy`, `glacier`, `black`, `silver`. Mã biến thể dạng `pm-<256|512|1tb|2tb>-<màu>`.
 - Chỉ lấy giá **mới, chưa kích hoạt (未開封)**. Bỏ qua mọi giá 開封 / 中古.
 - Mọi mốc thời gian dùng giờ Nhật `Asia/Tokyo`, định dạng ISO 8601 có offset `+09:00`. "Một ngày" tính từ 00:00 đến 24:00 JST.
@@ -2204,7 +2205,10 @@ footer { padding-bottom: 24px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--text); }
 .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
-.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; border: 1px solid rgba(0, 0, 0, .1); }
+.dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; margin-right: 8px; vertical-align: -2px; border: 1px solid rgba(0, 0, 0, .15); }
+.chip.swatch { padding: 4px 8px; line-height: 0; }
+.chip.swatch .dot { margin: 0; width: 18px; height: 18px; }
+.chip.swatch.on { background: var(--surface); border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 
 .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
 table { border-collapse: separate; border-spacing: 0; width: 100%; }
@@ -2212,9 +2216,9 @@ th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: ri
 th { font-size: 12px; color: var(--muted); font-weight: 600; background: #fafafa; vertical-align: top; }
 tbody tr:last-child td { border-bottom: 0; }
 .s1, .s2, .s3 { position: sticky; z-index: 2; }
-.s1 { left: 0; min-width: 130px; width: 130px; text-align: left; }
-.s2 { left: 130px; min-width: 80px; width: 80px; }
-.s3 { left: 210px; min-width: 90px; width: 90px; border-right: 2px solid var(--line); }
+.s1 { left: 0; min-width: 100px; width: 100px; text-align: left; }
+.s2 { left: 100px; min-width: 80px; width: 80px; }
+.s3 { left: 180px; min-width: 90px; width: 90px; border-right: 2px solid var(--line); }
 th.shop { min-width: 120px; }
 th.shop a { color: var(--link); text-decoration: none; font-size: 13px; }
 th.shop span { display: block; font-weight: 400; font-size: 11px; }
@@ -2234,11 +2238,10 @@ td.empty { text-align: center; color: var(--muted); }
 .tip { font-weight: 600; color: var(--good); }
 
 @media (max-width: 600px) {
-  /* Điện thoại: tên màu xuống dòng để 3 cột cố định chỉ chiếm khoảng 230px */
-  .s1 { min-width: 96px; width: 96px; white-space: normal; }
-  .s1 .cname { display: block; padding-left: 16px; color: var(--muted); font-size: 12px; }
-  .s2 { left: 96px; min-width: 64px; width: 64px; }
-  .s3 { left: 160px; min-width: 70px; width: 70px; }
+  /* Điện thoại: 3 cột cố định chỉ chiếm khoảng 220px */
+  .s1 { min-width: 84px; width: 84px; }
+  .s2 { left: 84px; min-width: 64px; width: 64px; }
+  .s3 { left: 148px; min-width: 70px; width: 70px; }
   th, td { padding: 6px 6px; font-size: 13px; }
   th.shop { min-width: 104px; }
   .chart-box { height: 240px; }
@@ -2276,7 +2279,7 @@ function capacities() {
 }
 
 function colorOptions() {
-  return Object.entries(data.catalog.colors).map(([id, c]) => ({ value: id, label: c.vi, dot: c.hex }));
+  return Object.entries(data.catalog.colors).map(([id, c]) => ({ value: id, label: c.vi, dot: c.hex, swatchOnly: true }));
 }
 
 function readState() {
@@ -2311,8 +2314,12 @@ function saveState() {
 function renderChips(el, options, current, onPick) {
   el.innerHTML = options
     .map((o) => {
-      const dot = o.dot ? `<span class="dot" style="background:${esc(o.dot)}"></span>` : "";
-      return `<button type="button" class="chip${o.value === current ? " on" : ""}" data-value="${esc(o.value)}">${dot}${esc(o.label)}</button>`;
+      const on = o.value === current ? " on" : "";
+      if (o.swatchOnly) {
+        // Màu máy: chỉ hiện chấm màu, tên màu nằm trong title/aria-label
+        return `<button type="button" class="chip swatch${on}" data-value="${esc(o.value)}" title="${esc(o.label)}" aria-label="${esc(o.label)}"><span class="dot" style="background:${esc(o.dot)}"></span></button>`;
+      }
+      return `<button type="button" class="chip${on}" data-value="${esc(o.value)}">${esc(o.label)}</button>`;
     })
     .join("");
   el.onclick = (event) => {
@@ -2381,7 +2388,7 @@ function renderTable() {
         })
         .join("");
       return `<tr>
-        <td class="s1"><span class="dot" style="background:${esc(color.hex)}"></span>${esc(v.capacity)} <span class="cname">${esc(color.vi)}</span></td>
+        <td class="s1" title="${esc(color.vi)}"><span class="dot" style="background:${esc(color.hex)}" aria-label="${esc(color.vi)}"></span>${esc(v.capacity)}</td>
         <td class="s2">${formatYen(v.apple_price)}</td>
         <td class="s3 ${diffClass}">${formatDiff(diff)}</td>${cells}
       </tr>`;
@@ -2428,7 +2435,7 @@ Run: `python3 -m http.server 8000 -d web`, rồi mở `http://localhost:8000/`.
 Kiểm tra:
 - Bảng hiện 16 dòng × 6 cửa hàng với dữ liệu thật từ Task 7. Ô cao nhất mỗi dòng được tô xanh. Cột Chênh lệch có màu xanh hoặc đỏ.
 - Đầu mỗi cột cửa hàng có link ↗ mở tab mới, giờ dạng `10/02 01:15`, và 🟢/🔴 kèm giờ đóng hoặc mở.
-- Thu hẹp cửa sổ về khoảng 375px (DevTools, chế độ điện thoại) rồi cuộn ngang: 3 cột đầu đứng yên, chữ "256GB" và tên màu nằm trên 2 dòng, không bị cắt.
+- Thu hẹp cửa sổ về khoảng 375px (DevTools, chế độ điện thoại) rồi cuộn ngang: 3 cột đầu đứng yên, cột Phiên bản hiện "● 256GB" (chấm màu + dung lượng), không bị cắt.
 - Bấm `512GB` thì chỉ còn 4 dòng, URL thành `?cap=512GB`. Tải lại trang thì bộ lọc vẫn giữ.
 - Gõ `森` vào ô tìm kiếm thì chỉ còn cột 森森.
 - Mở `http://localhost:8000/?cap=foo` thì trang về "Tất cả" và không lỗi.
@@ -2525,13 +2532,15 @@ function renderLine({ catalog, daily }, state, today) {
         y: { ticks: { callback: (v) => `${Math.round(v / 1000)}k` } },
       },
       plugins: {
-        legend: { position: "bottom", labels: { boxWidth: 14 } },
+        // Không hiện chú thích chữ: mỗi đường đã mang đúng màu của máy.
+        legend: { display: false },
         tooltip: {
           callbacks: {
             title: (items) => items[0]?.label ?? "",
             label: (ctx) => {
-              const shop = ctx.dataset.shops?.[ctx.dataIndex];
-              return `${ctx.dataset.label}: ¥${formatYen(ctx.parsed.y)}${shop ? ` · ${shopName(shop)}` : ""}`;
+              if (!ctx.dataset.shops) return `Giá Apple: ¥${formatYen(ctx.parsed.y)}`;
+              const shop = ctx.dataset.shops[ctx.dataIndex];
+              return `¥${formatYen(ctx.parsed.y)}${shop ? ` · ${shopName(shop)}` : ""}`;
             },
           },
         },
@@ -2615,7 +2624,7 @@ Run: `python3 -m http.server 8000 -d web`, mở `http://localhost:8000/`.
 
 Kiểm tra:
 - Biểu đồ đường có 4 đường màu, nét đứt xám là giá Apple 239,800, các vùng T7–CN có nền cam, và đường vẫn nối liền qua ngày bị thiếu.
-- Chạm hoặc di chuột vào một điểm: tooltip hiện "Đen: ¥250,123 · 海峡".
+- Không có chú thích chữ dưới biểu đồ. Chạm hoặc di chuột vào một điểm: tooltip hiện ô màu + "¥250,123 · 海峡".
 - Bấm `7 ngày`, `Tất cả`: trục x đổi theo. Bấm `512GB` ở biểu đồ: không có dữ liệu thì các đường trống, trang không lỗi.
 - Biểu đồ cột: T2–T6 xanh, T7/CN đỏ, dòng gợi ý "Nên bán: Thứ …, trung bình cao hơn … khoảng ¥…".
 - Chọn màu khác ở `#stat-color` thì biểu đồ cột đổi theo.

@@ -129,11 +129,11 @@ Mảng các sự kiện, mỗi lần một giá thay đổi (kể cả xuất hi
 
 ## 6. Giao diện
 
-Toàn bộ chữ tiếng Việt, tối giản, nền sáng, ưu tiên điện thoại. Dùng HTML/CSS/JS thuần, không cần bước build, Chart.js tải qua CDN.
+Toàn bộ chữ tiếng Việt, tối giản, nền sáng, ưu tiên điện thoại. **Màu máy chỉ hiển thị bằng chấm màu**, không hiện tên màu (tên màu chỉ nằm trong tooltip). Dùng HTML/CSS/JS thuần, không cần bước build, Chart.js tải qua CDN.
 
 ### Bảng giá (ma trận)
 
-- Mỗi dòng là một biến thể. Thứ tự cột: **Phiên bản** (chấm màu + "256GB Xanh"), **Apple** (giá Apple), **Chênh lệch** (= giá cao nhất − giá Apple; xanh nếu ≥ 0, đỏ nếu < 0), rồi đến các cột cửa hàng.
+- Mỗi dòng là một biến thể. Thứ tự cột: **Phiên bản** (chấm màu + "256GB"), **Apple** (giá Apple), **Chênh lệch** (= giá cao nhất − giá Apple; xanh nếu ≥ 0, đỏ nếu < 0), rồi đến các cột cửa hàng.
 - **3 cột đầu cố định** (`position: sticky`). Khi vuốt ngang chỉ các cột cửa hàng di chuyển.
 - Mỗi ô cửa hàng chỉ hiện giá. Ô có giá cao nhất của dòng được tô xanh. Cửa hàng không thu mua phiên bản đó hiện "—".
 - Đầu cột cửa hàng gồm: tên (link sang trang kaitori, mở tab mới, có ↗); `display_at` dạng `10/02 01:15`; trạng thái mở cửa 🟢 "Đang mở · đóng 19:00" hoặc 🔴 "Đã đóng · mở 10:00", tính theo `hours`/`closed_dates` và giờ JST hiện tại; nhãn "⚠ dữ liệu cũ" nếu có.
