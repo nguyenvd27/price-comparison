@@ -1,3 +1,5 @@
+import pytest
+
 from crawler.normalize import parse_deductions
 
 
@@ -48,3 +50,19 @@ def test_empty_text_means_all_base_price(colors):
     assert parse_deductions("", colors) == {
         "burgundy": 0, "glacier": 0, "black": 0, "silver": 0,
     }
+
+
+def test_only_rule_still_applies_amounts(colors):
+    assert parse_deductions("バーガンディのみ -5,000円 他色買取不可", colors) == {
+        "burgundy": -5000, "glacier": None, "black": None, "silver": None,
+    }
+
+
+@pytest.mark.parametrize("text", [
+    "ブラック・シルバー 買取不可",           # màu không thu mua nhưng không theo mẫu "のみ 他色"
+    "ブラック 1万円減額",                    # nhắc màu nhưng không có số tiền đọc được
+    "ブラック-27,000円 ※箱のみの買取不可",   # có 不可 nhưng không phải mẫu "Xのみ 他色買取不可"
+])
+def test_unreadable_note_raises(text, colors):
+    with pytest.raises(ValueError, match="Không hiểu ghi chú"):
+        parse_deductions(text, colors)

@@ -44,7 +44,9 @@ def parse_price(text: str | None) -> int | None:
 def variant_id(capacity: str, color: str) -> str:
     return f"pm-{capacity}-{color}"
 
+
 AMOUNT = re.compile(r"[-−‐]\s*(\d[\d,]*)")
+ONLY_RULE = re.compile(r"のみ.*他色.*不可")
 
 
 def parse_deductions(text: str, colors: dict[str, list[str]]) -> dict[str, int | None]:
@@ -54,9 +56,13 @@ def parse_deductions(text: str, colors: dict[str, list[str]]) -> dict[str, int |
     "Xのみ ... 不可" nghĩa là chỉ thu mua màu X, các màu khác là None.
     """
     normalized = nfkc(text)
-    if "のみ" in normalized and "不可" in normalized:
+    allowed = None
+    if ONLY_RULE.search(normalized):
         allowed = {color for _, color in find_colors(normalized.split("のみ")[0], colors)}
-        return {color: (0 if color in allowed else None) for color in colors}
+    elif "不可" in normalized:
+        # Ghi chú có "không thu mua" nhưng không theo mẫu đã biết: báo lỗi để giữ giá cũ,
+        # thay vì lặng lẽ tính màu đó theo giá gốc.
+        raise ValueError(f"Không hiểu ghi chú: {text!r}")
 
     result: dict[str, int | None] = {color: 0 for color in colors}
     tokens = [(pos, "color", color) for pos, color in find_colors(normalized, colors)]
@@ -69,4 +75,8 @@ def parse_deductions(text: str, colors: dict[str, list[str]]) -> dict[str, int |
             for color in pending:
                 result[color] = -value
             pending = []
+    if allowed is None and pending:
+        raise ValueError(f"Không hiểu ghi chú: {text!r}")
+    if allowed is not None:
+        return {color: (result[color] if color in allowed else None) for color in colors}
     return result
