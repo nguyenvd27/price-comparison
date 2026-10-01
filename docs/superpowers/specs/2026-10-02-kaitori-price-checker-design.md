@@ -23,24 +23,29 @@ Tự crawl trực tiếp trang của từng kaitori, **không** lấy dữ liệ
 
 | Mã | Cửa hàng | Trang giá | Cách lấy |
 |---|---|---|---|
-| `morimori` | 森森買取 | https://www.morimori-kaitori.jp/category/03 | HTML tĩnh (requests + BeautifulSoup) |
-| `ichiban` | 海峡 / モバイル一番 | https://www.mobile-ichiban.com/Prod/1/01/40 | HTML tĩnh |
-| `mobaste` | モバステ | https://pastec.net/iphone/ | HTML tĩnh |
-| `shouten` | 買取商店 | https://www.kaitorishouten-co.jp/category/1/747 | Trang React: ưu tiên tìm API JSON phía sau, nếu không được thì dùng Playwright |
-| `ichome` | 買取1丁目 | https://www.1-chome.com/mobile?category=RGNg976kptBN7UjF | Trang Vue: ưu tiên API JSON, nếu không được thì dùng Playwright |
-| `mix` | モバイルミックス | https://mobile-mix.jp/ | Giá tải bằng JS/AJAX: ưu tiên endpoint AJAX, nếu không được thì dùng Playwright |
+| `morimori` | 森森買取 | https://www.morimori-kaitori.jp/category/0301070 | HTML tĩnh (requests + BeautifulSoup), mỗi màu một dòng |
+| `ichiban` | 海峡 / モバイル一番 | https://www.mobile-ichiban.com/Prod/1/01/40 | HTML tĩnh, giá gốc + ghi chú trừ tiền theo màu |
+| `mobaste` | モバステ | https://pastec.net/iphone?series_child_id=644 | HTML tĩnh, giá gốc + ghi chú trừ tiền theo màu |
+| `shouten` | 買取商店 | https://www.kaitorishouten-co.jp/category/1/747 | Trang này có bảng HTML render sẵn, mỗi màu một dòng |
+| `ichome` | 買取1丁目 | https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt | API JSON công khai `/api/keitai/listPage?cateCode=eOd8WFZllXmBd3Rt` (giá theo màu = giá 未開封 + `varPrice`) |
+| `mix` | モバイルミックス | https://mobile-mix.jp/?category=7 | HTML tĩnh, nhưng phải gọi trang chủ trước để nhận cookie (nếu không sẽ bị chuyển sang `/cookie-error`); giá gốc + ghi chú trừ tiền, có trường hợp "バーガンディのみ 他色買取不可" (màu khác không thu mua) |
+
+Đã kiểm tra ngày 2026-10-02: cả 6 cửa hàng đều lấy được bằng `requests`, **không cần Playwright**.
 
 Quy tắc lịch sự khi crawl: mỗi lần chạy chỉ gửi 1 request (hoặc 1 phiên trình duyệt) cho mỗi cửa hàng, User-Agent có tên dự án, và không crawl dày hơn 15 phút một lần.
 
 ## 3. Kiến trúc
 
 ```
-GitHub Actions (cron */15)  ──►  crawler/ (Python)  ──►  web/data/*.json  ──git commit──►  Cloudflare Pages tự deploy  ──►  web/ (HTML/CSS/JS tĩnh)
+GitHub Actions (cron */15) ──► crawler/ (Python) ──► web/data/*.json ──git commit──► GitHub
+                                                                           │
+Cloudflare Pages (web/: HTML/CSS/JS) ──trình duyệt fetch──► raw.githubusercontent.com/.../web/data/*.json
 ```
 
 - Repo trên GitHub để **public**, để dùng GitHub Actions miễn phí không giới hạn phút. Nếu sau này cần repo private, giảm cron xuống `0 * * * *`.
 - Không dùng database. Các file JSON trong `web/data/` chính là nơi lưu dữ liệu, và Git giữ toàn bộ lịch sử.
 - Workflow chỉ commit khi có file JSON thay đổi.
+- **Dữ liệu không đi qua bước deploy của Cloudflare Pages.** Gói miễn phí chỉ cho 500 lần build mỗi tháng, mà dữ liệu có thể đổi vài chục lần mỗi ngày. Vì vậy trình duyệt đọc JSON trực tiếp từ `raw.githubusercontent.com` (có CORS `*`, cache 5 phút). Đường dẫn này cấu hình trong `web/js/config.js`; khi chạy local thì để `data/`. Trong Cloudflare Pages, đặt build watch paths loại trừ `web/data/*`, để chỉ build lại khi code thay đổi.
 - Thời gian dùng **giờ Nhật (Asia/Tokyo)** ở mọi nơi. "Một ngày" tính từ 00:00 đến 24:00 JST.
 
 ### Cấu trúc thư mục
@@ -61,7 +66,7 @@ web/
 
 ### Ranh giới giữa các phần
 
-- **Parser cửa hàng:** `fetch() -> list[Offer]`, với `Offer = {variant, price, url}`. Parser chỉ biết trang của cửa hàng mình, không đọc hay ghi file. Thêm cửa hàng mới chỉ cần thêm một file và một dòng trong `catalog.json`.
+- **Parser cửa hàng:** mỗi module có `fetch(session) -> str` và `parse(raw, colors) -> list[Offer]`, với `Offer = {variant, price}`. Link sang cửa hàng lấy từ `catalog.json`. Parser chỉ biết trang của cửa hàng mình, không đọc hay ghi file. Thêm cửa hàng mới chỉ cần thêm một file và một dòng trong `catalog.json`.
 - **`normalize`:** nhận chuỗi tên sản phẩm của cửa hàng (ví dụ "iPhone 18 Pro Max 256GB ディープブルー") và trả về mã biến thể (`pm-256-blue`) hoặc `None` nếu không phải 18 Pro Max. Bảng ánh xạ màu nằm trong `catalog.json`.
 - **`store`:** `load_latest()`, `save_latest()`, `append_history()`, `update_daily()`. Khi chuyển lên server, chỉ cần thay file này bằng bản dùng Postgres.
 - **Frontend:** chỉ đọc JSON, không biết gì về crawler.
@@ -103,6 +108,8 @@ Danh sách màu, giá Apple (`apple_price`) và giờ mở cửa: khi làm, tra 
 ```
 
 **Quy tắc cập nhật `display_at`** (giờ hiển thị dưới tên cửa hàng): đặt bằng thời điểm hiện tại khi lần crawl thành công **và** (giá của cửa hàng có thay đổi so với lần trước **hoặc** đây là lần crawl thành công đầu tiên trong ngày JST). Các trường hợp còn lại giữ nguyên.
+
+**`last_success_at`** chỉ cập nhật khi giá đổi, khi là lần đầu trong ngày, hoặc khi giá trị cũ đã quá 60 phút. Nhờ vậy, nếu giá không đổi thì file chỉ thay đổi khoảng 1 lần mỗi giờ thay vì 15 phút một lần (ít commit hơn), mà vẫn đủ để phát hiện dữ liệu cũ sau 2 giờ. Nếu không cửa hàng nào thay đổi, `latest.json` được giữ nguyên, kể cả `generated_at`.
 
 ### `history/YYYY-MM.json`
 
@@ -163,5 +170,6 @@ Toàn bộ chữ tiếng Việt, tối giản, nền sáng, ưu tiên điện th
 
 ## 8. Triển khai và chuyển lên server sau này
 
-- Cloudflare Pages kết nối repo GitHub, thư mục xuất bản là `web/`, không có build command.
+- Cloudflare Pages kết nối repo GitHub, thư mục xuất bản là `web/`, không có build command, build watch paths loại trừ `web/data/*`.
+- `web/js/config.js` trỏ `DATA_BASE` tới `https://raw.githubusercontent.com/<user>/<repo>/main/web/data/`.
 - Khi chuyển lên server: chạy `crawler/run.py` bằng cron trên VPS, đổi `store.py` sang Postgres (hoặc đưa vào Rails) và thêm API trả về JSON cùng định dạng. Frontend và các parser không phải đổi.
