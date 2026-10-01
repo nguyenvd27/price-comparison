@@ -52,6 +52,8 @@ td.muted { color: #b0b4ba; }
 .pos { color: var(--good); font-weight: 700; }
 .neg { color: var(--bad); font-weight: 700; }
 td.empty { text-align: center; color: var(--muted); }
+tr.group td { background: #f3f4f6; text-align: left; font-weight: 700; font-size: 13px; color: var(--text); padding: 8px 10px; }
+tr.group td span { position: sticky; left: 10px; }
 
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; margin: 16px 0; }
 .card-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-bottom: 10px; }

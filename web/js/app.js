@@ -1,10 +1,11 @@
 import { DATA_BASE } from "./config.js";
 import {
-  bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, isStale, isUsable, openStatus, rankOffers,
+  bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, groupLabel, isStale, isUsable, jstDate, modelColors,
+  openStatus, rankOffers,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
 
-const state = { cap: "all", color: "all", chartCap: null, chartColor: null, range: 30 };
+const state = { model: "all", cap: "all", color: "all", chartModel: null, chartCap: null, chartColor: null, range: 30 };
 let data = null;
 
 const $ = (selector) => document.querySelector(selector);
@@ -19,8 +20,15 @@ function capacities() {
   return [...new Set(data.catalog.variants.map((v) => v.capacity))];
 }
 
-function colorOptions() {
-  return Object.entries(data.catalog.colors).map(([id, c]) => ({ value: id, label: c.vi, dot: c.hex, swatchOnly: true }));
+function colorOptions(model) {
+  return modelColors(data.catalog, model).map((id) => {
+    const c = data.catalog.colors[id];
+    return { value: id, label: c.vi, dot: c.hex, swatchOnly: true };
+  });
+}
+
+function modelOf(colorId) {
+  return data.catalog.models.find((m) => m.colors.includes(colorId))?.id;
 }
 
 function readState() {
@@ -31,25 +39,36 @@ function readState() {
     saved = {};
   }
   const url = new URLSearchParams(location.search);
-  const cap = url.get("cap") || saved.cap;
-  const color = url.get("color") || saved.color;
+  const pick = (key) => url.get(key) || saved[key];
+  const { models } = data.catalog;
+  const model = pick("model");
+  state.model = models.some((m) => m.id === model) ? model : "all";
+  const cap = pick("cap");
   state.cap = capacities().includes(cap) ? cap : "all";
-  state.color = color in data.catalog.colors ? color : "all";
+  const color = pick("color");
+  state.color = modelColors(data.catalog, state.model).includes(color) ? color : "all";
+  state.chartModel = state.model !== "all" ? state.model : state.color !== "all" ? modelOf(state.color) : models[0].id;
   state.chartCap = state.cap !== "all" ? state.cap : capacities()[0];
-  state.chartColor = state.color !== "all" ? state.color : Object.keys(data.catalog.colors)[0];
+  state.chartColor = state.color !== "all" ? state.color : modelColors(data.catalog, state.chartModel)[0];
 }
 
 function saveState() {
   const url = new URLSearchParams();
+  if (state.model !== "all") url.set("model", state.model);
   if (state.cap !== "all") url.set("cap", state.cap);
   if (state.color !== "all") url.set("color", state.color);
   const query = url.toString();
   history.replaceState(null, "", query ? `?${query}` : location.pathname);
   try {
-    localStorage.setItem("filters", JSON.stringify({ cap: state.cap, color: state.color }));
+    localStorage.setItem("filters", JSON.stringify({ model: state.model, cap: state.cap, color: state.color }));
   } catch {
     // trình duyệt chặn localStorage: bỏ qua, bộ lọc vẫn nằm trong URL
   }
+}
+
+function setChartModel(model) {
+  state.chartModel = model;
+  if (!modelColors(data.catalog, model).includes(state.chartColor)) state.chartColor = modelColors(data.catalog, model)[0];
 }
 
 function renderChips(el, options, current, onPick) {
@@ -70,14 +89,28 @@ function renderChips(el, options, current, onPick) {
 }
 
 function renderFilters() {
+  const modelOptions = data.catalog.models.map((m) => ({ value: m.id, label: m.short }));
+  renderChips($("#model-chips"), [{ value: "all", label: "Tất cả" }, ...modelOptions], state.model, (v) => {
+    state.model = v;
+    if (!modelColors(data.catalog, v).includes(state.color)) state.color = "all";
+    if (v !== "all") setChartModel(v);
+    update();
+  });
   renderChips($("#cap-chips"), [{ value: "all", label: "Tất cả" }, ...capacities().map((c) => ({ value: c, label: c }))], state.cap, (v) => {
     state.cap = v;
     if (v !== "all") state.chartCap = v;
     update();
   });
-  renderChips($("#color-chips"), [{ value: "all", label: "Mọi màu" }, ...colorOptions()], state.color, (v) => {
+  renderChips($("#color-chips"), [{ value: "all", label: "Mọi màu" }, ...colorOptions(state.model)], state.color, (v) => {
     state.color = v;
-    if (v !== "all") state.chartColor = v;
+    if (v !== "all") {
+      setChartModel(modelOf(v));
+      state.chartColor = v;
+    }
+    update();
+  });
+  renderChips($("#chart-model"), modelOptions, state.chartModel, (v) => {
+    setChartModel(v);
     update();
   });
   renderChips($("#chart-cap"), capacities().map((c) => ({ value: c, label: c })), state.chartCap, (v) => {
@@ -89,7 +122,7 @@ function renderFilters() {
     state.range = v === "all" ? "all" : Number(v);
     update();
   });
-  renderChips($("#stat-color"), colorOptions(), state.chartColor, (v) => {
+  renderChips($("#stat-color"), colorOptions(state.chartModel), state.chartColor, (v) => {
     state.chartColor = v;
     update();
   });
@@ -106,40 +139,50 @@ function shopHeader(shop, shopState, now) {
   </th>`;
 }
 
+function variantRow(v, shops, shopIds, latest, now) {
+  const color = data.catalog.colors[v.color];
+  const best = bestOffer(v.id, latest, shopIds, now);
+  const diff = best ? best.price - v.apple_price : null;
+  const cells = shops
+    .map((s) => {
+      const price = latest.shops?.[s.id]?.prices?.[v.id];
+      const usable = isUsable(latest.shops?.[s.id], now);
+      const cls = !usable ? "muted" : best && price === best.price ? "best" : "";
+      if (price == null) return `<td class="${cls}">—</td>`;
+      return `<td class="${cls} clickable" data-variant="${esc(v.id)}" data-shop="${esc(s.id)}" tabindex="0">${formatYen(price)}</td>`;
+    })
+    .join("");
+  return `<tr>
+    <td class="s1" title="${esc(color.vi)}"><span class="dot" style="background:${esc(color.hex)}" aria-label="${esc(color.vi)}"></span>${esc(v.capacity)}</td>
+    <td class="s2">${formatYen(v.apple_price)}</td>
+    <td class="s3 ${diff == null ? "" : diffClass(diff)}">${formatDiff(diff)}</td>${cells}
+  </tr>`;
+}
+
 function renderTable() {
   const { catalog, latest } = data;
   const now = new Date();
+  const today = jstDate(now);
   const shops = catalog.shops;
   const shopIds = shops.map((s) => s.id);
+  const columns = 3 + shops.length;
   const head = `<thead><tr><th class="s1">Phiên bản</th><th class="s2">Apple</th><th class="s3">Chênh lệch</th>${shops
     .map((s) => shopHeader(s, latest.shops?.[s.id], now))
     .join("")}</tr></thead>`;
 
-  const rows = filterVariants(catalog.variants, state)
-    .map((v) => {
-      const color = catalog.colors[v.color];
-      const best = bestOffer(v.id, latest, shopIds, now);
-      const diff = best ? best.price - v.apple_price : null;
-      const diffClass = diff == null ? "" : diff >= 0 ? "pos" : "neg";
-      const cells = shops
-        .map((s) => {
-          const price = latest.shops?.[s.id]?.prices?.[v.id];
-          const usable = isUsable(latest.shops?.[s.id], now);
-          const cls = !usable ? "muted" : best && price === best.price ? "best" : "";
-          if (price == null) return `<td class="${cls}">—</td>`;
-          return `<td class="${cls} clickable" data-variant="${esc(v.id)}" data-shop="${esc(s.id)}" tabindex="0">${formatYen(price)}</td>`;
-        })
-        .join("");
-      return `<tr>
-        <td class="s1" title="${esc(color.vi)}"><span class="dot" style="background:${esc(color.hex)}" aria-label="${esc(color.vi)}"></span>${esc(v.capacity)}</td>
-        <td class="s2">${formatYen(v.apple_price)}</td>
-        <td class="s3 ${diffClass}">${formatDiff(diff)}</td>${cells}
-      </tr>`;
+  const variants = filterVariants(catalog.variants, state);
+  const body = catalog.models
+    .map((m) => {
+      const rows = variants.filter((v) => v.model === m.id);
+      if (!rows.length) return "";
+      const allIds = catalog.variants.filter((v) => v.model === m.id).map((v) => v.id);
+      const header = `<tr class="group"><td colspan="${columns}"><span>${esc(groupLabel(m, allIds, latest, today))}</span></td></tr>`;
+      return header + rows.map((v) => variantRow(v, shops, shopIds, latest, now)).join("");
     })
     .join("");
 
-  const empty = `<tr><td colspan="${3 + shops.length}" class="empty">Không có kết quả phù hợp</td></tr>`;
-  $("#price-table").innerHTML = `${head}<tbody>${rows || empty}</tbody>`;
+  const empty = `<tr><td colspan="${columns}" class="empty">Không có kết quả phù hợp</td></tr>`;
+  $("#price-table").innerHTML = `${head}<tbody>${body || empty}</tbody>`;
 }
 
 function diffClass(n) {
