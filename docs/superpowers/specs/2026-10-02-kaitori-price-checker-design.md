@@ -138,6 +138,12 @@ Toàn bộ chữ tiếng Việt, tối giản, nền sáng, ưu tiên điện th
 - Mỗi ô cửa hàng chỉ hiện giá. Ô có giá cao nhất của dòng được tô xanh. Cửa hàng không thu mua phiên bản đó hiện "—".
 - Đầu cột cửa hàng gồm: tên (link sang trang kaitori, mở tab mới, có ↗); `display_at` dạng `10/02 01:15`; trạng thái mở cửa 🟢 "Đang mở · đóng 19:00" hoặc 🔴 "Đã đóng · mở 10:00", tính theo `hours`/`closed_dates` và giờ JST hiện tại; nhãn "⚠ dữ liệu cũ" nếu có.
 
+### Modal khi bấm ô giá
+
+- Bấm (hoặc Enter) vào ô giá của một cửa hàng sẽ mở modal (`<dialog>`). Đóng bằng ✕, Esc, hoặc bấm ra ngoài.
+- Đầu modal: chấm màu + dung lượng, giá Apple. Phần tóm tắt: "<cửa hàng> trả ¥…", **Lãi** = giá đó − giá Apple (xanh/đỏ), và **Hạng X / N**.
+- Danh sách mọi cửa hàng thu mua phiên bản đó, xếp giá từ cao xuống thấp: Hạng, tên (link ↗), giá, chênh lệch so với giá Apple. Bằng giá thì cùng hạng (1, 1, 2…). Cửa hàng lỗi hoặc dữ liệu cũ hiện xám ở cuối, không có hạng. Dòng đang chọn được tô nổi bật.
+
 ### Bộ lọc
 
 - Nút chọn dung lượng: Tất cả / 256GB / 512GB / 1TB / 2TB.

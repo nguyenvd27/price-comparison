@@ -1,6 +1,6 @@
 import { DATA_BASE } from "./config.js";
 import {
-  bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, isStale, isUsable, openStatus,
+  bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen, isStale, isUsable, openStatus, rankOffers,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
 
@@ -126,7 +126,8 @@ function renderTable() {
           const price = latest.shops?.[s.id]?.prices?.[v.id];
           const usable = isUsable(latest.shops?.[s.id], now);
           const cls = !usable ? "muted" : best && price === best.price ? "best" : "";
-          return `<td class="${cls}">${formatYen(price)}</td>`;
+          if (price == null) return `<td class="${cls}">—</td>`;
+          return `<td class="${cls} clickable" data-variant="${esc(v.id)}" data-shop="${esc(s.id)}" tabindex="0">${formatYen(price)}</td>`;
         })
         .join("");
       return `<tr>
@@ -139,6 +140,68 @@ function renderTable() {
 
   const empty = `<tr><td colspan="${3 + shops.length}" class="empty">Không có kết quả phù hợp</td></tr>`;
   $("#price-table").innerHTML = `${head}<tbody>${rows || empty}</tbody>`;
+}
+
+function diffClass(n) {
+  return n >= 0 ? "pos" : "neg";
+}
+
+function openOfferModal(variantId, shopId) {
+  const { catalog, latest } = data;
+  const variant = catalog.variants.find((v) => v.id === variantId);
+  const color = catalog.colors[variant.color];
+  const rows = rankOffers(variantId, latest, catalog.shops, variant.apple_price, new Date());
+  const picked = rows.find((r) => r.shop.id === shopId);
+  if (!picked) return;
+  const rankedCount = rows.filter((r) => r.usable).length;
+  const rankText = picked.rank ? `Hạng ${picked.rank} / ${rankedCount}` : "Dữ liệu cũ hoặc lỗi, không xếp hạng";
+
+  const list = rows
+    .map((r) => {
+      const cls = [r.shop.id === shopId ? "picked" : "", r.usable ? "" : "muted"].join(" ").trim();
+      return `<tr class="${cls}">
+        <td class="rank">${r.rank ?? "—"}</td>
+        <td class="name"><a href="${esc(r.shop.url)}" target="_blank" rel="noopener">${esc(r.shop.name)} ↗</a></td>
+        <td>¥${formatYen(r.price)}</td>
+        <td class="${r.usable ? diffClass(r.diff) : ""}">${formatDiff(r.diff)}</td>
+      </tr>`;
+    })
+    .join("");
+
+  $("#modal-body").innerHTML = `
+    <div class="modal-head">
+      <h2><span class="dot" style="background:${esc(color.hex)}" title="${esc(color.vi)}" aria-label="${esc(color.vi)}"></span>${esc(variant.capacity)}</h2>
+      <span class="apple">Apple ¥${formatYen(variant.apple_price)}</span>
+      <button type="button" class="close" data-close aria-label="Đóng">✕</button>
+    </div>
+    <div class="modal-summary">
+      <p class="shop-price">${esc(picked.shop.name)} trả <strong>¥${formatYen(picked.price)}</strong></p>
+      <p><span class="profit ${diffClass(picked.diff)}">Lãi: ${formatDiff(picked.diff)}</span><span class="rank-badge">${rankText}</span></p>
+    </div>
+    <table class="rank-table">
+      <thead><tr><th>Hạng</th><th>Cửa hàng</th><th>Giá</th><th>Chênh lệch</th></tr></thead>
+      <tbody>${list}</tbody>
+    </table>`;
+  $("#offer-modal").showModal();
+}
+
+function setupModal() {
+  const modal = $("#offer-modal");
+  const open = (event) => {
+    const cell = event.target.closest("td.clickable");
+    if (cell) openOfferModal(cell.dataset.variant, cell.dataset.shop);
+  };
+  $("#price-table").addEventListener("click", open);
+  $("#price-table").addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      open(event);
+    }
+  });
+  // Đóng khi bấm nút ✕ hoặc bấm ra ngoài khung modal (Esc do <dialog> tự xử lý).
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal || event.target.closest("[data-close]")) modal.close();
+  });
 }
 
 function update() {
@@ -158,6 +221,7 @@ async function init() {
     return;
   }
   readState();
+  setupModal();
   update();
   // Cập nhật lại trạng thái mở cửa và nhãn "dữ liệu cũ" mỗi phút mà không cần tải lại trang.
   setInterval(renderTable, 60 * 1000);

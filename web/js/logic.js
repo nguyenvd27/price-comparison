@@ -73,6 +73,30 @@ export function bestOffer(variantId, latest, shopIds, now = null) {
   return best;
 }
 
+// Xếp hạng các cửa hàng cho một phiên bản: giá cao trước, bằng giá thì cùng hạng (1, 1, 2…).
+// Cửa hàng lỗi/dữ liệu cũ nằm cuối, không có hạng; cửa hàng không thu mua thì bỏ qua.
+export function rankOffers(variantId, latest, shops, applePrice, now) {
+  const rows = shops
+    .map((shop) => {
+      const state = latest.shops?.[shop.id];
+      const price = state?.prices?.[variantId];
+      return price == null ? null : { shop, price, diff: price - applePrice, usable: isUsable(state, now), rank: null };
+    })
+    .filter(Boolean)
+    .sort((a, b) => Number(b.usable) - Number(a.usable) || b.price - a.price);
+  let rank = 0;
+  let lastPrice = null;
+  for (const row of rows) {
+    if (!row.usable) continue;
+    if (row.price !== lastPrice) {
+      rank += 1;
+      lastPrice = row.price;
+    }
+    row.rank = rank;
+  }
+  return rows;
+}
+
 export function filterVariants(variants, { cap = "all", color = "all" } = {}) {
   return variants.filter((v) => (cap === "all" || v.capacity === cap) && (color === "all" || v.color === color));
 }
