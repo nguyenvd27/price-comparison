@@ -241,6 +241,82 @@
  ],
  "shops": [
   {
+   "id": "shouten",
+   "name": "商店",
+   "url": "https://www.kaitorishouten-co.jp/category/1/747",
+   "hours": {
+    "mon": [
+     "10:20",
+     "19:00"
+    ],
+    "tue": [
+     "10:20",
+     "19:00"
+    ],
+    "wed": [
+     "10:20",
+     "19:00"
+    ],
+    "thu": [
+     "10:20",
+     "19:00"
+    ],
+    "fri": [
+     "10:20",
+     "19:00"
+    ],
+    "sat": [
+     "10:20",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原店"
+  },
+  {
+   "id": "mix",
+   "name": "MIX",
+   "url": "https://mobile-mix.jp/?category=7",
+   "hours": {
+    "mon": [
+     "11:00",
+     "19:00"
+    ],
+    "tue": [
+     "11:00",
+     "19:00"
+    ],
+    "wed": [
+     "11:00",
+     "19:00"
+    ],
+    "thu": [
+     "11:00",
+     "19:00"
+    ],
+    "fri": [
+     "11:00",
+     "19:00"
+    ],
+    "sat": [
+     "11:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [
+    "2026-10-12",
+    "2026-11-03",
+    "2026-11-23",
+    "2027-01-01",
+    "2027-01-11",
+    "2027-02-11",
+    "2027-02-23"
+   ],
+   "note": "Giờ của 秋葉原中央通り店 · nghỉ ngày lễ"
+  },
+  {
    "id": "morimori",
    "name": "森森",
    "url": "https://www.morimori-kaitori.jp/category/0301070",
@@ -278,8 +354,42 @@
    "note": "Giờ của 秋葉原本店"
   },
   {
+   "id": "ichome",
+   "name": "一丁目",
+   "url": "https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原本店"
+  },
+  {
    "id": "ichiban",
-   "name": "海峡",
+   "name": "モバイル一番",
    "url": "https://www.mobile-ichiban.com/Prod/1/01/40",
    "hours": {
     "mon": [
@@ -347,116 +457,6 @@
    },
    "closed_dates": [],
    "note": "Giờ của 秋葉原店 · nhận gửi bưu điện"
-  },
-  {
-   "id": "shouten",
-   "name": "買取商店",
-   "url": "https://www.kaitorishouten-co.jp/category/1/747",
-   "hours": {
-    "mon": [
-     "10:20",
-     "19:00"
-    ],
-    "tue": [
-     "10:20",
-     "19:00"
-    ],
-    "wed": [
-     "10:20",
-     "19:00"
-    ],
-    "thu": [
-     "10:20",
-     "19:00"
-    ],
-    "fri": [
-     "10:20",
-     "19:00"
-    ],
-    "sat": [
-     "10:20",
-     "19:00"
-    ],
-    "sun": null
-   },
-   "closed_dates": [],
-   "note": "Giờ của 秋葉原店"
-  },
-  {
-   "id": "ichome",
-   "name": "一丁目",
-   "url": "https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt",
-   "hours": {
-    "mon": [
-     "10:00",
-     "19:00"
-    ],
-    "tue": [
-     "10:00",
-     "19:00"
-    ],
-    "wed": [
-     "10:00",
-     "19:00"
-    ],
-    "thu": [
-     "10:00",
-     "19:00"
-    ],
-    "fri": [
-     "10:00",
-     "19:00"
-    ],
-    "sat": [
-     "10:00",
-     "19:00"
-    ],
-    "sun": null
-   },
-   "closed_dates": [],
-   "note": "Giờ của 秋葉原本店"
-  },
-  {
-   "id": "mix",
-   "name": "MIX",
-   "url": "https://mobile-mix.jp/?category=7",
-   "hours": {
-    "mon": [
-     "11:00",
-     "19:00"
-    ],
-    "tue": [
-     "11:00",
-     "19:00"
-    ],
-    "wed": [
-     "11:00",
-     "19:00"
-    ],
-    "thu": [
-     "11:00",
-     "19:00"
-    ],
-    "fri": [
-     "11:00",
-     "19:00"
-    ],
-    "sat": [
-     "11:00",
-     "19:00"
-    ],
-    "sun": null
-   },
-   "closed_dates": [
-    "2026-10-12",
-    "2026-11-03",
-    "2026-11-23",
-    "2027-01-01",
-    "2027-01-11",
-    "2027-02-11",
-    "2027-02-23"
-   ],
-   "note": "Giờ của 秋葉原中央通り店 · nghỉ ngày lễ"
   }
  ]
 }
