@@ -15,22 +15,28 @@ def jst_date(value: str | datetime) -> str:
     return moment.astimezone(JST).date().isoformat()
 
 
-def validate(prices: dict[str, int]) -> str | None:
+def validate(prices: dict[str, int], price_range: tuple[int, int] = (MIN_PRICE, MAX_PRICE)) -> str | None:
     if not prices:
         return "Không lấy được giá nào"
-    bad = sorted(v for v, p in prices.items() if not MIN_PRICE <= p <= MAX_PRICE)
+    low, high = price_range
+    bad = sorted(v for v, p in prices.items() if not low <= p <= high)
     if bad:
         return f"Giá vô lý: {', '.join(bad)}"
     return None
 
 
-def apply_results(latest: dict, results: dict[str, ShopResult], now: datetime) -> tuple[dict, list[dict]]:
+def apply_results(
+    latest: dict,
+    results: dict[str, ShopResult],
+    now: datetime,
+    price_range: tuple[int, int] = (MIN_PRICE, MAX_PRICE),
+) -> tuple[dict, list[dict]]:
     now_iso = now.astimezone(JST).isoformat(timespec="seconds")
     shops = dict(latest.get("shops", {}))
     events: list[dict] = []
     for shop_id, result in results.items():
         prev = shops.get(shop_id, EMPTY_SHOP)
-        error = result.error or validate(result.prices)
+        error = result.error or validate(result.prices, price_range)
         if error:
             shops[shop_id] = {**prev, "error": error}
             continue
