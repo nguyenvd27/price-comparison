@@ -159,10 +159,17 @@ td.clickable:hover, td.clickable:focus-visible { outline: 2px solid var(--link);
 .pk-table .box { display: flex; align-items: center; gap: 8px; white-space: normal; }
 .pk-table .box img { width: 40px; height: 40px; object-fit: contain; flex: none; border-radius: 4px; background: #fff; }
 .pk-table .box-name { line-height: 1.25; }
+.modal-head h2 { display: flex; align-items: center; gap: 10px; }
+.modal-thumb { width: 48px; height: 48px; object-fit: contain; border-radius: 6px; background: #fff; flex: none; }
+.name-toast { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); max-width: calc(100vw - 32px); background: var(--accent); color: #fff; padding: 8px 14px; border-radius: 999px; font-size: 13px; box-shadow: 0 4px 14px rgba(0, 0, 0, .2); z-index: 10; }
+.name-toast[hidden] { display: none; }
 @media (max-width: 600px) {
-  .pk-table .s1 { min-width: 120px; width: 120px; }
-  .pk-table .s2 { left: 120px; min-width: 54px; width: 54px; }
-  .pk-table .s3 { left: 174px; min-width: 56px; width: 56px; }
-  .pk-table .box { gap: 4px; }
-  .pk-table .box img { width: 32px; height: 32px; }
+  /* Điện thoại: cột BOX chỉ có ảnh (bấm ảnh để xem tên) để dành chỗ cho các cột giá */
+  .pk-table .s1 { min-width: 48px; width: 48px; padding: 4px; text-align: center; }
+  .pk-table .s2 { left: 48px; min-width: 54px; width: 54px; }
+  .pk-table .s3 { left: 102px; min-width: 56px; width: 56px; }
+  .pk-table .box { justify-content: center; }
+  .pk-table .box-name { display: none; }
+  .pk-table .box img { width: 36px; height: 36px; cursor: pointer; }
+  .modal-thumb { width: 40px; height: 40px; }
 }

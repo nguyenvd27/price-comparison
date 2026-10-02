@@ -68,7 +68,7 @@ function itemRow(item, shops, shopIds, latest, now) {
     })
     .join("");
   return `<tr>
-    <td class="s1"><span class="box"><img src="${esc(item.image)}" alt="${esc(item.name)}" width="40" height="40" loading="lazy" onerror="this.remove()"><span class="box-name">${esc(item.name)}</span></span></td>
+    <td class="s1" title="${esc(item.name)}"><span class="box"><img src="${esc(item.image)}" alt="${esc(item.name)}" data-name="${esc(item.name)}" width="40" height="40" loading="lazy" onerror="this.remove()"><span class="box-name">${esc(item.name)}</span></span></td>
     <td class="s2">${formatYen(item.retail)}</td>
     <td class="s3 ${diff == null ? "" : diffClass(diff)}">${formatDiff(diff)}</td>${cells}
   </tr>`;
@@ -105,12 +105,22 @@ function openOfferModal(itemId, shopId) {
   const { catalog, latest } = data;
   const item = catalog.items.find((i) => i.id === itemId);
   renderRankModal($("#offer-modal"), {
-    titleHtml: esc(item.name),
+    titleHtml: `<img class="modal-thumb" src="${esc(item.image)}" alt="" width="48" height="48" onerror="this.remove()">${esc(item.name)}`,
     refLabel: "Retail",
     refPrice: item.retail,
     rows: rankOffers(itemId, latest, catalog.shops, item.retail, new Date()),
     shopId,
   });
+}
+
+let toastTimer = null;
+
+function showName(name) {
+  const toast = $("#name-toast");
+  toast.textContent = name;
+  toast.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { toast.hidden = true; }, 2500);
 }
 
 function update() {
@@ -130,6 +140,11 @@ async function init() {
   }
   readState();
   bindRankModal($("#price-table"), $("#offer-modal"), (cell) => openOfferModal(cell.dataset.item, cell.dataset.shop));
+  // Trên điện thoại cột BOX chỉ có ảnh: bấm ảnh để xem tên.
+  $("#price-table").addEventListener("click", (event) => {
+    const img = event.target.closest("img[data-name]");
+    if (img) showName(img.dataset.name);
+  });
   update();
   // Cập nhật lại trạng thái mở cửa và nhãn "dữ liệu cũ" mỗi phút mà không cần tải lại trang.
   setInterval(renderTable, 60 * 1000);
