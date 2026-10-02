@@ -1,4 +1,4 @@
-from crawler.pokemon.shops import homura, ichiban, morimori, oku, rudeya
+from crawler.pokemon.shops import homura, ichiban, ichome, morimori, oku, rudeya, runto, shinsoku
 
 SHOPS = {
     "morimori": morimori,
@@ -6,4 +6,7 @@ SHOPS = {
     "rudeya": rudeya,
     "ichiban": ichiban,
     "oku": oku,
+    "runto": runto,
+    "ichome": ichome,
+    "shinsoku": shinsoku,
 }

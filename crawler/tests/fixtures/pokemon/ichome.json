@@ -1,0 +1,8 @@
+{"code": 200, "msg": "success", "data": {"totalElements": 3, "size": 100, "content": [
+ {"title": "【MEGA】 30th CELEBRATION BOX", "jan": "4521329462424",
+  "goodsKbDetails": [{"kbDetailName": "シュリンク有", "kbDetailPrice": 26000}, {"kbDetailName": "シュリンクなし未開封", "kbDetailPrice": 22000}]},
+ {"title": "【MEGA】 メガブレイブ BOX", "jan": "‎4521329431161",
+  "goodsKbDetails": [{"kbDetailName": " シュリンク有", "kbDetailPrice": 7800}]},
+ {"title": "【MEGA】 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー", "jan": "4521329462189",
+  "goodsKbDetails": [{"kbDetailName": " 新品未開封", "kbDetailPrice": 17500}]}
+]}}

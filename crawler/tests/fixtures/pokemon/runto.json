@@ -1,0 +1,11 @@
+{"products": [
+ {"id": 99427, "type": "variable", "name": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」", "prices": {"price": "24000"},
+  "variations": [{"id": 99581, "attributes": [{"name": "シュリンク", "value": "ari"}]}, {"id": 99428, "attributes": [{"name": "シュリンク", "value": "nashi"}]}]},
+ {"id": 99435, "type": "simple", "name": "ポケモンカードゲーム MEGA 30th CELEBRATION FUTURISTIC BOX", "prices": {"price": "58000"}, "variations": []},
+ {"id": 44414, "type": "variable", "name": "ポケモンカードゲーム スカーレット&#038;バイオレット拡張パック 「ロケット団の栄光」", "prices": {"price": "15000"},
+  "variations": [{"id": 44415, "attributes": [{"name": "シュリンク", "value": "ari"}]}]}
+],
+ "variations": [
+ {"id": 99581, "parent": 99427, "prices": {"price": "26800"}},
+ {"id": 44415, "parent": 44414, "prices": {"price": "18700"}}
+]}

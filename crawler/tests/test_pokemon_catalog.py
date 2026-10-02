@@ -31,3 +31,9 @@ def test_shops_have_hours_and_shinsoku_is_mail_only():
     for shop in shops:
         assert set(shop["hours"]) == {"mon", "tue", "wed", "thu", "fri", "sat", "sun"}, shop["id"]
     assert [s["id"] for s in shops if s.get("mail_only")] == ["shinsoku"]
+
+
+def test_every_pokemon_shop_has_a_parser():
+    from crawler.pokemon.shops import SHOPS
+
+    assert sorted(s["id"] for s in load()["shops"]) == sorted(SHOPS)

@@ -36,3 +36,26 @@ def test_ichiban_needs_jan_and_shrink():
 
 def test_oku_alternate_jan_and_skips_text_price():
     assert as_dict(oku.parse(read("oku.html"), ITEMS)) == {"mega-30th": 27000, "mega-inferno-x": 15200}
+
+
+from crawler.pokemon.shops import ichome, runto, shinsoku  # noqa: E402
+
+
+def test_ichome_takes_shrink_price_and_cleans_jan():
+    assert as_dict(ichome.parse(read("ichome.json"), ITEMS)) == {"mega-30th": 26000, "mega-mega-brave": 7800}
+
+
+def test_ichome_rejects_truncated_list():
+    raw = json.dumps({"code": 200, "data": {"totalElements": 150, "size": 100, "content": []}})
+    with pytest.raises(ValueError):
+        ichome.parse(raw, ITEMS)
+
+
+def test_shinsoku_matches_by_name_skips_dx_and_missing_price():
+    assert as_dict(shinsoku.parse(read("shinsoku.json"), ITEMS)) == {"mega-30th": 26300, "sv-black-bolt": 17600}
+
+
+def test_runto_uses_shrink_variation_or_simple_price():
+    assert as_dict(runto.parse(read("runto.json"), ITEMS)) == {
+        "mega-30th": 26800, "mega-30th-futuristic": 58000, "sv-rocket-gang": 18700,
+    }
