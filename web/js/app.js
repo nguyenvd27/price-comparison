@@ -132,7 +132,7 @@ function shopHeader(shop, shopState, now) {
   return `<th class="shop" title="${esc(tip)}">
     <a href="${esc(shop.url)}" target="_blank" rel="noopener">${esc(shop.name)} ↗</a>
     <span class="time long">${formatTime(shopState?.display_at)}</span>
-    <span class="status long ${status.open ? "open" : "closed"}">${icon} ${esc(status.text)}</span>
+    <span class="status long ${status.open ? "open" : "closed"}">${icon} ${esc(status.label)}</span>
     <span class="short">${icon} ${formatShortTime(shopState?.display_at, now)}</span>
     ${stale ? '<span class="stale">⚠ dữ liệu cũ</span>' : ""}
   </th>`;

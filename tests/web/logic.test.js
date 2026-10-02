@@ -78,20 +78,20 @@ const SHOP = {
 const at = (iso) => new Date(iso);
 
 test("openStatus during opening hours", () => {
-  assert.deepEqual(openStatus(SHOP, at("2026-10-02T12:00:00+09:00")), { open: true, text: "Open · closes 19:00" });
+  assert.deepEqual(openStatus(SHOP, at("2026-10-02T12:00:00+09:00")), { open: true, text: "Open · closes 19:00", label: "10:00–19:00" });
 });
 
 test("openStatus before opening today", () => {
-  assert.deepEqual(openStatus(SHOP, at("2026-10-02T09:00:00+09:00")), { open: false, text: "Closed · opens 10:00" });
+  assert.deepEqual(openStatus(SHOP, at("2026-10-02T09:00:00+09:00")), { open: false, text: "Closed · opens 10:00", label: "10:00–19:00" });
 });
 
 test("openStatus exactly at closing time is closed", () => {
-  assert.deepEqual(openStatus(SHOP, at("2026-10-02T19:00:00+09:00")), { open: false, text: "Closed · opens 10:00 tomorrow" });
+  assert.deepEqual(openStatus(SHOP, at("2026-10-02T19:00:00+09:00")), { open: false, text: "Closed · opens 10:00 tomorrow", label: "10:00–19:00" });
 });
 
 test("openStatus skips Sunday and closed_dates", () => {
   // T7 20:00 → CN nghỉ, T2 10/05 nghỉ đột xuất → mở lại T3
-  assert.deepEqual(openStatus(SHOP, at("2026-10-03T20:00:00+09:00")), { open: false, text: "Closed · opens 10:00 Tue" });
+  assert.deepEqual(openStatus(SHOP, at("2026-10-03T20:00:00+09:00")), { open: false, text: "Closed · opens 10:00 Tue", label: "10:00–19:00" });
 });
 
 test("openStatus uses JST even when given UTC", () => {
@@ -109,4 +109,9 @@ test("bestOffer skips stale or erroring shops", () => {
   assert.equal(isUsable(latest.shops.stale, now), false);
   assert.equal(isUsable(latest.shops.broken, now), false);
   assert.equal(isUsable(latest.shops.fresh, now), true);
+});
+
+test("openStatus label is Closed on a day off", () => {
+  // CN 10/04: nghỉ cả ngày
+  assert.deepEqual(openStatus(SHOP, at("2026-10-04T12:00:00+09:00")), { open: false, text: "Closed · opens 10:00 Tue", label: "Closed" });
 });

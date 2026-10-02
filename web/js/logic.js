@@ -155,24 +155,26 @@ function hoursOn(shop, dateStr) {
   return shop.hours?.[WEEKDAYS[weekdayIndex(dateStr)]] ?? null;
 }
 
+// text: câu đầy đủ (hiện khi rê chuột); label: giờ mở cửa hôm nay, gọn để tiêu đề cột hẹp.
 export function openStatus(shop, now) {
   const today = jstParts(now);
   const hours = hoursOn(shop, today.date);
+  const label = hours ? `${hours[0]}–${hours[1]}` : "Closed";
   if (hours && today.time >= hours[0] && today.time < hours[1]) {
-    return { open: true, text: `Open · closes ${hours[1]}` };
+    return { open: true, text: `Open · closes ${hours[1]}`, label };
   }
   if (hours && today.time < hours[0]) {
-    return { open: false, text: `Closed · opens ${hours[0]}` };
+    return { open: false, text: `Closed · opens ${hours[0]}`, label };
   }
   for (let i = 1; i <= 7; i++) {
     const day = addDays(today.date, i);
     const next = hoursOn(shop, day);
     if (next) {
       const when = i === 1 ? "tomorrow" : WEEKDAY_EN[weekdayIndex(day)];
-      return { open: false, text: `Closed · opens ${next[0]} ${when}` };
+      return { open: false, text: `Closed · opens ${next[0]} ${when}`, label };
     }
   }
-  return { open: false, text: "Closed" };
+  return { open: false, text: "Closed", label };
 }
 
 export const MIN_DAYS = 14;

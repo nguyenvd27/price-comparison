@@ -44,7 +44,7 @@ thead th.s1, thead th.s2, thead th.s3 { z-index: 4; }
 .s1 { left: 0; min-width: 100px; width: 100px; text-align: left; }
 .s2 { left: 100px; min-width: 80px; width: 80px; }
 .s3 { left: 180px; min-width: 90px; width: 90px; border-right: 2px solid var(--line); }
-th.shop { min-width: 120px; }
+th.shop { min-width: 96px; }
 th.shop a { color: var(--link); text-decoration: none; font-size: 13px; }
 th.shop span { display: block; font-weight: 400; font-size: 11px; }
 .status.open { color: var(--good); }
