@@ -131,9 +131,12 @@ td.clickable:hover, td.clickable:focus-visible { outline: 2px solid var(--link);
 .category:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
 .category-art { display: flex; justify-content: center; align-items: center; aspect-ratio: 4 / 3; max-height: 220px; width: 100%; }
 .category-art img { width: 100%; height: 100%; object-fit: contain; padding: 12px; transition: transform .25s; }
+.category-art.photo-cover { overflow: hidden; }
+.category-art.photo-cover img { object-fit: cover; padding: 0; }
+.category-art.phone img { object-position: center 18%; }
+.credits { font-size: 11px; }
+.credits a { color: inherit; }
 .category:hover .category-art img { transform: scale(1.04); }
-.category.iphone .category-art { background: radial-gradient(circle at 30% 20%, #fde7ee, #f3d6e1 60%, #ead0dc); }
-.category.cards .category-art { background: radial-gradient(circle at 70% 20%, #fff6d6, #e6f0ff 65%, #dbe7ff); }
 .category-body { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px 18px; flex: 1; }
 .category-name { font-size: 20px; margin: 0; }
 .category-desc { color: var(--muted); font-size: 13px; margin: 0; }
