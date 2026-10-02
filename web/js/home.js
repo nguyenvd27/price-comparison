@@ -1,5 +1,5 @@
 import { DATA_BASE } from "./config.js";
-import { bestDiff, formatDiff, legacyRedirect } from "./logic.js";
+import { bestDiff, bestItemDiff, formatDiff, legacyRedirect } from "./logic.js";
 
 // Link cũ của trang iPhone (trước khi tách trang) vẫn mở đúng bảng giá.
 const redirect = legacyRedirect(location.search);
@@ -25,4 +25,21 @@ async function showIphoneSummary() {
   }
 }
 
-if (!redirect) showIphoneSummary();
+async function showPokemonSummary() {
+  const el = document.querySelector("#pokemon-summary");
+  try {
+    const [catalog, latest] = await Promise.all([loadJson("pokemon/catalog.json"), loadJson("pokemon/latest.json")]);
+    const best = bestItemDiff(catalog, latest, new Date());
+    if (!best) return;
+    el.textContent = `💰 ${best.item.name} lãi tới ${formatDiff(best.diff)} yên so với giá gốc`;
+    el.classList.add(best.diff >= 0 ? "pos" : "neg");
+    el.hidden = false;
+  } catch {
+    // Không tải được dữ liệu thì thẻ vẫn bấm được, chỉ không có dòng tóm tắt.
+  }
+}
+
+if (!redirect) {
+  showIphoneSummary();
+  showPokemonSummary();
+}
