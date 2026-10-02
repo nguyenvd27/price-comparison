@@ -3,6 +3,7 @@ const TZ = "Asia/Tokyo";
 
 export const WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 export const WEEKDAY_VI = ["T2", "T3", "T4", "T5", "T6", "T7", "CN"];
+const WEEKDAY_EN = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 export const WEEKDAY_FULL = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7", "Chủ nhật"];
 
 const ESCAPES = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -158,20 +159,20 @@ export function openStatus(shop, now) {
   const today = jstParts(now);
   const hours = hoursOn(shop, today.date);
   if (hours && today.time >= hours[0] && today.time < hours[1]) {
-    return { open: true, text: `Đang mở · đóng ${hours[1]}` };
+    return { open: true, text: `Open · closes ${hours[1]}` };
   }
   if (hours && today.time < hours[0]) {
-    return { open: false, text: `Đã đóng · mở ${hours[0]}` };
+    return { open: false, text: `Closed · opens ${hours[0]}` };
   }
   for (let i = 1; i <= 7; i++) {
     const day = addDays(today.date, i);
     const next = hoursOn(shop, day);
     if (next) {
-      const when = i === 1 ? "ngày mai" : WEEKDAY_VI[weekdayIndex(day)];
-      return { open: false, text: `Đã đóng · mở ${next[0]} ${when}` };
+      const when = i === 1 ? "tomorrow" : WEEKDAY_EN[weekdayIndex(day)];
+      return { open: false, text: `Closed · opens ${next[0]} ${when}` };
     }
   }
-  return { open: false, text: "Đã đóng" };
+  return { open: false, text: "Closed" };
 }
 
 export const MIN_DAYS = 14;
