@@ -263,3 +263,44 @@ export function legacyRedirect(search) {
   const params = new URLSearchParams(search);
   return FILTER_KEYS.some((key) => params.has(key)) ? `iphone-18/?${params}` : null;
 }
+
+// ---- Pokémon BOX ----
+
+export function itemDiff(item, latest, shopIds, now) {
+  const best = bestOffer(item.id, latest, shopIds, now);
+  return best ? best.price - item.retail : null;
+}
+
+export function filterItems(items, { series = "all" } = {}) {
+  return items.filter((item) => series === "all" || item.series === series);
+}
+
+export function sortItems(items, sort, latest, shopIds, now) {
+  const indexed = items.map((item, index) => ({ item, index, diff: itemDiff(item, latest, shopIds, now) }));
+  const byDiff = (a, b) => (a.diff === null) - (b.diff === null) || (b.diff ?? 0) - (a.diff ?? 0) || a.index - b.index;
+  const byNewest = (a, b) => b.item.release.localeCompare(a.item.release) || a.index - b.index;
+  return indexed.sort(sort === "diff" ? byDiff : byNewest).map((x) => x.item);
+}
+
+const SORTS = ["newest", "diff"];
+
+export function pickPokemonFilters(params, saved, seriesIds) {
+  const fromUrl = params.has("series") || params.has("sort");
+  const get = (key) => (fromUrl ? params.get(key) : saved?.[key] ?? null);
+  const series = get("series");
+  const sort = get("sort");
+  return {
+    series: seriesIds.includes(series) ? series : "all",
+    sort: SORTS.includes(sort) ? sort : "newest",
+  };
+}
+
+export function bestItemDiff(catalog, latest, now) {
+  const shopIds = rankedShopIds(catalog.shops);
+  let best = null;
+  for (const item of catalog.items) {
+    const diff = itemDiff(item, latest, shopIds, now);
+    if (diff !== null && (best === null || diff > best.diff)) best = { item, diff };
+  }
+  return best;
+}
