@@ -2,6 +2,7 @@ import json
 
 from crawler.http import get_text
 from crawler.models import Offer
+from crawler.normalize import parse_price
 from crawler.pokemon.match import clean_jan, match_item
 from crawler.shops.common import dedupe
 
@@ -20,13 +21,12 @@ def parse(raw: str, items: list[dict]) -> list[Offer]:
     data = json.loads(raw)
     if data.get("code") != 200:
         raise ValueError(f"API trả về code {data.get('code')}: {data.get('msg')}")
-    page = data["data"]
-    if page["totalElements"] > page["size"]:
-        raise ValueError(f"API có {page['totalElements']} sản phẩm, nhiều hơn 1 trang ({page['size']})")
+    page = data["data"]  # chỉ đọc 1 trang (100 sản phẩm, hàng mới trước); hết trang thì dừng, không báo lỗi
     offers = []
     for product in page["content"]:
         price = next(
-            (d["kbDetailPrice"] for d in product.get("goodsKbDetails") or [] if (d.get("kbDetailName") or "").strip() == SHRINK),
+            (parse_price(str(d["kbDetailPrice"])) for d in product.get("goodsKbDetails") or []
+             if (d.get("kbDetailName") or "").strip() == SHRINK and d.get("kbDetailPrice") is not None),
             None,
         )
         item = match_item(product.get("title") or "", clean_jan(product.get("jan")), items)

@@ -3,11 +3,13 @@ import re
 import sys
 import unicodedata
 
-# Không phải BOX còn màng co: không màng co, thùng, deck/set, bản DX, mất thẻ khuyến mãi, đã mở.
+# Không phải BOX còn màng co: không màng co, thùng, deck/set, bản DX, スペシャルBOX, gói lẻ, mất thẻ khuyến mãi, đã mở.
 EXCLUDE = [
-    "シュリンクなし", "シュリンク無", "カートン", "デッキ", "セット", "デラックス", "dx",
-    "プロモなし", "プロモカードなし", "開封済", "開封品", "パック単品", "バラパック",
+    "シュリンクなし", "シュリンク無", "カートン", "デッキ", "セット", "デラックス", "dx", "スペシャル",
+    "プロモなし", "プロモカードなし", "開封済", "開封品", "パック単品", "バラ",
 ]
+# Gói lẻ: "1パック", "1P", "1pack" (tên BOX nào cũng có chữ "拡張パック" nên không loại chữ パック nói chung).
+SINGLE_PACK = re.compile(r"(?<!\d)1(パック|pack|p)(?![a-z])")
 
 
 def normalize(text: str | None) -> str:
@@ -21,7 +23,7 @@ def clean_jan(text: str | None) -> str | None:
 
 def excluded(name: str) -> bool:
     text = normalize(name).replace("未開封", "")
-    return any(normalize(word) in text for word in EXCLUDE)
+    return any(normalize(word) in text for word in EXCLUDE) or bool(SINGLE_PACK.search(text))
 
 
 def match_item(name: str, jan: str | None, items: list[dict]) -> str | None:

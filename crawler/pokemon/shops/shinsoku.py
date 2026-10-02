@@ -3,6 +3,7 @@ from urllib.parse import quote
 
 from crawler.http import get_text
 from crawler.models import Offer
+from crawler.normalize import parse_price
 from crawler.pokemon.match import match_item
 from crawler.shops.common import dedupe
 
@@ -28,7 +29,8 @@ def parse(raw: str, items: list[dict]) -> list[Offer]:
             raise ValueError(f"API lỗi: {page.get('error')}")
         for product in page["data"]["items"]:
             item = match_item(product.get("name") or "", None, items)
-            price = product.get("postal_purchase_price_s")
+            raw_price = product.get("postal_purchase_price_s")
+            price = parse_price(str(raw_price)) if raw_price is not None else None
             if item and price:
                 offers.append(Offer(item, price))
     return dedupe(offers)

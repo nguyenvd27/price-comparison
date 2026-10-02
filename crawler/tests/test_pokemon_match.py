@@ -60,3 +60,17 @@ def test_unopened_is_not_mistaken_for_opened():
 ])
 def test_clean_jan(text, expected):
     assert clean_jan(text) == expected
+
+
+@pytest.mark.parametrize("name", [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION スペシャルBOX",
+    "30th CELEBRATION 1パック",
+    "拡張パック「30th CELEBRATION」バラ 1P",
+    "30th CELEBRATION パック 1pack",
+])
+def test_special_box_and_single_packs_are_rejected(name):
+    assert match_item(name, None, ITEMS) is None
+
+
+def test_box_names_with_pack_word_still_match():
+    assert match_item("ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」", None, ITEMS) == "mega-30th"

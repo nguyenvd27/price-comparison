@@ -45,10 +45,22 @@ def test_ichome_takes_shrink_price_and_cleans_jan():
     assert as_dict(ichome.parse(read("ichome.json"), ITEMS)) == {"mega-30th": 26000, "mega-mega-brave": 7800}
 
 
-def test_ichome_rejects_truncated_list():
-    raw = json.dumps({"code": 200, "data": {"totalElements": 150, "size": 100, "content": []}})
-    with pytest.raises(ValueError):
-        ichome.parse(raw, ITEMS)
+def test_ichome_reads_first_page_without_error_when_list_is_longer():
+    # Spec mục 5: hết số trang thì dừng, không báo lỗi.
+    raw = json.dumps({"code": 200, "data": {"totalElements": 150, "size": 100, "content": [
+        {"title": "【MEGA】 30th CELEBRATION BOX", "jan": "4521329462424",
+         "goodsKbDetails": [{"kbDetailName": "シュリンク有", "kbDetailPrice": 26000}]}]}})
+    assert as_dict(ichome.parse(raw, ITEMS)) == {"mega-30th": 26000}
+
+
+def test_api_prices_given_as_strings_become_ints():
+    raw = json.dumps({"code": 200, "data": {"totalElements": 1, "size": 100, "content": [
+        {"title": "【MEGA】 30th CELEBRATION BOX", "jan": "4521329462424",
+         "goodsKbDetails": [{"kbDetailName": "シュリンク有", "kbDetailPrice": "26,000"}]}]}})
+    assert ichome.parse(raw, ITEMS)[0].price == 26000
+    raw = json.dumps({"pages": [{"ok": True, "data": {"has_more": False, "items": [
+        {"name": "拡張パック「30th CELEBRATION」(M6a)", "postal_purchase_price_s": "26300"}]}}]})
+    assert shinsoku.parse(raw, ITEMS)[0].price == 26300
 
 
 def test_shinsoku_matches_by_name_skips_dx_and_missing_price():
