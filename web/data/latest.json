@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T19:37:45+09:00",
+ "generated_at": "2026-10-02T20:31:58+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-02T19:37:45+09:00",
@@ -50,7 +50,7 @@
   "mobaste": {
    "last_success_at": "2026-10-02T19:37:45+09:00",
    "display_at": "2026-10-02T11:35:33+09:00",
-   "error": null,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pastec.net/iphone?series_child_id=644",
    "prices": {
     "pm-1tb-black": 336000,
     "pm-1tb-burgundy": 351000,
