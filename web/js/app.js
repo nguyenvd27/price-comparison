@@ -86,18 +86,18 @@ function renderChips(el, options, current, onPick) {
 
 function renderFilters() {
   const modelOptions = data.catalog.models.map((m) => ({ value: m.id, label: m.short }));
-  renderChips($("#model-chips"), [{ value: "all", label: "Tất cả" }, ...modelOptions], state.model, (v) => {
+  renderChips($("#model-chips"), [{ value: "all", label: "All" }, ...modelOptions], state.model, (v) => {
     state.model = v;
     if (!modelColors(data.catalog, v).includes(state.color)) state.color = "all";
     if (v !== "all") setChartModel(v);
     update();
   });
-  renderChips($("#cap-chips"), [{ value: "all", label: "Tất cả" }, ...capacities().map((c) => ({ value: c, label: c }))], state.cap, (v) => {
+  renderChips($("#cap-chips"), [{ value: "all", label: "All" }, ...capacities().map((c) => ({ value: c, label: c }))], state.cap, (v) => {
     state.cap = v;
     if (v !== "all") state.chartCap = v;
     update();
   });
-  renderChips($("#color-chips"), [{ value: "all", label: "Mọi màu" }, ...colorOptions(state.model)], state.color, (v) => {
+  renderChips($("#color-chips"), [{ value: "all", label: "All" }, ...colorOptions(state.model)], state.color, (v) => {
     state.color = v;
     if (v !== "all") {
       setChartModel(modelOf(v));
@@ -113,7 +113,7 @@ function renderFilters() {
     state.chartCap = v;
     update();
   });
-  const ranges = [{ value: "7", label: "7 ngày" }, { value: "30", label: "30 ngày" }, { value: "all", label: "Tất cả" }];
+  const ranges = [{ value: "7", label: "7 ngày" }, { value: "30", label: "30 ngày" }, { value: "all", label: "All" }];
   renderChips($("#range-chips"), ranges, String(state.range), (v) => {
     state.range = v === "all" ? "all" : Number(v);
     update();
@@ -165,7 +165,7 @@ function renderTable() {
   const shops = catalog.shops;
   const shopIds = shops.map((s) => s.id);
   const columns = 3 + shops.length;
-  const head = `<thead><tr><th class="s1"><span class="long">Phiên bản</span><span class="short">Máy</span></th><th class="s2">Apple</th><th class="s3"><span class="long">Chênh lệch</span><span class="short">Lệch</span></th>${shops
+  const head = `<thead><tr><th class="s1"><span class="long">Model</span><span class="short">Model</span></th><th class="s2">Apple</th><th class="s3"><span class="long">Diff</span><span class="short">Diff</span></th>${shops
     .map((s) => shopHeader(s, latest.shops?.[s.id], now))
     .join("")}</tr></thead>`;
 
@@ -221,7 +221,7 @@ function openOfferModal(variantId, shopId) {
       <p><span class="profit ${diffClass(picked.diff)}">Lãi: ${formatDiff(picked.diff)}</span><span class="rank-badge">${rankText}</span></p>
     </div>
     <table class="rank-table">
-      <thead><tr><th>Hạng</th><th>Cửa hàng</th><th>Giá</th><th>Chênh lệch</th></tr></thead>
+      <thead><tr><th>Hạng</th><th>Cửa hàng</th><th>Giá</th><th>Diff</th></tr></thead>
       <tbody>${list}</tbody>
     </table>`;
   $("#offer-modal").showModal();
