@@ -49,3 +49,12 @@ def test_parse_price(text, expected):
 
 def test_variant_id():
     assert variant_id("256", "black") == "pm-256-black"
+
+
+@pytest.mark.parametrize("name, expected", [
+    ("iPhone18 Pro Max 256GB Burgundy", "burgundy"),
+    ("【未開封】iPhone 18 Pro Max 2TB glacier", "glacier"),
+    ("iPhone 18 Pro Max 1TB SILVER", "silver"),
+])
+def test_parse_color_english_any_case(name, expected, colors):
+    assert parse_color(name, colors) == expected

@@ -1,10 +1,10 @@
 import pytest
 
 COLORS = {
-    "burgundy": ["バーガンディ"],
-    "glacier": ["グレイシャー", "グレイシャ"],
-    "black": ["ブラック"],
-    "silver": ["シルバー"],
+    "burgundy": ["バーガンディ", "Burgundy"],
+    "glacier": ["グレイシャー", "グレイシャ", "Glacier"],
+    "black": ["ブラック", "Black"],
+    "silver": ["シルバー", "Silver"],
 }
 
 

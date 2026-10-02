@@ -26,7 +26,7 @@ def find_colors(text: str, colors: dict[str, list[str]]) -> list[tuple[int, str]
     found = set()
     for color, aliases in colors.items():
         for alias in aliases:
-            for match in re.finditer(re.escape(nfkc(alias)), normalized):
+            for match in re.finditer(re.escape(nfkc(alias)), normalized, re.IGNORECASE):
                 found.add((match.start(), color))
     return sorted(found)
 

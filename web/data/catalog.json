@@ -29,7 +29,8 @@
    "vi": "Burgundy",
    "hex": "#7a1f3d",
    "aliases": [
-    "バーガンディ"
+    "バーガンディ",
+    "Burgundy"
    ]
   },
   "glacier": {
@@ -37,21 +38,24 @@
    "hex": "#7fa9bd",
    "aliases": [
     "グレイシャー",
-    "グレイシャ"
+    "グレイシャ",
+    "Glacier"
    ]
   },
   "black": {
    "vi": "Đen",
    "hex": "#333333",
    "aliases": [
-    "ブラック"
+    "ブラック",
+    "Black"
    ]
   },
   "silver": {
    "vi": "Bạc",
    "hex": "#a9adb3",
    "aliases": [
-    "シルバー"
+    "シルバー",
+    "Silver"
    ]
   },
   "nightsky": {
@@ -457,6 +461,290 @@
    },
    "closed_dates": [],
    "note": "Giờ của 秋葉原店 · nhận gửi bưu điện"
+  },
+  {
+   "id": "akimoba",
+   "name": "アキモバ",
+   "url": "https://akiba-mobile.co.jp/",
+   "hours": {
+    "mon": [
+     "12:00",
+     "20:00"
+    ],
+    "tue": [
+     "12:00",
+     "20:00"
+    ],
+    "wed": [
+     "12:00",
+     "20:00"
+    ],
+    "thu": [
+     "12:00",
+     "20:00"
+    ],
+    "fri": [
+     "12:00",
+     "20:00"
+    ],
+    "sat": [
+     "12:00",
+     "20:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Giờ cửa hàng 秋葉原; nghỉ Chủ nhật, ngày lễ và ngày cuối tháng"
+  },
+  {
+   "id": "homura",
+   "name": "ホムラ",
+   "url": "https://kaitori-homura.com/products?q%5Bproduct_sub_category_id_eq%5D=192&q%5Bproduct_sub_category_product_category_id_eq%5D=10",
+   "hours": {
+    "mon": [
+     "13:00",
+     "22:00"
+    ],
+    "tue": [
+     "13:00",
+     "22:00"
+    ],
+    "wed": [
+     "13:00",
+     "22:00"
+    ],
+    "thu": [
+     "13:00",
+     "22:00"
+    ],
+    "fri": [
+     "13:00",
+     "22:00"
+    ],
+    "sat": [
+     "13:00",
+     "22:00"
+    ],
+    "sun": [
+     "13:00",
+     "22:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原店"
+  },
+  {
+   "id": "rudeya",
+   "name": "ルデヤ",
+   "url": "https://kaitori-rudeya.com/category/detail/253",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Thứ 2–7 và ngày lễ; nghỉ Chủ nhật. Gửi bưu điện +500 yên"
+  },
+  {
+   "id": "wiki",
+   "name": "wiki",
+   "url": "https://iphonekaitori.tokyo/series/iphone",
+   "hours": {
+    "mon": [
+     "10:30",
+     "19:30"
+    ],
+    "tue": [
+     "10:30",
+     "19:30"
+    ],
+    "wed": [
+     "10:30",
+     "19:30"
+    ],
+    "thu": [
+     "10:30",
+     "19:30"
+    ],
+    "fri": [
+     "10:30",
+     "19:30"
+    ],
+    "sat": [
+     "10:30",
+     "19:30"
+    ],
+    "sun": [
+     "10:30",
+     "19:30"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ của 日暮里店"
+  },
+  {
+   "id": "rakuen",
+   "name": "楽園",
+   "url": "https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba/iphone18-promax/",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "18:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Giờ của 新宿店; thứ 7 đến 18:00, nghỉ Chủ nhật"
+  },
+  {
+   "id": "base",
+   "name": "BASE",
+   "url": "https://kaitori-base.com/?p=9907",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "19:00"
+    ],
+    "sun": [
+     "10:00",
+     "19:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Chỉ mua qua bưu điện, đăng ký qua LINE"
+  },
+  {
+   "id": "sommelier",
+   "name": "ソムリエ",
+   "url": "https://somurie-kaitori.com/products?category=1",
+   "hours": {
+    "mon": [
+     "12:00",
+     "16:00"
+    ],
+    "tue": [
+     "12:00",
+     "16:00"
+    ],
+    "wed": [
+     "12:00",
+     "16:00"
+    ],
+    "thu": [
+     "12:00",
+     "16:00"
+    ],
+    "fri": [
+     "12:00",
+     "16:00"
+    ],
+    "sat": [
+     "12:00",
+     "16:00"
+    ],
+    "sun": [
+     "12:00",
+     "16:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ nhận đơn trên web; cửa hàng ở 神戸, giờ mở cửa chưa xác nhận"
+  },
+  {
+   "id": "jcka",
+   "name": "JCKA",
+   "url": "https://www.jcka-mobile.co.jp/kisyu/iphone/",
+   "hours": {
+    "mon": [
+     "11:00",
+     "19:00"
+    ],
+    "tue": [
+     "11:00",
+     "19:00"
+    ],
+    "wed": [
+     "11:00",
+     "19:00"
+    ],
+    "thu": [
+     "11:00",
+     "19:00"
+    ],
+    "fri": [
+     "11:00",
+     "19:00"
+    ],
+    "sat": [
+     "11:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Cửa hàng 大阪日本橋; nghỉ Chủ nhật"
   }
  ]
 }

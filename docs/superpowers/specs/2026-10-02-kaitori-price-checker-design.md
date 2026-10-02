@@ -29,6 +29,16 @@ Tự crawl trực tiếp trang của từng kaitori, **không** lấy dữ liệ
 | `shouten` | 買取商店 | https://www.kaitorishouten-co.jp/category/1/747 | API JSON `/api/v1/products?category_id=747`, giá nhãn `新品`. **Không** đọc HTML của trang: đó là bản render sẵn cho SEO, chỉ tạo lại mỗi ngày một lần nên lệch với giá thật (đã gặp 8/16 phiên bản sai ngày 2026-10-02) |
 | `ichome` | 買取1丁目 | https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt | API JSON công khai `/api/keitai/listPage?cateCode=eOd8WFZllXmBd3Rt` (giá theo màu = giá 未開封 + `varPrice`) |
 | `mix` | モバイルミックス | https://mobile-mix.jp/?category=7 | HTML tĩnh, nhưng phải gọi trang chủ trước để nhận cookie (nếu không sẽ bị chuyển sang `/cookie-error`); giá gốc + ghi chú trừ tiền, có trường hợp "バーガンディのみ 他色買取不可" (màu khác không thu mua) |
+| `akimoba` | アキモバ | https://akiba-mobile.co.jp/ | Bảng trên trang chủ: tên máy (màu tiếng Anh) \| 未開封品 \| giá |
+| `homura` | 買取ホムラ | https://kaitori-homura.com/products?q[product_sub_category_id_eq]=192… | Danh mục 18 Pro Max, thẻ "【未開封】… burgundy" (màu tiếng Anh) |
+| `rudeya` | 買取ルデヤ | https://kaitori-rudeya.com/category/detail/253 | Thẻ 新品 … 未開封, mỗi màu một thẻ; bỏ qua "郵送買取 +500円" |
+| `wiki` | 買取wiki | https://iphonekaitori.tokyo/series/iphone | Thẻ `div.pro_list`, mỗi màu một thẻ |
+| `rakuen` | 買取楽園 | https://www.keitairakuen.com/…/iphone18-promax/ | Thẻ mỗi dung lượng: "新品: ¥…" là giá màu không được nhắc; "黒/青 231,000" là giá riêng các màu đó |
+| `base` | 買取BASE | https://kaitori-base.com/?p=9907 | Bài bảng giá cập nhật hằng ngày: "18 ProMax 256GB \| 257,500 \| 青,黒-20,000、銀-24,000" |
+| `sommelier` | 買取ソムリエ | https://somurie-kaitori.com/products?category=1 | Thẻ `div.ant-card` có "新品未開封", mỗi màu một thẻ |
+| `jcka` | JCKA | https://www.jcka-mobile.co.jp/kisyu/iphone/ | Bảng mỗi dung lượng, dòng "未開封 判定〇": giá gốc + "青・黒・白-20,000" |
+
+Màu viết tắt một chữ Hán (青 = glacier, 黒 = black, 銀/白 = silver) chỉ dùng trong parser của 楽園, JCKA, BASE (`kanji_colors`). Chưa thêm: 携帯空間 (giá theo màu chỉ hiện trong giờ 11–19 bằng JavaScript) và エノキン (Cloudflare chặn bằng màn "Just a moment…").
 
 Đã kiểm tra ngày 2026-10-02: cả 6 cửa hàng đều lấy được bằng `requests`, **không cần Playwright**.
 

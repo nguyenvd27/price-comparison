@@ -1,4 +1,19 @@
-from crawler.shops import ichiban, ichome, mix, mobaste, morimori, shouten
+from crawler.shops import (
+    akimoba,
+    base,
+    homura,
+    ichiban,
+    ichome,
+    jcka,
+    mix,
+    mobaste,
+    morimori,
+    rakuen,
+    rudeya,
+    shouten,
+    sommelier,
+    wiki,
+)
 
 SHOPS = {
     "morimori": morimori,
@@ -7,4 +22,12 @@ SHOPS = {
     "shouten": shouten,
     "ichome": ichome,
     "mix": mix,
+    "akimoba": akimoba,
+    "homura": homura,
+    "rudeya": rudeya,
+    "wiki": wiki,
+    "rakuen": rakuen,
+    "base": base,
+    "sommelier": sommelier,
+    "jcka": jcka,
 }

@@ -33,3 +33,12 @@ def dedupe(offers: list[Offer]) -> list[Offer]:
             seen.add(offer.variant)
             result.append(offer)
     return result
+
+
+# Vài cửa hàng viết tắt màu bằng một chữ Hán ("青,黒-20,000"). Chỉ dùng trong parser của các cửa hàng đó,
+# vì dùng chung cho mọi cửa hàng thì một chữ dễ khớp nhầm.
+KANJI_COLORS = {"burgundy": ["紫", "赤"], "glacier": ["青"], "black": ["黒"], "silver": ["銀", "白"]}
+
+
+def kanji_colors(colors: dict[str, list[str]]) -> dict[str, list[str]]:
+    return {color: KANJI_COLORS.get(color, []) for color in colors}

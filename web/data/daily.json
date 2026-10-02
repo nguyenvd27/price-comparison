@@ -465,36 +465,36 @@
  },
  "2026-10-02": {
   "pm-1tb-black": {
-   "max": 347000,
-   "shop": "morimori"
+   "max": 348000,
+   "shop": "base"
   },
   "pm-1tb-burgundy": {
    "max": 358000,
    "shop": "morimori"
   },
   "pm-1tb-glacier": {
-   "max": 340000,
-   "shop": "morimori"
+   "max": 341500,
+   "shop": "base"
   },
   "pm-1tb-silver": {
-   "max": 340000,
-   "shop": "morimori"
+   "max": 341500,
+   "shop": "base"
   },
   "pm-256-black": {
-   "max": 236000,
-   "shop": "morimori"
+   "max": 237500,
+   "shop": "base"
   },
   "pm-256-burgundy": {
    "max": 264000,
    "shop": "mobaste"
   },
   "pm-256-glacier": {
-   "max": 236000,
-   "shop": "morimori"
+   "max": 237500,
+   "shop": "base"
   },
   "pm-256-silver": {
-   "max": 231000,
-   "shop": "morimori"
+   "max": 233500,
+   "shop": "base"
   },
   "pm-2tb-black": {
    "max": 430000,
@@ -513,20 +513,20 @@
    "shop": "ichome"
   },
   "pm-512-black": {
-   "max": 270000,
-   "shop": "morimori"
+   "max": 271500,
+   "shop": "base"
   },
   "pm-512-burgundy": {
    "max": 293000,
    "shop": "mobaste"
   },
   "pm-512-glacier": {
-   "max": 270000,
-   "shop": "morimori"
+   "max": 271500,
+   "shop": "base"
   },
   "pm-512-silver": {
-   "max": 270000,
-   "shop": "ichiban"
+   "max": 271500,
+   "shop": "base"
   }
  }
 }
