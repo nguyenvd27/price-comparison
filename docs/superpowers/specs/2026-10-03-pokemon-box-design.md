@@ -1,6 +1,6 @@
 # Thiết kế: so sánh giá thu mua BOX Pokémon Card
 
-Ngày: 2026-10-03 · Trạng thái: chờ duyệt · Bổ sung cho `2026-10-02-kaitori-price-checker-design.md`
+Ngày: 2026-10-03 · Trạng thái: đã triển khai · Bổ sung cho `2026-10-02-kaitori-price-checker-design.md`
 
 ## 1. Mục tiêu
 
