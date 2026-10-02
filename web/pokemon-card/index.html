@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Giá Kaitori Pokémon Card</title>
-  <meta name="description" content="So sánh giá thu mua Pokémon Card ở các cửa hàng kaitori tại Nhật.">
+  <title>Giá Kaitori BOX Pokémon Card</title>
+  <meta name="description" content="So sánh giá thu mua BOX Pokémon Card chưa bóc (còn màng co) ở các cửa hàng kaitori tại Tokyo, cập nhật tự động.">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -15,11 +15,27 @@
   </nav>
 
   <header class="top">
-    <h1>Pokémon Card</h1>
+    <h1>Giá thu mua BOX Pokémon Card</h1>
+    <p class="sub">So sánh giá kaitori ở Tokyo · BOX chưa bóc, còn màng co (シュリンク付)</p>
   </header>
 
   <main>
-    <p class="placeholder">Pokemon</p>
+    <p id="error" class="error" hidden></p>
+    <section class="filters">
+      <div id="series-chips" class="chips"></div>
+      <div id="sort-chips" class="chips"></div>
+    </section>
+    <div class="table-wrap"><table id="price-table" class="pk-table"></table></div>
+    <p class="legend">Retail = giá gốc (定価) · Diff = giá cao nhất − giá gốc · Ô xanh = cửa hàng trả cao nhất · — = không thu mua · 📦 = chỉ mua qua bưu điện, không tính vào Diff</p>
   </main>
+
+  <dialog id="offer-modal" class="modal"><div id="modal-body"></div></dialog>
+
+  <footer>
+    <p>Giá tự động cập nhật 30 phút/lần từ 10:00 đến 20:00 (giờ Nhật) và chỉ để tham khảo. Hãy xác nhận trên trang của cửa hàng trước khi bán.</p>
+    <p class="credits">Ảnh sản phẩm © Pokémon / Nintendo / Creatures / GAME FREAK, nguồn: <a href="https://www.pokemon-card.com/products/" target="_blank" rel="noopener">pokemon-card.com</a>. Trang này không liên kết với các công ty trên.</p>
+  </footer>
+
+  <script type="module" src="../js/pokemon.js"></script>
 </body>
 </html>
