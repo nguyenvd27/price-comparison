@@ -74,7 +74,7 @@ Mỗi danh mục khai báo:
 | mega-ninja-spinner | mega | ニンジャスピナー | 5,400 | 2026-03-13 | 4521329432786 |
 | mega-munikis-zero | mega | ムニキスゼロ | 5,400 | 2026-01-23 | 4521329432274 |
 | mega-mega-dream-ex | mega | MEGAドリームex | 5,500 | 2025-11-28 | 4521329431932 |
-| mega-inferno-x | mega | インフェルノX | 5,400 | 2025-09-26 | 4521329431529 |
+| mega-inferno-x | mega | インフェルノX | 5,400 | 2025-09-26 | 4521329431529, 4521329431512 (オク) |
 | mega-mega-brave | mega | メガブレイブ | 5,400 | 2025-08-01 | 4521329431161 |
 | mega-mega-symphonia | mega | メガシンフォニア | 5,400 | 2025-08-01 | 4521329431185 |
 | sv-black-bolt | sv | ブラックボルト | 5,800 | 2025-06-06 | 4521329427768 |
@@ -109,19 +109,24 @@ Parser của từng tiệm tách ra (tên, JAN nếu có, giá), gọi `match_it
 
 ## 5. Tiệm (8)
 
-| id | Tên | Trang crawl | Ghép bằng | Ghi chú |
-|---|---|---|---|---|
-| `morimori` | 森森 | `/category/2401010` (MEGA) và `/category/2401001` (SV) | JAN | Giá "通常買取価格" |
-| `homura` | ホムラ | `/products?q[product_sub_category_id_eq]=128&q[product_sub_category_product_category_id_eq]=14` (シュリンク有り) | tên | Theo trang kế tiếp, tối đa 5 trang |
-| `rudeya` | ルデヤ | `/category/detail/114` | JAN | Chỉ thẻ có nhãn 新品 |
-| `ichiban` | 海峡 (モバイル一番) | `/Prod/3/` | JAN | |
-| `oku` | オク | `/category.html?cat1=340&cat2=363` | JAN | |
-| `runto` | ラントゥ | `/product-category/card/` | tên | Theo trang kế tiếp, tối đa 5 trang |
-| `ichome` | 一丁目 | API JSON công khai (cùng kiểu `/api/keitai/listPage` của phần iPhone) | JAN hoặc tên | Không tìm được API dùng được thì bỏ tiệm này và báo lại |
-| `shinsoku` | シンソク | API JSON mà trang `/yuso-kaitori` gọi | tên | Như trên. Nếu chỉ mua qua bưu điện thì đặt `mail_only: true` |
+Đã khảo sát trang thật ngày 2026-10-03.
 
-- **Giờ mở cửa:** theo cửa hàng chính ở Tokyo của mỗi tiệm, lấy từ trang chính thức, ghi nguồn trong `note`.
-- **Giới hạn request:** mỗi tiệm tối đa 5 request mỗi lần chạy. Đi hết 5 trang mà vẫn còn trang sau thì báo lỗi, để không âm thầm thiếu dữ liệu.
+| id | Tên | Nguồn crawl | Ghép bằng | Số trang tối đa | Giờ (cửa hàng chính) |
+|---|---|---|---|---|---|
+| `morimori` | 森森 | HTML `/category/2401010` (MEGA) và `/category/2401001` (SV), `.product-item` có `JAN:` | JAN | 3 trang mỗi danh mục | 11:00–20:00 hằng ngày (秋葉原本店) |
+| `homura` | ホムラ | HTML `/products?q[product_sub_category_id_eq]=128&q[product_sub_category_product_category_id_eq]=14` (シュリンク有り), JAN là 13 chữ số cuối của dãy số trong thẻ (ví dụ `114521329462424`) | JAN | 3 | 13:00–22:00 hằng ngày (秋葉原店) |
+| `rudeya` | ルデヤ | HTML `/category/detail/114`, `article.pgrid-card` nhãn 新品 | JAN | 1 | 10:00–19:00 thứ 2–7, nghỉ Chủ nhật |
+| `ichiban` | モバイル一番 | HTML `/Prod/3/`, thẻ `div.card` có `JAN:` và ghi chú `シュリンク付き` | JAN | 1 | 10:00–19:00, nghỉ Chủ nhật (池袋駅前店) |
+| `oku` | オク | HTML `/category.html?cat1=340&cat2=363&cat3=367` (シュリンクあり), `div.proItem` | JAN | 3 (hàng mới ở trang đầu) | 11:00–19:00 hằng ngày (神田須田町) |
+| `runto` | ラントゥ | WooCommerce Store API: `/wp-json/wc/store/v1/products?category=108&per_page=100`, rồi giá biến thể `シュリンク=ari` qua `/wp-json/wc/store/v1/products?type=variation&include=…` | tên | 2 request | 11:00–19:00 hằng ngày (神田店) |
+| `ichome` | 一丁目 | API `/api/goods/listPage?…&cateCode=IIzyMdayU5wp7T4G&size=100`, mức giá `kbDetailName` = `シュリンク有` | JAN | 1 | 10:00–19:00, nghỉ Chủ nhật (秋葉原本店) |
+| `shinsoku` | シンソク | API `/api/items?postal_only=true&type=BOX&brand=ポケモン&limit=100&page=N`, giá `postal_purchase_price_s` | tên | 5 (dừng khi `has_more` = false) | 12:30–21:00 hằng ngày (秋葉原本店); `mail_only: true` vì giá là giá mua qua bưu điện |
+
+- **Phân trang:** mỗi tiệm có số trang tối đa riêng (bảng trên). Hết số trang thì dừng, không báo lỗi. Các tiệm đều xếp hàng mới trước, nên các BOX trong catalog nằm ở mấy trang đầu.
+- **Thiếu BOX trong catalog:** BOX của catalog không thấy ở tiệm nào thì ô đó hiện "—".
+- **Không lấy được giá nào:** tiệm không có giá cho BOX nào bị coi là lỗi, đúng quy tắc hiện có.
+- **JAN phụ:** オク ghi JAN của インフェルノX là `4521329431512`, khác JAN `4521329431529` ở 森森 và ホムラ. Catalog ghi cả hai JAN cho BOX này.
+- **Giá không phải số** ("問い合わせ"): bỏ qua dòng đó.
 
 ## 6. Giao diện `/pokemon-card/`
 
