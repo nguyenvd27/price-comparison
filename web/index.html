@@ -3,56 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Giá Kaitori iPhone 18 Pro Max</title>
-  <meta name="description" content="So sánh giá thu mua iPhone 18 Pro Max mới chưa kích hoạt ở các cửa hàng kaitori tại Nhật, cập nhật tự động.">
-  <link rel="stylesheet" href="style.css">
+  <title>Kaitori Check</title>
+  <meta name="description" content="So sánh giá thu mua (kaitori) ở Nhật: iPhone 18, Pokémon Card… cập nhật tự động.">
+  <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-  <header class="top">
-    <h1>Giá thu mua iPhone 18 Pro Max</h1>
-    <p class="sub">So sánh giá kaitori ở Nhật · máy mới chưa kích hoạt (新品未開封)</p>
+<body class="home">
+  <nav class="site-nav">
+    <a class="brand" href="/" aria-current="page">Kaitori Check</a>
+    <a href="/iphone-18/">iPhone 18</a>
+    <a href="/pokemon-card/">Pokémon Card</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Bán ở đâu được giá nhất?</h1>
+    <p class="hero-sub">So sánh giá thu mua của các cửa hàng kaitori ở Nhật trên một trang, để bạn chọn nơi trả cao nhất.</p>
+    <ul class="hero-points">
+      <li>🏪 Nhiều cửa hàng</li>
+      <li>⏱ Tự cập nhật 30 phút/lần</li>
+      <li>📈 Biểu đồ giá theo ngày</li>
+    </ul>
   </header>
 
   <main>
-    <p id="error" class="error" hidden></p>
-
-    <section class="filters">
-      <div id="model-chips" class="chips"></div>
-      <div id="cap-chips" class="chips"></div>
-      <div id="color-chips" class="chips"></div>
-    </section>
-
-    <div class="table-wrap"><table id="price-table"></table></div>
-    <p class="legend">Diff = giá kaitori cao nhất − giá Apple · Ô xanh = cửa hàng trả cao nhất · — = không thu mua · Giờ dưới tên cửa hàng = lần giá thay đổi gần nhất</p>
-
-    <section class="card">
-      <div class="card-head">
-        <h2>Giá cao nhất mỗi ngày</h2>
-        <div id="chart-model" class="chips"></div>
-        <div id="chart-cap" class="chips"></div>
-        <div id="range-chips" class="chips"></div>
-      </div>
-      <p id="line-empty" class="empty" hidden>Chưa có dữ liệu giá</p>
-      <div class="chart-box"><canvas id="line-chart"></canvas></div>
-      <p class="legend">Nền cam = Thứ 7, Chủ nhật · Nét đứt = giá Apple · Điểm rỗng = dữ liệu mẫu, chưa phải giá thật</p>
-    </section>
-
-    <section class="card">
-      <div class="card-head">
-        <h2>Giá theo thứ trong tuần <small>(4 tuần gần nhất)</small></h2>
-        <div id="stat-color" class="chips"></div>
-      </div>
-      <p id="weekday-empty" class="empty" hidden></p>
-      <div class="chart-box short"><canvas id="weekday-chart"></canvas></div>
-      <p id="weekday-tip" class="tip"></p>
+    <section class="categories" aria-label="Danh mục">
+      <a class="category iphone" href="/iphone-18/">
+        <div class="category-art photo-cover phone"><img src="/img/iphone-18-pro-max.jpg" alt="Mặt lưng iPhone 18 Pro Max màu burgundy" width="600" height="800" loading="lazy"></div>
+        <div class="category-body">
+          <h2 class="category-name">iPhone 18</h2>
+          <p class="category-desc">18 Pro Max · Duo — máy mới chưa kích hoạt <span class="nowrap">(新品未開封)</span></p>
+          <p id="iphone-summary" class="category-stat" hidden></p>
+          <span class="category-cta">Xem bảng giá →</span>
+        </div>
+      </a>
+      <a class="category cards" href="/pokemon-card/">
+        <div class="category-art photo-cover"><img src="/img/pokemon-cards.jpg" alt="Rất nhiều thẻ bài Pokémon trải trên bàn" width="560" height="372" loading="lazy"></div>
+        <div class="category-body">
+          <h2 class="category-name">Pokémon Card</h2>
+          <p class="category-desc">Box chưa bóc seal và thẻ lẻ</p>
+          <p class="category-stat soon">Sắp có</p>
+          <span class="category-cta">Xem trước →</span>
+        </div>
+      </a>
     </section>
   </main>
 
-  <dialog id="offer-modal" class="modal"><div id="modal-body"></div></dialog>
+  <footer>
+    <p>Giá chỉ để tham khảo. Hãy xác nhận trên trang của cửa hàng trước khi bán.</p>
+    <p class="credits">Ảnh (đã thu nhỏ):
+      <a href="https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_Max_rear.jpg" target="_blank" rel="noopener">iPhone 18 Pro Max rear</a> © 茅野ふたば,
+      <a href="https://commons.wikimedia.org/wiki/File:Pokemon_collection.jpg" target="_blank" rel="noopener">Pokemon collection</a> © Jarek Tuszyński —
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.vi" target="_blank" rel="noopener">CC BY-SA 4.0</a>, qua Wikimedia Commons.
+      iPhone là thương hiệu của Apple Inc.; Pokémon là thương hiệu của Nintendo/Creatures/GAME FREAK. Trang này không liên kết với các công ty trên.</p>
+  </footer>
 
-  <footer>Giá tự động cập nhật 30 phút/lần từ 10:00 đến 20:00 (giờ Nhật) và chỉ để tham khảo. Hãy xác nhận trên trang của cửa hàng trước khi bán.</footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-  <script type="module" src="js/app.js"></script>
+  <script type="module" src="/js/home.js"></script>
 </body>
 </html>

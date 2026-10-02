@@ -244,3 +244,22 @@ export function weekdayStats(daily, variantId, today, windowDays = 28) {
   const gap = Math.round((deltas[best] - deltas[worst]) / 100) * 100;
   return { ready: true, deltas, best, worst, gap, sample: values.some((x) => x.sample) };
 }
+
+// Lãi cao nhất so với giá Apple của một dòng máy, cho thẻ tóm tắt ở trang chủ.
+export function bestDiff(catalog, latest, model, now) {
+  const shopIds = rankedShopIds(catalog.shops);
+  let best = null;
+  for (const v of catalog.variants.filter((x) => x.model === model)) {
+    const offer = bestOffer(v.id, latest, shopIds, now);
+    if (offer && (best === null || offer.price - v.apple_price > best.diff)) {
+      best = { variant: v.id, diff: offer.price - v.apple_price };
+    }
+  }
+  return best;
+}
+
+// Link cũ "/?model=…&cap=…&color=…" (trước khi tách trang) chuyển sang trang iPhone 18.
+export function legacyRedirect(search) {
+  const params = new URLSearchParams(search);
+  return FILTER_KEYS.some((key) => params.has(key)) ? `/iphone-18/?${params}` : null;
+}
