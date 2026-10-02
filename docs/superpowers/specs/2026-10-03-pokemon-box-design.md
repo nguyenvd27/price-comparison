@@ -14,7 +14,6 @@ Trang `/pokemon-card/` giúp người Việt ở Nhật biết bán **BOX Pokém
 
 **Không làm lần này:**
 - biểu đồ (dữ liệu hằng ngày vẫn được lưu)
-- ảnh BOX (vướng bản quyền)
 - thẻ lẻ, thùng (カートン), gói lẻ (パック), deck/set
 - bản DX và スペシャルBOX
 
@@ -50,6 +49,7 @@ Mỗi danh mục khai báo:
   ],
   "items": [
     {"id": "mega-30th", "series": "mega", "name": "30th CELEBRATION", "retail": 7200,
+     "release": "2026-09-16", "image": "https://www.pokemon-card.com/products/2026/images/30th_celebration.jpg",
      "jan": ["4521329462424"], "aliases": ["30th CELEBRATION"], "exclude": ["FUTURISTIC"]}
   ],
   "shops": [ /* giống catalog iPhone: id, name, url, hours, closed_dates, note, mail_only? */ ]
@@ -57,36 +57,37 @@ Mỗi danh mục khai báo:
 ```
 
 - **`id`:** dạng `<dòng>-<tên>`, không kèm mã bộ thẻ.
-- **Thứ tự:** `items` xếp tay, BOX mới ở trên. Thứ tự này là "Mới nhất" trên web, nên không cần trường ngày phát hành.
+- **`release`:** ngày phát hành chính thức, lấy từ API trang sản phẩm của pokemon-card.com (`/products/resultAPI.php`). "Newest" trên web sắp theo trường này. BOX phát hành cùng ngày giữ thứ tự trong catalog.
+- **`image`:** link tuyệt đối tới ảnh trên pokemon-card.com (`tumbsImg` của API trên). Ảnh là gói thẻ của bộ đó, riêng FUTURISTIC BOX là ảnh hộp. Mình nhập tay link ảnh vào catalog, crawler không đụng tới.
 - **`retail`:** giá gốc đã gồm thuế (定価), theo giá niêm yết công khai.
 - **`aliases`:** chuỗi để ghép theo tên khi tiệm không ghi JAN.
 - **`exclude`:** chuỗi mà nếu có trong tên thì không phải BOX này. Ví dụ "30th CELEBRATION" phải loại "FUTURISTIC".
 
-**21 BOX ban đầu** (JAN đối chiếu từ 森森 và ルデヤ ngày 2026-10-02, giá gốc theo bảng giá công khai):
+**21 BOX ban đầu** (JAN đối chiếu từ 森森 và ルデヤ ngày 2026-10-02; giá gốc theo bảng giá công khai; ngày phát hành và ảnh theo pokemon-card.com. Mình đã kiểm tra: cả 21 BOX đều có ảnh):
 
-| id | Dòng | Tên | 定価 | JAN |
-|---|---|---|---|---|
-| mega-30th-futuristic | mega | 30th CELEBRATION FUTURISTIC BOX | 27,500 | 4521329463872 |
-| mega-30th | mega | 30th CELEBRATION | 7,200 | 4521329462424 |
-| mega-storm-emeralda | mega | ストームエメラルダ | 6,000 | 4521329462233 |
-| mega-abyss-eye | mega | アビスアイ | 6,000 | 4521329462127 |
-| mega-ninja-spinner | mega | ニンジャスピナー | 5,400 | 4521329432786 |
-| mega-munikis-zero | mega | ムニキスゼロ | 5,400 | 4521329432274 |
-| mega-mega-dream-ex | mega | MEGAドリームex | 5,500 | 4521329431932 |
-| mega-inferno-x | mega | インフェルノX | 5,400 | 4521329431529 |
-| mega-mega-brave | mega | メガブレイブ | 5,400 | 4521329431161 |
-| mega-mega-symphonia | mega | メガシンフォニア | 5,400 | 4521329431185 |
-| sv-black-bolt | sv | ブラックボルト | 5,800 | 4521329427768 |
-| sv-white-flare | sv | ホワイトフレア | 5,800 | 4521329427782 |
-| sv-rocket-gang | sv | ロケット団の栄光 | 5,400 | 4521329374659 |
-| sv-heat-arena | sv | 熱風のアリーナ | 5,400 | 4521329374758 |
-| sv-battle-partners | sv | バトルパートナーズ | 5,400 | 4521329362649 |
-| sv-terastal-fes-ex | sv | テラスタルフェスex | 5,500 | 4521329362342 |
-| sv-super-electric-breaker | sv | 超電ブレイカー | 5,400 | 4521329361505 |
-| sv-paradise-dragona | sv | 楽園ドラゴーナ | 5,400 | 4521329361352 |
-| sv-stellar-miracle | sv | ステラミラクル | 5,400 | 4521329361000 |
-| sv-night-wanderer | sv | ナイトワンダラー | 5,400 | 4521329362496 |
-| sv-151 | sv | 151 | 5,400 | 4521329346038 |
+| id | Dòng | Tên | 定価 | Phát hành | JAN |
+|---|---|---|---|---|---|
+| mega-30th-futuristic | mega | 30th CELEBRATION FUTURISTIC BOX | 27,500 | 2026-09-16 | 4521329463872 |
+| mega-30th | mega | 30th CELEBRATION | 7,200 | 2026-09-16 | 4521329462424 |
+| mega-storm-emeralda | mega | ストームエメラルダ | 6,000 | 2026-07-31 | 4521329462233 |
+| mega-abyss-eye | mega | アビスアイ | 6,000 | 2026-05-22 | 4521329462127 |
+| mega-ninja-spinner | mega | ニンジャスピナー | 5,400 | 2026-03-13 | 4521329432786 |
+| mega-munikis-zero | mega | ムニキスゼロ | 5,400 | 2026-01-23 | 4521329432274 |
+| mega-mega-dream-ex | mega | MEGAドリームex | 5,500 | 2025-11-28 | 4521329431932 |
+| mega-inferno-x | mega | インフェルノX | 5,400 | 2025-09-26 | 4521329431529 |
+| mega-mega-brave | mega | メガブレイブ | 5,400 | 2025-08-01 | 4521329431161 |
+| mega-mega-symphonia | mega | メガシンフォニア | 5,400 | 2025-08-01 | 4521329431185 |
+| sv-black-bolt | sv | ブラックボルト | 5,800 | 2025-06-06 | 4521329427768 |
+| sv-white-flare | sv | ホワイトフレア | 5,800 | 2025-06-06 | 4521329427782 |
+| sv-rocket-gang | sv | ロケット団の栄光 | 5,400 | 2025-04-18 | 4521329374659 |
+| sv-heat-arena | sv | 熱風のアリーナ | 5,400 | 2025-03-14 | 4521329374758 |
+| sv-battle-partners | sv | バトルパートナーズ | 5,400 | 2025-01-24 | 4521329362649 |
+| sv-terastal-fes-ex | sv | テラスタルフェスex | 5,500 | 2024-12-06 | 4521329362342 |
+| sv-super-electric-breaker | sv | 超電ブレイカー | 5,400 | 2024-10-18 | 4521329361505 |
+| sv-paradise-dragona | sv | 楽園ドラゴーナ | 5,400 | 2024-09-13 | 4521329361352 |
+| sv-stellar-miracle | sv | ステラミラクル | 5,400 | 2024-07-19 | 4521329361000 |
+| sv-night-wanderer | sv | ナイトワンダラー | 5,400 | 2024-06-07 | 4521329362496 |
+| sv-151 | sv | 151 | 5,400 | 2023-06-16 | 4521329346038 |
 
 Chi tiết cần lưu ý:
 - ブラックボルト và ホワイトフレア có bản DX với JAN khác (4521329427300, 4521329427324). Chúng không thuộc danh sách, nên alias phải loại "デラックス" và "DX".
@@ -127,7 +128,9 @@ Parser của từng tiệm tách ra (tên, JAN nếu có, giá), gọi `match_it
 **Bảng**
 - Dòng = BOX, chia nhóm theo `series` (MEGA, SV). Dòng tiêu đề nhóm dính trái.
 - 3 cột cố định:
-  - **BOX:** tên; trên điện thoại được xuống dòng.
+  - **BOX:** ảnh nhỏ 40×40 (điện thoại 32×32) cạnh tên, tên được xuống dòng trên điện thoại.
+    - Ảnh hiển thị thẳng từ pokemon-card.com, không chép vào repo, với `loading="lazy"` và `alt` là tên BOX.
+    - Ảnh lỗi thì ẩn, chỉ còn tên. Mình đã kiểm tra: trang này không chặn nhúng ảnh từ trang khác.
   - **Retail:** 定価.
   - **Diff:** giá cao nhất − 定価, xanh nếu dương, đỏ nếu âm.
 - **Cột tiệm:** dùng cùng phần tiêu đề với iPhone (tên + link, giờ cập nhật, 🟢/🔴 kèm giờ mở cửa hôm nay, 📦 Mail only).
@@ -139,7 +142,7 @@ Parser của từng tiệm tách ra (tên, JAN nếu có, giá), gọi `match_it
 
 **Bộ lọc** (lưu ở URL `?series=…&sort=…` và localStorage `pokemon-filters`)
 - Dòng: `All | MEGA | SV`
-- Sắp xếp: `Newest` (thứ tự trong catalog) | `Top Diff` (Diff giảm dần; BOX chưa có giá xếp cuối). Với `Top Diff` thì bỏ chia nhóm, hiện một danh sách liền.
+- Sắp xếp: `Newest` (theo `release`) | `Top Diff` (Diff giảm dần; BOX chưa có giá xếp cuối). Với `Top Diff` thì bỏ chia nhóm, hiện một danh sách liền.
 
 **Cửa sổ xếp hạng:** khi bấm một ô giá, hiện:
 - tên BOX và Retail
@@ -148,6 +151,8 @@ Parser của từng tiệm tách ra (tên, JAN nếu có, giá), gọi `match_it
 - danh sách tiệm, tiệm mail only đứng cuối và không có hạng
 
 Đây là cùng cửa sổ với trang iPhone.
+
+**Bản quyền ảnh:** cuối trang ghi "Ảnh sản phẩm © Pokémon / Nintendo / Creatures / GAME FREAK, nguồn: pokemon-card.com. Trang này không liên kết với các công ty trên." Ảnh vẫn thuộc bản quyền của The Pokémon Company; dùng không xin phép trên trang có quảng cáo có rủi ro bị yêu cầu gỡ, và người dùng đã chọn chấp nhận rủi ro này.
 
 **Trang chủ:** thẻ Pokémon Card bỏ "Sắp có", thay bằng "💰 <tên BOX> lãi tới +¥… so với giá gốc" (BOX có Diff cao nhất). Không có dữ liệu thì để trống dòng này.
 
@@ -169,9 +174,9 @@ Parser của từng tiệm tách ra (tên, JAN nếu có, giá), gọi `match_it
 - Mỗi parser của 8 tiệm có một fixture cắt từ trang thật.
 - `run.main(category="pokemon")` ghi vào `web/data/pokemon/`, không đụng dữ liệu iPhone.
 - `run.main()` mặc định vẫn là iPhone.
-- `test_catalog`: mọi tiệm trong catalog Pokémon có parser; mọi BOX có `series` hợp lệ, `retail` > 0, JAN 13 chữ số và không trùng.
+- `test_catalog`: mọi tiệm trong catalog Pokémon có parser; mọi BOX có `series` hợp lệ, `retail` > 0, JAN 13 chữ số và không trùng, `release` dạng YYYY-MM-DD, `image` bắt đầu bằng `https://www.pokemon-card.com/`.
 
-**node --test:** `filterItems`, `sortItems` (Top Diff, BOX chưa có giá xếp cuối), `itemDiff` (bỏ mail only, dữ liệu cũ).
+**node --test:** `filterItems`, `sortItems` (Newest theo `release`, cùng ngày giữ thứ tự catalog; Top Diff, BOX chưa có giá xếp cuối), `itemDiff` (bỏ mail only, dữ liệu cũ).
 
 **Trình duyệt:**
 - bảng, bộ lọc, URL, cửa sổ xếp hạng
