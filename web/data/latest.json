@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-02T20:31:58+09:00",
+ "generated_at": "2026-10-02T21:08:09+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-02T19:37:45+09:00",
+   "last_success_at": "2026-10-02T21:08:09+09:00",
    "display_at": "2026-10-02T19:37:45+09:00",
    "error": null,
    "prices": {
@@ -25,7 +25,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-02T19:37:45+09:00",
+   "last_success_at": "2026-10-02T21:08:09+09:00",
    "display_at": "2026-10-02T11:35:33+09:00",
    "error": null,
    "prices": {
@@ -50,7 +50,7 @@
   "mobaste": {
    "last_success_at": "2026-10-02T19:37:45+09:00",
    "display_at": "2026-10-02T11:35:33+09:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pastec.net/iphone?series_child_id=644",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pastec.net/iphone?series_child_id=644 (Server=awselb/2.0, X-Cache=Error from cloudfront, title=403 Forbidden)",
    "prices": {
     "pm-1tb-black": 336000,
     "pm-1tb-burgundy": 351000,
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-02T19:37:45+09:00",
+   "last_success_at": "2026-10-02T21:08:09+09:00",
    "display_at": "2026-10-02T19:37:45+09:00",
    "error": null,
    "prices": {
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-02T19:37:45+09:00",
+   "last_success_at": "2026-10-02T21:08:09+09:00",
    "display_at": "2026-10-02T19:37:45+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-02T19:37:45+09:00",
+   "last_success_at": "2026-10-02T21:08:09+09:00",
    "display_at": "2026-10-02T19:37:45+09:00",
    "error": null,
    "prices": {
