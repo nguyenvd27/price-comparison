@@ -5,7 +5,7 @@
    "shop": "ichiban"
   },
   "pm-1tb-burgundy": {
-   "max": 340000,
+   "max": 347000,
    "shop": "ichiban"
   },
   "pm-1tb-glacier": {
@@ -21,7 +21,7 @@
    "shop": "ichiban"
   },
   "pm-256-burgundy": {
-   "max": 263000,
+   "max": 270000,
    "shop": "ichiban"
   },
   "pm-256-glacier": {
@@ -37,8 +37,8 @@
    "shop": "ichiban"
   },
   "pm-2tb-burgundy": {
-   "max": 435000,
-   "shop": "ichiban"
+   "max": 441000,
+   "shop": "mix"
   },
   "pm-2tb-glacier": {
    "max": 435000,
@@ -53,7 +53,7 @@
    "shop": "ichiban"
   },
   "pm-512-burgundy": {
-   "max": 285000,
+   "max": 291000,
    "shop": "ichiban"
   },
   "pm-512-glacier": {
@@ -63,6 +63,60 @@
   "pm-512-silver": {
    "max": 285000,
    "shop": "ichiban"
+  }
+ },
+ "2026-09-19": {
+  "pm-1tb-burgundy": {
+   "max": 349000,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 251000,
+   "shop": "morimori"
+  },
+  "pm-2tb-burgundy": {
+   "max": 436000,
+   "shop": "morimori"
+  },
+  "pm-512-burgundy": {
+   "max": 281000,
+   "shop": "morimori"
+  }
+ },
+ "2026-09-20": {
+  "pm-1tb-burgundy": {
+   "max": 350000,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 259000,
+   "shop": "morimori"
+  },
+  "pm-2tb-burgundy": {
+   "max": 437000,
+   "shop": "ichiban"
+  },
+  "pm-512-burgundy": {
+   "max": 283000,
+   "shop": "morimori"
+  }
+ },
+ "2026-09-21": {
+  "pm-1tb-burgundy": {
+   "max": 355500,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 266000,
+   "shop": "morimori"
+  },
+  "pm-2tb-burgundy": {
+   "max": 441500,
+   "shop": "morimori"
+  },
+  "pm-512-burgundy": {
+   "max": 291000,
+   "shop": "morimori"
   }
  },
  "2026-09-22": {
@@ -128,6 +182,24 @@
   },
   "pm-512-silver": {
    "max": 286000,
+   "shop": "morimori"
+  }
+ },
+ "2026-09-23": {
+  "pm-1tb-burgundy": {
+   "max": 354000,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 263000,
+   "shop": "morimori"
+  },
+  "pm-2tb-burgundy": {
+   "max": 437000,
+   "shop": "mix"
+  },
+  "pm-512-burgundy": {
+   "max": 287000,
    "shop": "morimori"
   }
  },
@@ -263,14 +335,66 @@
    "shop": "ichiban"
   }
  },
+ "2026-09-26": {
+  "pm-1tb-burgundy": {
+   "max": 354000,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 258000,
+   "shop": "ichome"
+  },
+  "pm-2tb-burgundy": {
+   "max": 435000,
+   "shop": "morimori"
+  },
+  "pm-512-burgundy": {
+   "max": 285000,
+   "shop": "morimori"
+  }
+ },
+ "2026-09-27": {
+  "pm-256-burgundy": {
+   "max": 256000,
+   "shop": "morimori"
+  }
+ },
+ "2026-09-28": {
+  "pm-1tb-burgundy": {
+   "max": 355000,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 256000,
+   "shop": "ichome"
+  },
+  "pm-512-burgundy": {
+   "max": 286000,
+   "shop": "morimori"
+  }
+ },
+ "2026-09-29": {
+  "pm-1tb-burgundy": {
+   "max": 356000,
+   "shop": "morimori"
+  },
+  "pm-256-burgundy": {
+   "max": 258000,
+   "shop": "morimori"
+  },
+  "pm-512-burgundy": {
+   "max": 288000,
+   "shop": "morimori"
+  }
+ },
  "2026-09-30": {
   "pm-1tb-black": {
    "max": 353000,
    "shop": "ichiban"
   },
   "pm-1tb-burgundy": {
-   "max": 356000,
-   "shop": "ichiban"
+   "max": 358000,
+   "shop": "morimori"
   },
   "pm-1tb-glacier": {
    "max": 343000,
@@ -285,8 +409,8 @@
    "shop": "ichiban"
   },
   "pm-256-burgundy": {
-   "max": 258000,
-   "shop": "ichiban"
+   "max": 262000,
+   "shop": "morimori"
   },
   "pm-256-glacier": {
    "max": 238000,
@@ -317,7 +441,7 @@
    "shop": "ichiban"
   },
   "pm-512-burgundy": {
-   "max": 288000,
+   "max": 292000,
    "shop": "ichiban"
   },
   "pm-512-glacier": {
@@ -327,6 +451,16 @@
   "pm-512-silver": {
    "max": 273000,
    "shop": "ichiban"
+  }
+ },
+ "2026-10-01": {
+  "pm-256-burgundy": {
+   "max": 263000,
+   "shop": "morimori"
+  },
+  "pm-512-burgundy": {
+   "max": 292000,
+   "shop": "morimori"
   }
  },
  "2026-10-02": {
