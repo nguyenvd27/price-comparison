@@ -261,5 +261,5 @@ export function bestDiff(catalog, latest, model, now) {
 // Link cũ "/?model=…&cap=…&color=…" (trước khi tách trang) chuyển sang trang iPhone 18.
 export function legacyRedirect(search) {
   const params = new URLSearchParams(search);
-  return FILTER_KEYS.some((key) => params.has(key)) ? `/iphone-18/?${params}` : null;
+  return FILTER_KEYS.some((key) => params.has(key)) ? `iphone-18/?${params}` : null;
 }

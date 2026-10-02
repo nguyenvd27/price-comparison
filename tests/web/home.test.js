@@ -30,8 +30,8 @@ test("bestDiff is null when the model has no usable prices", () => {
 });
 
 test("legacyRedirect sends old filter links from home to /iphone-18", () => {
-  assert.equal(legacyRedirect("?model=pm&cap=256GB"), "/iphone-18/?model=pm&cap=256GB");
-  assert.equal(legacyRedirect("?color=black"), "/iphone-18/?color=black");
+  assert.equal(legacyRedirect("?model=pm&cap=256GB"), "iphone-18/?model=pm&cap=256GB");
+  assert.equal(legacyRedirect("?color=black"), "iphone-18/?color=black");
   assert.equal(legacyRedirect(""), null);
   assert.equal(legacyRedirect("?utm_source=x"), null);
 });
