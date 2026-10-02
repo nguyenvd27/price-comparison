@@ -1,0 +1,180 @@
+# Thiết kế: so sánh giá thu mua BOX Pokémon Card
+
+Ngày: 2026-10-03 · Trạng thái: chờ duyệt · Bổ sung cho `2026-10-02-kaitori-price-checker-design.md`
+
+## 1. Mục tiêu
+
+Trang `/pokemon-card/` giúp người Việt ở Nhật biết bán **BOX Pokémon Card chưa bóc, còn màng co (シュリンク付)** ở đâu được giá cao nhất. Trang tham khảo: pokeca-box-hikaku.com.
+
+**Thành công khi:**
+- Bảng hiện giá của 8 tiệm cho 21 BOX đang được thu mua.
+- Giá tự cập nhật cùng lịch với iPhone (30 phút/lần, 10:00–20:00 JST).
+- Xem tốt trên điện thoại.
+- Một tiệm lỗi không làm hỏng dữ liệu tiệm khác, cũng không làm hỏng dữ liệu iPhone.
+
+**Không làm lần này:**
+- biểu đồ (dữ liệu hằng ngày vẫn được lưu)
+- ảnh BOX (vướng bản quyền)
+- thẻ lẻ, thùng (カートン), gói lẻ (パック), deck/set
+- bản DX và スペシャルBOX
+
+## 2. Kiến trúc: tổng quát hoá theo "danh mục"
+
+Phần lõi dùng chung giữ nguyên hành vi:
+- quy tắc cập nhật trong `crawler/update.py`
+- đọc/ghi JSON trong `crawler/store.py`
+- HTTP trong `crawler/http.py`
+- khung giờ crawl và quy tắc "dữ liệu cũ" trên web
+
+Mỗi danh mục khai báo:
+
+| | iPhone (đã có) | Pokémon (mới) |
+|---|---|---|
+| Thư mục dữ liệu | `web/data/` (giữ nguyên để link GitHub raw không đổi) | `web/data/pokemon/` |
+| Parser | `crawler/shops/*.py` | `crawler/pokemon/shops/*.py` |
+| Thứ parser cần | bảng màu (`crawl_colors`) | danh sách BOX trong catalog |
+| Giá hợp lệ | 100,000–1,000,000 | 1,000–2,000,000 |
+
+- Lệnh chạy: `python -m crawler.run --category pokemon`. Không có `--category` thì mặc định `iphone`, nên mọi lệnh và test hiện có giữ nguyên.
+- `crawl.yml` chạy lần lượt `--category iphone` rồi `--category pokemon` trong cùng một job, rồi commit thư mục `web/data` một lần. Bước Pokémon chạy cả khi bước iPhone lỗi (`if: always()`).
+- Định dạng `latest.json`, `history/YYYY-MM.json`, `daily.json` giống iPhone; khoá giá là `id` của BOX thay vì mã phiên bản iPhone.
+- `daily.json` vẫn bỏ qua tiệm `mail_only`.
+
+## 3. Catalog: `web/data/pokemon/catalog.json` (sửa tay)
+
+```json
+{
+  "series": [
+    {"id": "mega", "name": "MEGA"},
+    {"id": "sv", "name": "SV"}
+  ],
+  "items": [
+    {"id": "mega-30th", "series": "mega", "name": "30th CELEBRATION", "retail": 7200,
+     "jan": ["4521329462424"], "aliases": ["30th CELEBRATION"], "exclude": ["FUTURISTIC"]}
+  ],
+  "shops": [ /* giống catalog iPhone: id, name, url, hours, closed_dates, note, mail_only? */ ]
+}
+```
+
+- **`id`:** dạng `<dòng>-<tên>`, không kèm mã bộ thẻ.
+- **Thứ tự:** `items` xếp tay, BOX mới ở trên. Thứ tự này là "Mới nhất" trên web, nên không cần trường ngày phát hành.
+- **`retail`:** giá gốc đã gồm thuế (定価), theo giá niêm yết công khai.
+- **`aliases`:** chuỗi để ghép theo tên khi tiệm không ghi JAN.
+- **`exclude`:** chuỗi mà nếu có trong tên thì không phải BOX này. Ví dụ "30th CELEBRATION" phải loại "FUTURISTIC".
+
+**21 BOX ban đầu** (JAN đối chiếu từ 森森 và ルデヤ ngày 2026-10-02, giá gốc theo bảng giá công khai):
+
+| id | Dòng | Tên | 定価 | JAN |
+|---|---|---|---|---|
+| mega-30th-futuristic | mega | 30th CELEBRATION FUTURISTIC BOX | 27,500 | 4521329463872 |
+| mega-30th | mega | 30th CELEBRATION | 7,200 | 4521329462424 |
+| mega-storm-emeralda | mega | ストームエメラルダ | 6,000 | 4521329462233 |
+| mega-abyss-eye | mega | アビスアイ | 6,000 | 4521329462127 |
+| mega-ninja-spinner | mega | ニンジャスピナー | 5,400 | 4521329432786 |
+| mega-munikis-zero | mega | ムニキスゼロ | 5,400 | 4521329432274 |
+| mega-mega-dream-ex | mega | MEGAドリームex | 5,500 | 4521329431932 |
+| mega-inferno-x | mega | インフェルノX | 5,400 | 4521329431529 |
+| mega-mega-brave | mega | メガブレイブ | 5,400 | 4521329431161 |
+| mega-mega-symphonia | mega | メガシンフォニア | 5,400 | 4521329431185 |
+| sv-black-bolt | sv | ブラックボルト | 5,800 | 4521329427768 |
+| sv-white-flare | sv | ホワイトフレア | 5,800 | 4521329427782 |
+| sv-rocket-gang | sv | ロケット団の栄光 | 5,400 | 4521329374659 |
+| sv-heat-arena | sv | 熱風のアリーナ | 5,400 | 4521329374758 |
+| sv-battle-partners | sv | バトルパートナーズ | 5,400 | 4521329362649 |
+| sv-terastal-fes-ex | sv | テラスタルフェスex | 5,500 | 4521329362342 |
+| sv-super-electric-breaker | sv | 超電ブレイカー | 5,400 | 4521329361505 |
+| sv-paradise-dragona | sv | 楽園ドラゴーナ | 5,400 | 4521329361352 |
+| sv-stellar-miracle | sv | ステラミラクル | 5,400 | 4521329361000 |
+| sv-night-wanderer | sv | ナイトワンダラー | 5,400 | 4521329362496 |
+| sv-151 | sv | 151 | 5,400 | 4521329346038 |
+
+Chi tiết cần lưu ý:
+- ブラックボルト và ホワイトフレア có bản DX với JAN khác (4521329427300, 4521329427324). Chúng không thuộc danh sách, nên alias phải loại "デラックス" và "DX".
+- Alias "151" ngắn, phải đi kèm "強化拡張パック" hoặc "SV2a", để không khớp nhầm số khác.
+
+## 4. Ghép sản phẩm của tiệm với BOX: `crawler/pokemon/match.py`
+
+`match_item(name: str, jan: str | None, items: list[dict]) -> str | None`:
+
+1. **Chuẩn hoá tên:** NFKC, bỏ khoảng trắng, chữ thường.
+2. **Loại hàng không phải BOX còn màng co:** trả `None` nếu tên chứa シュリンクなし / シュリンク無し, カートン, パック単品 / バラパック, 開封済 / 開封品 (nhưng 未開封 vẫn hợp lệ), プロモなし / プロモカードなし, デッキ, セット, デラックス / DX.
+3. **Có JAN và khớp `jan` của đúng một BOX:** trả `id` đó.
+4. **Không có JAN:** tìm các BOX mà tên chứa một alias và không chứa chuỗi nào trong `exclude`.
+   - Đúng 1 BOX: trả `id`.
+   - 0 hoặc từ 2 BOX trở lên: trả `None`; trường hợp từ 2 trở lên thì ghi cảnh báo vào log.
+5. **Có JAN nhưng JAN không có trong catalog:** trả `None`, không thử theo tên, để tránh nhận nhầm bản DX hoặc set.
+
+Parser của từng tiệm tách ra (tên, JAN nếu có, giá), gọi `match_item`, rồi bỏ trùng như `dedupe` hiện có.
+
+## 5. Tiệm (8)
+
+| id | Tên | Trang crawl | Ghép bằng | Ghi chú |
+|---|---|---|---|---|
+| `morimori` | 森森 | `/category/2401010` (MEGA) và `/category/2401001` (SV) | JAN | Giá "通常買取価格" |
+| `homura` | ホムラ | `/products?q[product_sub_category_id_eq]=128&q[product_sub_category_product_category_id_eq]=14` (シュリンク有り) | tên | Theo trang kế tiếp, tối đa 5 trang |
+| `rudeya` | ルデヤ | `/category/detail/114` | JAN | Chỉ thẻ có nhãn 新品 |
+| `ichiban` | 海峡 (モバイル一番) | `/Prod/3/` | JAN | |
+| `oku` | オク | `/category.html?cat1=340&cat2=363` | JAN | |
+| `runto` | ラントゥ | `/product-category/card/` | tên | Theo trang kế tiếp, tối đa 5 trang |
+| `ichome` | 一丁目 | API JSON công khai (cùng kiểu `/api/keitai/listPage` của phần iPhone) | JAN hoặc tên | Không tìm được API dùng được thì bỏ tiệm này và báo lại |
+| `shinsoku` | シンソク | API JSON mà trang `/yuso-kaitori` gọi | tên | Như trên. Nếu chỉ mua qua bưu điện thì đặt `mail_only: true` |
+
+- **Giờ mở cửa:** theo cửa hàng chính ở Tokyo của mỗi tiệm, lấy từ trang chính thức, ghi nguồn trong `note`.
+- **Giới hạn request:** mỗi tiệm tối đa 5 request mỗi lần chạy. Đi hết 5 trang mà vẫn còn trang sau thì báo lỗi, để không âm thầm thiếu dữ liệu.
+
+## 6. Giao diện `/pokemon-card/`
+
+**Bảng**
+- Dòng = BOX, chia nhóm theo `series` (MEGA, SV). Dòng tiêu đề nhóm dính trái.
+- 3 cột cố định:
+  - **BOX:** tên; trên điện thoại được xuống dòng.
+  - **Retail:** 定価.
+  - **Diff:** giá cao nhất − 定価, xanh nếu dương, đỏ nếu âm.
+- **Cột tiệm:** dùng cùng phần tiêu đề với iPhone (tên + link, giờ cập nhật, 🟢/🔴 kèm giờ mở cửa hôm nay, 📦 Mail only).
+  - Ô cao nhất tô xanh.
+  - Tiệm lỗi hoặc dữ liệu cũ bị làm mờ.
+  - "—" là tiệm không mua.
+  - Tiệm `mail_only` không tính vào Diff và ô cao nhất.
+- Dòng tiêu đề bảng dính trên cùng khi cuộn.
+
+**Bộ lọc** (lưu ở URL `?series=…&sort=…` và localStorage `pokemon-filters`)
+- Dòng: `All | MEGA | SV`
+- Sắp xếp: `Newest` (thứ tự trong catalog) | `Top Diff` (Diff giảm dần; BOX chưa có giá xếp cuối). Với `Top Diff` thì bỏ chia nhóm, hiện một danh sách liền.
+
+**Cửa sổ xếp hạng:** khi bấm một ô giá, hiện:
+- tên BOX và Retail
+- "<tiệm> trả ¥…"
+- lãi so với 定価 và hạng
+- danh sách tiệm, tiệm mail only đứng cuối và không có hạng
+
+Đây là cùng cửa sổ với trang iPhone.
+
+**Trang chủ:** thẻ Pokémon Card bỏ "Sắp có", thay bằng "💰 <tên BOX> lãi tới +¥… so với giá gốc" (BOX có Diff cao nhất). Không có dữ liệu thì để trống dòng này.
+
+**Code web**
+- `js/table.js` (mới): chứa `shopHeader` và cửa sổ xếp hạng, chuyển ra từ `app.js` và dùng chung cho cả hai trang. Trang iPhone giữ nguyên giao diện.
+- `js/pokemon.js` (mới): code của trang Pokémon.
+- `js/logic.js`: thêm các hàm thuần `filterItems`, `sortItems`, `itemDiff`.
+
+## 7. Kiểm thử
+
+**pytest**
+- `match_item`:
+  - khớp theo JAN
+  - khớp theo tên
+  - JAN lạ thì trả `None`
+  - loại シュリンクなし / カートン / DX / プロモなし / セット
+  - "30th CELEBRATION" và "…FUTURISTIC BOX" ra đúng 2 BOX khác nhau
+  - tên khớp 2 BOX thì trả `None`
+- Mỗi parser của 8 tiệm có một fixture cắt từ trang thật.
+- `run.main(category="pokemon")` ghi vào `web/data/pokemon/`, không đụng dữ liệu iPhone.
+- `run.main()` mặc định vẫn là iPhone.
+- `test_catalog`: mọi tiệm trong catalog Pokémon có parser; mọi BOX có `series` hợp lệ, `retail` > 0, JAN 13 chữ số và không trùng.
+
+**node --test:** `filterItems`, `sortItems` (Top Diff, BOX chưa có giá xếp cuối), `itemDiff` (bỏ mail only, dữ liệu cũ).
+
+**Trình duyệt:**
+- bảng, bộ lọc, URL, cửa sổ xếp hạng
+- giao diện điện thoại
+- trang iPhone không đổi
+- thẻ Pokémon trên trang chủ
