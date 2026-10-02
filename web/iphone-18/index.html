@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giá Kaitori iPhone 18 Pro Max</title>
+  <meta name="description" content="So sánh giá thu mua iPhone 18 Pro Max mới chưa kích hoạt ở các cửa hàng kaitori tại Nhật, cập nhật tự động.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <a class="brand" href="/">Kaitori Check</a>
+    <a href="/iphone-18/" aria-current="page">iPhone 18</a>
+    <a href="/pokemon-card/">Pokémon Card</a>
+  </nav>
+  <header class="top">
+    <h1>Giá thu mua iPhone 18 Pro Max</h1>
+    <p class="sub">So sánh giá kaitori ở Nhật · máy mới chưa kích hoạt (新品未開封)</p>
+  </header>
+
+  <main>
+    <p id="error" class="error" hidden></p>
+
+    <section class="filters">
+      <div id="model-chips" class="chips"></div>
+      <div id="cap-chips" class="chips"></div>
+      <div id="color-chips" class="chips"></div>
+    </section>
+
+    <div class="table-wrap"><table id="price-table"></table></div>
+    <p class="legend">Diff = giá kaitori cao nhất − giá Apple · Ô xanh = cửa hàng trả cao nhất · — = không thu mua · Giờ dưới tên cửa hàng = lần giá thay đổi gần nhất</p>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Giá cao nhất mỗi ngày</h2>
+        <div id="chart-model" class="chips"></div>
+        <div id="chart-cap" class="chips"></div>
+        <div id="range-chips" class="chips"></div>
+      </div>
+      <p id="line-empty" class="empty" hidden>Chưa có dữ liệu giá</p>
+      <div class="chart-box"><canvas id="line-chart"></canvas></div>
+      <p class="legend">Nền cam = Thứ 7, Chủ nhật · Nét đứt = giá Apple · Điểm rỗng = dữ liệu mẫu, chưa phải giá thật</p>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Giá theo thứ trong tuần <small>(4 tuần gần nhất)</small></h2>
+        <div id="stat-color" class="chips"></div>
+      </div>
+      <p id="weekday-empty" class="empty" hidden></p>
+      <div class="chart-box short"><canvas id="weekday-chart"></canvas></div>
+      <p id="weekday-tip" class="tip"></p>
+    </section>
+  </main>
+
+  <dialog id="offer-modal" class="modal"><div id="modal-body"></div></dialog>
+
+  <footer>Giá tự động cập nhật 30 phút/lần từ 10:00 đến 20:00 (giờ Nhật) và chỉ để tham khảo. Hãy xác nhận trên trang của cửa hàng trước khi bán.</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
