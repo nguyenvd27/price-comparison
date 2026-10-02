@@ -43,7 +43,8 @@ def main(data_dir: Path = DATA_DIR, shops: dict = SHOPS, now: datetime | None = 
     if events:
         append_history(data_dir, events)
     old_daily = load_json(data_dir / "daily.json", {})
-    daily = update_daily(old_daily, latest, now)
+    mail_only = {shop["id"] for shop in catalog["shops"] if shop.get("mail_only")}
+    daily = update_daily(old_daily, latest, now, skip=mail_only)
     if daily != old_daily:
         save_json(data_dir / "daily.json", daily)
 

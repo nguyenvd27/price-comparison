@@ -103,3 +103,11 @@ def test_daily_ignores_failed_and_stale_shops():
         "c": shop_state({"pm-256-black": 236000}, last=ISO_NOW),
     }}
     assert update_daily({}, latest, NOW) == {"2026-10-02": {"pm-256-black": {"max": 236000, "shop": "c"}}}
+
+
+def test_daily_skips_given_shops():
+    latest = {"shops": {
+        "mail": shop_state({"pm-256-black": 300000}, last=ISO_NOW),
+        "c": shop_state({"pm-256-black": 236000}, last=ISO_NOW),
+    }}
+    assert update_daily({}, latest, NOW, skip={"mail"}) == {"2026-10-02": {"pm-256-black": {"max": 236000, "shop": "c"}}}

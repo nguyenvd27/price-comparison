@@ -55,12 +55,15 @@ def apply_results(latest: dict, results: dict[str, ShopResult], now: datetime) -
     return {"generated_at": now_iso, "shops": shops}, events
 
 
-def update_daily(daily: dict, latest: dict, now: datetime) -> dict:
-    """Giá cao nhất từng thấy trong ngày JST, tính trên các cửa hàng đã crawl thành công hôm nay."""
+def update_daily(daily: dict, latest: dict, now: datetime, skip: set[str] = frozenset()) -> dict:
+    """Giá cao nhất từng thấy trong ngày JST, tính trên các cửa hàng đã crawl thành công hôm nay.
+
+    `skip`: cửa hàng không tính (chỉ mua qua bưu điện, khớp với cột Diff trên web).
+    """
     day = jst_date(now)
     today = dict(daily.get(day, {}))
     for shop_id, shop in latest["shops"].items():
-        if shop["error"] or not shop["last_success_at"] or jst_date(shop["last_success_at"]) != day:
+        if shop_id in skip or shop["error"] or not shop["last_success_at"] or jst_date(shop["last_success_at"]) != day:
             continue
         for variant, price in shop["prices"].items():
             if variant not in today or price > today[variant]["max"]:
