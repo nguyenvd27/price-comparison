@@ -7,31 +7,42 @@
   <meta name="description" content="So sánh giá thu mua (kaitori) ở Nhật: iPhone 18, Pokémon Card… cập nhật tự động.">
   <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="home">
   <nav class="site-nav">
     <a class="brand" href="/" aria-current="page">Kaitori Check</a>
     <a href="/iphone-18/">iPhone 18</a>
     <a href="/pokemon-card/">Pokémon Card</a>
   </nav>
 
-  <header class="top hero">
-    <h1>So sánh giá thu mua ở Nhật</h1>
-    <p class="sub">Giá kaitori của nhiều cửa hàng trên một trang, cập nhật tự động.</p>
+  <header class="hero">
+    <h1>Bán ở đâu được giá nhất?</h1>
+    <p class="hero-sub">So sánh giá thu mua của các cửa hàng kaitori ở Nhật trên một trang, để bạn chọn nơi trả cao nhất.</p>
+    <ul class="hero-points">
+      <li>🏪 Nhiều cửa hàng</li>
+      <li>⏱ Tự cập nhật 30 phút/lần</li>
+      <li>📈 Biểu đồ giá theo ngày</li>
+    </ul>
   </header>
 
   <main>
-    <section class="categories">
-      <a class="category" href="/iphone-18/">
-        <span class="category-icon" aria-hidden="true">📱</span>
-        <span class="category-name">iPhone 18</span>
-        <span class="category-desc">18 Pro Max · Duo · máy mới chưa kích hoạt (新品未開封)</span>
-        <span id="iphone-summary" class="category-stat"></span>
+    <section class="categories" aria-label="Danh mục">
+      <a class="category iphone" href="/iphone-18/">
+        <div class="category-art"><img src="/img/iphone.svg" alt="" width="320" height="240"></div>
+        <div class="category-body">
+          <h2 class="category-name">iPhone 18</h2>
+          <p class="category-desc">18 Pro Max · Duo — máy mới chưa kích hoạt <span class="nowrap">(新品未開封)</span></p>
+          <p id="iphone-summary" class="category-stat" hidden></p>
+          <span class="category-cta">Xem bảng giá →</span>
+        </div>
       </a>
-      <a class="category" href="/pokemon-card/">
-        <span class="category-icon" aria-hidden="true">🃏</span>
-        <span class="category-name">Pokémon Card</span>
-        <span class="category-desc">Box và thẻ lẻ</span>
-        <span class="category-stat soon">Sắp có</span>
+      <a class="category cards" href="/pokemon-card/">
+        <div class="category-art"><img src="/img/trading-card.svg" alt="" width="320" height="240"></div>
+        <div class="category-body">
+          <h2 class="category-name">Pokémon Card</h2>
+          <p class="category-desc">Box chưa bóc seal và thẻ lẻ</p>
+          <p class="category-stat soon">Sắp có</p>
+          <span class="category-cta">Xem trước →</span>
+        </div>
       </a>
     </section>
   </main>
