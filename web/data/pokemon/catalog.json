@@ -1,0 +1,626 @@
+{
+ "series": [
+  {
+   "id": "mega",
+   "name": "MEGA"
+  },
+  {
+   "id": "sv",
+   "name": "SV"
+  }
+ ],
+ "items": [
+  {
+   "id": "mega-30th-futuristic",
+   "series": "mega",
+   "name": "30th CELEBRATION FUTURISTIC BOX",
+   "retail": 27500,
+   "release": "2026-09-16",
+   "image": "https://www.pokemon-card.com/products/2026/images/furbox.jpg",
+   "jan": [
+    "4521329463872"
+   ],
+   "aliases": [
+    "FUTURISTIC BOX"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-30th",
+   "series": "mega",
+   "name": "30th CELEBRATION",
+   "retail": 7200,
+   "release": "2026-09-16",
+   "image": "https://www.pokemon-card.com/products/2026/images/30th_celebration.jpg",
+   "jan": [
+    "4521329462424"
+   ],
+   "aliases": [
+    "30th CELEBRATION"
+   ],
+   "exclude": [
+    "FUTURISTIC"
+   ]
+  },
+  {
+   "id": "mega-storm-emeralda",
+   "series": "mega",
+   "name": "ストームエメラルダ",
+   "retail": 6000,
+   "release": "2026-07-31",
+   "image": "https://www.pokemon-card.com/products/2026/images/stormemeralda.jpg",
+   "jan": [
+    "4521329462233"
+   ],
+   "aliases": [
+    "ストームエメラルダ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-abyss-eye",
+   "series": "mega",
+   "name": "アビスアイ",
+   "retail": 6000,
+   "release": "2026-05-22",
+   "image": "https://www.pokemon-card.com/products/2026/images/abisueye.jpg",
+   "jan": [
+    "4521329462127"
+   ],
+   "aliases": [
+    "アビスアイ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-ninja-spinner",
+   "series": "mega",
+   "name": "ニンジャスピナー",
+   "retail": 5400,
+   "release": "2026-03-13",
+   "image": "https://www.pokemon-card.com/products/2026/images/m4pkg.jpg",
+   "jan": [
+    "4521329432786"
+   ],
+   "aliases": [
+    "ニンジャスピナー"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-munikis-zero",
+   "series": "mega",
+   "name": "ムニキスゼロ",
+   "retail": 5400,
+   "release": "2026-01-23",
+   "image": "https://www.pokemon-card.com/products/2025/images/m3.jpg",
+   "jan": [
+    "4521329432274"
+   ],
+   "aliases": [
+    "ムニキスゼロ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-mega-dream-ex",
+   "series": "mega",
+   "name": "MEGAドリームex",
+   "retail": 5500,
+   "release": "2025-11-28",
+   "image": "https://www.pokemon-card.com/products/2025/images/m2a.jpg",
+   "jan": [
+    "4521329431932"
+   ],
+   "aliases": [
+    "MEGAドリームex",
+    "メガドリームex"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-inferno-x",
+   "series": "mega",
+   "name": "インフェルノX",
+   "retail": 5400,
+   "release": "2025-09-26",
+   "image": "https://www.pokemon-card.com/products/2025/images/M2.jpg",
+   "jan": [
+    "4521329431529",
+    "4521329431512"
+   ],
+   "aliases": [
+    "インフェルノX"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-mega-brave",
+   "series": "mega",
+   "name": "メガブレイブ",
+   "retail": 5400,
+   "release": "2025-08-01",
+   "image": "https://www.pokemon-card.com/products/2025/images/M1L.jpg",
+   "jan": [
+    "4521329431161"
+   ],
+   "aliases": [
+    "メガブレイブ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mega-mega-symphonia",
+   "series": "mega",
+   "name": "メガシンフォニア",
+   "retail": 5400,
+   "release": "2025-08-01",
+   "image": "https://www.pokemon-card.com/products/2025/images/M1S.jpg",
+   "jan": [
+    "4521329431185"
+   ],
+   "aliases": [
+    "メガシンフォニア"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-black-bolt",
+   "series": "sv",
+   "name": "ブラックボルト",
+   "retail": 5800,
+   "release": "2025-06-06",
+   "image": "https://www.pokemon-card.com/products/2025/images/sv11b.jpg",
+   "jan": [
+    "4521329427768"
+   ],
+   "aliases": [
+    "ブラックボルト"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-white-flare",
+   "series": "sv",
+   "name": "ホワイトフレア",
+   "retail": 5800,
+   "release": "2025-06-06",
+   "image": "https://www.pokemon-card.com/products/2025/images/sv11w.jpg",
+   "jan": [
+    "4521329427782"
+   ],
+   "aliases": [
+    "ホワイトフレア",
+    "フレアホワイト"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-rocket-gang",
+   "series": "sv",
+   "name": "ロケット団の栄光",
+   "retail": 5400,
+   "release": "2025-04-18",
+   "image": "https://www.pokemon-card.com/products/2025/images/sv10.jpg",
+   "jan": [
+    "4521329374659"
+   ],
+   "aliases": [
+    "ロケット団の栄光"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-heat-arena",
+   "series": "sv",
+   "name": "熱風のアリーナ",
+   "retail": 5400,
+   "release": "2025-03-14",
+   "image": "https://www.pokemon-card.com/products/2025/images/sv9a.jpg",
+   "jan": [
+    "4521329374758"
+   ],
+   "aliases": [
+    "熱風のアリーナ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-battle-partners",
+   "series": "sv",
+   "name": "バトルパートナーズ",
+   "retail": 5400,
+   "release": "2025-01-24",
+   "image": "https://www.pokemon-card.com/products/2024/images/sv9.jpg",
+   "jan": [
+    "4521329362649"
+   ],
+   "aliases": [
+    "バトルパートナーズ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-terastal-fes-ex",
+   "series": "sv",
+   "name": "テラスタルフェスex",
+   "retail": 5500,
+   "release": "2024-12-06",
+   "image": "https://www.pokemon-card.com/products/2024/images/sv8a.jpg",
+   "jan": [
+    "4521329362342"
+   ],
+   "aliases": [
+    "テラスタルフェス"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-super-electric-breaker",
+   "series": "sv",
+   "name": "超電ブレイカー",
+   "retail": 5400,
+   "release": "2024-10-18",
+   "image": "https://www.pokemon-card.com/products/2024/images/pakku_choudenbureika.jpg",
+   "jan": [
+    "4521329361505"
+   ],
+   "aliases": [
+    "超電ブレイカー"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-paradise-dragona",
+   "series": "sv",
+   "name": "楽園ドラゴーナ",
+   "retail": 5400,
+   "release": "2024-09-13",
+   "image": "https://www.pokemon-card.com/products/2024/images/sv7a_pillow_thumbnail.jpg",
+   "jan": [
+    "4521329361352"
+   ],
+   "aliases": [
+    "楽園ドラゴーナ"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-stellar-miracle",
+   "series": "sv",
+   "name": "ステラミラクル",
+   "retail": 5400,
+   "release": "2024-07-19",
+   "image": "https://www.pokemon-card.com/products/2024/images/pakku_suteramirakuru.jpg",
+   "jan": [
+    "4521329361000"
+   ],
+   "aliases": [
+    "ステラミラクル"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-night-wanderer",
+   "series": "sv",
+   "name": "ナイトワンダラー",
+   "retail": 5400,
+   "release": "2024-06-07",
+   "image": "https://www.pokemon-card.com/products/2024/images/sv6a.jpg",
+   "jan": [
+    "4521329362496"
+   ],
+   "aliases": [
+    "ナイトワンダラー"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "sv-151",
+   "series": "sv",
+   "name": "151",
+   "retail": 5400,
+   "release": "2023-06-16",
+   "image": "https://www.pokemon-card.com/products/2023/images/sv2a.jpg",
+   "jan": [
+    "4521329346038"
+   ],
+   "aliases": [
+    "ポケモンカード151",
+    "151 BOX",
+    "SV2a"
+   ],
+   "exclude": []
+  }
+ ],
+ "shops": [
+  {
+   "id": "morimori",
+   "name": "森森",
+   "url": "https://www.morimori-kaitori.jp/category/2401",
+   "hours": {
+    "mon": [
+     "11:00",
+     "20:00"
+    ],
+    "tue": [
+     "11:00",
+     "20:00"
+    ],
+    "wed": [
+     "11:00",
+     "20:00"
+    ],
+    "thu": [
+     "11:00",
+     "20:00"
+    ],
+    "fri": [
+     "11:00",
+     "20:00"
+    ],
+    "sat": [
+     "11:00",
+     "20:00"
+    ],
+    "sun": [
+     "11:00",
+     "20:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原本店"
+  },
+  {
+   "id": "homura",
+   "name": "ホムラ",
+   "url": "https://kaitori-homura.com/products?q%5Bproduct_sub_category_id_eq%5D=128&q%5Bproduct_sub_category_product_category_id_eq%5D=14",
+   "hours": {
+    "mon": [
+     "13:00",
+     "22:00"
+    ],
+    "tue": [
+     "13:00",
+     "22:00"
+    ],
+    "wed": [
+     "13:00",
+     "22:00"
+    ],
+    "thu": [
+     "13:00",
+     "22:00"
+    ],
+    "fri": [
+     "13:00",
+     "22:00"
+    ],
+    "sat": [
+     "13:00",
+     "22:00"
+    ],
+    "sun": [
+     "13:00",
+     "22:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原店"
+  },
+  {
+   "id": "rudeya",
+   "name": "ルデヤ",
+   "url": "https://kaitori-rudeya.com/category/detail/114",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Thứ 2–7 và ngày lễ; nghỉ Chủ nhật"
+  },
+  {
+   "id": "ichiban",
+   "name": "モバイル一番",
+   "url": "https://www.mobile-ichiban.com/Prod/3/",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Giờ của 池袋駅前店"
+  },
+  {
+   "id": "oku",
+   "name": "オク",
+   "url": "https://kaitori-oku.jp/category.html?cat1=340&cat2=363&cat3=367",
+   "hours": {
+    "mon": [
+     "11:00",
+     "19:00"
+    ],
+    "tue": [
+     "11:00",
+     "19:00"
+    ],
+    "wed": [
+     "11:00",
+     "19:00"
+    ],
+    "thu": [
+     "11:00",
+     "19:00"
+    ],
+    "fri": [
+     "11:00",
+     "19:00"
+    ],
+    "sat": [
+     "11:00",
+     "19:00"
+    ],
+    "sun": [
+     "11:00",
+     "19:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Cửa hàng 神田須田町"
+  },
+  {
+   "id": "runto",
+   "name": "ラントゥ",
+   "url": "https://runto666.com/product-category/card/",
+   "hours": {
+    "mon": [
+     "11:00",
+     "19:00"
+    ],
+    "tue": [
+     "11:00",
+     "19:00"
+    ],
+    "wed": [
+     "11:00",
+     "19:00"
+    ],
+    "thu": [
+     "11:00",
+     "19:00"
+    ],
+    "fri": [
+     "11:00",
+     "19:00"
+    ],
+    "sat": [
+     "11:00",
+     "19:00"
+    ],
+    "sun": [
+     "11:00",
+     "19:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ của 神田店"
+  },
+  {
+   "id": "ichome",
+   "name": "一丁目",
+   "url": "https://www.1-chome.com/tradeCards?category=IIzyMdayU5wp7T4G",
+   "hours": {
+    "mon": [
+     "10:00",
+     "19:00"
+    ],
+    "tue": [
+     "10:00",
+     "19:00"
+    ],
+    "wed": [
+     "10:00",
+     "19:00"
+    ],
+    "thu": [
+     "10:00",
+     "19:00"
+    ],
+    "fri": [
+     "10:00",
+     "19:00"
+    ],
+    "sat": [
+     "10:00",
+     "19:00"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原本店"
+  },
+  {
+   "id": "shinsoku",
+   "name": "シンソク",
+   "url": "https://shinsoku-tcg.com/yuso-kaitori",
+   "hours": {
+    "mon": [
+     "12:30",
+     "21:00"
+    ],
+    "tue": [
+     "12:30",
+     "21:00"
+    ],
+    "wed": [
+     "12:30",
+     "21:00"
+    ],
+    "thu": [
+     "12:30",
+     "21:00"
+    ],
+    "fri": [
+     "12:30",
+     "21:00"
+    ],
+    "sat": [
+     "12:30",
+     "21:00"
+    ],
+    "sun": [
+     "12:30",
+     "21:00"
+    ]
+   },
+   "closed_dates": [],
+   "mail_only": true,
+   "note": "Giá mua qua bưu điện (郵送買取); giá tại cửa hàng 秋葉原 có thể khác"
+  }
+ ]
+}
