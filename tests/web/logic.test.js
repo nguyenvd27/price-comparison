@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
   addDays, bestOffer, esc, filterVariants, formatDiff, formatTime, formatYen,
-  isStale, isUsable, isWeekend, jstDate, openStatus, weekdayIndex,
+  isStale, isUsable, isWeekend, jstDate, openStatus, rankedShopIds, weekdayIndex,
 } from "../../web/js/logic.js";
 
 test("formatYen and formatDiff", () => {
@@ -114,4 +114,9 @@ test("bestOffer skips stale or erroring shops", () => {
 test("openStatus label is Closed on a day off", () => {
   // CN 10/04: nghỉ cả ngày
   assert.deepEqual(openStatus(SHOP, at("2026-10-04T12:00:00+09:00")), { open: false, text: "Closed · opens 10:00 Tue", label: "Closed" });
+});
+
+test("rankedShopIds leaves out mail-only shops", () => {
+  const shops = [{ id: "a" }, { id: "m", mail_only: true }, { id: "b" }];
+  assert.deepEqual(rankedShopIds(shops), ["a", "b"]);
 });

@@ -673,7 +673,8 @@
     ]
    },
    "closed_dates": [],
-   "note": "Chỉ mua qua bưu điện, đăng ký qua LINE"
+   "note": "Chỉ mua qua bưu điện (không mua tại cửa hàng), đăng ký qua LINE",
+   "mail_only": true
   },
   {
    "id": "sommelier",

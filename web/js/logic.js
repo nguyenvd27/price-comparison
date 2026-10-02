@@ -95,9 +95,16 @@ export function bestOffer(variantId, latest, shopIds, now = null) {
   return best;
 }
 
+// Cửa hàng chỉ mua qua bưu điện (không mang máy đến bán được) không tính vào giá cao nhất và xếp hạng.
+export function rankedShopIds(shops) {
+  return shops.filter((shop) => !shop.mail_only).map((shop) => shop.id);
+}
+
 // Xếp hạng các cửa hàng cho một phiên bản: giá cao trước, bằng giá thì cùng hạng (1, 1, 2…).
-// Cửa hàng lỗi/dữ liệu cũ nằm cuối, không có hạng; cửa hàng không thu mua thì bỏ qua.
+// Sau đó là cửa hàng chỉ mua qua bưu điện, rồi cửa hàng lỗi/dữ liệu cũ, đều không có hạng.
+// Cửa hàng không thu mua thì bỏ qua.
 export function rankOffers(variantId, latest, shops, applePrice, now) {
+  const group = (row) => (!row.usable ? 2 : row.shop.mail_only ? 1 : 0);
   const rows = shops
     .map((shop) => {
       const state = latest.shops?.[shop.id];
@@ -105,11 +112,11 @@ export function rankOffers(variantId, latest, shops, applePrice, now) {
       return price == null ? null : { shop, price, diff: price - applePrice, usable: isUsable(state, now), rank: null };
     })
     .filter(Boolean)
-    .sort((a, b) => Number(b.usable) - Number(a.usable) || b.price - a.price);
+    .sort((a, b) => group(a) - group(b) || b.price - a.price);
   let rank = 0;
   let lastPrice = null;
   for (const row of rows) {
-    if (!row.usable) continue;
+    if (group(row) !== 0) continue;
     if (row.price !== lastPrice) {
       rank += 1;
       lastPrice = row.price;

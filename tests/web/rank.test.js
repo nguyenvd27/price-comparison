@@ -39,3 +39,13 @@ test("rankOffers omits shops that do not buy the variant", () => {
   const rows = rankOffers("v", { shops: { a: shop(null) } }, SHOPS, 239800, NOW);
   assert.deepEqual(rows, []);
 });
+
+test("rankOffers lists mail-only shops after ranked shops, without rank", () => {
+  const shops = [{ id: "a", name: "A" }, { id: "m", name: "M", mail_only: true }, { id: "b", name: "B" }];
+  const latest = { shops: { a: shop(235000), m: shop(260000), b: shop(236000) } };
+  const rows = rankOffers("v", latest, shops, 239800, NOW);
+  assert.deepEqual(
+    rows.map((r) => [r.shop.id, r.rank, r.usable]),
+    [["b", 1, true], ["a", 2, true], ["m", null, true]],
+  );
+});

@@ -1,7 +1,7 @@
 import { DATA_BASE } from "./config.js";
 import {
   bestOffer, esc, filterVariants, formatDiff, formatShortTime, formatTime, formatYen, groupLabel, isStale, isUsable, jstDate, modelColors,
-  openStatus, pickFilters, rankOffers,
+  openStatus, pickFilters, rankOffers, rankedShopIds,
 } from "./logic.js";
 import { renderCharts } from "./charts.js";
 
@@ -127,12 +127,14 @@ function renderFilters() {
 function shopHeader(shop, shopState, now) {
   const status = openStatus(shop, now);
   const stale = shopState && isStale(shopState.last_success_at, now);
-  const icon = status.open ? "🟢" : "🔴";
-  const tip = [status.text, shop.note].filter(Boolean).join(" · ");
+  const icon = shop.mail_only ? "📦" : status.open ? "🟢" : "🔴";
+  const label = shop.mail_only ? "Mail only" : status.label;
+  const statusClass = shop.mail_only ? "mail" : status.open ? "open" : "closed";
+  const tip = [shop.mail_only ? "Không xếp hạng, không tính vào Diff" : status.text, shop.note].filter(Boolean).join(" · ");
   return `<th class="shop" title="${esc(tip)}">
     <a href="${esc(shop.url)}" target="_blank" rel="noopener">${esc(shop.name)} ↗</a>
     <span class="time long">${formatTime(shopState?.display_at)}</span>
-    <span class="status long ${status.open ? "open" : "closed"}">${icon} ${esc(status.label)}</span>
+    <span class="status long ${statusClass}">${icon} ${esc(label)}</span>
     <span class="short">${icon} ${formatShortTime(shopState?.display_at, now)}</span>
     ${stale ? '<span class="stale">⚠ dữ liệu cũ</span>' : ""}
   </th>`;
@@ -163,7 +165,7 @@ function renderTable() {
   const now = new Date();
   const today = jstDate(now);
   const shops = catalog.shops;
-  const shopIds = shops.map((s) => s.id);
+  const shopIds = rankedShopIds(shops);
   const columns = 3 + shops.length;
   const head = `<thead><tr><th class="s1"><span class="long">Model</span><span class="short">Model</span></th><th class="s2">Apple</th><th class="s3"><span class="long">Diff</span><span class="short">Diff</span></th>${shops
     .map((s) => shopHeader(s, latest.shops?.[s.id], now))
@@ -195,14 +197,16 @@ function openOfferModal(variantId, shopId) {
   const rows = rankOffers(variantId, latest, catalog.shops, variant.apple_price, new Date());
   const picked = rows.find((r) => r.shop.id === shopId);
   if (!picked) return;
-  const rankedCount = rows.filter((r) => r.usable).length;
-  const rankText = picked.rank ? `Hạng ${picked.rank} / ${rankedCount}` : "Dữ liệu cũ hoặc lỗi, không xếp hạng";
+  const rankedCount = rows.filter((r) => r.rank).length;
+  const rankText = picked.rank
+    ? `Hạng ${picked.rank} / ${rankedCount}`
+    : picked.shop.mail_only ? "📦 Mail only, không xếp hạng" : "Dữ liệu cũ hoặc lỗi, không xếp hạng";
 
   const list = rows
     .map((r) => {
       const cls = [r.shop.id === shopId ? "picked" : "", r.usable ? "" : "muted"].join(" ").trim();
       return `<tr class="${cls}">
-        <td class="rank">${r.rank ?? "—"}</td>
+        <td class="rank">${r.rank ?? (r.usable && r.shop.mail_only ? "📦" : "—")}</td>
         <td class="name"><a href="${esc(r.shop.url)}" target="_blank" rel="noopener">${esc(r.shop.name)} ↗</a></td>
         <td>¥${formatYen(r.price)}</td>
         <td class="${r.usable ? diffClass(r.diff) : ""}">${formatDiff(r.diff)}</td>

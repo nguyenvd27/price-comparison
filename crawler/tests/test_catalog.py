@@ -29,3 +29,8 @@ def test_every_catalog_shop_has_a_crawler_and_hours():
     for shop in catalog["shops"]:
         assert set(shop["hours"]) == {"mon", "tue", "wed", "thu", "fri", "sat", "sun"}, shop["id"]
         assert any(shop["hours"].values()), shop["id"]
+
+
+def test_mail_only_shops():
+    catalog = json.loads((DATA_DIR / "catalog.json").read_text(encoding="utf-8"))
+    assert [s["id"] for s in catalog["shops"] if s.get("mail_only")] == ["base"]
