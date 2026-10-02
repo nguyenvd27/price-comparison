@@ -1,0 +1,16 @@
+{"page": 1, "per_page": 100, "total": 4, "items": [
+  {"id": 27097, "name": "iPhone 18 Pro Max 256GB バーガンディ MJX74J/A SIMフリー", "price_undecided": false,
+   "prices": [
+     {"label": "新品", "amount": 255000, "rank_type_id": 1},
+     {"label": "新品 Appleストア版", "amount": 255000, "rank_type_id": 1},
+     {"label": "新品 開封済 -35000円", "amount": 220000, "rank_type_id": 1},
+     {"label": "中古", "amount": 202000, "rank_type_id": 2}],
+   "price_new": {"amount": 255000, "rank_type_id": 1}},
+  {"id": 27100, "name": "iPhone 18 Pro Max 2TB ブラック MJXJ4J/A SIMフリー", "price_undecided": false,
+   "prices": [{"label": "中古", "amount": 345000, "rank_type_id": 2}, {"label": "新品", "amount": 426000, "rank_type_id": 1}],
+   "price_new": {"amount": 426000, "rank_type_id": 1}},
+  {"id": 27101, "name": "iPhone 18 Pro Max 512GB シルバー MJXA4J/A SIMフリー", "price_undecided": true,
+   "prices": [{"label": "新品", "amount": 0, "rank_type_id": 1}], "price_new": {"amount": 0, "rank_type_id": 1}},
+  {"id": 27200, "name": "iPhone 18 Pro 256GB ブラック SIMフリー", "price_undecided": false,
+   "prices": [{"label": "新品", "amount": 217000, "rank_type_id": 1}], "price_new": {"amount": 217000, "rank_type_id": 1}}
+]}

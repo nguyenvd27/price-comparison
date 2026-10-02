@@ -26,7 +26,7 @@ Tự crawl trực tiếp trang của từng kaitori, **không** lấy dữ liệ
 | `morimori` | 森森買取 | https://www.morimori-kaitori.jp/category/0301070 | HTML tĩnh (requests + BeautifulSoup), mỗi màu một dòng |
 | `ichiban` | 海峡 / モバイル一番 | https://www.mobile-ichiban.com/Prod/1/01/40 | HTML tĩnh, giá gốc + ghi chú trừ tiền theo màu |
 | `mobaste` | モバステ | https://pastec.net/iphone?series_child_id=644 | HTML tĩnh, giá gốc + ghi chú trừ tiền theo màu |
-| `shouten` | 買取商店 | https://www.kaitorishouten-co.jp/category/1/747 | Trang này có bảng HTML render sẵn, mỗi màu một dòng |
+| `shouten` | 買取商店 | https://www.kaitorishouten-co.jp/category/1/747 | API JSON `/api/v1/products?category_id=747`, giá nhãn `新品`. **Không** đọc HTML của trang: đó là bản render sẵn cho SEO, chỉ tạo lại mỗi ngày một lần nên lệch với giá thật (đã gặp 8/16 phiên bản sai ngày 2026-10-02) |
 | `ichome` | 買取1丁目 | https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt | API JSON công khai `/api/keitai/listPage?cateCode=eOd8WFZllXmBd3Rt` (giá theo màu = giá 未開封 + `varPrice`) |
 | `mix` | モバイルミックス | https://mobile-mix.jp/?category=7 | HTML tĩnh, nhưng phải gọi trang chủ trước để nhận cookie (nếu không sẽ bị chuyển sang `/cookie-error`); giá gốc + ghi chú trừ tiền, có trường hợp "バーガンディのみ 他色買取不可" (màu khác không thu mua) |
 

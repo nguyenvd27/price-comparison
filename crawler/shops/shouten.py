@@ -1,11 +1,13 @@
-from bs4 import BeautifulSoup
+import json
 
 from crawler.http import get_text
 from crawler.models import Offer
-from crawler.normalize import parse_price
 from crawler.shops.common import dedupe, offer_from_name
 
-URL = "https://www.kaitorishouten-co.jp/category/1/747"
+# Không đọc trang /category/1/747: HTML ở đó là bản render sẵn cho SEO, chỉ tạo lại mỗi ngày một lần
+# ("毎日更新") nên lệch với giá thật. Giá thật trên trang được trình duyệt lấy từ API này.
+URL = "https://www.kaitorishouten-co.jp/api/v1/products?per_page=100&perPage=100&page=1&category_id=747&sort=enhanced_first"
+NEW_LABEL = "新品"  # máy mới chưa kích hoạt; các nhãn "新品 開封済…", "中古…" bị bỏ qua
 
 
 def fetch(session) -> str:
@@ -13,14 +15,15 @@ def fetch(session) -> str:
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
-    soup = BeautifulSoup(raw, "html.parser")
+    data = json.loads(raw)
+    if data["total"] > data["per_page"]:
+        raise ValueError(f"API có {data['total']} sản phẩm, nhiều hơn 1 trang ({data['per_page']})")
     offers = []
-    for link in soup.select('a[href^="/products/detail/"]'):
-        row = link.find_parent("tr")
-        price = row.select_one("td.num") if row else None
-        if not price:
+    for item in data["items"]:
+        if item.get("price_undecided"):
             continue
-        offer = offer_from_name(link.get_text(" ", strip=True), parse_price(price.get_text()), colors)
+        price = next((p["amount"] for p in item.get("prices") or [] if p.get("label") == NEW_LABEL), None)
+        offer = offer_from_name(item.get("name") or "", price, colors)
         if offer:
             offers.append(offer)
     return dedupe(offers)
