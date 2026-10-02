@@ -13,7 +13,7 @@ Một trang web tiếng Việt, tối giản và dễ nhìn, giúp cộng đồn
 
 Đây là trang công khai cho cộng đồng; sau này có thể gắn quảng cáo. Giai đoạn đầu chạy **hoàn toàn miễn phí**, sau này chuyển lên server riêng.
 
-**Thành công khi:** giá của 6 cửa hàng tự động cập nhật khoảng 15 phút một lần mà không cần ai can thiệp; xem tốt trên điện thoại; một cửa hàng bị lỗi không làm hỏng dữ liệu của các cửa hàng còn lại.
+**Thành công khi:** giá của 6 cửa hàng tự động cập nhật 30 phút một lần trong khung 10:00–20:00 JST mà không cần ai can thiệp; xem tốt trên điện thoại; một cửa hàng bị lỗi không làm hỏng dữ liệu của các cửa hàng còn lại.
 
 **Ngoài phạm vi bản đầu:** model khác ngoài 18 Pro Max, máy đã qua sử dụng, quảng cáo, tài khoản người dùng, thông báo (push/LINE), crawl giờ mở cửa tự động.
 
@@ -37,7 +37,7 @@ Quy tắc lịch sự khi crawl: mỗi lần chạy chỉ gửi 1 request (hoặ
 ## 3. Kiến trúc
 
 ```
-GitHub Actions (cron */15) ──► crawler/ (Python) ──► web/data/*.json ──git commit──► GitHub
+GitHub Actions (cron 30 phút, 10:00–20:00 JST) ──► crawler/ (Python) ──► web/data/*.json ──git commit──► GitHub
                                                                            │
 Cloudflare Pages (web/: HTML/CSS/JS) ──trình duyệt fetch──► raw.githubusercontent.com/.../web/data/*.json
 ```
@@ -109,7 +109,7 @@ Danh sách màu, giá Apple (`apple_price`) và giờ mở cửa: khi làm, tra 
 
 **Quy tắc cập nhật `display_at`** (giờ hiển thị dưới tên cửa hàng): đặt bằng thời điểm hiện tại khi lần crawl thành công **và** (giá của cửa hàng có thay đổi so với lần trước **hoặc** đây là lần crawl thành công đầu tiên trong ngày JST). Các trường hợp còn lại giữ nguyên.
 
-**`last_success_at`** chỉ cập nhật khi giá đổi, khi là lần đầu trong ngày, hoặc khi giá trị cũ đã quá 60 phút. Nhờ vậy, nếu giá không đổi thì file chỉ thay đổi khoảng 1 lần mỗi giờ thay vì 15 phút một lần (ít commit hơn), mà vẫn đủ để phát hiện dữ liệu cũ sau 2 giờ. Nếu không cửa hàng nào thay đổi, `latest.json` được giữ nguyên, kể cả `generated_at`.
+**`last_success_at`** chỉ cập nhật khi giá đổi, khi là lần đầu trong ngày, hoặc khi giá trị cũ đã quá 60 phút. Nhờ vậy, nếu giá không đổi thì file chỉ thay đổi khoảng 1 lần mỗi giờ thay vì 15 phút một lần (ít commit hơn), mà vẫn đủ để phát hiện dữ liệu cũ sau 2 giờ. Chỉ tính thời gian trong khung crawl 10:00–20:00 JST (`CRAWL_HOURS` trong `web/js/logic.js`), nên ban đêm dữ liệu không bị coi là cũ. Nếu không cửa hàng nào thay đổi, `latest.json` được giữ nguyên, kể cả `generated_at`.
 
 ### `history/YYYY-MM.json`
 

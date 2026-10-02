@@ -24,11 +24,21 @@ test("JST dates and times", () => {
   assert.equal(formatTime(null), "—");
 });
 
-test("isStale after 2 hours", () => {
-  const now = new Date("2026-10-02T12:00:00+09:00");
-  assert.equal(isStale("2026-10-02T10:30:00+09:00", now), false);
-  assert.equal(isStale("2026-10-02T09:59:00+09:00", now), true);
+test("isStale after 2 hours of crawl time", () => {
+  const now = new Date("2026-10-02T12:30:00+09:00");
+  assert.equal(isStale("2026-10-02T10:31:00+09:00", now), false);
+  assert.equal(isStale("2026-10-02T10:29:00+09:00", now), true);
   assert.equal(isStale(null, now), true);
+});
+
+test("isStale ignores the hours when the crawler is off (20:00–10:00 JST)", () => {
+  const last = "2026-10-02T20:00:00+09:00";
+  assert.equal(isStale(last, new Date("2026-10-02T23:00:00+09:00")), false);
+  assert.equal(isStale(last, new Date("2026-10-03T09:30:00+09:00")), false);
+  assert.equal(isStale(last, new Date("2026-10-03T11:30:00+09:00")), false);
+  assert.equal(isStale(last, new Date("2026-10-03T12:30:00+09:00")), true);
+  // Ngừng từ 17:00 hôm trước: đã lỡ 3 giờ crawl.
+  assert.equal(isStale("2026-10-02T17:00:00+09:00", new Date("2026-10-03T09:00:00+09:00")), true);
 });
 
 test("date helpers", () => {

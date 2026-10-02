@@ -1,8 +1,11 @@
 name: crawl
 
 on:
+  # 30 phút một lần, 10:00–20:00 giờ Nhật (cron tính theo UTC = JST − 9).
+  # Đổi giờ thì sửa cả CRAWL_HOURS trong web/js/logic.js.
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0,30 1-10 * * *" # 10:00–19:30 JST
+    - cron: "0 11 * * *"      # 20:00 JST
   workflow_dispatch:
 
 permissions:

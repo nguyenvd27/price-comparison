@@ -47,8 +47,22 @@ export function formatShortTime(iso, now) {
   return p.date === jstParts(now).date ? p.time : `${p.month}/${p.day}`;
 }
 
+// Giờ crawler chạy (JST), khớp với cron trong .github/workflows/crawl.yml.
+export const CRAWL_HOURS = ["10:00", "20:00"];
+
+// Số phút nằm trong giờ crawl giữa hai thời điểm. Ngoài giờ crawl không có dữ liệu mới là bình thường.
+function crawlMinutesBetween(from, to) {
+  let total = 0;
+  for (let day = jstParts(from).date, i = 0; day <= jstParts(to).date && i < 30; day = addDays(day, 1), i++) {
+    const start = Math.max(from, new Date(`${day}T${CRAWL_HOURS[0]}:00+09:00`));
+    const end = Math.min(to, new Date(`${day}T${CRAWL_HOURS[1]}:00+09:00`));
+    if (end > start) total += (end - start) / 60000;
+  }
+  return total;
+}
+
 export function isStale(iso, now, hours = 2) {
-  return !iso || now - new Date(iso) > hours * 3600 * 1000;
+  return !iso || crawlMinutesBetween(new Date(iso), now) > hours * 60;
 }
 
 export function addDays(dateStr, n) {
