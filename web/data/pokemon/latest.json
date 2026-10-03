@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T14:01:16+09:00",
+ "generated_at": "2026-10-03T14:31:13+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-03T13:31:25+09:00",
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-03T13:02:32+09:00",
+   "last_success_at": "2026-10-03T14:31:13+09:00",
    "display_at": "2026-10-03T13:02:32+09:00",
    "error": null,
    "prices": {

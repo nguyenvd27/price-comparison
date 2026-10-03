@@ -547,20 +547,20 @@
    "shop": "morimori"
   },
   "pm-256-black": {
-   "max": 236000,
-   "shop": "sommelier"
+   "max": 237000,
+   "shop": "mix"
   },
   "pm-256-burgundy": {
    "max": 256000,
    "shop": "mix"
   },
   "pm-256-glacier": {
-   "max": 236000,
-   "shop": "sommelier"
+   "max": 237000,
+   "shop": "mix"
   },
   "pm-256-silver": {
-   "max": 232000,
-   "shop": "sommelier"
+   "max": 235000,
+   "shop": "mix"
   },
   "pm-2tb-black": {
    "max": 430000,
