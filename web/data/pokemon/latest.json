@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-03T15:31:14+09:00",
+ "generated_at": "2026-10-03T16:02:12+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-03T15:01:19+09:00",
+   "last_success_at": "2026-10-03T16:02:12+09:00",
    "display_at": "2026-10-03T12:29:12+09:00",
    "error": null,
    "prices": {
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-03T15:01:19+09:00",
+   "last_success_at": "2026-10-03T16:02:12+09:00",
    "display_at": "2026-10-03T12:29:12+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-03T15:01:19+09:00",
+   "last_success_at": "2026-10-03T16:02:12+09:00",
    "display_at": "2026-10-03T00:27:39+09:00",
    "error": null,
    "prices": {
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-03T15:01:19+09:00",
    "display_at": "2026-10-03T00:27:39+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fc14f36df70>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 56000,
@@ -123,8 +123,8 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-03T15:01:19+09:00",
-   "display_at": "2026-10-03T13:31:25+09:00",
+   "last_success_at": "2026-10-03T16:02:12+09:00",
+   "display_at": "2026-10-03T16:02:12+09:00",
    "error": null,
    "prices": {
     "mega-30th": 26500,
@@ -136,7 +136,7 @@
     "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 7800,
     "mega-ninja-spinner": 7800,
-    "mega-storm-emeralda": 9500,
+    "mega-storm-emeralda": 9600,
     "sv-battle-partners": 9000,
     "sv-black-bolt": 17000,
     "sv-heat-arena": 14000,
@@ -178,11 +178,11 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-03T15:01:19+09:00",
-   "display_at": "2026-10-03T00:27:39+09:00",
+   "last_success_at": "2026-10-03T16:02:12+09:00",
+   "display_at": "2026-10-03T16:02:12+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 26300,
+    "mega-30th": 26000,
     "mega-abyss-eye": 8100,
     "mega-inferno-x": 15000,
     "mega-mega-brave": 7800,

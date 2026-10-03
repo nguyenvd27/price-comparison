@@ -1090,5 +1090,17 @@
   "shop": "ichome",
   "variant": "mega-mega-dream-ex",
   "price": 12000
+ },
+ {
+  "t": "2026-10-03T16:02:12+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9600
+ },
+ {
+  "t": "2026-10-03T16:02:12+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 26000
  }
 ]

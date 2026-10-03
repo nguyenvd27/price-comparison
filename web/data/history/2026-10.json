@@ -3046,5 +3046,17 @@
   "shop": "base",
   "variant": "pm-512-silver",
   "price": 260800
+ },
+ {
+  "t": "2026-10-03T16:01:27+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-black",
+  "price": 221000
+ },
+ {
+  "t": "2026-10-03T16:01:27+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 221000
  }
 ]
