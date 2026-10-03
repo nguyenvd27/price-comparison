@@ -1048,5 +1048,29 @@
   "shop": "runto",
   "variant": "mega-storm-emeralda",
   "price": 9700
+ },
+ {
+  "t": "2026-10-03T13:02:32+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 26800
+ },
+ {
+  "t": "2026-10-03T13:02:32+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-03T13:02:32+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-03T13:02:32+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 8100
  }
 ]
