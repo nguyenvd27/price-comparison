@@ -3058,5 +3058,35 @@
   "shop": "akimoba",
   "variant": "pm-256-glacier",
   "price": 221000
+ },
+ {
+  "t": "2026-10-03T17:31:00+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-burgundy",
+  "price": 248000
+ },
+ {
+  "t": "2026-10-03T17:31:00+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 283000
+ },
+ {
+  "t": "2026-10-03T17:31:00+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 248000
+ },
+ {
+  "t": "2026-10-03T17:31:00+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-burgundy",
+  "price": 283000
+ },
+ {
+  "t": "2026-10-03T17:31:00+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 283000
  }
 ]
