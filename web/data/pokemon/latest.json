@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-03T13:02:32+09:00",
+ "generated_at": "2026-10-03T13:31:25+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
    "display_at": "2026-10-03T12:29:12+09:00",
    "error": null,
    "prices": {
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
    "display_at": "2026-10-03T12:29:12+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
    "display_at": "2026-10-03T00:27:39+09:00",
    "error": null,
    "prices": {
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
    "display_at": "2026-10-03T00:27:39+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fac8de41fd0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 56000,
@@ -123,8 +123,8 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
-   "display_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
+   "display_at": "2026-10-03T13:31:25+09:00",
    "error": null,
    "prices": {
     "mega-30th": 26500,
@@ -136,7 +136,7 @@
     "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 7800,
     "mega-ninja-spinner": 7800,
-    "mega-storm-emeralda": 9700,
+    "mega-storm-emeralda": 9500,
     "sv-battle-partners": 9000,
     "sv-black-bolt": 17000,
     "sv-heat-arena": 14000,
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
    "display_at": "2026-10-03T10:29:58+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-03T12:29:12+09:00",
+   "last_success_at": "2026-10-03T13:31:25+09:00",
    "display_at": "2026-10-03T00:27:39+09:00",
    "error": null,
    "prices": {
