@@ -2,10 +2,11 @@ name: crawl
 
 on:
   # 30 phút một lần, 10:00–20:00 giờ Nhật (cron tính theo UTC = JST − 9).
+  # Dùng phút :07/:37 thay vì :00/:30: GitHub hay trễ hoặc bỏ lịch chạy vào các mốc tròn đông người dùng.
   # Đổi giờ thì sửa cả CRAWL_HOURS trong web/js/logic.js.
   schedule:
-    - cron: "0,30 1-10 * * *" # 10:00–19:30 JST
-    - cron: "0 11 * * *"      # 20:00 JST
+    - cron: "7,37 1-10 * * *" # 10:07–19:37 JST
+    - cron: "7 11 * * *"      # 20:07 JST
   workflow_dispatch:
 
 permissions:
