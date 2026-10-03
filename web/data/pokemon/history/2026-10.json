@@ -1102,5 +1102,11 @@
   "shop": "shinsoku",
   "variant": "mega-30th",
   "price": 26000
+ },
+ {
+  "t": "2026-10-03T16:31:25+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-dream-ex",
+  "price": 12200
  }
 ]
