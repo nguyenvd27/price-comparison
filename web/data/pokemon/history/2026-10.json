@@ -940,5 +940,113 @@
   "shop": "ichome",
   "variant": "sv-terastal-fes-ex",
   "price": 15500
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "morimori",
+  "variant": "mega-ninja-spinner",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "morimori",
+  "variant": "sv-rocket-gang",
+  "price": 18800
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "morimori",
+  "variant": "sv-stellar-miracle",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "morimori",
+  "variant": "sv-terastal-fes-ex",
+  "price": 15800
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 26800
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-dream-ex",
+  "price": 12500
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "mega-munikis-zero",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 17700
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "sv-night-wanderer",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "sv-rocket-gang",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "sv-stellar-miracle",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "homura",
+  "variant": "sv-terastal-fes-ex",
+  "price": 16000
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "runto",
+  "variant": "mega-30th",
+  "price": 26500
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-symphonia",
+  "price": 7000
+ },
+ {
+  "t": "2026-10-03T12:29:12+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9700
  }
 ]
