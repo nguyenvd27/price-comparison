@@ -880,5 +880,65 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 16300
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "runto",
+  "variant": "mega-abyss-eye",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "runto",
+  "variant": "mega-inferno-x",
+  "price": 15500
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-symphonia",
+  "price": 7100
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "runto",
+  "variant": "mega-munikis-zero",
+  "price": 7800
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "runto",
+  "variant": "mega-ninja-spinner",
+  "price": 7800
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "ichome",
+  "variant": "mega-munikis-zero",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "ichome",
+  "variant": "mega-storm-emeralda",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-03T10:29:58+09:00",
+  "shop": "ichome",
+  "variant": "sv-terastal-fes-ex",
+  "price": 15500
  }
 ]
