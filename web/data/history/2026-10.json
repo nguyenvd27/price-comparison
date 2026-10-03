@@ -2992,5 +2992,59 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 260000
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-burgundy",
+  "price": 351800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-256-black",
+  "price": 221800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-256-burgundy",
+  "price": 250800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 221800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-256-silver",
+  "price": 220800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-512-black",
+  "price": 260800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-512-burgundy",
+  "price": 286800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-512-glacier",
+  "price": 260800
+ },
+ {
+  "t": "2026-10-03T15:30:59+09:00",
+  "shop": "base",
+  "variant": "pm-512-silver",
+  "price": 260800
  }
 ]

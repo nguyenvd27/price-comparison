@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T15:01:01+09:00",
+ "generated_at": "2026-10-03T15:30:59+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-03T15:01:01+09:00",
@@ -244,30 +244,30 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-03T14:30:58+09:00",
-   "display_at": "2026-10-03T14:30:58+09:00",
+   "last_success_at": "2026-10-03T15:30:59+09:00",
+   "display_at": "2026-10-03T15:30:59+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 340800,
-    "pm-1tb-burgundy": 351500,
+    "pm-1tb-burgundy": 351800,
     "pm-1tb-glacier": 340800,
     "pm-1tb-silver": 340800,
-    "pm-256-black": 221500,
-    "pm-256-burgundy": 251000,
-    "pm-256-glacier": 221500,
-    "pm-256-silver": 221500,
+    "pm-256-black": 221800,
+    "pm-256-burgundy": 250800,
+    "pm-256-glacier": 221800,
+    "pm-256-silver": 220800,
     "pm-2tb-black": 420800,
     "pm-2tb-burgundy": 430800,
     "pm-2tb-glacier": 420800,
     "pm-2tb-silver": 420800,
-    "pm-512-black": 261500,
-    "pm-512-burgundy": 286500,
-    "pm-512-glacier": 261500,
-    "pm-512-silver": 260000
+    "pm-512-black": 260800,
+    "pm-512-burgundy": 286800,
+    "pm-512-glacier": 260800,
+    "pm-512-silver": 260800
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-03T14:30:58+09:00",
+   "last_success_at": "2026-10-03T15:30:59+09:00",
    "display_at": "2026-10-03T13:06:52+09:00",
    "error": null,
    "prices": {
