@@ -2620,5 +2620,59 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 260000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-black",
+  "price": 219000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-burgundy",
+  "price": 252000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-glacier",
+  "price": 219000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-silver",
+  "price": 219000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-black",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-burgundy",
+  "price": 285000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-glacier",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-silver",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-03T13:06:52+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-silver",
+  "price": 220500
  }
 ]
