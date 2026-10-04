@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T12:31:15+09:00",
+ "generated_at": "2026-10-04T13:01:16+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-04T12:31:15+09:00",
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-04T11:31:49+09:00",
+   "last_success_at": "2026-10-04T13:01:16+09:00",
    "display_at": "2026-10-04T11:31:49+09:00",
    "error": null,
    "prices": {
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-04T11:31:49+09:00",
+   "last_success_at": "2026-10-04T13:01:16+09:00",
    "display_at": "2026-10-04T11:31:49+09:00",
    "error": null,
    "prices": {
