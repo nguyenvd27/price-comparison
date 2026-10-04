@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-04T12:02:18+09:00",
+ "generated_at": "2026-10-04T12:31:15+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-04T12:02:18+09:00",
-   "display_at": "2026-10-04T00:08:07+09:00",
+   "last_success_at": "2026-10-04T12:31:15+09:00",
+   "display_at": "2026-10-04T12:31:15+09:00",
    "error": null,
    "prices": {
     "mega-abyss-eye": 7500,
@@ -20,7 +20,7 @@
     "sv-paradise-dragona": 13500,
     "sv-rocket-gang": 18800,
     "sv-stellar-miracle": 10300,
-    "sv-super-electric-breaker": 22800,
+    "sv-super-electric-breaker": 22500,
     "sv-terastal-fes-ex": 15800,
     "sv-white-flare": 16000
    }
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-04T11:01:26+09:00",
+   "last_success_at": "2026-10-04T12:31:15+09:00",
    "display_at": "2026-10-04T00:08:07+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f4aa49a1d00>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 26000,
     "mega-30th-futuristic": 56000,
@@ -178,16 +178,16 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-04T12:02:18+09:00",
-   "display_at": "2026-10-04T00:08:07+09:00",
+   "last_success_at": "2026-10-04T12:31:15+09:00",
+   "display_at": "2026-10-04T12:31:15+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 26300,
+    "mega-30th": 26500,
     "mega-abyss-eye": 8100,
     "mega-inferno-x": 15000,
-    "mega-mega-brave": 7800,
-    "mega-mega-dream-ex": 12400,
-    "mega-mega-symphonia": 7100,
+    "mega-mega-brave": 7700,
+    "mega-mega-dream-ex": 12200,
+    "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 8100,
     "mega-ninja-spinner": 8100,
     "mega-storm-emeralda": 9300,
@@ -200,8 +200,8 @@
     "sv-rocket-gang": 19000,
     "sv-stellar-miracle": 10500,
     "sv-super-electric-breaker": 23200,
-    "sv-terastal-fes-ex": 15700,
-    "sv-white-flare": 16300
+    "sv-terastal-fes-ex": 16000,
+    "sv-white-flare": 16500
    }
   }
  }
