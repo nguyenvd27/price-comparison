@@ -1342,5 +1342,11 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 16300
+ },
+ {
+  "t": "2026-10-04T20:03:14+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 26200
  }
 ]
