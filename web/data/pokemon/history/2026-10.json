@@ -1180,5 +1180,29 @@
   "shop": "runto",
   "variant": "sv-terastal-fes-ex",
   "price": 16000
+ },
+ {
+  "t": "2026-10-04T11:01:26+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 26700
+ },
+ {
+  "t": "2026-10-04T11:01:26+09:00",
+  "shop": "homura",
+  "variant": "mega-storm-emeralda",
+  "price": 9400
+ },
+ {
+  "t": "2026-10-04T11:01:26+09:00",
+  "shop": "homura",
+  "variant": "sv-super-electric-breaker",
+  "price": 22500
+ },
+ {
+  "t": "2026-10-04T11:01:26+09:00",
+  "shop": "homura",
+  "variant": "sv-terastal-fes-ex",
+  "price": 16200
  }
 ]
