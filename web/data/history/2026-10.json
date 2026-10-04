@@ -3112,5 +3112,23 @@
   "shop": "ichiban",
   "variant": "pm-512-burgundy",
   "price": 282000
+ },
+ {
+  "t": "2026-10-04T10:31:03+09:00",
+  "shop": "wiki",
+  "variant": "pm-1tb-burgundy",
+  "price": 348000
+ },
+ {
+  "t": "2026-10-04T10:31:03+09:00",
+  "shop": "wiki",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-04T10:31:03+09:00",
+  "shop": "wiki",
+  "variant": "pm-512-burgundy",
+  "price": 282000
  }
 ]
