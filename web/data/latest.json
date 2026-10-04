@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T19:01:30+09:00",
+ "generated_at": "2026-10-04T19:31:00+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-04T19:01:30+09:00",
@@ -286,9 +286,9 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-04T18:01:04+09:00",
+   "last_success_at": "2026-10-04T19:31:00+09:00",
    "display_at": "2026-10-04T00:07:49+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jcka-mobile.co.jp', port=443): Max retries exceeded with url: /kisyu/iphone/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jcka-mobile.co.jp', port=443) at 0x7f1390f67fe0>, 'Connection to www.jcka-mobile.co.jp timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "pm-1tb-black": 333000,
     "pm-1tb-burgundy": 345000,
