@@ -1,12 +1,9 @@
 name: crawl
 
 on:
-  # 30 phút một lần, 10:00–20:00 giờ Nhật (cron tính theo UTC = JST − 9).
-  # Dùng phút :07/:37 thay vì :00/:30: GitHub hay trễ hoặc bỏ lịch chạy vào các mốc tròn đông người dùng.
-  # Đổi giờ thì sửa cả CRAWL_HOURS trong web/js/logic.js.
-  schedule:
-    - cron: "7,37 1-10 * * *" # 10:07–19:37 JST
-    - cron: "7 11 * * *"      # 20:07 JST
+  # Không dùng `schedule` của GitHub: với repo này lịch chạy trễ hàng giờ (có lần 00:07 JST).
+  # Cloudflare Worker (worker/crawl-trigger.js) gọi workflow_dispatch đúng giờ:
+  # 30 phút một lần, 10:00–20:00 giờ Nhật. Đổi giờ thì sửa Cron Triggers của Worker và CRAWL_HOURS trong web/js/logic.js.
   workflow_dispatch:
 
 permissions:
