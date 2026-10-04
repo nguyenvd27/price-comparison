@@ -597,7 +597,7 @@
  },
  "2026-10-04": {
   "pm-1tb-black": {
-   "max": 340500,
+   "max": 341000,
    "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
@@ -605,11 +605,11 @@
    "shop": "sommelier"
   },
   "pm-1tb-glacier": {
-   "max": 340500,
+   "max": 341000,
    "shop": "sommelier"
   },
   "pm-1tb-silver": {
-   "max": 340500,
+   "max": 341000,
    "shop": "sommelier"
   },
   "pm-256-black": {
@@ -653,7 +653,7 @@
    "shop": "sommelier"
   },
   "pm-512-glacier": {
-   "max": 261500,
+   "max": 262000,
    "shop": "sommelier"
   },
   "pm-512-silver": {
