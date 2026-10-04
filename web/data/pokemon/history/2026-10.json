@@ -1306,5 +1306,41 @@
   "shop": "morimori",
   "variant": "mega-abyss-eye",
   "price": 7800
+ },
+ {
+  "t": "2026-10-04T18:31:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-04T18:31:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 14800
+ },
+ {
+  "t": "2026-10-04T18:31:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-04T18:31:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 19100
+ },
+ {
+  "t": "2026-10-04T18:31:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-04T18:31:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 16300
  }
 ]
