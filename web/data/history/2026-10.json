@@ -5662,5 +5662,29 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 258000
+ },
+ {
+  "t": "2026-10-05T18:31:08+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-05T18:31:08+09:00",
+  "shop": "wiki",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-05T18:31:08+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-05T18:31:08+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 270000
  }
 ]
