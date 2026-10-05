@@ -5710,5 +5710,29 @@
   "shop": "akimoba",
   "variant": "pm-256-silver",
   "price": 219000
+ },
+ {
+  "t": "2026-10-05T19:31:07+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-05T19:31:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 256000
+ },
+ {
+  "t": "2026-10-05T19:31:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-05T19:31:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 256000
  }
 ]
