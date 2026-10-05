@@ -679,19 +679,19 @@
    "shop": "morimori"
   },
   "pm-256-black": {
-   "max": 221500,
-   "shop": "sommelier"
+   "max": 222000,
+   "shop": "jcka"
   },
   "pm-256-burgundy": {
    "max": 251000,
    "shop": "akimoba"
   },
   "pm-256-glacier": {
-   "max": 221500,
-   "shop": "sommelier"
+   "max": 222000,
+   "shop": "jcka"
   },
   "pm-256-silver": {
-   "max": 221000,
+   "max": 222000,
    "shop": "jcka"
   },
   "pm-2tb-black": {
