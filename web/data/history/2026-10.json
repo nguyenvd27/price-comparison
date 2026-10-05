@@ -5734,5 +5734,11 @@
   "shop": "rakuen",
   "variant": "pm-512-glacier",
   "price": 256000
+ },
+ {
+  "t": "2026-10-05T20:01:00+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-burgundy",
+  "price": 337000
  }
 ]
