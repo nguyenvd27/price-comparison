@@ -1582,5 +1582,17 @@
   "shop": "oku",
   "variant": "mega-30th",
   "price": 26000
+ },
+ {
+  "t": "2026-10-05T14:31:23+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-dream-ex",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-05T14:31:23+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 58000
  }
 ]
