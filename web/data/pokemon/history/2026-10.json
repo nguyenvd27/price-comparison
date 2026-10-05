@@ -1420,5 +1420,65 @@
   "shop": "rudeya",
   "variant": "mega-munikis-zero",
   "price": 7500
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "homura",
+  "variant": "mega-storm-emeralda",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 26500
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 26300
+ },
+ {
+  "t": "2026-10-05T11:31:19+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9000
  }
 ]
