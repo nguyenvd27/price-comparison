@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-05T11:31:19+09:00",
+ "generated_at": "2026-10-05T12:01:20+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-05T11:02:20+09:00",
-   "display_at": "2026-10-05T10:02:14+09:00",
+   "last_success_at": "2026-10-05T12:01:20+09:00",
+   "display_at": "2026-10-05T12:01:20+09:00",
    "error": null,
    "prices": {
     "mega-abyss-eye": 7800,
     "mega-inferno-x": 15200,
     "mega-mega-brave": 7700,
-    "mega-mega-dream-ex": 11500,
+    "mega-mega-dream-ex": 12000,
     "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 8000,
     "mega-ninja-spinner": 8000,
@@ -18,7 +18,7 @@
     "sv-heat-arena": 14800,
     "sv-night-wanderer": 10500,
     "sv-paradise-dragona": 13500,
-    "sv-rocket-gang": 18800,
+    "sv-rocket-gang": 19000,
     "sv-stellar-miracle": 10300,
     "sv-super-electric-breaker": 22500,
     "sv-terastal-fes-ex": 15800,
@@ -123,11 +123,11 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-05T11:02:20+09:00",
-   "display_at": "2026-10-05T10:02:14+09:00",
+   "last_success_at": "2026-10-05T12:01:20+09:00",
+   "display_at": "2026-10-05T12:01:20+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 26200,
+    "mega-30th": 26000,
     "mega-30th-futuristic": 58000,
     "mega-abyss-eye": 8000,
     "mega-inferno-x": 15500,
@@ -150,11 +150,11 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-05T11:02:20+09:00",
-   "display_at": "2026-10-05T10:02:14+09:00",
+   "last_success_at": "2026-10-05T12:01:20+09:00",
+   "display_at": "2026-10-05T12:01:20+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 25500,
+    "mega-30th": 26000,
     "mega-30th-futuristic": 57000,
     "mega-abyss-eye": 7800,
     "mega-inferno-x": 14000,
@@ -178,12 +178,12 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-05T11:31:19+09:00",
-   "display_at": "2026-10-05T11:31:19+09:00",
+   "last_success_at": "2026-10-05T12:01:20+09:00",
+   "display_at": "2026-10-05T12:01:20+09:00",
    "error": null,
    "prices": {
     "mega-30th": 26300,
-    "mega-abyss-eye": 8000,
+    "mega-abyss-eye": 8100,
     "mega-inferno-x": 14800,
     "mega-mega-brave": 7700,
     "mega-mega-dream-ex": 11800,
@@ -193,15 +193,15 @@
     "mega-storm-emeralda": 9000,
     "sv-151": 31800,
     "sv-battle-partners": 10000,
-    "sv-black-bolt": 17800,
+    "sv-black-bolt": 18000,
     "sv-heat-arena": 15000,
     "sv-night-wanderer": 10500,
     "sv-paradise-dragona": 13600,
-    "sv-rocket-gang": 19100,
+    "sv-rocket-gang": 19200,
     "sv-stellar-miracle": 10500,
-    "sv-super-electric-breaker": 23000,
-    "sv-terastal-fes-ex": 16300,
-    "sv-white-flare": 16500
+    "sv-super-electric-breaker": 22800,
+    "sv-terastal-fes-ex": 16500,
+    "sv-white-flare": 16800
    }
   }
  }
