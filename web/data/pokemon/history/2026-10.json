@@ -1384,5 +1384,11 @@
   "shop": "shinsoku",
   "variant": "mega-mega-dream-ex",
   "price": 11800
+ },
+ {
+  "t": "2026-10-05T10:31:18+09:00",
+  "shop": "rudeya",
+  "variant": "mega-30th",
+  "price": 22000
  }
 ]
