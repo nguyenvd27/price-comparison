@@ -1390,5 +1390,35 @@
   "shop": "rudeya",
   "variant": "mega-30th",
   "price": 22000
+ },
+ {
+  "t": "2026-10-05T11:02:20+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 26300
+ },
+ {
+  "t": "2026-10-05T11:02:20+09:00",
+  "shop": "homura",
+  "variant": "mega-inferno-x",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-05T11:02:20+09:00",
+  "shop": "homura",
+  "variant": "mega-storm-emeralda",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-05T11:02:20+09:00",
+  "shop": "homura",
+  "variant": "sv-rocket-gang",
+  "price": 19100
+ },
+ {
+  "t": "2026-10-05T11:02:20+09:00",
+  "shop": "rudeya",
+  "variant": "mega-munikis-zero",
+  "price": 7500
  }
 ]
