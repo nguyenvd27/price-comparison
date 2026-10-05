@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T18:31:08+09:00",
+ "generated_at": "2026-10-05T19:01:02+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-05T18:01:07+09:00",
@@ -133,18 +133,18 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-05T18:31:08+09:00",
-   "display_at": "2026-10-05T13:31:03+09:00",
+   "last_success_at": "2026-10-05T19:01:02+09:00",
+   "display_at": "2026-10-05T19:01:02+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 330000,
     "pm-1tb-burgundy": 342500,
     "pm-1tb-glacier": 330000,
     "pm-1tb-silver": 330000,
-    "pm-256-black": 220500,
-    "pm-256-burgundy": 241500,
-    "pm-256-glacier": 220500,
-    "pm-256-silver": 220500,
+    "pm-256-black": 219000,
+    "pm-256-burgundy": 239000,
+    "pm-256-glacier": 219000,
+    "pm-256-silver": 219000,
     "pm-2tb-black": 420000,
     "pm-2tb-burgundy": 430000,
     "pm-2tb-glacier": 420000,
@@ -223,7 +223,7 @@
   "rakuen": {
    "last_success_at": "2026-10-05T18:31:08+09:00",
    "display_at": "2026-10-05T18:31:08+09:00",
-   "error": null,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/iphone18-promax/ (Server=openresty/1.31.1.1)",
    "prices": {
     "pm-1tb-black": 325000,
     "pm-1tb-burgundy": 337000,

@@ -1606,5 +1606,71 @@
   "shop": "rudeya",
   "variant": "mega-30th-futuristic",
   "price": 58500
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 7800
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 11600
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 7100
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-munikis-zero",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 10100
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 18100
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 10600
+ },
+ {
+  "t": "2026-10-05T19:01:18+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-stellar-miracle",
+  "price": 10600
  }
 ]
