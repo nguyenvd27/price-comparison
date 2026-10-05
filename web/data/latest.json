@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-04T20:02:00+09:00",
+ "generated_at": "2026-10-05T10:01:30+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T11:31:31+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 340000,
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-04T19:01:30+09:00",
    "display_at": "2026-10-04T10:01:01+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f6782980440>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f8d2d948080>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 340000,
     "pm-1tb-burgundy": 348000,
@@ -71,16 +71,16 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T00:07:49+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 330000,
-    "pm-1tb-burgundy": 351000,
+    "pm-1tb-burgundy": 342000,
     "pm-1tb-glacier": 330000,
     "pm-1tb-silver": 330000,
     "pm-256-black": 220000,
-    "pm-256-burgundy": 248000,
+    "pm-256-burgundy": 240000,
     "pm-256-glacier": 220000,
     "pm-256-silver": 220000,
     "pm-2tb-black": 420000,
@@ -88,37 +88,37 @@
     "pm-2tb-glacier": 420000,
     "pm-2tb-silver": 420000,
     "pm-512-black": 257000,
-    "pm-512-burgundy": 283000,
+    "pm-512-burgundy": 275000,
     "pm-512-glacier": 257000,
     "pm-512-silver": 257000
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T00:07:49+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
-    "pm-1tb-black": 340000,
-    "pm-1tb-burgundy": 351000,
-    "pm-1tb-glacier": 340000,
-    "pm-1tb-silver": 340000,
-    "pm-256-black": 220000,
-    "pm-256-burgundy": 250000,
-    "pm-256-glacier": 220000,
-    "pm-256-silver": 220000,
+    "pm-1tb-black": 330000,
+    "pm-1tb-burgundy": 342000,
+    "pm-1tb-glacier": 330000,
+    "pm-1tb-silver": 330000,
+    "pm-256-black": 218000,
+    "pm-256-burgundy": 243000,
+    "pm-256-glacier": 218000,
+    "pm-256-silver": 218000,
     "pm-2tb-black": 420000,
     "pm-2tb-burgundy": 430000,
     "pm-2tb-glacier": 420000,
     "pm-2tb-silver": 420000,
     "pm-512-black": 260000,
-    "pm-512-burgundy": 285000,
+    "pm-512-burgundy": 275000,
     "pm-512-glacier": 260000,
     "pm-512-silver": 260000
    }
   },
   "mix": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T11:31:31+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-burgundy": 351000,
@@ -133,8 +133,8 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T12:01:33+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 340000,
@@ -158,7 +158,7 @@
   "homura": {
    "last_success_at": "2026-10-04T20:02:00+09:00",
    "display_at": "2026-10-04T15:31:06+09:00",
-   "error": null,
+   "error": "Không lấy được giá nào",
    "prices": {
     "pm-1tb-black": 325000,
     "pm-1tb-burgundy": 348000,
@@ -179,8 +179,8 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T00:07:49+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 330000,
@@ -202,8 +202,8 @@
    }
   },
   "wiki": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T10:31:03+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 340000,
@@ -221,31 +221,31 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T00:07:49+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
-    "pm-1tb-black": 331000,
-    "pm-1tb-burgundy": 351000,
-    "pm-1tb-glacier": 331000,
+    "pm-1tb-black": 330000,
+    "pm-1tb-burgundy": 340000,
+    "pm-1tb-glacier": 330000,
     "pm-1tb-silver": 330000,
-    "pm-256-black": 221000,
-    "pm-256-burgundy": 250000,
-    "pm-256-glacier": 221000,
-    "pm-256-silver": 220000,
-    "pm-2tb-black": 420000,
-    "pm-2tb-burgundy": 430000,
-    "pm-2tb-glacier": 420000,
-    "pm-2tb-silver": 420000,
-    "pm-512-black": 261000,
-    "pm-512-burgundy": 283000,
-    "pm-512-glacier": 261000,
-    "pm-512-silver": 260000
+    "pm-256-black": 217000,
+    "pm-256-burgundy": 240500,
+    "pm-256-glacier": 217000,
+    "pm-256-silver": 213000,
+    "pm-2tb-black": 417000,
+    "pm-2tb-burgundy": 426000,
+    "pm-2tb-glacier": 417000,
+    "pm-2tb-silver": 417000,
+    "pm-512-black": 256000,
+    "pm-512-burgundy": 275500,
+    "pm-512-glacier": 256000,
+    "pm-512-silver": 256000
    }
   },
   "base": {
-   "last_success_at": "2026-10-04T20:02:00+09:00",
-   "display_at": "2026-10-04T12:01:33+09:00",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 341500,
@@ -269,7 +269,7 @@
   "sommelier": {
    "last_success_at": "2026-10-04T20:02:00+09:00",
    "display_at": "2026-10-04T12:01:33+09:00",
-   "error": null,
+   "error": "Không lấy được giá nào",
    "prices": {
     "pm-1tb-black": 341000,
     "pm-1tb-burgundy": 352000,
@@ -286,9 +286,9 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-04T19:31:00+09:00",
-   "display_at": "2026-10-04T00:07:49+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jcka-mobile.co.jp', port=443): Max retries exceeded with url: /kisyu/iphone/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jcka-mobile.co.jp', port=443) at 0x7f6782108500>, 'Connection to www.jcka-mobile.co.jp timed out. (connect timeout=30)'))",
+   "last_success_at": "2026-10-05T10:01:30+09:00",
+   "display_at": "2026-10-05T10:01:30+09:00",
+   "error": null,
    "prices": {
     "pm-1tb-black": 333000,
     "pm-1tb-burgundy": 345000,

@@ -1348,5 +1348,41 @@
   "shop": "homura",
   "variant": "mega-30th",
   "price": 26200
+ },
+ {
+  "t": "2026-10-05T10:02:14+09:00",
+  "shop": "runto",
+  "variant": "mega-30th",
+  "price": 26200
+ },
+ {
+  "t": "2026-10-05T10:02:14+09:00",
+  "shop": "runto",
+  "variant": "mega-abyss-eye",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-05T10:02:14+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-05T10:02:14+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-05T10:02:14+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 7800
+ },
+ {
+  "t": "2026-10-05T10:02:14+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 11800
  }
 ]
