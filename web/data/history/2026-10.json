@@ -5206,5 +5206,41 @@
   "shop": "homura",
   "variant": "pm-2tb-silver",
   "price": 405000
+ },
+ {
+  "t": "2026-10-05T16:01:31+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-burgundy",
+  "price": 272000
+ },
+ {
+  "t": "2026-10-05T16:01:31+09:00",
+  "shop": "rakuen",
+  "variant": "pm-2tb-burgundy",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-05T16:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-black",
+  "price": 390000
+ },
+ {
+  "t": "2026-10-05T16:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-burgundy",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-05T16:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-glacier",
+  "price": 390000
+ },
+ {
+  "t": "2026-10-05T16:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-silver",
+  "price": 390000
  }
 ]
