@@ -679,16 +679,16 @@
    "shop": "morimori"
   },
   "pm-256-black": {
-   "max": 221000,
-   "shop": "morimori"
+   "max": 221500,
+   "shop": "sommelier"
   },
   "pm-256-burgundy": {
    "max": 251000,
    "shop": "akimoba"
   },
   "pm-256-glacier": {
-   "max": 221000,
-   "shop": "morimori"
+   "max": 221500,
+   "shop": "sommelier"
   },
   "pm-256-silver": {
    "max": 221000,
