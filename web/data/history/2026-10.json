@@ -5158,5 +5158,53 @@
   "shop": "ichiban",
   "variant": "pm-2tb-silver",
   "price": 400000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-black",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-burgundy",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-glacier",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-silver",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-black",
+  "price": 405000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-burgundy",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-glacier",
+  "price": 405000
+ },
+ {
+  "t": "2026-10-05T15:31:04+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-silver",
+  "price": 405000
  }
 ]
