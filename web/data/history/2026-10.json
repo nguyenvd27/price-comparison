@@ -4720,5 +4720,35 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 252000
+ },
+ {
+  "t": "2026-10-05T12:31:00+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 220000
+ },
+ {
+  "t": "2026-10-05T12:31:00+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 220000
+ },
+ {
+  "t": "2026-10-05T12:31:00+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 218000
+ },
+ {
+  "t": "2026-10-05T12:31:00+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 257000
+ },
+ {
+  "t": "2026-10-05T12:31:00+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 257000
  }
 ]
