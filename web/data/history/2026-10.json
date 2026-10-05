@@ -5410,5 +5410,77 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 257000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "mix",
+  "variant": "pm-256-black",
+  "price": 218000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 218000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "mix",
+  "variant": "pm-256-silver",
+  "price": 218000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 217000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 217000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-silver",
+  "price": 217000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "homura",
+  "variant": "pm-256-black",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "homura",
+  "variant": "pm-256-glacier",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-05T17:31:07+09:00",
+  "shop": "homura",
+  "variant": "pm-256-silver",
+  "price": 215000
  }
 ]
