@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-06T16:31:02+09:00",
+ "generated_at": "2026-10-06T17:01:30+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-06T15:31:42+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T14:31:15+09:00",
    "error": null,
    "prices": {
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-06T16:01:29+09:00",
    "display_at": "2026-10-06T15:01:05+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f926a47c860>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 325000,
     "pm-1tb-burgundy": 337000,
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T11:30:58+09:00",
    "error": null,
    "prices": {
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T11:30:58+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T12:31:30+09:00",
    "error": null,
    "prices": {
@@ -137,7 +137,7 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-06T15:31:42+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T14:31:15+09:00",
    "error": null,
    "prices": {
@@ -160,7 +160,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T12:31:30+09:00",
    "error": null,
    "prices": {
@@ -183,7 +183,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T11:30:58+09:00",
    "error": null,
    "prices": {
@@ -206,7 +206,7 @@
    }
   },
   "wiki": {
-   "last_success_at": "2026-10-06T15:31:42+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T15:31:42+09:00",
    "error": null,
    "prices": {
@@ -225,7 +225,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T15:01:05+09:00",
    "error": null,
    "prices": {
@@ -248,7 +248,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-06T16:01:29+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
    "display_at": "2026-10-06T15:01:05+09:00",
    "error": null,
    "prices": {
@@ -271,8 +271,8 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-06T15:31:42+09:00",
-   "display_at": "2026-10-06T15:31:42+09:00",
+   "last_success_at": "2026-10-06T17:01:30+09:00",
+   "display_at": "2026-10-06T17:01:30+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 330000,
@@ -283,6 +283,9 @@
     "pm-256-burgundy": 238500,
     "pm-256-glacier": 224500,
     "pm-256-silver": 223500,
+    "pm-2tb-black": 412000,
+    "pm-2tb-burgundy": 412000,
+    "pm-2tb-glacier": 412000,
     "pm-512-black": 259000,
     "pm-512-burgundy": 273000,
     "pm-512-glacier": 259000,
