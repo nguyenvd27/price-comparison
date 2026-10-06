@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-06T18:01:27+09:00",
+ "generated_at": "2026-10-06T18:31:19+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-06T17:31:15+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T12:32:13+09:00",
    "error": null,
    "prices": {
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-06T17:02:13+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T14:31:33+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-06T17:31:15+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T10:01:59+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-06T17:31:15+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T15:01:20+09:00",
    "error": null,
    "prices": {
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-06T17:02:13+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T15:31:56+09:00",
    "error": null,
    "prices": {
@@ -123,7 +123,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-06T17:31:15+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T15:01:20+09:00",
    "error": null,
    "prices": {
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-06T17:31:15+09:00",
+   "last_success_at": "2026-10-06T18:31:19+09:00",
    "display_at": "2026-10-06T13:01:16+09:00",
    "error": null,
    "prices": {
