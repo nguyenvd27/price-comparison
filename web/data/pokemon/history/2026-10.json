@@ -1816,5 +1816,65 @@
   "shop": "homura",
   "variant": "sv-terastal-fes-ex",
   "price": 16500
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": 14500
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "sv-night-wanderer",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "oku",
+  "variant": "sv-stellar-miracle",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-06T11:31:14+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 25000
  }
 ]
