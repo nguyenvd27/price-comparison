@@ -745,7 +745,7 @@
    "shop": "akimoba"
   },
   "pm-256-black": {
-   "max": 223500,
+   "max": 224500,
    "shop": "sommelier"
   },
   "pm-256-burgundy": {
@@ -753,12 +753,12 @@
    "shop": "sommelier"
   },
   "pm-256-glacier": {
-   "max": 223500,
+   "max": 224500,
    "shop": "sommelier"
   },
   "pm-256-silver": {
-   "max": 222000,
-   "shop": "jcka"
+   "max": 223500,
+   "shop": "sommelier"
   },
   "pm-2tb-black": {
    "max": 420000,
@@ -777,19 +777,19 @@
    "shop": "akimoba"
   },
   "pm-512-black": {
-   "max": 258500,
+   "max": 259000,
    "shop": "sommelier"
   },
   "pm-512-burgundy": {
-   "max": 272000,
-   "shop": "morimori"
+   "max": 273000,
+   "shop": "sommelier"
   },
   "pm-512-glacier": {
-   "max": 258500,
+   "max": 259000,
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 258500,
+   "max": 259000,
    "shop": "sommelier"
   }
  }
