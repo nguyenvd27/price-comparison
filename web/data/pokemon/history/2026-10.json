@@ -1672,5 +1672,101 @@
   "shop": "shinsoku",
   "variant": "sv-stellar-miracle",
   "price": 10600
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-symphonia",
+  "price": 7100
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "morimori",
+  "variant": "mega-munikis-zero",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "morimori",
+  "variant": "mega-ninja-spinner",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "morimori",
+  "variant": "sv-black-bolt",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "morimori",
+  "variant": "sv-rocket-gang",
+  "price": 19100
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "morimori",
+  "variant": "sv-white-flare",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "homura",
+  "variant": "sv-white-flare",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "ichome",
+  "variant": "sv-black-bolt",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "ichome",
+  "variant": "sv-rocket-gang",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "ichome",
+  "variant": "sv-white-flare",
+  "price": 16500
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-06T10:01:59+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 17600
  }
 ]

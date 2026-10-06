@@ -5740,5 +5740,77 @@
   "shop": "morimori",
   "variant": "pm-1tb-burgundy",
   "price": 337000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "mix",
+  "variant": "pm-256-black",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "mix",
+  "variant": "pm-256-silver",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-black",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-burgundy",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-glacier",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-silver",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 217500
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 217500
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 217500
+ },
+ {
+  "t": "2026-10-06T10:01:39+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 270000
  }
 ]
