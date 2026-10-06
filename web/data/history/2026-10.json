@@ -5812,5 +5812,119 @@
   "shop": "rakuen",
   "variant": "pm-512-burgundy",
   "price": 270000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-black",
+  "price": 217000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-glacier",
+  "price": 217000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-silver",
+  "price": 217000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-2tb-black",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-2tb-burgundy",
+  "price": 405000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-2tb-glacier",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-2tb-silver",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-burgundy",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "ichiban",
+  "variant": "pm-2tb-black",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "ichiban",
+  "variant": "pm-2tb-burgundy",
+  "price": 405000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "ichiban",
+  "variant": "pm-2tb-glacier",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "ichiban",
+  "variant": "pm-2tb-silver",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 257000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 257000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-silver",
+  "price": 257000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-black",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-glacier",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-06T10:31:02+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-silver",
+  "price": 385000
  }
 ]
