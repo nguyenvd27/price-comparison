@@ -6526,5 +6526,23 @@
   "shop": "sommelier",
   "variant": "pm-256-glacier",
   "price": 223500
+ },
+ {
+  "t": "2026-10-06T14:01:01+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-06T14:01:01+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-06T14:01:01+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 222000
  }
 ]
