@@ -777,7 +777,7 @@
    "shop": "akimoba"
   },
   "pm-512-black": {
-   "max": 258000,
+   "max": 258500,
    "shop": "sommelier"
   },
   "pm-512-burgundy": {
@@ -785,11 +785,11 @@
    "shop": "morimori"
   },
   "pm-512-glacier": {
-   "max": 258000,
+   "max": 258500,
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 258000,
+   "max": 258500,
    "shop": "sommelier"
   }
  }
