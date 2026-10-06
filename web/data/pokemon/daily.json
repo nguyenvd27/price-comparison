@@ -303,7 +303,7 @@
    "shop": "ichiban"
   },
   "sv-battle-partners": {
-   "max": 10000,
+   "max": 10100,
    "shop": "homura"
   },
   "sv-black-bolt": {
@@ -315,8 +315,8 @@
    "shop": "morimori"
   },
   "sv-night-wanderer": {
-   "max": 10500,
-   "shop": "morimori"
+   "max": 10600,
+   "shop": "homura"
   },
   "sv-paradise-dragona": {
    "max": 13500,
@@ -327,7 +327,7 @@
    "shop": "runto"
   },
   "sv-stellar-miracle": {
-   "max": 10500,
+   "max": 10600,
    "shop": "homura"
   },
   "sv-super-electric-breaker": {
@@ -335,7 +335,7 @@
    "shop": "runto"
   },
   "sv-terastal-fes-ex": {
-   "max": 16300,
+   "max": 16500,
    "shop": "homura"
   },
   "sv-white-flare": {
