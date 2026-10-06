@@ -6856,5 +6856,53 @@
   "shop": "mix",
   "variant": "pm-2tb-silver",
   "price": null
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-black",
+  "price": 326000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-burgundy",
+  "price": 338000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-glacier",
+  "price": 326000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-silver",
+  "price": 326000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-glacier",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-06T19:31:03+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-silver",
+  "price": 258000
  }
 ]
