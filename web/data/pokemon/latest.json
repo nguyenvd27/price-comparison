@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T13:01:16+09:00",
+ "generated_at": "2026-10-06T13:31:10+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-06T12:32:13+09:00",
@@ -123,8 +123,8 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-06T12:32:13+09:00",
-   "display_at": "2026-10-06T12:32:13+09:00",
+   "last_success_at": "2026-10-06T13:31:10+09:00",
+   "display_at": "2026-10-06T13:31:10+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
@@ -136,7 +136,7 @@
     "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 7800,
     "mega-ninja-spinner": 7800,
-    "mega-storm-emeralda": 9200,
+    "mega-storm-emeralda": 9400,
     "sv-battle-partners": 9000,
     "sv-black-bolt": 17000,
     "sv-heat-arena": 14000,
