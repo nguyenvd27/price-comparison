@@ -259,8 +259,8 @@
  },
  "2026-10-06": {
   "mega-30th": {
-   "max": 26000,
-   "shop": "homura"
+   "max": 26300,
+   "shop": "ichiban"
   },
   "mega-30th-futuristic": {
    "max": 58500,
@@ -295,7 +295,7 @@
    "shop": "morimori"
   },
   "mega-storm-emeralda": {
-   "max": 9300,
+   "max": 9400,
    "shop": "runto"
   },
   "sv-151": {
