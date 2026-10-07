@@ -9790,5 +9790,29 @@
   "shop": "rakuen",
   "variant": "pm-512-burgundy",
   "price": 279000
+ },
+ {
+  "t": "2026-10-07T15:01:02+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-black",
+  "price": 330000
+ },
+ {
+  "t": "2026-10-07T15:01:02+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-glacier",
+  "price": 330000
+ },
+ {
+  "t": "2026-10-07T15:01:02+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-silver",
+  "price": 320000
+ },
+ {
+  "t": "2026-10-07T15:01:02+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 245000
  }
 ]
