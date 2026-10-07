@@ -6934,5 +6934,59 @@
   "shop": "rakuen",
   "variant": "pm-512-silver",
   "price": 257500
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-burgundy",
+  "price": 338000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 271500
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-07T10:01:12+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-silver",
+  "price": 258000
  }
 ]

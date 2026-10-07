@@ -2020,5 +2020,35 @@
   "shop": "oku",
   "variant": "mega-30th",
   "price": null
+ },
+ {
+  "t": "2026-10-07T10:01:30+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-07T10:01:30+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-07T10:01:30+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-07T10:01:30+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 19100
+ },
+ {
+  "t": "2026-10-07T10:01:30+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 19500
  }
 ]
