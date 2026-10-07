@@ -389,7 +389,7 @@
    "shop": "ichiban"
   },
   "sv-battle-partners": {
-   "max": 10100,
+   "max": 10200,
    "shop": "homura"
   },
   "sv-black-bolt": {
@@ -413,7 +413,7 @@
    "shop": "runto"
   },
   "sv-stellar-miracle": {
-   "max": 10600,
+   "max": 10800,
    "shop": "homura"
   },
   "sv-super-electric-breaker": {

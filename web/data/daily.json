@@ -799,8 +799,8 @@
    "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
-   "max": 338000,
-   "shop": "shouten"
+   "max": 338500,
+   "shop": "rakuen"
   },
   "pm-1tb-glacier": {
    "max": 330000,
@@ -815,8 +815,8 @@
    "shop": "sommelier"
   },
   "pm-256-burgundy": {
-   "max": 240000,
-   "shop": "wiki"
+   "max": 241000,
+   "shop": "morimori"
   },
   "pm-256-glacier": {
    "max": 224500,
@@ -847,8 +847,8 @@
    "shop": "sommelier"
   },
   "pm-512-burgundy": {
-   "max": 273000,
-   "shop": "sommelier"
+   "max": 273500,
+   "shop": "akimoba"
   },
   "pm-512-glacier": {
    "max": 259000,
