@@ -2188,5 +2188,59 @@
   "shop": "oku",
   "variant": "mega-storm-emeralda",
   "price": null
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "morimori",
+  "variant": "sv-night-wanderer",
+  "price": 10600
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "morimori",
+  "variant": "sv-rocket-gang",
+  "price": 19500
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "morimori",
+  "variant": "sv-stellar-miracle",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "morimori",
+  "variant": "sv-terastal-fes-ex",
+  "price": 16300
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-dream-ex",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 14000
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-07T12:01:29+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 16800
  }
 ]
