@@ -799,8 +799,8 @@
    "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
-   "max": 341500,
-   "shop": "sommelier"
+   "max": 342000,
+   "shop": "rakuen"
   },
   "pm-1tb-glacier": {
    "max": 331000,
@@ -843,16 +843,16 @@
    "shop": "ichome"
   },
   "pm-512-black": {
-   "max": 262000,
-   "shop": "sommelier"
+   "max": 264000,
+   "shop": "homura"
   },
   "pm-512-burgundy": {
    "max": 279000,
    "shop": "sommelier"
   },
   "pm-512-glacier": {
-   "max": 262000,
-   "shop": "sommelier"
+   "max": 264000,
+   "shop": "homura"
   },
   "pm-512-silver": {
    "max": 261000,
