@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-07T18:32:02+09:00",
+ "generated_at": "2026-10-07T19:01:11+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T15:31:04+09:00",
    "error": null,
    "prices": {
@@ -25,9 +25,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T12:31:02+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f3aa0dc0770>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "pm-1tb-black": 327000,
     "pm-1tb-burgundy": 340000,
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T17:01:04+09:00",
    "error": null,
    "prices": {
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T14:01:07+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T15:31:04+09:00",
    "error": null,
    "prices": {
@@ -136,7 +136,7 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T17:01:04+09:00",
    "error": null,
    "prices": {
@@ -159,7 +159,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T15:31:04+09:00",
    "error": null,
    "prices": {
@@ -182,7 +182,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T12:31:02+09:00",
    "error": null,
    "prices": {
@@ -205,7 +205,7 @@
    }
   },
   "wiki": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T14:31:12+09:00",
    "error": null,
    "prices": {
@@ -247,7 +247,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T15:31:04+09:00",
    "error": null,
    "prices": {
@@ -270,7 +270,7 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T15:01:02+09:00",
    "error": null,
    "prices": {
@@ -293,9 +293,9 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-07T18:01:04+09:00",
+   "last_success_at": "2026-10-07T19:01:11+09:00",
    "display_at": "2026-10-07T12:31:02+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jcka-mobile.co.jp', port=443): Max retries exceeded with url: /kisyu/iphone/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jcka-mobile.co.jp', port=443) at 0x7f3aa0557cb0>, 'Connection to www.jcka-mobile.co.jp timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "pm-1tb-black": 325000,
     "pm-1tb-burgundy": 330000,

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-07T18:33:14+09:00",
+ "generated_at": "2026-10-07T19:01:31+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-07T18:01:21+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T12:01:29+09:00",
    "error": null,
    "prices": {
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-07T18:01:21+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T11:31:17+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-07T18:01:21+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T10:01:30+09:00",
    "error": null,
    "prices": {
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-07T18:01:21+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T10:01:30+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f532804e060>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 24000,
     "mega-30th-futuristic": 56000,
@@ -98,9 +98,9 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-07T17:31:25+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T17:31:25+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7f532804e720>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-abyss-eye": 8100,
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-07T18:01:21+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T16:01:16+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-07T18:01:21+09:00",
+   "last_success_at": "2026-10-07T19:01:31+09:00",
    "display_at": "2026-10-07T12:01:29+09:00",
    "error": null,
    "prices": {
