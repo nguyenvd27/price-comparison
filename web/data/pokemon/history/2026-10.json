@@ -2374,5 +2374,23 @@
   "shop": "runto",
   "variant": "sv-black-bolt",
   "price": 17500
+ },
+ {
+  "t": "2026-10-07T16:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-07T16:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-heat-arena",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-07T16:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-rocket-gang",
+  "price": 20000
  }
 ]

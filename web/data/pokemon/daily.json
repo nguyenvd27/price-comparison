@@ -397,8 +397,8 @@
    "shop": "morimori"
   },
   "sv-heat-arena": {
-   "max": 14800,
-   "shop": "morimori"
+   "max": 15000,
+   "shop": "ichome"
   },
   "sv-night-wanderer": {
    "max": 10600,
@@ -409,8 +409,8 @@
    "shop": "morimori"
   },
   "sv-rocket-gang": {
-   "max": 19700,
-   "shop": "runto"
+   "max": 20000,
+   "shop": "ichome"
   },
   "sv-stellar-miracle": {
    "max": 10800,
