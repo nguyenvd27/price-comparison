@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T17:01:04+09:00",
+ "generated_at": "2026-10-07T17:31:05+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-07T16:31:06+09:00",
@@ -224,17 +224,17 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-07T16:31:06+09:00",
-   "display_at": "2026-10-07T15:31:04+09:00",
+   "last_success_at": "2026-10-07T17:31:05+09:00",
+   "display_at": "2026-10-07T17:31:05+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 331000,
     "pm-1tb-burgundy": 342000,
     "pm-1tb-glacier": 331000,
     "pm-1tb-silver": 326000,
-    "pm-256-black": 226000,
+    "pm-256-black": 225500,
     "pm-256-burgundy": 245000,
-    "pm-256-glacier": 226000,
+    "pm-256-glacier": 225500,
     "pm-256-silver": 223000,
     "pm-2tb-black": 385000,
     "pm-2tb-burgundy": 397000,

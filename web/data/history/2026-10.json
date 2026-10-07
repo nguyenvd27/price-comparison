@@ -9970,5 +9970,17 @@
   "shop": "akimoba",
   "variant": "pm-256-burgundy",
   "price": 245500
+ },
+ {
+  "t": "2026-10-07T17:31:05+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 225500
+ },
+ {
+  "t": "2026-10-07T17:31:05+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 225500
  }
 ]
