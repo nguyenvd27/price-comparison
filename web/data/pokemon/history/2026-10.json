@@ -2392,5 +2392,11 @@
   "shop": "ichome",
   "variant": "sv-rocket-gang",
   "price": 20000
+ },
+ {
+  "t": "2026-10-07T16:31:21+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
  }
 ]
