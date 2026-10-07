@@ -349,8 +349,8 @@
    "shop": "homura"
   },
   "mega-30th-futuristic": {
-   "max": 58500,
-   "shop": "rudeya"
+   "max": 59000,
+   "shop": "ichome"
   },
   "mega-abyss-eye": {
    "max": 8100,
@@ -409,7 +409,7 @@
    "shop": "morimori"
   },
   "sv-rocket-gang": {
-   "max": 19500,
+   "max": 19700,
    "shop": "runto"
   },
   "sv-stellar-miracle": {
@@ -417,7 +417,7 @@
    "shop": "homura"
   },
   "sv-super-electric-breaker": {
-   "max": 23000,
+   "max": 23300,
    "shop": "runto"
   },
   "sv-terastal-fes-ex": {

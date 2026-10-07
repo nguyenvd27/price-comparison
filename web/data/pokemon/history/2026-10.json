@@ -2242,5 +2242,65 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 16800
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "mega-30th",
+  "price": 25300
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "mega-30th-futuristic",
+  "price": 57000
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "sv-heat-arena",
+  "price": 14500
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "sv-paradise-dragona",
+  "price": 13500
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "sv-rocket-gang",
+  "price": 19700
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "sv-super-electric-breaker",
+  "price": 23300
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "runto",
+  "variant": "sv-white-flare",
+  "price": 17300
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 59000
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-07T12:31:15+09:00",
+  "shop": "ichome",
+  "variant": "sv-rocket-gang",
+  "price": 19500
  }
 ]
