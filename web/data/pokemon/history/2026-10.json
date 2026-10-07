@@ -2050,5 +2050,77 @@
   "shop": "shinsoku",
   "variant": "sv-rocket-gang",
   "price": 19500
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-dream-ex",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "mega-munikis-zero",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "mega-ninja-spinner",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-black-bolt",
+  "price": 18500
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-heat-arena",
+  "price": 14500
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-night-wanderer",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-paradise-dragona",
+  "price": 13500
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-rocket-gang",
+  "price": 19400
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-stellar-miracle",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-terastal-fes-ex",
+  "price": 16500
+ },
+ {
+  "t": "2026-10-07T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "sv-white-flare",
+  "price": 17500
  }
 ]
