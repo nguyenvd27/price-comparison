@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T16:31:06+09:00",
+ "generated_at": "2026-10-07T17:01:04+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-07T16:31:06+09:00",
@@ -71,8 +71,8 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-07T16:01:01+09:00",
-   "display_at": "2026-10-07T14:31:12+09:00",
+   "last_success_at": "2026-10-07T17:01:04+09:00",
+   "display_at": "2026-10-07T17:01:04+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 330000,
@@ -82,7 +82,7 @@
     "pm-256-black": 225000,
     "pm-256-burgundy": 245000,
     "pm-256-glacier": 225000,
-    "pm-256-silver": 220000,
+    "pm-256-silver": 222000,
     "pm-2tb-black": 385000,
     "pm-2tb-burgundy": 397000,
     "pm-2tb-glacier": 385000,
@@ -90,7 +90,7 @@
     "pm-512-black": 261000,
     "pm-512-burgundy": 279000,
     "pm-512-glacier": 261000,
-    "pm-512-silver": 255000
+    "pm-512-silver": 257000
    }
   },
   "ichome": {
@@ -136,8 +136,8 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-07T16:01:01+09:00",
-   "display_at": "2026-10-07T16:01:01+09:00",
+   "last_success_at": "2026-10-07T17:01:04+09:00",
+   "display_at": "2026-10-07T17:01:04+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 330000,
@@ -145,7 +145,7 @@
     "pm-1tb-glacier": 330000,
     "pm-1tb-silver": 325000,
     "pm-256-black": 225000,
-    "pm-256-burgundy": 245000,
+    "pm-256-burgundy": 245500,
     "pm-256-glacier": 225000,
     "pm-256-silver": 220000,
     "pm-2tb-black": 385000,
@@ -205,7 +205,7 @@
    }
   },
   "wiki": {
-   "last_success_at": "2026-10-07T16:01:01+09:00",
+   "last_success_at": "2026-10-07T17:01:04+09:00",
    "display_at": "2026-10-07T14:31:12+09:00",
    "error": null,
    "prices": {
