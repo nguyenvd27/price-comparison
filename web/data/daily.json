@@ -799,7 +799,7 @@
    "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
-   "max": 341000,
+   "max": 341500,
    "shop": "sommelier"
   },
   "pm-1tb-glacier": {
@@ -811,16 +811,16 @@
    "shop": "sommelier"
   },
   "pm-256-black": {
-   "max": 227000,
-   "shop": "homura"
+   "max": 228500,
+   "shop": "sommelier"
   },
   "pm-256-burgundy": {
-   "max": 247000,
+   "max": 248000,
    "shop": "sommelier"
   },
   "pm-256-glacier": {
-   "max": 227000,
-   "shop": "homura"
+   "max": 228500,
+   "shop": "sommelier"
   },
   "pm-256-silver": {
    "max": 226000,
@@ -847,7 +847,7 @@
    "shop": "sommelier"
   },
   "pm-512-burgundy": {
-   "max": 278000,
+   "max": 279000,
    "shop": "sommelier"
   },
   "pm-512-glacier": {

@@ -2302,5 +2302,77 @@
   "shop": "ichome",
   "variant": "sv-rocket-gang",
   "price": 19500
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-brave",
+  "price": 7800
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-dream-ex",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 7100
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "runto",
+  "variant": "mega-30th-futuristic",
+  "price": 59000
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-brave",
+  "price": 7200
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-dream-ex",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "runto",
+  "variant": "mega-munikis-zero",
+  "price": 7600
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9600
+ },
+ {
+  "t": "2026-10-07T13:02:13+09:00",
+  "shop": "runto",
+  "variant": "sv-black-bolt",
+  "price": 17500
  }
 ]
