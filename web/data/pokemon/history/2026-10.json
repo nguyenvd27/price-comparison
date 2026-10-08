@@ -2470,5 +2470,23 @@
   "shop": "shinsoku",
   "variant": "sv-stellar-miracle",
   "price": 10800
+ },
+ {
+  "t": "2026-10-08T10:32:15+09:00",
+  "shop": "rudeya",
+  "variant": "mega-30th-futuristic",
+  "price": 59000
+ },
+ {
+  "t": "2026-10-08T10:32:15+09:00",
+  "shop": "runto",
+  "variant": "mega-abyss-eye",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-08T10:32:15+09:00",
+  "shop": "runto",
+  "variant": "mega-ninja-spinner",
+  "price": 8200
  }
 ]

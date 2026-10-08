@@ -909,20 +909,20 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 262000,
-   "shop": "rakuen"
+   "max": 264000,
+   "shop": "ichome"
   },
   "pm-512-burgundy": {
    "max": 280000,
    "shop": "sommelier"
   },
   "pm-512-glacier": {
-   "max": 262000,
-   "shop": "rakuen"
+   "max": 264000,
+   "shop": "ichome"
   },
   "pm-512-silver": {
-   "max": 261000,
-   "shop": "ichiban"
+   "max": 264000,
+   "shop": "ichome"
   }
  }
 }
