@@ -11110,5 +11110,65 @@
   "shop": "base",
   "variant": "pm-512-silver",
   "price": 262000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 246000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "mix",
+  "variant": "pm-512-burgundy",
+  "price": 279000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-256-black",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 246000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-256-glacier",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-256-silver",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-512-black",
+  "price": 261000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-512-burgundy",
+  "price": 279000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-512-glacier",
+  "price": 261000
+ },
+ {
+  "t": "2026-10-08T14:01:00+09:00",
+  "shop": "homura",
+  "variant": "pm-512-silver",
+  "price": 258000
  }
 ]
