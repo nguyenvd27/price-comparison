@@ -2848,5 +2848,11 @@
   "shop": "shinsoku",
   "variant": "sv-rocket-gang",
   "price": 20500
+ },
+ {
+  "t": "2026-10-08T19:01:26+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 60000
  }
 ]

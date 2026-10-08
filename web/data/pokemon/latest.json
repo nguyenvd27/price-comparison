@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T18:31:19+09:00",
+ "generated_at": "2026-10-08T19:01:26+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -150,12 +150,12 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-08T18:01:40+09:00",
-   "display_at": "2026-10-08T11:01:24+09:00",
+   "last_success_at": "2026-10-08T19:01:26+09:00",
+   "display_at": "2026-10-08T19:01:26+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
-    "mega-30th-futuristic": 59000,
+    "mega-30th-futuristic": 60000,
     "mega-abyss-eye": 8200,
     "mega-inferno-x": 14000,
     "mega-mega-brave": 7800,
