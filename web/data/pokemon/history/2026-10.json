@@ -2644,5 +2644,89 @@
   "shop": "runto",
   "variant": "mega-abyss-eye",
   "price": 8300
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 14600
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 7200
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 36000
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 10400
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 19600
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 17100
+ },
+ {
+  "t": "2026-10-08T12:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 18000
  }
 ]

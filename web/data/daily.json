@@ -889,8 +889,8 @@
    "shop": "sommelier"
   },
   "pm-256-silver": {
-   "max": 226000,
-   "shop": "sommelier"
+   "max": 226500,
+   "shop": "shouten"
   },
   "pm-2tb-black": {
    "max": 410000,
@@ -913,8 +913,8 @@
    "shop": "ichome"
   },
   "pm-512-burgundy": {
-   "max": 280000,
-   "shop": "sommelier"
+   "max": 280500,
+   "shop": "shouten"
   },
   "pm-512-glacier": {
    "max": 264000,
