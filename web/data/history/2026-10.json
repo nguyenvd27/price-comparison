@@ -12250,5 +12250,23 @@
   "shop": "sommelier",
   "variant": "pm-512-silver",
   "price": 256000
+ },
+ {
+  "t": "2026-10-08T17:31:00+09:00",
+  "shop": "base",
+  "variant": "pm-256-black",
+  "price": 220000
+ },
+ {
+  "t": "2026-10-08T17:31:00+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 220000
+ },
+ {
+  "t": "2026-10-08T17:31:00+09:00",
+  "shop": "base",
+  "variant": "pm-256-silver",
+  "price": 216000
  }
 ]
