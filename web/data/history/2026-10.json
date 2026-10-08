@@ -12268,5 +12268,53 @@
   "shop": "base",
   "variant": "pm-256-silver",
   "price": 216000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-silver",
+  "price": 211000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "homura",
+  "variant": "pm-256-black",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "homura",
+  "variant": "pm-256-glacier",
+  "price": 215000
+ },
+ {
+  "t": "2026-10-08T18:01:22+09:00",
+  "shop": "homura",
+  "variant": "pm-256-silver",
+  "price": 211000
  }
 ]
