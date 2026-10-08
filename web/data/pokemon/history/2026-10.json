@@ -2596,5 +2596,53 @@
   "shop": "runto",
   "variant": "mega-storm-emeralda",
   "price": 9800
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "morimori",
+  "variant": "mega-abyss-eye",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-brave",
+  "price": 7800
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "morimori",
+  "variant": "mega-ninja-spinner",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-rocket-gang",
+  "price": 20500
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-super-electric-breaker",
+  "price": 22800
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-terastal-fes-ex",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25300
+ },
+ {
+  "t": "2026-10-08T12:01:49+09:00",
+  "shop": "runto",
+  "variant": "mega-abyss-eye",
+  "price": 8300
  }
 ]
