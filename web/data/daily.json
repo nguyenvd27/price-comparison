@@ -865,8 +865,8 @@
    "shop": "rakuen"
   },
   "pm-1tb-burgundy": {
-   "max": 341500,
-   "shop": "rakuen"
+   "max": 342000,
+   "shop": "mix"
   },
   "pm-1tb-glacier": {
    "max": 331000,
@@ -881,8 +881,8 @@
    "shop": "sommelier"
   },
   "pm-256-burgundy": {
-   "max": 245500,
-   "shop": "akimoba"
+   "max": 246000,
+   "shop": "mix"
   },
   "pm-256-glacier": {
    "max": 228500,
