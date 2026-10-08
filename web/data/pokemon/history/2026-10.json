@@ -2572,5 +2572,29 @@
   "shop": "ichome",
   "variant": "sv-black-bolt",
   "price": 19000
+ },
+ {
+  "t": "2026-10-08T11:31:20+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-dream-ex",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-08T11:31:20+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-08T11:31:20+09:00",
+  "shop": "homura",
+  "variant": "sv-super-electric-breaker",
+  "price": 22800
+ },
+ {
+  "t": "2026-10-08T11:31:20+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9800
  }
 ]
