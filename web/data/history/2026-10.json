@@ -11170,5 +11170,59 @@
   "shop": "homura",
   "variant": "pm-512-silver",
   "price": 258000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-burgundy",
+  "price": 343000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-silver",
+  "price": 330500
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 280000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 246000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-black",
+  "price": 327000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-glacier",
+  "price": 327000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-silver",
+  "price": 327000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "homura",
+  "variant": "pm-512-silver",
+  "price": 261000
+ },
+ {
+  "t": "2026-10-08T14:31:29+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 279500
  }
 ]
