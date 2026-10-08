@@ -12316,5 +12316,59 @@
   "shop": "homura",
   "variant": "pm-256-silver",
   "price": 211000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-black",
+  "price": 328000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-glacier",
+  "price": 328000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-silver",
+  "price": 328000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-black",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-glacier",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-silver",
+  "price": 221000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 257000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-glacier",
+  "price": 257000
+ },
+ {
+  "t": "2026-10-08T18:31:05+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-silver",
+  "price": 257000
  }
 ]
