@@ -12100,5 +12100,71 @@
   "shop": "jcka",
   "variant": "pm-256-silver",
   "price": 220000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-black",
+  "price": 383000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-glacier",
+  "price": 383000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-silver",
+  "price": 383000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-black",
+  "price": 220000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-glacier",
+  "price": 220000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-silver",
+  "price": 216000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-burgundy",
+  "price": 274000
+ },
+ {
+  "t": "2026-10-08T16:30:58+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-silver",
+  "price": 255000
  }
 ]
