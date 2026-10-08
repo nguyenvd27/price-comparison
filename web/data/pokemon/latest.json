@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:02:10+09:00",
+ "generated_at": "2026-10-08T15:32:13+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-08T14:32:12+09:00",
+   "last_success_at": "2026-10-08T15:32:13+09:00",
    "display_at": "2026-10-08T10:32:15+09:00",
    "error": null,
    "prices": {
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-08T14:32:12+09:00",
    "display_at": "2026-10-08T10:01:23+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fb11c425790>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fc188c95940>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 24000,
     "mega-30th-futuristic": 56000,
@@ -123,8 +123,8 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-08T15:02:10+09:00",
-   "display_at": "2026-10-08T15:02:10+09:00",
+   "last_success_at": "2026-10-08T15:32:13+09:00",
+   "display_at": "2026-10-08T15:32:13+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25300,
@@ -145,12 +145,12 @@
     "sv-rocket-gang": 20500,
     "sv-stellar-miracle": 10000,
     "sv-super-electric-breaker": 23500,
-    "sv-terastal-fes-ex": 17000,
+    "sv-terastal-fes-ex": 17200,
     "sv-white-flare": 18000
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-08T14:32:12+09:00",
+   "last_success_at": "2026-10-08T15:32:13+09:00",
    "display_at": "2026-10-08T11:01:24+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-08T14:32:12+09:00",
+   "last_success_at": "2026-10-08T15:32:13+09:00",
    "display_at": "2026-10-08T12:31:16+09:00",
    "error": null,
    "prices": {
