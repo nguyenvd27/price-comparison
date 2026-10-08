@@ -10990,5 +10990,125 @@
   "shop": "ichome",
   "variant": "pm-1tb-silver",
   "price": 327000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "mix",
+  "variant": "pm-512-burgundy",
+  "price": 281000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "homura",
+  "variant": "pm-512-black",
+  "price": 263000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "homura",
+  "variant": "pm-512-burgundy",
+  "price": 281000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "homura",
+  "variant": "pm-512-glacier",
+  "price": 263000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "homura",
+  "variant": "pm-512-silver",
+  "price": 260000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-black",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-burgundy",
+  "price": 343000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-glacier",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-silver",
+  "price": 328000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-256-black",
+  "price": 227000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 227000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-black",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-burgundy",
+  "price": 398000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-glacier",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-silver",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-512-black",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-512-burgundy",
+  "price": 281000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-512-glacier",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-08T13:31:35+09:00",
+  "shop": "base",
+  "variant": "pm-512-silver",
+  "price": 262000
  }
 ]
