@@ -947,8 +947,8 @@
    "shop": "jcka"
   },
   "pm-256-burgundy": {
-   "max": 241000,
-   "shop": "akimoba"
+   "max": 242000,
+   "shop": "mix"
   },
   "pm-256-glacier": {
    "max": 224000,
@@ -975,20 +975,20 @@
    "shop": "ichiban"
   },
   "pm-512-black": {
-   "max": 260000,
-   "shop": "ichome"
+   "max": 261000,
+   "shop": "homura"
   },
   "pm-512-burgundy": {
    "max": 276000,
    "shop": "shouten"
   },
   "pm-512-glacier": {
-   "max": 260000,
-   "shop": "ichome"
+   "max": 261000,
+   "shop": "homura"
   },
   "pm-512-silver": {
-   "max": 258000,
-   "shop": "ichome"
+   "max": 259000,
+   "shop": "homura"
   }
  }
 }

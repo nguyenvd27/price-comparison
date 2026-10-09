@@ -2968,5 +2968,23 @@
   "shop": "runto",
   "variant": "mega-inferno-x",
   "price": 15000
+ },
+ {
+  "t": "2026-10-09T11:31:06+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-09T11:31:06+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-09T11:31:06+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 8500
  }
 ]
