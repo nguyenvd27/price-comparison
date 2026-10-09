@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T14:31:16+09:00",
+ "generated_at": "2026-10-09T15:02:25+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-09T14:01:43+09:00",
+   "last_success_at": "2026-10-09T15:02:25+09:00",
    "display_at": "2026-10-09T10:01:37+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-09T14:01:43+09:00",
+   "last_success_at": "2026-10-09T15:02:25+09:00",
    "display_at": "2026-10-09T10:01:37+09:00",
    "error": null,
    "prices": {

@@ -14218,5 +14218,35 @@
   "shop": "base",
   "variant": "pm-2tb-silver",
   "price": 389000
+ },
+ {
+  "t": "2026-10-09T15:02:10+09:00",
+  "shop": "mix",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-09T15:02:10+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-black",
+  "price": 325000
+ },
+ {
+  "t": "2026-10-09T15:02:10+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-burgundy",
+  "price": 340000
+ },
+ {
+  "t": "2026-10-09T15:02:10+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-glacier",
+  "price": 325000
+ },
+ {
+  "t": "2026-10-09T15:02:10+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-silver",
+  "price": 325000
  }
 ]
