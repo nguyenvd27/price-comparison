@@ -14362,5 +14362,35 @@
   "shop": "rudeya",
   "variant": "pm-256-burgundy",
   "price": 238000
+ },
+ {
+  "t": "2026-10-09T16:30:56+09:00",
+  "shop": "mix",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-09T16:30:56+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-09T16:30:56+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 239000
+ },
+ {
+  "t": "2026-10-09T16:30:56+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-09T16:30:56+09:00",
+  "shop": "base",
+  "variant": "pm-256-burgundy",
+  "price": 240000
  }
 ]
