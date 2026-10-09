@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-09T17:02:06+09:00",
+ "generated_at": "2026-10-09T17:31:35+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:31:01+09:00",
    "display_at": "2026-10-08T12:31:01+09:00",
-   "error": "Không lấy được giá nào",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/0301070 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7f8d24b73290>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 327000,
     "pm-1tb-burgundy": 342000,
@@ -71,8 +71,8 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-09T17:02:06+09:00",
-   "display_at": "2026-10-09T16:01:39+09:00",
+   "last_success_at": "2026-10-09T17:31:35+09:00",
+   "display_at": "2026-10-09T17:31:35+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 327000,
@@ -80,7 +80,7 @@
     "pm-1tb-glacier": 327000,
     "pm-1tb-silver": 327000,
     "pm-256-black": 225000,
-    "pm-256-burgundy": 240000,
+    "pm-256-burgundy": 239000,
     "pm-256-glacier": 225000,
     "pm-256-silver": 223000,
     "pm-2tb-black": 385000,
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-09T16:30:56+09:00",
+   "last_success_at": "2026-10-09T17:31:35+09:00",
    "display_at": "2026-10-09T16:30:56+09:00",
    "error": null,
    "prices": {
@@ -160,7 +160,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-09T16:30:56+09:00",
+   "last_success_at": "2026-10-09T17:31:35+09:00",
    "display_at": "2026-10-09T16:30:56+09:00",
    "error": null,
    "prices": {
@@ -248,7 +248,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-09T16:30:56+09:00",
+   "last_success_at": "2026-10-09T17:31:35+09:00",
    "display_at": "2026-10-09T16:30:56+09:00",
    "error": null,
    "prices": {

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-09T17:02:19+09:00",
+ "generated_at": "2026-10-09T17:32:17+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
    "display_at": "2026-10-08T12:01:49+09:00",
-   "error": "Không lấy được giá nào",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/2401010 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7f22b2736660>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
    "prices": {
     "mega-abyss-eye": 8300,
     "mega-inferno-x": 14500,
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-09T16:31:10+09:00",
+   "last_success_at": "2026-10-09T17:32:17+09:00",
    "display_at": "2026-10-09T10:01:37+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-09T16:31:10+09:00",
+   "last_success_at": "2026-10-09T17:32:17+09:00",
    "display_at": "2026-10-09T10:01:37+09:00",
    "error": null,
    "prices": {
@@ -123,16 +123,16 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-09T17:02:19+09:00",
-   "display_at": "2026-10-09T13:31:05+09:00",
+   "last_success_at": "2026-10-09T17:32:17+09:00",
+   "display_at": "2026-10-09T17:32:17+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
-    "mega-abyss-eye": 8300,
-    "mega-inferno-x": 15000,
+    "mega-abyss-eye": 8500,
+    "mega-inferno-x": 16000,
     "mega-mega-brave": 7500,
-    "mega-mega-dream-ex": 11800,
+    "mega-mega-dream-ex": 12000,
     "mega-mega-symphonia": 7100,
     "mega-munikis-zero": 8000,
     "mega-ninja-spinner": 8300,
