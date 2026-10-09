@@ -2854,5 +2854,11 @@
   "shop": "ichome",
   "variant": "mega-30th-futuristic",
   "price": 60000
+ },
+ {
+  "t": "2026-10-09T10:01:37+09:00",
+  "shop": "runto",
+  "variant": "mega-abyss-eye",
+  "price": 8200
  }
 ]
