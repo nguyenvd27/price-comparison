@@ -3148,5 +3148,11 @@
   "shop": "ichome",
   "variant": "mega-30th",
   "price": 24500
+ },
+ {
+  "t": "2026-10-09T15:32:25+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 24500
  }
 ]
