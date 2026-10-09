@@ -943,16 +943,16 @@
    "shop": "shouten"
   },
   "pm-256-black": {
-   "max": 225000,
-   "shop": "homura"
+   "max": 226000,
+   "shop": "sommelier"
   },
   "pm-256-burgundy": {
    "max": 242000,
    "shop": "mix"
   },
   "pm-256-glacier": {
-   "max": 225000,
-   "shop": "homura"
+   "max": 226000,
+   "shop": "sommelier"
   },
   "pm-256-silver": {
    "max": 223000,
@@ -975,16 +975,16 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 262000,
-   "shop": "sommelier"
+   "max": 263000,
+   "shop": "mix"
   },
   "pm-512-burgundy": {
-   "max": 277000,
+   "max": 278000,
    "shop": "mix"
   },
   "pm-512-glacier": {
-   "max": 262000,
-   "shop": "sommelier"
+   "max": 263000,
+   "shop": "mix"
   },
   "pm-512-silver": {
    "max": 260000,

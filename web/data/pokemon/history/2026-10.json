@@ -3124,5 +3124,17 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 17200
+ },
+ {
+  "t": "2026-10-09T13:01:13+09:00",
+  "shop": "runto",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-09T13:01:13+09:00",
+  "shop": "runto",
+  "variant": "mega-30th-futuristic",
+  "price": 60000
  }
 ]
