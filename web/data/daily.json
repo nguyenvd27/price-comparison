@@ -943,20 +943,20 @@
    "shop": "shouten"
   },
   "pm-256-black": {
-   "max": 223000,
-   "shop": "shouten"
+   "max": 224000,
+   "shop": "jcka"
   },
   "pm-256-burgundy": {
    "max": 241000,
    "shop": "akimoba"
   },
   "pm-256-glacier": {
-   "max": 223000,
-   "shop": "shouten"
+   "max": 224000,
+   "shop": "jcka"
   },
   "pm-256-silver": {
-   "max": 221500,
-   "shop": "rakuen"
+   "max": 222000,
+   "shop": "jcka"
   },
   "pm-2tb-black": {
    "max": 385000,
@@ -979,7 +979,7 @@
    "shop": "ichome"
   },
   "pm-512-burgundy": {
-   "max": 275000,
+   "max": 276000,
    "shop": "shouten"
   },
   "pm-512-glacier": {
