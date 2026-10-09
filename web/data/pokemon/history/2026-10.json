@@ -2986,5 +2986,77 @@
   "shop": "oku",
   "variant": "mega-ninja-spinner",
   "price": 8500
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 35000
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-heat-arena",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-night-wanderer",
+  "price": 11000
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-paradise-dragona",
+  "price": 13800
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 21000
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 17200
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "ichome",
+  "variant": "sv-night-wanderer",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "ichome",
+  "variant": "sv-paradise-dragona",
+  "price": 13700
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "ichome",
+  "variant": "sv-stellar-miracle",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-09T12:01:14+09:00",
+  "shop": "ichome",
+  "variant": "sv-terastal-fes-ex",
+  "price": 17000
  }
 ]
