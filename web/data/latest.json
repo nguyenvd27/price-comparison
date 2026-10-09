@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-09T17:31:35+09:00",
+ "generated_at": "2026-10-09T18:01:24+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:31:01+09:00",
    "display_at": "2026-10-08T12:31:01+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/0301070 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7f8d24b73290>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
+   "error": "Không lấy được giá nào",
    "prices": {
     "pm-1tb-black": 327000,
     "pm-1tb-burgundy": 342000,
@@ -293,26 +293,26 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-09T17:02:06+09:00",
-   "display_at": "2026-10-09T13:30:52+09:00",
+   "last_success_at": "2026-10-09T18:01:24+09:00",
+   "display_at": "2026-10-09T18:01:24+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 323000,
     "pm-1tb-burgundy": 331000,
     "pm-1tb-glacier": 323000,
     "pm-1tb-silver": 323000,
-    "pm-256-black": 224000,
+    "pm-256-black": 225000,
     "pm-256-burgundy": 235000,
-    "pm-256-glacier": 224000,
-    "pm-256-silver": 222000,
+    "pm-256-glacier": 225000,
+    "pm-256-silver": 223000,
     "pm-2tb-black": 375000,
     "pm-2tb-burgundy": 385000,
     "pm-2tb-glacier": 375000,
     "pm-2tb-silver": 375000,
-    "pm-512-black": 256000,
+    "pm-512-black": 257000,
     "pm-512-burgundy": 267000,
-    "pm-512-glacier": 256000,
-    "pm-512-silver": 256000
+    "pm-512-glacier": 257000,
+    "pm-512-silver": 257000
    }
   }
  }
