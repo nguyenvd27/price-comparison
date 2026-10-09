@@ -14320,5 +14320,47 @@
   "shop": "rakuen",
   "variant": "pm-256-burgundy",
   "price": 239000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-burgundy",
+  "price": 240000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 240000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 240000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 225000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 240000
+ },
+ {
+  "t": "2026-10-09T16:01:39+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 238000
  }
 ]
