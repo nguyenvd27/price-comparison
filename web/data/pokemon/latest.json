@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:01:13+09:00",
+ "generated_at": "2026-10-09T13:31:05+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-09T12:01:14+09:00",
+   "last_success_at": "2026-10-09T13:31:05+09:00",
    "display_at": "2026-10-09T11:01:11+09:00",
    "error": null,
    "prices": {
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-09T12:01:14+09:00",
+   "last_success_at": "2026-10-09T13:31:05+09:00",
    "display_at": "2026-10-09T12:01:14+09:00",
    "error": null,
    "prices": {
@@ -123,12 +123,12 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-09T13:01:13+09:00",
-   "display_at": "2026-10-09T13:01:13+09:00",
+   "last_success_at": "2026-10-09T13:31:05+09:00",
+   "display_at": "2026-10-09T13:31:05+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
-    "mega-30th-futuristic": 60000,
+    "mega-30th-futuristic": 61000,
     "mega-abyss-eye": 8300,
     "mega-inferno-x": 15000,
     "mega-mega-brave": 7500,
@@ -150,11 +150,11 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-09T12:30:59+09:00",
-   "display_at": "2026-10-09T12:30:59+09:00",
+   "last_success_at": "2026-10-09T13:31:05+09:00",
+   "display_at": "2026-10-09T13:31:05+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 24000,
+    "mega-30th": 24500,
     "mega-30th-futuristic": 60000,
     "mega-abyss-eye": 8500,
     "mega-inferno-x": 14500,
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-09T12:30:59+09:00",
+   "last_success_at": "2026-10-09T13:31:05+09:00",
    "display_at": "2026-10-09T12:30:59+09:00",
    "error": null,
    "prices": {

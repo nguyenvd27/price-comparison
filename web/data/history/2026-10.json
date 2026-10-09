@@ -13666,5 +13666,17 @@
   "shop": "sommelier",
   "variant": "pm-512-glacier",
   "price": 263000
+ },
+ {
+  "t": "2026-10-09T13:30:52+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 277000
+ },
+ {
+  "t": "2026-10-09T13:30:52+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 222000
  }
 ]
