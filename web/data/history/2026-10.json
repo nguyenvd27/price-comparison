@@ -14512,5 +14512,41 @@
   "shop": "homura",
   "variant": "pm-512-silver",
   "price": 260000
+ },
+ {
+  "t": "2026-10-09T19:02:30+09:00",
+  "shop": "jcka",
+  "variant": "pm-1tb-burgundy",
+  "price": 333000
+ },
+ {
+  "t": "2026-10-09T19:02:30+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 237000
+ },
+ {
+  "t": "2026-10-09T19:02:30+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-black",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-09T19:02:30+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-burgundy",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-09T19:02:30+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-glacier",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-09T19:02:30+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-silver",
+  "price": 259000
  }
 ]
