@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T19:02:30+09:00",
+ "generated_at": "2026-10-09T19:31:35+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:31:01+09:00",
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-09T18:31:17+09:00",
    "display_at": "2026-10-09T18:31:17+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fa292ed71d0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f145e4df6e0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 323000,
     "pm-1tb-burgundy": 338000,
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-09T18:31:17+09:00",
+   "last_success_at": "2026-10-09T19:31:35+09:00",
    "display_at": "2026-10-09T18:31:17+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-09T18:31:17+09:00",
+   "last_success_at": "2026-10-09T19:31:35+09:00",
    "display_at": "2026-10-09T17:02:06+09:00",
    "error": null,
    "prices": {
@@ -137,7 +137,7 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-09T18:31:17+09:00",
+   "last_success_at": "2026-10-09T19:31:35+09:00",
    "display_at": "2026-10-09T17:02:06+09:00",
    "error": null,
    "prices": {
@@ -160,7 +160,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-09T18:31:17+09:00",
+   "last_success_at": "2026-10-09T19:31:35+09:00",
    "display_at": "2026-10-09T18:31:17+09:00",
    "error": null,
    "prices": {
@@ -183,7 +183,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-09T18:31:17+09:00",
+   "last_success_at": "2026-10-09T19:31:35+09:00",
    "display_at": "2026-10-09T16:01:39+09:00",
    "error": null,
    "prices": {
@@ -225,7 +225,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-09T18:31:17+09:00",
+   "last_success_at": "2026-10-09T19:31:35+09:00",
    "display_at": "2026-10-09T15:31:42+09:00",
    "error": null,
    "prices": {
