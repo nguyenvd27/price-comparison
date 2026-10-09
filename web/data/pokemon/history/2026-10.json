@@ -2860,5 +2860,29 @@
   "shop": "runto",
   "variant": "mega-abyss-eye",
   "price": 8200
+ },
+ {
+  "t": "2026-10-09T10:31:26+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 24000
+ },
+ {
+  "t": "2026-10-09T10:31:26+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-09T10:31:26+09:00",
+  "shop": "ichome",
+  "variant": "mega-inferno-x",
+  "price": 14500
+ },
+ {
+  "t": "2026-10-09T10:31:26+09:00",
+  "shop": "ichome",
+  "variant": "mega-ninja-spinner",
+  "price": 8500
  }
 ]
