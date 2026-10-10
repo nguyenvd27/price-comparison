@@ -3238,5 +3238,95 @@
   "shop": "runto",
   "variant": "sv-rocket-gang",
   "price": 21000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-abyss-eye",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-inferno-x",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-dream-ex",
+  "price": 12100
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-symphonia",
+  "price": 7200
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-munikis-zero",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 8600
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "mega-storm-emeralda",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-151",
+  "price": 40000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 20000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-paradise-dragona",
+  "price": 14000
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-rocket-gang",
+  "price": 21200
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-super-electric-breaker",
+  "price": 23500
+ },
+ {
+  "t": "2026-10-10T11:01:43+09:00",
+  "shop": "homura",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18000
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T10:32:03+09:00",
+ "generated_at": "2026-10-10T11:01:43+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -26,34 +26,34 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
-   "display_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
+   "display_at": "2026-10-10T11:01:43+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 25300,
-    "mega-abyss-eye": 8500,
-    "mega-inferno-x": 14500,
+    "mega-30th": 25000,
+    "mega-abyss-eye": 8800,
+    "mega-inferno-x": 15000,
     "mega-mega-brave": 7800,
-    "mega-mega-dream-ex": 12000,
-    "mega-mega-symphonia": 7100,
-    "mega-munikis-zero": 8200,
-    "mega-ninja-spinner": 8500,
-    "mega-storm-emeralda": 9600,
-    "sv-151": 38000,
-    "sv-battle-partners": 10500,
-    "sv-black-bolt": 19500,
+    "mega-mega-dream-ex": 12100,
+    "mega-mega-symphonia": 7200,
+    "mega-munikis-zero": 8500,
+    "mega-ninja-spinner": 8600,
+    "mega-storm-emeralda": 10000,
+    "sv-151": 40000,
+    "sv-battle-partners": 10800,
+    "sv-black-bolt": 20000,
     "sv-heat-arena": 15000,
     "sv-night-wanderer": 11000,
-    "sv-paradise-dragona": 13800,
-    "sv-rocket-gang": 21000,
+    "sv-paradise-dragona": 14000,
+    "sv-rocket-gang": 21200,
     "sv-stellar-miracle": 11000,
-    "sv-super-electric-breaker": 23000,
-    "sv-terastal-fes-ex": 17200,
+    "sv-super-electric-breaker": 23500,
+    "sv-terastal-fes-ex": 18000,
     "sv-white-flare": 18000
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fd53920c8c0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 24000,
     "mega-30th-futuristic": 56000,
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -123,7 +123,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-10T10:01:20+09:00",
+   "last_success_at": "2026-10-10T11:01:43+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
