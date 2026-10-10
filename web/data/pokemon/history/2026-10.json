@@ -3424,5 +3424,59 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 17800
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 7200
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 40000
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "sv-night-wanderer",
+  "price": 11200
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 21200
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "sv-stellar-miracle",
+  "price": 11100
+ },
+ {
+  "t": "2026-10-10T12:31:26+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18000
  }
 ]

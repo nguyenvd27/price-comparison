@@ -659,8 +659,8 @@
    "shop": "homura"
   },
   "sv-night-wanderer": {
-   "max": 11000,
-   "shop": "homura"
+   "max": 11200,
+   "shop": "oku"
   },
   "sv-paradise-dragona": {
    "max": 14000,
@@ -671,8 +671,8 @@
    "shop": "homura"
   },
   "sv-stellar-miracle": {
-   "max": 11000,
-   "shop": "homura"
+   "max": 11100,
+   "shop": "oku"
   },
   "sv-super-electric-breaker": {
    "max": 23500,

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T12:02:27+09:00",
+ "generated_at": "2026-10-10T12:31:26+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-10T11:31:16+09:00",
+   "last_success_at": "2026-10-10T12:31:26+09:00",
    "display_at": "2026-10-10T11:31:16+09:00",
    "error": null,
    "prices": {
@@ -98,28 +98,28 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-10T11:01:43+09:00",
-   "display_at": "2026-10-10T10:01:20+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7fe59b0f5e20>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
+   "last_success_at": "2026-10-10T12:31:26+09:00",
+   "display_at": "2026-10-10T12:31:26+09:00",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-abyss-eye": 8500,
-    "mega-inferno-x": 14500,
+    "mega-inferno-x": 15000,
     "mega-mega-brave": 7800,
     "mega-mega-dream-ex": 11000,
-    "mega-mega-symphonia": 7100,
-    "mega-munikis-zero": 8200,
+    "mega-mega-symphonia": 7200,
+    "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 8500,
-    "mega-storm-emeralda": 9500,
-    "sv-151": 35000,
+    "mega-storm-emeralda": 10000,
+    "sv-151": 40000,
     "sv-battle-partners": 10500,
     "sv-heat-arena": 15000,
-    "sv-night-wanderer": 11000,
+    "sv-night-wanderer": 11200,
     "sv-paradise-dragona": 13800,
-    "sv-rocket-gang": 21000,
-    "sv-stellar-miracle": 10500,
+    "sv-rocket-gang": 21200,
+    "sv-stellar-miracle": 11100,
     "sv-super-electric-breaker": 23000,
-    "sv-terastal-fes-ex": 17200
+    "sv-terastal-fes-ex": 18000
    }
   },
   "runto": {
