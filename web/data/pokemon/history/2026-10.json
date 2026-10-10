@@ -3544,5 +3544,11 @@
   "shop": "homura",
   "variant": "sv-white-flare",
   "price": 18500
+ },
+ {
+  "t": "2026-10-10T16:03:07+09:00",
+  "shop": "rudeya",
+  "variant": "mega-abyss-eye",
+  "price": 6100
  }
 ]
