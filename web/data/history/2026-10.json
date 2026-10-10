@@ -15538,5 +15538,113 @@
   "shop": "jcka",
   "variant": "pm-256-silver",
   "price": 223000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 229500
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-black",
+  "price": 328000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-burgundy",
+  "price": 347000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-glacier",
+  "price": 328000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 244000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-black",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-burgundy",
+  "price": 397000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-glacier",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-silver",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 265000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-burgundy",
+  "price": 281000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-glacier",
+  "price": 265000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-silver",
+  "price": 260000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 244000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "homura",
+  "variant": "pm-512-burgundy",
+  "price": 280000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 244000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-burgundy",
+  "price": 347000
+ },
+ {
+  "t": "2026-10-10T15:02:02+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-glacier",
+  "price": 229500
  }
 ]
