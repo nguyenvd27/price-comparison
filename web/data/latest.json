@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T13:31:15+09:00",
+ "generated_at": "2026-10-10T14:01:13+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:31:01+09:00",
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-10T13:01:12+09:00",
+   "last_success_at": "2026-10-10T14:01:13+09:00",
    "display_at": "2026-10-10T13:01:12+09:00",
    "error": null,
    "prices": {
@@ -137,7 +137,7 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-10T13:01:12+09:00",
+   "last_success_at": "2026-10-10T14:01:13+09:00",
    "display_at": "2026-10-10T13:01:12+09:00",
    "error": null,
    "prices": {
