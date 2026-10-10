@@ -3550,5 +3550,11 @@
   "shop": "rudeya",
   "variant": "mega-abyss-eye",
   "price": 6100
+ },
+ {
+  "t": "2026-10-10T17:01:25+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25800
  }
 ]
