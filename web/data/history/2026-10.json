@@ -15940,5 +15940,11 @@
   "shop": "rakuen",
   "variant": "pm-256-burgundy",
   "price": 244000
+ },
+ {
+  "t": "2026-10-10T17:31:05+09:00",
+  "shop": "mix",
+  "variant": "pm-512-burgundy",
+  "price": 282000
  }
 ]
