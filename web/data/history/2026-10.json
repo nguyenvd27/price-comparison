@@ -14626,5 +14626,113 @@
   "shop": "ichome",
   "variant": "pm-2tb-silver",
   "price": 386000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-burgundy",
+  "price": 277000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-glacier",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-silver",
+  "price": 259000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-black",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-glacier",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-silver",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-1tb-black",
+  "price": 322000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-1tb-burgundy",
+  "price": 332000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-1tb-glacier",
+  "price": 322000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-1tb-silver",
+  "price": 322000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 221000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-black",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-glacier",
+  "price": 258000
+ },
+ {
+  "t": "2026-10-10T10:31:21+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-silver",
+  "price": 258000
  }
 ]

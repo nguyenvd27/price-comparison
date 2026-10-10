@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T10:01:20+09:00",
+ "generated_at": "2026-10-10T10:32:03+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-10T10:01:20+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fd53920c8c0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 24000,
     "mega-30th-futuristic": 56000,
