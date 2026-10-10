@@ -997,7 +997,7 @@
    "shop": "mix"
   },
   "pm-1tb-burgundy": {
-   "max": 344000,
+   "max": 345000,
    "shop": "mix"
   },
   "pm-1tb-glacier": {
@@ -1013,8 +1013,8 @@
    "shop": "ichome"
   },
   "pm-256-burgundy": {
-   "max": 243000,
-   "shop": "ichome"
+   "max": 244000,
+   "shop": "mix"
   },
   "pm-256-glacier": {
    "max": 229000,
@@ -1041,16 +1041,16 @@
    "shop": "rudeya"
   },
   "pm-512-black": {
-   "max": 264000,
+   "max": 265000,
    "shop": "mix"
   },
   "pm-512-burgundy": {
-   "max": 280000,
+   "max": 281000,
    "shop": "mix"
   },
   "pm-512-glacier": {
-   "max": 264500,
-   "shop": "sommelier"
+   "max": 265000,
+   "shop": "mix"
   },
   "pm-512-silver": {
    "max": 260500,

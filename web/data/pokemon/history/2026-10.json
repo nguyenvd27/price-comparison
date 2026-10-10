@@ -3334,5 +3334,95 @@
   "shop": "homura",
   "variant": "mega-30th",
   "price": 24800
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "rudeya",
+  "variant": "sv-battle-partners",
+  "price": 8600
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8700
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 15100
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 7300
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-munikis-zero",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9800
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 41000
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 20000
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-paradise-dragona",
+  "price": 14200
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 21300
+ },
+ {
+  "t": "2026-10-10T12:02:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 17800
  }
 ]
