@@ -611,7 +611,7 @@
    "shop": "runto"
   },
   "mega-abyss-eye": {
-   "max": 8800,
+   "max": 9000,
    "shop": "homura"
   },
   "mega-inferno-x": {
@@ -627,7 +627,7 @@
    "shop": "ichome"
   },
   "mega-mega-symphonia": {
-   "max": 7200,
+   "max": 7500,
    "shop": "homura"
   },
   "mega-munikis-zero": {
@@ -635,7 +635,7 @@
    "shop": "homura"
   },
   "mega-ninja-spinner": {
-   "max": 8600,
+   "max": 8800,
    "shop": "homura"
   },
   "mega-storm-emeralda": {
@@ -647,11 +647,11 @@
    "shop": "ichiban"
   },
   "sv-battle-partners": {
-   "max": 10800,
+   "max": 11000,
    "shop": "homura"
   },
   "sv-black-bolt": {
-   "max": 20000,
+   "max": 20500,
    "shop": "homura"
   },
   "sv-heat-arena": {
@@ -667,23 +667,23 @@
    "shop": "homura"
   },
   "sv-rocket-gang": {
-   "max": 21200,
+   "max": 21500,
    "shop": "homura"
   },
   "sv-stellar-miracle": {
-   "max": 11100,
-   "shop": "oku"
+   "max": 11200,
+   "shop": "homura"
   },
   "sv-super-electric-breaker": {
-   "max": 23500,
-   "shop": "runto"
+   "max": 24500,
+   "shop": "homura"
   },
   "sv-terastal-fes-ex": {
-   "max": 18000,
+   "max": 18500,
    "shop": "homura"
   },
   "sv-white-flare": {
-   "max": 18000,
+   "max": 18500,
    "shop": "homura"
   }
  }

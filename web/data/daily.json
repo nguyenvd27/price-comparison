@@ -993,11 +993,11 @@
  },
  "2026-10-10": {
   "pm-1tb-black": {
-   "max": 328000,
-   "shop": "mix"
+   "max": 331000,
+   "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
-   "max": 345000,
+   "max": 347000,
    "shop": "mix"
   },
   "pm-1tb-glacier": {
@@ -1041,19 +1041,19 @@
    "shop": "rudeya"
   },
   "pm-512-black": {
-   "max": 265000,
-   "shop": "mix"
+   "max": 265500,
+   "shop": "sommelier"
   },
   "pm-512-burgundy": {
    "max": 281000,
    "shop": "mix"
   },
   "pm-512-glacier": {
-   "max": 265000,
-   "shop": "mix"
+   "max": 265500,
+   "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 260500,
+   "max": 262000,
    "shop": "sommelier"
   }
  }

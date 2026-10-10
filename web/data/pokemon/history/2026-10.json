@@ -3478,5 +3478,71 @@
   "shop": "oku",
   "variant": "sv-terastal-fes-ex",
   "price": 18000
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "mega-abyss-eye",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-symphonia",
+  "price": 7500
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 11000
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 20500
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-night-wanderer",
+  "price": 11200
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-rocket-gang",
+  "price": 21500
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-stellar-miracle",
+  "price": 11200
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-super-electric-breaker",
+  "price": 24500
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18500
+ },
+ {
+  "t": "2026-10-10T14:31:49+09:00",
+  "shop": "homura",
+  "variant": "sv-white-flare",
+  "price": 18500
  }
 ]

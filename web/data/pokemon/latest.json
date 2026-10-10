@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T13:31:32+09:00",
+ "generated_at": "2026-10-10T14:31:49+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -26,34 +26,34 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
-   "display_at": "2026-10-10T11:31:16+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
+   "display_at": "2026-10-10T14:31:49+09:00",
    "error": null,
    "prices": {
     "mega-30th": 24800,
-    "mega-abyss-eye": 8800,
+    "mega-abyss-eye": 9000,
     "mega-inferno-x": 15000,
     "mega-mega-brave": 7800,
     "mega-mega-dream-ex": 12100,
-    "mega-mega-symphonia": 7200,
+    "mega-mega-symphonia": 7500,
     "mega-munikis-zero": 8500,
-    "mega-ninja-spinner": 8600,
+    "mega-ninja-spinner": 8800,
     "mega-storm-emeralda": 10000,
     "sv-151": 40000,
-    "sv-battle-partners": 10800,
-    "sv-black-bolt": 20000,
+    "sv-battle-partners": 11000,
+    "sv-black-bolt": 20500,
     "sv-heat-arena": 15000,
-    "sv-night-wanderer": 11000,
+    "sv-night-wanderer": 11200,
     "sv-paradise-dragona": 14000,
-    "sv-rocket-gang": 21200,
-    "sv-stellar-miracle": 11000,
-    "sv-super-electric-breaker": 23500,
-    "sv-terastal-fes-ex": 18000,
-    "sv-white-flare": 18000
+    "sv-rocket-gang": 21500,
+    "sv-stellar-miracle": 11200,
+    "sv-super-electric-breaker": 24500,
+    "sv-terastal-fes-ex": 18500,
+    "sv-white-flare": 18500
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
    "display_at": "2026-10-10T12:02:27+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
    "display_at": "2026-10-10T12:31:26+09:00",
    "error": null,
    "prices": {
@@ -123,7 +123,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
    "display_at": "2026-10-10T10:01:20+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-10T13:31:32+09:00",
+   "last_success_at": "2026-10-10T14:31:49+09:00",
    "display_at": "2026-10-10T12:02:27+09:00",
    "error": null,
    "prices": {
