@@ -3232,5 +3232,11 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 18100
+ },
+ {
+  "t": "2026-10-10T10:01:20+09:00",
+  "shop": "runto",
+  "variant": "sv-rocket-gang",
+  "price": 21000
  }
 ]

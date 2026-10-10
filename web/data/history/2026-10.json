@@ -14548,5 +14548,83 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 259000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 239000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-black",
+  "price": 324000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-burgundy",
+  "price": 339000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-glacier",
+  "price": 324000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-silver",
+  "price": 324000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 239000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-silver",
+  "price": 224000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-black",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-burgundy",
+  "price": 396000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-glacier",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-10T10:01:04+09:00",
+  "shop": "ichome",
+  "variant": "pm-2tb-silver",
+  "price": 386000
  }
 ]
