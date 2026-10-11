@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T14:31:11+09:00",
+ "generated_at": "2026-10-11T15:02:01+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-11T14:01:37+09:00",
+   "last_success_at": "2026-10-11T15:02:01+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-11T14:01:37+09:00",
+   "last_success_at": "2026-10-11T15:02:01+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-11T14:01:37+09:00",
+   "last_success_at": "2026-10-11T15:02:01+09:00",
    "display_at": "2026-10-11T13:01:30+09:00",
    "error": null,
    "prices": {
@@ -123,7 +123,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-11T14:01:37+09:00",
+   "last_success_at": "2026-10-11T15:02:01+09:00",
    "display_at": "2026-10-11T12:31:21+09:00",
    "error": null,
    "prices": {
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-11T14:01:37+09:00",
+   "last_success_at": "2026-10-11T15:02:01+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
@@ -178,8 +178,8 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-11T14:01:37+09:00",
-   "display_at": "2026-10-11T13:01:30+09:00",
+   "last_success_at": "2026-10-11T15:02:01+09:00",
+   "display_at": "2026-10-11T15:02:01+09:00",
    "error": null,
    "prices": {
     "mega-30th": 24800,
@@ -190,17 +190,17 @@
     "mega-mega-symphonia": 7500,
     "mega-munikis-zero": 8600,
     "mega-ninja-spinner": 9000,
-    "mega-storm-emeralda": 10000,
-    "sv-151": 41000,
+    "mega-storm-emeralda": 10100,
+    "sv-151": 43000,
     "sv-battle-partners": 11100,
     "sv-black-bolt": 20600,
     "sv-heat-arena": 15100,
-    "sv-night-wanderer": 11200,
+    "sv-night-wanderer": 11400,
     "sv-paradise-dragona": 14200,
-    "sv-rocket-gang": 21500,
-    "sv-stellar-miracle": 11200,
+    "sv-rocket-gang": 21600,
+    "sv-stellar-miracle": 11400,
     "sv-super-electric-breaker": 24800,
-    "sv-terastal-fes-ex": 18500,
+    "sv-terastal-fes-ex": 18600,
     "sv-white-flare": 18600
    }
   }

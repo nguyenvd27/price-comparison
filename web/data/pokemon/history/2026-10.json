@@ -3910,5 +3910,41 @@
   "shop": "homura",
   "variant": "sv-white-flare",
   "price": 18800
+ },
+ {
+  "t": "2026-10-11T15:02:01+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 10100
+ },
+ {
+  "t": "2026-10-11T15:02:01+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 43000
+ },
+ {
+  "t": "2026-10-11T15:02:01+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 11400
+ },
+ {
+  "t": "2026-10-11T15:02:01+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 21600
+ },
+ {
+  "t": "2026-10-11T15:02:01+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-stellar-miracle",
+  "price": 11400
+ },
+ {
+  "t": "2026-10-11T15:02:01+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18600
  }
 ]
