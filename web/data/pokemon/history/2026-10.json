@@ -3616,5 +3616,83 @@
   "shop": "oku",
   "variant": "mega-storm-emeralda",
   "price": null
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 8900
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "homura",
+  "variant": "sv-151",
+  "price": 41000
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 7500
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 8900
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "sv-paradise-dragona",
+  "price": 14000
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 21500
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "sv-stellar-miracle",
+  "price": 11200
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 24000
+ },
+ {
+  "t": "2026-10-11T11:31:18+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18500
  }
 ]
