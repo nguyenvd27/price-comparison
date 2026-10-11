@@ -3946,5 +3946,11 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 18600
+ },
+ {
+  "t": "2026-10-11T15:31:23+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-heat-arena",
+  "price": 15500
  }
 ]
