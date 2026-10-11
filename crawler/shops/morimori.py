@@ -23,14 +23,16 @@ def fetch(session) -> str:
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
+    # Giao diện từ 2026-10-08: mỗi sản phẩm là div.mm1551-prow, giá máy mới ở data-cond-new-price.
+    # (Các thẻ article.mm1551-hotcard phía trên chỉ là phần "nổi bật", trùng với danh sách này.)
     soup = BeautifulSoup(raw, "html.parser")
     offers = []
-    for item in soup.select("#category-0301070-products .product-item"):
-        name = item.select_one(".product-details-name")
-        price = item.select_one(".price-normal-number")
+    for item in soup.select("div.mm1551-prow"):
+        name = item.select_one(".mm1551-prow__name")
+        price = item.get("data-cond-new-price")
         if not name or not price:
             continue
-        offer = offer_from_name(name.get_text(" ", strip=True), parse_price(price.get_text()), colors)
+        offer = offer_from_name(name.get_text(" ", strip=True), parse_price(price), colors)
         if offer:
             offers.append(offer)
     return dedupe(offers)

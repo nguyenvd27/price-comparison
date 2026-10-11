@@ -28,17 +28,18 @@ def fetch(session) -> str:
 
 
 def parse(raw: str, items: list[dict]) -> list[Offer]:
+    # Giao diện từ 2026-10-08: mỗi sản phẩm là div.mm1551-prow, giá ở data-cond-new-price, JAN trong .mm1551-prow__meta.
     soup = BeautifulSoup(raw, "html.parser")
     offers = []
-    for card in soup.select("div[id$='-products'] .product-item"):
-        name = card.select_one(".product-details-name")
-        price = card.select_one(".price-normal-number")
-        details = card.select_one(".product-details")
+    for card in soup.select("div.mm1551-prow"):
+        name = card.select_one(".mm1551-prow__name")
+        price = card.get("data-cond-new-price")
+        meta = card.select_one(".mm1551-prow__meta")
         if not name or not price:
             continue
-        jan = clean_jan(details.get_text(" ") if details else "")
+        jan = clean_jan(meta.get_text(" ") if meta else "")
         item = match_item(name.get_text(" ", strip=True), jan, items)
-        value = parse_price(price.get_text())
+        value = parse_price(price)
         if item and value:
             offers.append(Offer(item, value))
     return dedupe(offers)
