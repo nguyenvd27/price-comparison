@@ -16054,5 +16054,11 @@
   "shop": "homura",
   "variant": "pm-512-silver",
   "price": 261000
+ },
+ {
+  "t": "2026-10-11T13:30:42+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-burgundy",
+  "price": 244500
  }
 ]
