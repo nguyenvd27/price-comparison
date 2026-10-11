@@ -3556,5 +3556,41 @@
   "shop": "oku",
   "variant": "mega-30th",
   "price": 25800
+ },
+ {
+  "t": "2026-10-11T10:01:12+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10100
+ },
+ {
+  "t": "2026-10-11T10:01:12+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-11T10:01:12+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9700
+ },
+ {
+  "t": "2026-10-11T10:01:12+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 20200
+ },
+ {
+  "t": "2026-10-11T10:01:12+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 23600
+ },
+ {
+  "t": "2026-10-11T10:01:12+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18000
  }
 ]
