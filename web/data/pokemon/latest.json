@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T11:31:18+09:00",
+ "generated_at": "2026-10-11T12:31:21+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:01:49+09:00",
@@ -26,8 +26,8 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
-   "display_at": "2026-10-11T11:31:18+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
+   "display_at": "2026-10-11T12:31:21+09:00",
    "error": null,
    "prices": {
     "mega-30th": 24800,
@@ -39,7 +39,7 @@
     "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 8900,
     "mega-storm-emeralda": 10000,
-    "sv-151": 41000,
+    "sv-151": 43000,
     "sv-battle-partners": 11000,
     "sv-black-bolt": 20500,
     "sv-heat-arena": 15000,
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
@@ -98,7 +98,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
    "display_at": "2026-10-11T11:31:18+09:00",
    "error": null,
    "prices": {
@@ -123,11 +123,11 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
-   "display_at": "2026-10-11T10:01:12+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
+   "display_at": "2026-10-11T12:31:21+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 25500,
+    "mega-30th": 25000,
     "mega-30th-futuristic": 61000,
     "mega-abyss-eye": 8500,
     "mega-inferno-x": 16000,
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-11T11:31:18+09:00",
+   "last_success_at": "2026-10-11T12:31:21+09:00",
    "display_at": "2026-10-11T10:01:12+09:00",
    "error": null,
    "prices": {
