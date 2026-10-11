@@ -1107,16 +1107,16 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 265500,
-   "shop": "mix"
+   "max": 266000,
+   "shop": "homura"
   },
   "pm-512-burgundy": {
    "max": 282000,
    "shop": "mix"
   },
   "pm-512-glacier": {
-   "max": 265500,
-   "shop": "mix"
+   "max": 266000,
+   "shop": "homura"
   },
   "pm-512-silver": {
    "max": 262000,
