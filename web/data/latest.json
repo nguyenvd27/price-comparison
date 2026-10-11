@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T10:31:30+09:00",
+ "generated_at": "2026-10-11T11:00:54+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-08T12:31:01+09:00",
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-11T10:00:57+09:00",
    "display_at": "2026-10-11T10:00:57+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7faf67c587d0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "pm-1tb-black": 323000,
     "pm-1tb-burgundy": 338000,
@@ -137,12 +137,12 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-11T10:00:57+09:00",
-   "display_at": "2026-10-11T10:00:57+09:00",
+   "last_success_at": "2026-10-11T11:00:54+09:00",
+   "display_at": "2026-10-11T11:00:54+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 327000,
-    "pm-1tb-burgundy": 343000,
+    "pm-1tb-burgundy": 345000,
     "pm-1tb-glacier": 327000,
     "pm-1tb-silver": 324000,
     "pm-256-black": 229000,
@@ -154,7 +154,7 @@
     "pm-2tb-glacier": 385000,
     "pm-2tb-silver": 385000,
     "pm-512-black": 265500,
-    "pm-512-burgundy": 281000,
+    "pm-512-burgundy": 282000,
     "pm-512-glacier": 265500,
     "pm-512-silver": 260000
    }
