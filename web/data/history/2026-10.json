@@ -17290,5 +17290,59 @@
   "shop": "sommelier",
   "variant": "pm-2tb-silver",
   "price": 388000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 232000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "mix",
+  "variant": "pm-512-black",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-burgundy",
+  "price": 349000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-256-burgundy",
+  "price": 247500
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-burgundy",
+  "price": 398000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-512-black",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-512-burgundy",
+  "price": 284000
+ },
+ {
+  "t": "2026-10-12T15:01:21+09:00",
+  "shop": "base",
+  "variant": "pm-512-glacier",
+  "price": 268000
  }
 ]
