@@ -4612,5 +4612,17 @@
   "shop": "oku",
   "variant": "sv-rocket-gang",
   "price": 22000
+ },
+ {
+  "t": "2026-10-12T17:01:33+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 22000
+ },
+ {
+  "t": "2026-10-12T17:01:33+09:00",
+  "shop": "homura",
+  "variant": "sv-white-flare",
+  "price": 19500
  }
 ]

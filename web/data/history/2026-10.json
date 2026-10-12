@@ -17404,5 +17404,11 @@
   "shop": "rudeya",
   "variant": "pm-512-silver",
   "price": 263000
+ },
+ {
+  "t": "2026-10-12T17:01:20+09:00",
+  "shop": "mix",
+  "variant": "pm-512-glacier",
+  "price": 268000
  }
 ]

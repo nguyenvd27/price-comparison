@@ -823,7 +823,7 @@
    "shop": "homura"
   },
   "sv-black-bolt": {
-   "max": 20800,
+   "max": 22000,
    "shop": "homura"
   },
   "sv-heat-arena": {
@@ -855,8 +855,8 @@
    "shop": "homura"
   },
   "sv-white-flare": {
-   "max": 19000,
-   "shop": "runto"
+   "max": 19500,
+   "shop": "homura"
   }
  }
 }
