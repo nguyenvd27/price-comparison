@@ -17002,5 +17002,29 @@
   "shop": "homura",
   "variant": "pm-512-silver",
   "price": 260000
+ },
+ {
+  "t": "2026-10-12T13:31:06+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 232000
+ },
+ {
+  "t": "2026-10-12T13:31:06+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-silver",
+  "price": 225000
+ },
+ {
+  "t": "2026-10-12T13:31:06+09:00",
+  "shop": "homura",
+  "variant": "pm-256-black",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-12T13:31:06+09:00",
+  "shop": "homura",
+  "variant": "pm-256-silver",
+  "price": 227000
  }
 ]

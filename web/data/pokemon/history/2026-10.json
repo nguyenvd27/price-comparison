@@ -4558,5 +4558,29 @@
   "shop": "runto",
   "variant": "sv-white-flare",
   "price": 19000
+ },
+ {
+  "t": "2026-10-12T13:31:23+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-12T13:31:23+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-12T13:31:23+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-12T13:31:23+09:00",
+  "shop": "runto",
+  "variant": "sv-paradise-dragona",
+  "price": 14500
  }
 ]
