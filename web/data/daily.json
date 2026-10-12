@@ -1125,31 +1125,31 @@
  },
  "2026-10-12": {
   "pm-1tb-black": {
-   "max": 332000,
-   "shop": "ichome"
+   "max": 333000,
+   "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
-   "max": 348000,
-   "shop": "ichome"
+   "max": 349000,
+   "shop": "sommelier"
   },
   "pm-1tb-glacier": {
-   "max": 332000,
-   "shop": "ichome"
+   "max": 333000,
+   "shop": "sommelier"
   },
   "pm-1tb-silver": {
-   "max": 328000,
-   "shop": "rakuen"
+   "max": 329000,
+   "shop": "sommelier"
   },
   "pm-256-black": {
-   "max": 230000,
-   "shop": "ichome"
+   "max": 231000,
+   "shop": "sommelier"
   },
   "pm-256-burgundy": {
    "max": 246500,
    "shop": "ichome"
   },
   "pm-256-glacier": {
-   "max": 232000,
+   "max": 233000,
    "shop": "sommelier"
   },
   "pm-256-silver": {
@@ -1157,7 +1157,7 @@
    "shop": "homura"
   },
   "pm-2tb-black": {
-   "max": 387000,
+   "max": 388000,
    "shop": "sommelier"
   },
   "pm-2tb-burgundy": {
@@ -1165,11 +1165,11 @@
    "shop": "sommelier"
   },
   "pm-2tb-glacier": {
-   "max": 387000,
+   "max": 388000,
    "shop": "sommelier"
   },
   "pm-2tb-silver": {
-   "max": 387000,
+   "max": 388000,
    "shop": "sommelier"
   },
   "pm-512-black": {

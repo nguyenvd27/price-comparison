@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T14:02:50+09:00",
+ "generated_at": "2026-10-12T14:31:52+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-12T14:02:50+09:00",
@@ -26,7 +26,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-12T13:31:23+09:00",
+   "last_success_at": "2026-10-12T14:31:52+09:00",
    "display_at": "2026-10-12T11:01:33+09:00",
    "error": null,
    "prices": {
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-12T13:01:56+09:00",
+   "last_success_at": "2026-10-12T14:31:52+09:00",
    "display_at": "2026-10-12T10:01:50+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f43a5155b50>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 24000,
     "mega-30th-futuristic": 56000,
