@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T18:01:38+09:00",
+ "generated_at": "2026-10-12T18:31:21+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-12T18:01:38+09:00",
@@ -81,8 +81,8 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-12T18:01:38+09:00",
-   "display_at": "2026-10-12T18:01:38+09:00",
+   "last_success_at": "2026-10-12T18:31:21+09:00",
+   "display_at": "2026-10-12T18:31:21+09:00",
    "error": null,
    "prices": {
     "mega-30th": 24000,
@@ -98,6 +98,7 @@
     "sv-heat-arena": 15000,
     "sv-paradise-dragona": 14500,
     "sv-rocket-gang": 22000,
+    "sv-stellar-miracle": 11000,
     "sv-super-electric-breaker": 25000,
     "sv-terastal-fes-ex": 13500
    }
