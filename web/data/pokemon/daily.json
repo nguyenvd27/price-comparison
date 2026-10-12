@@ -815,8 +815,8 @@
    "shop": "homura"
   },
   "sv-151": {
-   "max": 43000,
-   "shop": "morimori"
+   "max": 44000,
+   "shop": "homura"
   },
   "sv-battle-partners": {
    "max": 11200,
@@ -835,7 +835,7 @@
    "shop": "homura"
   },
   "sv-paradise-dragona": {
-   "max": 14300,
+   "max": 14500,
    "shop": "homura"
   },
   "sv-rocket-gang": {

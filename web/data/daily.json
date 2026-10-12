@@ -1141,16 +1141,16 @@
    "shop": "shouten"
   },
   "pm-256-black": {
-   "max": 229000,
-   "shop": "mix"
+   "max": 230000,
+   "shop": "ichome"
   },
   "pm-256-burgundy": {
-   "max": 244500,
-   "shop": "morimori"
+   "max": 246000,
+   "shop": "mix"
   },
   "pm-256-glacier": {
-   "max": 229500,
-   "shop": "morimori"
+   "max": 231000,
+   "shop": "mix"
   },
   "pm-256-silver": {
    "max": 227000,
@@ -1173,16 +1173,16 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 265500,
-   "shop": "morimori"
+   "max": 266000,
+   "shop": "ichome"
   },
   "pm-512-burgundy": {
    "max": 282000,
    "shop": "morimori"
   },
   "pm-512-glacier": {
-   "max": 265500,
-   "shop": "morimori"
+   "max": 266500,
+   "shop": "mix"
   },
   "pm-512-silver": {
    "max": 262000,
