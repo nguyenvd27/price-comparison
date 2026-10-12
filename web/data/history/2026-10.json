@@ -17410,5 +17410,23 @@
   "shop": "mix",
   "variant": "pm-512-glacier",
   "price": 268000
+ },
+ {
+  "t": "2026-10-12T17:31:11+09:00",
+  "shop": "base",
+  "variant": "pm-256-silver",
+  "price": 227000
+ },
+ {
+  "t": "2026-10-12T17:31:11+09:00",
+  "shop": "base",
+  "variant": "pm-512-black",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-12T17:31:11+09:00",
+  "shop": "base",
+  "variant": "pm-512-silver",
+  "price": 263500
  }
 ]
