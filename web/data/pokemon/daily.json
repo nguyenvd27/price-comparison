@@ -787,7 +787,7 @@
    "shop": "homura"
   },
   "mega-inferno-x": {
-   "max": 16500,
+   "max": 17000,
    "shop": "runto"
   },
   "mega-mega-brave": {
@@ -855,8 +855,8 @@
    "shop": "homura"
   },
   "sv-white-flare": {
-   "max": 18800,
-   "shop": "homura"
+   "max": 19000,
+   "shop": "runto"
   }
  }
 }
