@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T13:31:23+09:00",
+ "generated_at": "2026-10-12T14:02:50+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-12T12:32:15+09:00",
+   "last_success_at": "2026-10-12T14:02:50+09:00",
    "display_at": "2026-10-12T12:32:15+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-12T12:32:15+09:00",
+   "last_success_at": "2026-10-12T14:02:50+09:00",
    "display_at": "2026-10-12T10:01:50+09:00",
    "error": null,
    "prices": {
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-12T13:01:56+09:00",
    "display_at": "2026-10-12T10:01:50+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f43a5155b50>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 24000,
     "mega-30th-futuristic": 56000,
@@ -98,16 +98,16 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-12T13:31:23+09:00",
-   "display_at": "2026-10-12T13:31:23+09:00",
+   "last_success_at": "2026-10-12T14:02:50+09:00",
+   "display_at": "2026-10-12T14:02:50+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25200,
     "mega-abyss-eye": 9100,
     "mega-inferno-x": 15000,
-    "mega-mega-brave": 7800,
+    "mega-mega-brave": 8000,
     "mega-mega-dream-ex": 11000,
-    "mega-mega-symphonia": 7500,
+    "mega-mega-symphonia": 7700,
     "mega-munikis-zero": 8800,
     "mega-ninja-spinner": 9100,
     "mega-storm-emeralda": 10500,
@@ -123,8 +123,8 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-12T13:31:23+09:00",
-   "display_at": "2026-10-12T13:31:23+09:00",
+   "last_success_at": "2026-10-12T14:02:50+09:00",
+   "display_at": "2026-10-12T14:02:50+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
@@ -136,7 +136,7 @@
     "mega-mega-symphonia": 7500,
     "mega-munikis-zero": 8000,
     "mega-ninja-spinner": 8500,
-    "mega-storm-emeralda": 10300,
+    "mega-storm-emeralda": 10500,
     "sv-battle-partners": 10500,
     "sv-black-bolt": 20000,
     "sv-heat-arena": 15000,
@@ -150,7 +150,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-12T12:32:15+09:00",
+   "last_success_at": "2026-10-12T14:02:50+09:00",
    "display_at": "2026-10-12T12:32:15+09:00",
    "error": null,
    "prices": {
@@ -178,7 +178,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-12T12:32:15+09:00",
+   "last_success_at": "2026-10-12T14:02:50+09:00",
    "display_at": "2026-10-12T12:32:15+09:00",
    "error": null,
    "prices": {

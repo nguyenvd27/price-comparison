@@ -4582,5 +4582,23 @@
   "shop": "runto",
   "variant": "sv-paradise-dragona",
   "price": 14500
+ },
+ {
+  "t": "2026-10-12T14:02:50+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-12T14:02:50+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 7700
+ },
+ {
+  "t": "2026-10-12T14:02:50+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10500
  }
 ]

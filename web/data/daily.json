@@ -1137,8 +1137,8 @@
    "shop": "ichome"
   },
   "pm-1tb-silver": {
-   "max": 327000,
-   "shop": "shouten"
+   "max": 328000,
+   "shop": "rakuen"
   },
   "pm-256-black": {
    "max": 230000,
@@ -1185,8 +1185,8 @@
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 262500,
-   "shop": "sommelier"
+   "max": 263000,
+   "shop": "shouten"
   }
  }
 }
