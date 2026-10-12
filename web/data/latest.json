@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-12T16:00:53+09:00",
+ "generated_at": "2026-10-12T16:31:28+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-12T15:31:46+09:00",
-   "display_at": "2026-10-12T13:01:39+09:00",
+   "last_success_at": "2026-10-12T16:31:28+09:00",
+   "display_at": "2026-10-12T16:31:28+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 331000,
@@ -18,10 +18,10 @@
     "pm-2tb-burgundy": 395000,
     "pm-2tb-glacier": 385000,
     "pm-2tb-silver": 385000,
-    "pm-512-black": 265500,
+    "pm-512-black": 267000,
     "pm-512-burgundy": 283000,
-    "pm-512-glacier": 265500,
-    "pm-512-silver": 260000
+    "pm-512-glacier": 268000,
+    "pm-512-silver": 262500
    }
   },
   "ichiban": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-12T15:01:21+09:00",
+   "last_success_at": "2026-10-12T16:31:28+09:00",
    "display_at": "2026-10-12T15:01:21+09:00",
    "error": null,
    "prices": {
@@ -183,26 +183,26 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-12T15:31:46+09:00",
-   "display_at": "2026-10-12T12:01:52+09:00",
+   "last_success_at": "2026-10-12T16:31:28+09:00",
+   "display_at": "2026-10-12T16:31:28+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 327000,
     "pm-1tb-burgundy": 348000,
     "pm-1tb-glacier": 327000,
     "pm-1tb-silver": 327000,
-    "pm-256-black": 227000,
-    "pm-256-burgundy": 246000,
+    "pm-256-black": 225000,
+    "pm-256-burgundy": 246500,
     "pm-256-glacier": 227000,
     "pm-256-silver": 225000,
     "pm-2tb-black": 385000,
     "pm-2tb-burgundy": 397000,
     "pm-2tb-glacier": 385000,
     "pm-2tb-silver": 385000,
-    "pm-512-black": 262000,
+    "pm-512-black": 267000,
     "pm-512-burgundy": 283000,
-    "pm-512-glacier": 262000,
-    "pm-512-silver": 259000
+    "pm-512-glacier": 267000,
+    "pm-512-silver": 263000
    }
   },
   "wiki": {
@@ -248,7 +248,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-12T15:01:21+09:00",
+   "last_success_at": "2026-10-12T16:31:28+09:00",
    "display_at": "2026-10-12T15:01:21+09:00",
    "error": null,
    "prices": {
