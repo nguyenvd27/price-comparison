@@ -4600,5 +4600,17 @@
   "shop": "runto",
   "variant": "mega-storm-emeralda",
   "price": 10500
+ },
+ {
+  "t": "2026-10-12T15:32:28+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 11000
+ },
+ {
+  "t": "2026-10-12T15:32:28+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 22000
  }
 ]
