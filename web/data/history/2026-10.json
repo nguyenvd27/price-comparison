@@ -16282,5 +16282,11 @@
   "shop": "rakuen",
   "variant": "pm-512-silver",
   "price": 260000
+ },
+ {
+  "t": "2026-10-12T10:31:14+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-burgundy",
+  "price": 244500
  }
 ]
