@@ -4624,5 +4624,77 @@
   "shop": "homura",
   "variant": "sv-white-flare",
   "price": 19500
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-30th-futuristic",
+  "price": null
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-abyss-eye",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-inferno-x",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-mega-brave",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-mega-dream-ex",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-mega-symphonia",
+  "price": 7000
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "sv-151",
+  "price": 44000
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "sv-heat-arena",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "sv-paradise-dragona",
+  "price": 14500
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "sv-rocket-gang",
+  "price": 22000
+ },
+ {
+  "t": "2026-10-12T18:01:38+09:00",
+  "shop": "ichiban",
+  "variant": "sv-super-electric-breaker",
+  "price": 25000
  }
 ]
