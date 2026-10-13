@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-13T16:33:48+09:00",
+ "generated_at": "2026-10-13T17:03:50+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-13T16:33:48+09:00",
    "display_at": "2026-10-13T12:32:29+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/2401010 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7f7a841c56d0>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
    "prices": {
     "mega-abyss-eye": 9100,
     "mega-inferno-x": 15200,
@@ -104,9 +104,9 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-13T15:32:20+09:00",
+   "last_success_at": "2026-10-13T17:03:50+09:00",
    "display_at": "2026-10-13T12:32:29+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7f708d7ec830>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25600,
     "mega-abyss-eye": 9100,
@@ -184,7 +184,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-13T16:02:36+09:00",
+   "last_success_at": "2026-10-13T17:03:50+09:00",
    "display_at": "2026-10-13T15:02:14+09:00",
    "error": null,
    "prices": {
