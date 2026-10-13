@@ -4708,5 +4708,47 @@
   "shop": "ichiban",
   "variant": "mega-30th",
   "price": 25000
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "runto",
+  "variant": "mega-30th-futuristic",
+  "price": 60000
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 7600
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 11700
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 25200
+ },
+ {
+  "t": "2026-10-13T10:02:23+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19100
  }
 ]
