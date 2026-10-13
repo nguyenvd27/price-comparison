@@ -1203,16 +1203,16 @@
    "shop": "sommelier"
   },
   "pm-1tb-silver": {
-   "max": 329000,
-   "shop": "sommelier"
+   "max": 329200,
+   "shop": "jcka"
   },
   "pm-256-black": {
    "max": 233000,
    "shop": "rakuen"
   },
   "pm-256-burgundy": {
-   "max": 247000,
-   "shop": "morimori"
+   "max": 247200,
+   "shop": "jcka"
   },
   "pm-256-glacier": {
    "max": 233500,
@@ -1251,8 +1251,8 @@
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 265000,
-   "shop": "shouten"
+   "max": 265200,
+   "shop": "jcka"
   }
  }
 }
