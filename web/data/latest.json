@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-13T18:03:51+09:00",
+ "generated_at": "2026-10-13T18:36:07+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-13T17:31:48+09:00",
+   "last_success_at": "2026-10-13T18:36:07+09:00",
    "display_at": "2026-10-13T16:02:22+09:00",
    "error": null,
    "prices": {
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-13T18:03:51+09:00",
    "display_at": "2026-10-13T14:32:07+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f268f1e0d70>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 333000,
     "pm-1tb-burgundy": 349000,
@@ -296,7 +296,7 @@
   "jcka": {
    "last_success_at": "2026-10-13T18:03:51+09:00",
    "display_at": "2026-10-13T18:03:51+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jcka-mobile.co.jp', port=443): Max retries exceeded with url: /kisyu/iphone/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jcka-mobile.co.jp', port=443) at 0x7f268e8881a0>, 'Connection to www.jcka-mobile.co.jp timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 329000,
     "pm-1tb-burgundy": 345000,
