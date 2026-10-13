@@ -1239,20 +1239,20 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 267000,
-   "shop": "morimori"
-  },
-  "pm-512-burgundy": {
-   "max": 283000,
-   "shop": "morimori"
-  },
-  "pm-512-glacier": {
    "max": 268000,
    "shop": "morimori"
   },
+  "pm-512-burgundy": {
+   "max": 284000,
+   "shop": "ichome"
+  },
+  "pm-512-glacier": {
+   "max": 269000,
+   "shop": "morimori"
+  },
   "pm-512-silver": {
-   "max": 263000,
-   "shop": "ichiban"
+   "max": 264000,
+   "shop": "morimori"
   }
  }
 }

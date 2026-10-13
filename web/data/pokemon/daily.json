@@ -861,7 +861,7 @@
  },
  "2026-10-13": {
   "mega-30th": {
-   "max": 25200,
+   "max": 25300,
    "shop": "oku"
   },
   "mega-30th-futuristic": {
@@ -917,8 +917,8 @@
    "shop": "morimori"
   },
   "sv-night-wanderer": {
-   "max": 11200,
-   "shop": "morimori"
+   "max": 11300,
+   "shop": "ichome"
   },
   "sv-paradise-dragona": {
    "max": 14500,
@@ -929,8 +929,8 @@
    "shop": "morimori"
   },
   "sv-stellar-miracle": {
-   "max": 11200,
-   "shop": "morimori"
+   "max": 11300,
+   "shop": "ichome"
   },
   "sv-super-electric-breaker": {
    "max": 25000,

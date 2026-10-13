@@ -4756,5 +4756,47 @@
   "shop": "ichome",
   "variant": "mega-mega-symphonia",
   "price": 7200
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25300
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "ichome",
+  "variant": "mega-ninja-spinner",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 11000
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "ichome",
+  "variant": "sv-night-wanderer",
+  "price": 11300
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "ichome",
+  "variant": "sv-stellar-miracle",
+  "price": 11300
+ },
+ {
+  "t": "2026-10-13T11:32:08+09:00",
+  "shop": "ichome",
+  "variant": "sv-terastal-fes-ex",
+  "price": 18500
  }
 ]
