@@ -18622,5 +18622,113 @@
   "shop": "sommelier",
   "variant": "pm-512-glacier",
   "price": 271000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-black",
+  "price": 333000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-silver",
+  "price": 329000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 232000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-silver",
+  "price": 228000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-burgundy",
+  "price": 285000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-silver",
+  "price": 265000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-burgundy",
+  "price": 285000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T15:32:07+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 270000
  }
 ]
