@@ -18730,5 +18730,47 @@
   "shop": "rakuen",
   "variant": "pm-512-glacier",
   "price": 270000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-black",
+  "price": 230000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-burgundy",
+  "price": 285000
+ },
+ {
+  "t": "2026-10-13T16:02:22+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-glacier",
+  "price": 270000
  }
 ]
