@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-13T16:02:36+09:00",
+ "generated_at": "2026-10-13T16:33:48+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-13T15:32:20+09:00",
+   "last_success_at": "2026-10-13T16:33:48+09:00",
    "display_at": "2026-10-13T12:32:29+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-13T15:32:20+09:00",
+   "last_success_at": "2026-10-13T16:33:48+09:00",
    "display_at": "2026-10-13T12:02:15+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-13T15:32:20+09:00",
+   "last_success_at": "2026-10-13T16:33:48+09:00",
    "display_at": "2026-10-13T10:02:23+09:00",
    "error": null,
    "prices": {
@@ -106,7 +106,7 @@
   "oku": {
    "last_success_at": "2026-10-13T15:32:20+09:00",
    "display_at": "2026-10-13T12:32:29+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7f708d7ec830>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 25600,
     "mega-abyss-eye": 9100,
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-13T15:32:20+09:00",
+   "last_success_at": "2026-10-13T16:33:48+09:00",
    "display_at": "2026-10-13T13:32:06+09:00",
    "error": null,
    "prices": {
@@ -156,8 +156,8 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-13T15:32:20+09:00",
-   "display_at": "2026-10-13T15:32:20+09:00",
+   "last_success_at": "2026-10-13T16:33:48+09:00",
+   "display_at": "2026-10-13T16:33:48+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
@@ -172,7 +172,7 @@
     "mega-storm-emeralda": 9500,
     "sv-151": 40000,
     "sv-battle-partners": 11000,
-    "sv-black-bolt": 20000,
+    "sv-black-bolt": 22000,
     "sv-heat-arena": 15000,
     "sv-night-wanderer": 11300,
     "sv-paradise-dragona": 13700,
@@ -180,7 +180,7 @@
     "sv-stellar-miracle": 11300,
     "sv-super-electric-breaker": 23500,
     "sv-terastal-fes-ex": 18500,
-    "sv-white-flare": 18000
+    "sv-white-flare": 19000
    }
   },
   "shinsoku": {

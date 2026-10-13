@@ -4918,5 +4918,17 @@
   "shop": "ichome",
   "variant": "mega-mega-symphonia",
   "price": 7500
+ },
+ {
+  "t": "2026-10-13T16:33:48+09:00",
+  "shop": "ichome",
+  "variant": "sv-black-bolt",
+  "price": 22000
+ },
+ {
+  "t": "2026-10-13T16:33:48+09:00",
+  "shop": "ichome",
+  "variant": "sv-white-flare",
+  "price": 19000
  }
 ]

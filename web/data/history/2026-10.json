@@ -18772,5 +18772,23 @@
   "shop": "rudeya",
   "variant": "pm-512-glacier",
   "price": 270000
+ },
+ {
+  "t": "2026-10-13T16:33:05+09:00",
+  "shop": "akimoba",
+  "variant": "pm-1tb-glacier",
+  "price": 333000
+ },
+ {
+  "t": "2026-10-13T16:33:05+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-black",
+  "price": 232000
+ },
+ {
+  "t": "2026-10-13T16:33:05+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 229000
  }
 ]
