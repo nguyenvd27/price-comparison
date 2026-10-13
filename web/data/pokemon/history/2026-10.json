@@ -4834,5 +4834,53 @@
   "shop": "rudeya",
   "variant": "mega-30th-futuristic",
   "price": 59500
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "morimori",
+  "variant": "sv-151",
+  "price": 44000
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25600
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "runto",
+  "variant": "mega-30th",
+  "price": 25200
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 11300
+ },
+ {
+  "t": "2026-10-13T12:32:29+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 11600
  }
 ]
