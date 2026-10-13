@@ -18868,5 +18868,29 @@
   "shop": "jcka",
   "variant": "pm-512-burgundy",
   "price": 280000
+ },
+ {
+  "t": "2026-10-13T18:03:51+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-black",
+  "price": 259000
+ },
+ {
+  "t": "2026-10-13T18:03:51+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-burgundy",
+  "price": 275000
+ },
+ {
+  "t": "2026-10-13T18:03:51+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-glacier",
+  "price": 259000
+ },
+ {
+  "t": "2026-10-13T18:03:51+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-silver",
+  "price": 255000
  }
 ]
