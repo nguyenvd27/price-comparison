@@ -4900,5 +4900,17 @@
   "shop": "ichome",
   "variant": "mega-abyss-eye",
   "price": 9000
+ },
+ {
+  "t": "2026-10-13T15:02:14+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25200
+ },
+ {
+  "t": "2026-10-13T15:02:14+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 10000
  }
 ]
