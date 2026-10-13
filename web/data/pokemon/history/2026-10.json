@@ -4882,5 +4882,11 @@
   "shop": "shinsoku",
   "variant": "sv-night-wanderer",
   "price": 11600
+ },
+ {
+  "t": "2026-10-13T13:32:06+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10300
  }
 ]
