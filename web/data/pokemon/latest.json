@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T19:33:51+09:00",
+ "generated_at": "2026-10-13T20:09:25+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-13T19:33:51+09:00",
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-13T18:37:16+09:00",
+   "last_success_at": "2026-10-13T20:09:25+09:00",
    "display_at": "2026-10-13T17:31:59+09:00",
    "error": null,
    "prices": {
