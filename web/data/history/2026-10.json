@@ -17866,5 +17866,137 @@
   "shop": "rudeya",
   "variant": "pm-256-glacier",
   "price": 228000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-burgundy",
+  "price": 284000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-black",
+  "price": 334000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-burgundy",
+  "price": 351000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-glacier",
+  "price": 334000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-silver",
+  "price": 330000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-256-burgundy",
+  "price": 248500
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-black",
+  "price": 389000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-burgundy",
+  "price": 399000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-glacier",
+  "price": 389000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-2tb-silver",
+  "price": 389000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-512-burgundy",
+  "price": 286000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "base",
+  "variant": "pm-512-silver",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-black",
+  "price": 230000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-silver",
+  "price": 228000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-black",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-burgundy",
+  "price": 284000
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-glacier",
+  "price": 269500
+ },
+ {
+  "t": "2026-10-13T12:02:03+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-silver",
+  "price": 264000
  }
 ]

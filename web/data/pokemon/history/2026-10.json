@@ -4798,5 +4798,41 @@
   "shop": "ichome",
   "variant": "sv-terastal-fes-ex",
   "price": 18500
+ },
+ {
+  "t": "2026-10-13T12:02:15+09:00",
+  "shop": "morimori",
+  "variant": "mega-abyss-eye",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-13T12:02:15+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-brave",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-13T12:02:15+09:00",
+  "shop": "morimori",
+  "variant": "sv-black-bolt",
+  "price": 22500
+ },
+ {
+  "t": "2026-10-13T12:02:15+09:00",
+  "shop": "morimori",
+  "variant": "sv-night-wanderer",
+  "price": 11500
+ },
+ {
+  "t": "2026-10-13T12:02:15+09:00",
+  "shop": "morimori",
+  "variant": "sv-white-flare",
+  "price": 19500
+ },
+ {
+  "t": "2026-10-13T12:02:15+09:00",
+  "shop": "rudeya",
+  "variant": "mega-30th-futuristic",
+  "price": 59500
  }
 ]
