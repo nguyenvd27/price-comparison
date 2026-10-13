@@ -4930,5 +4930,23 @@
   "shop": "ichome",
   "variant": "sv-white-flare",
   "price": 19000
+ },
+ {
+  "t": "2026-10-13T17:31:59+09:00",
+  "shop": "runto",
+  "variant": "mega-inferno-x",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-13T17:31:59+09:00",
+  "shop": "runto",
+  "variant": "sv-black-bolt",
+  "price": 21000
+ },
+ {
+  "t": "2026-10-13T17:31:59+09:00",
+  "shop": "runto",
+  "variant": "sv-white-flare",
+  "price": 19500
  }
 ]
