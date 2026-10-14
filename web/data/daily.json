@@ -1269,8 +1269,8 @@
    "shop": "sommelier"
   },
   "pm-1tb-silver": {
-   "max": 330000,
-   "shop": "ichiban"
+   "max": 331000,
+   "shop": "shouten"
   },
   "pm-256-black": {
    "max": 235000,
@@ -1313,8 +1313,8 @@
    "shop": "shouten"
   },
   "pm-512-glacier": {
-   "max": 271500,
-   "shop": "sommelier"
+   "max": 272000,
+   "shop": "morimori"
   },
   "pm-512-silver": {
    "max": 269000,

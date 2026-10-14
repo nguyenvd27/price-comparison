@@ -5254,5 +5254,71 @@
   "shop": "oku",
   "variant": "mega-ninja-spinner",
   "price": 9100
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "ichiban",
+  "variant": "mega-inferno-x",
+  "price": 17300
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "ichome",
+  "variant": "mega-inferno-x",
+  "price": 16000
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "ichome",
+  "variant": "sv-heat-arena",
+  "price": 16000
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "ichome",
+  "variant": "sv-paradise-dragona",
+  "price": 14000
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "ichome",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19500
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 16000
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8400
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-munikis-zero",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-14T15:30:45+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
  }
 ]
