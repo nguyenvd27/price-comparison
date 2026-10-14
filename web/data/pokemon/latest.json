@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T14:30:50+09:00",
+ "generated_at": "2026-10-14T15:00:54+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-14T14:30:50+09:00",
@@ -104,8 +104,8 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-14T14:00:57+09:00",
-   "display_at": "2026-10-14T12:30:48+09:00",
+   "last_success_at": "2026-10-14T15:00:54+09:00",
+   "display_at": "2026-10-14T15:00:54+09:00",
    "error": null,
    "prices": {
     "mega-30th": 26100,
@@ -115,7 +115,7 @@
     "mega-mega-dream-ex": 11000,
     "mega-mega-symphonia": 8000,
     "mega-munikis-zero": 8800,
-    "mega-ninja-spinner": 9500,
+    "mega-ninja-spinner": 9100,
     "mega-storm-emeralda": 10300,
     "sv-151": 43000,
     "sv-battle-partners": 11500,
