@@ -19546,5 +19546,11 @@
   "shop": "jcka",
   "variant": "pm-512-glacier",
   "price": 270000
+ },
+ {
+  "t": "2026-10-14T14:00:39+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 286000
  }
 ]
