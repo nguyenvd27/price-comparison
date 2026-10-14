@@ -19552,5 +19552,53 @@
   "shop": "shouten",
   "variant": "pm-512-burgundy",
   "price": 286000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "mix",
+  "variant": "pm-2tb-burgundy",
+  "price": 399000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-black",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-burgundy",
+  "price": 286000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-14T14:30:36+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-silver",
+  "price": 269000
  }
 ]
