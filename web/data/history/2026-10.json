@@ -20074,5 +20074,35 @@
   "shop": "akimoba",
   "variant": "pm-512-glacier",
   "price": 272000
+ },
+ {
+  "t": "2026-10-14T19:00:44+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-14T19:00:44+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-14T19:00:44+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-14T19:00:44+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-14T19:00:44+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-glacier",
+  "price": 272000
  }
 ]
