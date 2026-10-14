@@ -19432,5 +19432,47 @@
   "shop": "jcka",
   "variant": "pm-2tb-burgundy",
   "price": 397000
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 285500
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-silver",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-14T13:00:34+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 247000
  }
 ]
