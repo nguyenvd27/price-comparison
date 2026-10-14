@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14T19:00:56+09:00",
+ "generated_at": "2026-10-14T19:30:49+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-14T18:01:55+09:00",
+   "last_success_at": "2026-10-14T19:30:49+09:00",
    "display_at": "2026-10-14T12:00:50+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-14T18:01:55+09:00",
+   "last_success_at": "2026-10-14T19:30:49+09:00",
    "display_at": "2026-10-14T10:01:02+09:00",
    "error": null,
    "prices": {
@@ -105,11 +105,10 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-14T18:01:55+09:00",
-   "display_at": "2026-10-14T15:00:54+09:00",
+   "last_success_at": "2026-10-14T19:30:49+09:00",
+   "display_at": "2026-10-14T19:30:49+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 26100,
     "mega-abyss-eye": 9100,
     "mega-inferno-x": 15000,
     "mega-mega-brave": 8300,
@@ -130,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-14T18:01:55+09:00",
+   "last_success_at": "2026-10-14T19:30:49+09:00",
    "display_at": "2026-10-14T13:00:47+09:00",
    "error": null,
    "prices": {
@@ -157,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-14T18:01:55+09:00",
+   "last_success_at": "2026-10-14T19:30:49+09:00",
    "display_at": "2026-10-14T16:00:49+09:00",
    "error": null,
    "prices": {
