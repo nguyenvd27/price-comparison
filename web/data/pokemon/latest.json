@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:01:46+09:00",
+ "generated_at": "2026-10-14T17:31:42+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-14T17:01:46+09:00",
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-14T16:00:49+09:00",
    "display_at": "2026-10-14T16:00:49+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f628beaf590>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f1501f4edb0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 25000,
     "mega-abyss-eye": 8000,
