@@ -19474,5 +19474,77 @@
   "shop": "sommelier",
   "variant": "pm-256-burgundy",
   "price": 247000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-black",
+  "price": 333500
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-glacier",
+  "price": 333500
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-silver",
+  "price": 329500
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "base",
+  "variant": "pm-512-glacier",
+  "price": 274000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-1tb-burgundy",
+  "price": 349000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-burgundy",
+  "price": 285000
+ },
+ {
+  "t": "2026-10-14T13:30:32+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-glacier",
+  "price": 270000
  }
 ]
