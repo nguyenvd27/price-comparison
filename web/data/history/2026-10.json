@@ -19378,5 +19378,59 @@
   "shop": "sommelier",
   "variant": "pm-512-glacier",
   "price": 271500
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-black",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-glacier",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-silver",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-14T12:30:34+09:00",
+  "shop": "jcka",
+  "variant": "pm-2tb-burgundy",
+  "price": 397000
  }
 ]

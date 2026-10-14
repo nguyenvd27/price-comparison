@@ -5140,5 +5140,107 @@
   "shop": "oku",
   "variant": "sv-terastal-fes-ex",
   "price": 20000
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 26100
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12200
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-munikis-zero",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 46000
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 11500
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-heat-arena",
+  "price": 16100
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 22500
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-stellar-miracle",
+  "price": 11700
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 26000
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19800
+ },
+ {
+  "t": "2026-10-14T12:30:48+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 20000
  }
 ]

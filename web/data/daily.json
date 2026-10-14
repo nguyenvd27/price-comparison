@@ -1273,8 +1273,8 @@
    "shop": "jcka"
   },
   "pm-256-black": {
-   "max": 234000,
-   "shop": "akimoba"
+   "max": 235000,
+   "shop": "shouten"
   },
   "pm-256-burgundy": {
    "max": 247500,
@@ -1317,8 +1317,8 @@
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 265200,
-   "shop": "jcka"
+   "max": 266000,
+   "shop": "shouten"
   }
  }
 }
