@@ -5038,5 +5038,107 @@
   "shop": "oku",
   "variant": "mega-storm-emeralda",
   "price": 10300
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "morimori",
+  "variant": "mega-inferno-x",
+  "price": 15500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-dream-ex",
+  "price": 12500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "morimori",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "morimori",
+  "variant": "sv-heat-arena",
+  "price": 15800
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "morimori",
+  "variant": "sv-rocket-gang",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-brave",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 43000
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 11500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-heat-arena",
+  "price": 16000
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-night-wanderer",
+  "price": 11500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-paradise-dragona",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-stellar-miracle",
+  "price": 11500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-14T12:00:50+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20000
  }
 ]
