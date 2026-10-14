@@ -5026,5 +5026,17 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 19500
+ },
+ {
+  "t": "2026-10-14T11:00:52+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 26000
+ },
+ {
+  "t": "2026-10-14T11:00:52+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 10300
  }
 ]
