@@ -987,16 +987,16 @@
    "shop": "runto"
   },
   "sv-151": {
-   "max": 44000,
-   "shop": "morimori"
+   "max": 45000,
+   "shop": "ichome"
   },
   "sv-battle-partners": {
    "max": 11500,
    "shop": "oku"
   },
   "sv-black-bolt": {
-   "max": 22500,
-   "shop": "morimori"
+   "max": 23200,
+   "shop": "ichiban"
   },
   "sv-heat-arena": {
    "max": 16000,
@@ -1027,8 +1027,8 @@
    "shop": "oku"
   },
   "sv-white-flare": {
-   "max": 19500,
-   "shop": "morimori"
+   "max": 20600,
+   "shop": "ichiban"
   }
  }
 }

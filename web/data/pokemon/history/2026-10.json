@@ -5320,5 +5320,29 @@
   "shop": "shinsoku",
   "variant": "mega-ninja-spinner",
   "price": 9500
+ },
+ {
+  "t": "2026-10-14T16:00:49+09:00",
+  "shop": "ichiban",
+  "variant": "sv-black-bolt",
+  "price": 23200
+ },
+ {
+  "t": "2026-10-14T16:00:49+09:00",
+  "shop": "ichiban",
+  "variant": "sv-rocket-gang",
+  "price": null
+ },
+ {
+  "t": "2026-10-14T16:00:49+09:00",
+  "shop": "ichiban",
+  "variant": "sv-white-flare",
+  "price": 20600
+ },
+ {
+  "t": "2026-10-14T16:00:49+09:00",
+  "shop": "ichome",
+  "variant": "sv-151",
+  "price": 45000
  }
 ]
