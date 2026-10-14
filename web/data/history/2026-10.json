@@ -19000,5 +19000,23 @@
   "shop": "shouten",
   "variant": "pm-512-black",
   "price": 270000
+ },
+ {
+  "t": "2026-10-14T10:30:33+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-burgundy",
+  "price": 399000
+ },
+ {
+  "t": "2026-10-14T10:30:33+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-glacier",
+  "price": 333000
+ },
+ {
+  "t": "2026-10-14T10:30:33+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 233000
  }
 ]
