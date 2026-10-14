@@ -18988,5 +18988,17 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 265200
+ },
+ {
+  "t": "2026-10-14T10:00:50+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-black",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-14T10:00:50+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 270000
  }
 ]
