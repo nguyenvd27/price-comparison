@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T19:30:49+09:00",
+ "generated_at": "2026-10-14T20:00:51+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-14T19:30:49+09:00",
@@ -184,7 +184,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-14T18:31:45+09:00",
+   "last_success_at": "2026-10-14T20:00:51+09:00",
    "display_at": "2026-10-14T18:31:45+09:00",
    "error": null,
    "prices": {

@@ -20104,5 +20104,29 @@
   "shop": "ichiban",
   "variant": "pm-512-glacier",
   "price": 272000
+ },
+ {
+  "t": "2026-10-14T20:00:36+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-14T20:00:36+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-14T20:00:36+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 272000
+ },
+ {
+  "t": "2026-10-14T20:00:36+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 272000
  }
 ]
