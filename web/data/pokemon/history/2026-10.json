@@ -5476,5 +5476,77 @@
   "shop": "ichome",
   "variant": "mega-mega-dream-ex",
   "price": 12900
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25600
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-brave",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 45000
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "sv-heat-arena",
+  "price": 16500
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 23200
+ },
+ {
+  "t": "2026-10-15T11:31:47+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 26000
  }
 ]

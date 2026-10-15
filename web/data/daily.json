@@ -1343,11 +1343,11 @@
    "shop": "akimoba"
   },
   "pm-256-burgundy": {
-   "max": 247500,
+   "max": 248000,
    "shop": "akimoba"
   },
   "pm-256-glacier": {
-   "max": 236500,
+   "max": 237000,
    "shop": "akimoba"
   },
   "pm-256-silver": {
@@ -1375,8 +1375,8 @@
    "shop": "akimoba"
   },
   "pm-512-burgundy": {
-   "max": 289000,
-   "shop": "morimori"
+   "max": 289500,
+   "shop": "akimoba"
   },
   "pm-512-glacier": {
    "max": 273000,
