@@ -5602,5 +5602,125 @@
   "shop": "morimori",
   "variant": "sv-terastal-fes-ex",
   "price": 20000
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "ichiban",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "ichiban",
+  "variant": "mega-30th-futuristic",
+  "price": 61000
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "ichiban",
+  "variant": "mega-inferno-x",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "ichiban",
+  "variant": "mega-storm-emeralda",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "ichiban",
+  "variant": "sv-stellar-miracle",
+  "price": null
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "ichiban",
+  "variant": "sv-super-electric-breaker",
+  "price": null
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 47000
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 11700
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 23500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-heat-arena",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-paradise-dragona",
+  "price": 15300
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 23300
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-stellar-miracle",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 26500
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20000
+ },
+ {
+  "t": "2026-10-15T12:30:54+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 20500
  }
 ]
