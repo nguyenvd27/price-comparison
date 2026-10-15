@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T17:31:03+09:00",
+ "generated_at": "2026-10-15T18:00:32+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T13:00:37+09:00",
    "error": null,
    "prices": {
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-15T17:00:39+09:00",
    "display_at": "2026-10-15T12:00:35+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fa47ffead50>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 353000,
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T11:31:01+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T12:30:39+09:00",
    "error": null,
    "prices": {
@@ -137,8 +137,8 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
-   "display_at": "2026-10-15T13:00:37+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
+   "display_at": "2026-10-15T18:00:32+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 333000,
@@ -146,8 +146,8 @@
     "pm-1tb-glacier": 333000,
     "pm-1tb-silver": 330000,
     "pm-256-black": 235000,
-    "pm-256-burgundy": 248000,
-    "pm-256-glacier": 236500,
+    "pm-256-burgundy": 247500,
+    "pm-256-glacier": 236000,
     "pm-256-silver": 228000,
     "pm-2tb-black": 385000,
     "pm-2tb-burgundy": 399000,
@@ -183,7 +183,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T12:00:35+09:00",
    "error": null,
    "prices": {
@@ -225,7 +225,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T15:00:39+09:00",
    "error": null,
    "prices": {
@@ -248,7 +248,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T15:00:39+09:00",
    "error": null,
    "prices": {
@@ -271,7 +271,7 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T14:01:04+09:00",
    "error": null,
    "prices": {
@@ -294,7 +294,7 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-15T16:31:04+09:00",
+   "last_success_at": "2026-10-15T18:00:32+09:00",
    "display_at": "2026-10-15T11:31:01+09:00",
    "error": null,
    "prices": {
