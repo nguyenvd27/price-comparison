@@ -5470,5 +5470,11 @@
   "shop": "ichome",
   "variant": "sv-white-flare",
   "price": 19500
+ },
+ {
+  "t": "2026-10-15T11:00:51+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-dream-ex",
+  "price": 12900
  }
 ]
