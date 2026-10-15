@@ -5734,5 +5734,17 @@
   "shop": "ichiban",
   "variant": "sv-151",
   "price": 47000
+ },
+ {
+  "t": "2026-10-15T15:00:53+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-15T15:00:53+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 25000
  }
 ]
