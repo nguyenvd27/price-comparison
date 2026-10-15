@@ -5548,5 +5548,59 @@
   "shop": "oku",
   "variant": "sv-super-electric-breaker",
   "price": 26000
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "mega-inferno-x",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-brave",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-heat-arena",
+  "price": 16500
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-night-wanderer",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-paradise-dragona",
+  "price": 15300
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-rocket-gang",
+  "price": 23200
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-stellar-miracle",
+  "price": 11600
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-super-electric-breaker",
+  "price": 26100
+ },
+ {
+  "t": "2026-10-15T12:00:49+09:00",
+  "shop": "morimori",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20000
  }
 ]

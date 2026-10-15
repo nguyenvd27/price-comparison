@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-10-15T11:31:47+09:00",
+ "generated_at": "2026-10-15T12:00:49+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-15T11:31:47+09:00",
-   "display_at": "2026-10-15T10:00:53+09:00",
+   "last_success_at": "2026-10-15T12:00:49+09:00",
+   "display_at": "2026-10-15T12:00:49+09:00",
    "error": null,
    "prices": {
     "mega-abyss-eye": 9100,
-    "mega-inferno-x": 15500,
-    "mega-mega-brave": 8200,
+    "mega-inferno-x": 17000,
+    "mega-mega-brave": 8500,
     "mega-mega-dream-ex": 12500,
     "mega-mega-symphonia": 7700,
     "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 9500,
     "sv-151": 44000,
     "sv-black-bolt": 22500,
-    "sv-heat-arena": 15800,
-    "sv-night-wanderer": 11500,
-    "sv-paradise-dragona": 14500,
-    "sv-rocket-gang": 23000,
-    "sv-stellar-miracle": 11200,
-    "sv-super-electric-breaker": 25000,
-    "sv-terastal-fes-ex": 19000,
+    "sv-heat-arena": 16500,
+    "sv-night-wanderer": 11800,
+    "sv-paradise-dragona": 15300,
+    "sv-rocket-gang": 23200,
+    "sv-stellar-miracle": 11600,
+    "sv-super-electric-breaker": 26100,
+    "sv-terastal-fes-ex": 20000,
     "sv-white-flare": 19500
    }
   },
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-15T10:00:53+09:00",
+   "last_success_at": "2026-10-15T12:00:49+09:00",
    "display_at": "2026-10-15T10:00:53+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f0d46ccf290>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25000,
     "mega-abyss-eye": 8000,

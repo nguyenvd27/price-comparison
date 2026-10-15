@@ -20590,5 +20590,113 @@
   "shop": "jcka",
   "variant": "pm-256-silver",
   "price": 225000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-burgundy",
+  "price": 353000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-burgundy",
+  "price": 289000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-black",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 247500
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "rudeya",
+  "variant": "pm-1tb-burgundy",
+  "price": 353000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-burgundy",
+  "price": 289000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-black",
+  "price": 336500
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-burgundy",
+  "price": 354000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-glacier",
+  "price": 336500
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-silver",
+  "price": 332000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-black",
+  "price": 236500
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 246500
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-glacier",
+  "price": 236500
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-black",
+  "price": 273000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-burgundy",
+  "price": 289000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-glacier",
+  "price": 273000
+ },
+ {
+  "t": "2026-10-15T12:00:35+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-silver",
+  "price": 270000
  }
 ]

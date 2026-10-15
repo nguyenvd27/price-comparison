@@ -1089,24 +1089,24 @@
    "shop": "oku"
   },
   "sv-night-wanderer": {
-   "max": 11500,
+   "max": 11800,
    "shop": "morimori"
   },
   "sv-paradise-dragona": {
-   "max": 15000,
-   "shop": "oku"
+   "max": 15300,
+   "shop": "morimori"
   },
   "sv-rocket-gang": {
    "max": 23200,
    "shop": "oku"
   },
   "sv-stellar-miracle": {
-   "max": 11500,
-   "shop": "oku"
+   "max": 11600,
+   "shop": "morimori"
   },
   "sv-super-electric-breaker": {
-   "max": 26000,
-   "shop": "oku"
+   "max": 26100,
+   "shop": "morimori"
   },
   "sv-terastal-fes-ex": {
    "max": 20000,

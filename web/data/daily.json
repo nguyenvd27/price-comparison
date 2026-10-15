@@ -1323,20 +1323,20 @@
  },
  "2026-10-15": {
   "pm-1tb-black": {
-   "max": 335000,
-   "shop": "ichiban"
+   "max": 336500,
+   "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
-   "max": 353000,
-   "shop": "morimori"
+   "max": 354000,
+   "shop": "sommelier"
   },
   "pm-1tb-glacier": {
-   "max": 335000,
-   "shop": "ichiban"
+   "max": 336500,
+   "shop": "sommelier"
   },
   "pm-1tb-silver": {
-   "max": 331000,
-   "shop": "ichiban"
+   "max": 332000,
+   "shop": "sommelier"
   },
   "pm-256-black": {
    "max": 236500,
@@ -1383,8 +1383,8 @@
    "shop": "akimoba"
   },
   "pm-512-silver": {
-   "max": 269000,
-   "shop": "ichiban"
+   "max": 270000,
+   "shop": "sommelier"
   }
  }
 }
