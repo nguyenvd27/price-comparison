@@ -5770,5 +5770,47 @@
   "shop": "shinsoku",
   "variant": "mega-ninja-spinner",
   "price": 9700
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 26000
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12800
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 23500
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-stellar-miracle",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-15T20:01:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 27000
  }
 ]
