@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T15:30:50+09:00",
+ "generated_at": "2026-10-15T16:31:48+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-15T15:30:50+09:00",
+   "last_success_at": "2026-10-15T16:31:48+09:00",
    "display_at": "2026-10-15T12:00:49+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-15T15:30:50+09:00",
+   "last_success_at": "2026-10-15T16:31:48+09:00",
    "display_at": "2026-10-15T10:00:53+09:00",
    "error": null,
    "prices": {
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-15T15:30:50+09:00",
    "display_at": "2026-10-15T13:00:51+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fe442746e40>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
@@ -104,7 +104,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-15T15:30:50+09:00",
+   "last_success_at": "2026-10-15T16:31:48+09:00",
    "display_at": "2026-10-15T11:31:47+09:00",
    "error": null,
    "prices": {
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-15T15:00:53+09:00",
+   "last_success_at": "2026-10-15T16:31:48+09:00",
    "display_at": "2026-10-15T15:00:53+09:00",
    "error": null,
    "prices": {
@@ -156,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-15T15:00:53+09:00",
+   "last_success_at": "2026-10-15T16:31:48+09:00",
    "display_at": "2026-10-15T15:00:53+09:00",
    "error": null,
    "prices": {
@@ -184,18 +184,18 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-15T15:00:53+09:00",
-   "display_at": "2026-10-15T12:30:54+09:00",
+   "last_success_at": "2026-10-15T16:31:48+09:00",
+   "display_at": "2026-10-15T16:31:48+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-abyss-eye": 9200,
     "mega-inferno-x": 17500,
-    "mega-mega-brave": 8500,
+    "mega-mega-brave": 8600,
     "mega-mega-dream-ex": 12500,
-    "mega-mega-symphonia": 8200,
-    "mega-munikis-zero": 9100,
-    "mega-ninja-spinner": 9600,
+    "mega-mega-symphonia": 8300,
+    "mega-munikis-zero": 9200,
+    "mega-ninja-spinner": 9700,
     "mega-storm-emeralda": 10200,
     "sv-151": 47000,
     "sv-battle-partners": 11700,

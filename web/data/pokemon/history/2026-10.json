@@ -5746,5 +5746,29 @@
   "shop": "ichome",
   "variant": "mega-30th",
   "price": 25000
+ },
+ {
+  "t": "2026-10-15T16:31:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8600
+ },
+ {
+  "t": "2026-10-15T16:31:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-15T16:31:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-munikis-zero",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-15T16:31:48+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9700
  }
 ]
