@@ -6058,5 +6058,53 @@
   "shop": "rudeya",
   "variant": "sv-terastal-fes-ex",
   "price": 19700
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-151",
+  "price": 35000
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-battle-partners",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-black-bolt",
+  "price": 20000
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-night-wanderer",
+  "price": 11500
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-paradise-dragona",
+  "price": 14700
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-rocket-gang",
+  "price": 20000
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-stellar-miracle",
+  "price": 11700
+ },
+ {
+  "t": "2026-10-16T18:02:02+09:00",
+  "shop": "rudeya",
+  "variant": "sv-white-flare",
+  "price": 18000
  }
 ]

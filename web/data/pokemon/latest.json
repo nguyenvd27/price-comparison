@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:31:47+09:00",
+ "generated_at": "2026-10-16T18:02:02+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-16T17:03:19+09:00",
@@ -53,8 +53,8 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-16T17:31:47+09:00",
-   "display_at": "2026-10-16T17:31:47+09:00",
+   "last_success_at": "2026-10-16T18:02:02+09:00",
+   "display_at": "2026-10-16T18:02:02+09:00",
    "error": null,
    "prices": {
     "mega-30th": 22500,
@@ -67,17 +67,17 @@
     "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 7000,
     "mega-storm-emeralda": 8700,
-    "sv-151": 30000,
-    "sv-battle-partners": 8600,
-    "sv-black-bolt": 19000,
+    "sv-151": 35000,
+    "sv-battle-partners": 10000,
+    "sv-black-bolt": 20000,
     "sv-heat-arena": 14000,
-    "sv-night-wanderer": 10000,
-    "sv-paradise-dragona": 13500,
-    "sv-rocket-gang": 17000,
-    "sv-stellar-miracle": 10200,
+    "sv-night-wanderer": 11500,
+    "sv-paradise-dragona": 14700,
+    "sv-rocket-gang": 20000,
+    "sv-stellar-miracle": 11700,
     "sv-super-electric-breaker": 20000,
     "sv-terastal-fes-ex": 19700,
-    "sv-white-flare": 17000
+    "sv-white-flare": 18000
    }
   },
   "ichiban": {

@@ -21382,5 +21382,29 @@
   "shop": "ichome",
   "variant": "pm-1tb-silver",
   "price": 331000
+ },
+ {
+  "t": "2026-10-16T18:01:47+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-16T18:01:47+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 245000
+ },
+ {
+  "t": "2026-10-16T18:01:47+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-16T18:01:47+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 227000
  }
 ]
