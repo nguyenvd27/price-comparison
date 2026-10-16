@@ -6046,5 +6046,17 @@
   "shop": "ichome",
   "variant": "mega-30th-futuristic",
   "price": 62000
+ },
+ {
+  "t": "2026-10-16T17:31:47+09:00",
+  "shop": "rudeya",
+  "variant": "mega-munikis-zero",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-16T17:31:47+09:00",
+  "shop": "rudeya",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19700
  }
 ]

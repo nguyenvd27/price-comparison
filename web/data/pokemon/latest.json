@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:03:19+09:00",
+ "generated_at": "2026-10-16T17:31:47+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-16T17:03:19+09:00",
@@ -53,8 +53,8 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-16T17:03:19+09:00",
-   "display_at": "2026-10-16T13:31:15+09:00",
+   "last_success_at": "2026-10-16T17:31:47+09:00",
+   "display_at": "2026-10-16T17:31:47+09:00",
    "error": null,
    "prices": {
     "mega-30th": 22500,
@@ -64,7 +64,7 @@
     "mega-mega-brave": 6700,
     "mega-mega-dream-ex": 10000,
     "mega-mega-symphonia": 6400,
-    "mega-munikis-zero": 7500,
+    "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 7000,
     "mega-storm-emeralda": 8700,
     "sv-151": 30000,
@@ -76,14 +76,14 @@
     "sv-rocket-gang": 17000,
     "sv-stellar-miracle": 10200,
     "sv-super-electric-breaker": 20000,
-    "sv-terastal-fes-ex": 15200,
+    "sv-terastal-fes-ex": 19700,
     "sv-white-flare": 17000
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-16T16:01:52+09:00",
+   "last_success_at": "2026-10-16T17:31:47+09:00",
    "display_at": "2026-10-16T10:01:24+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f9d88a28d40>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
