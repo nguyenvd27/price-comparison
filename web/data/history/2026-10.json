@@ -21100,5 +21100,47 @@
   "shop": "ichome",
   "variant": "pm-256-black",
   "price": 235000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-black",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 248000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-glacier",
+  "price": 237000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-silver",
+  "price": 230000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-black",
+  "price": 272000
+ },
+ {
+  "t": "2026-10-16T12:01:06+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-burgundy",
+  "price": 289500
  }
 ]

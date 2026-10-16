@@ -1405,20 +1405,20 @@
    "shop": "sommelier"
   },
   "pm-256-black": {
-   "max": 235500,
+   "max": 236000,
    "shop": "sommelier"
   },
   "pm-256-burgundy": {
-   "max": 247500,
-   "shop": "akimoba"
+   "max": 248000,
+   "shop": "sommelier"
   },
   "pm-256-glacier": {
-   "max": 236500,
+   "max": 237000,
    "shop": "sommelier"
   },
   "pm-256-silver": {
-   "max": 229000,
-   "shop": "morimori"
+   "max": 230000,
+   "shop": "sommelier"
   },
   "pm-2tb-black": {
    "max": 388000,
