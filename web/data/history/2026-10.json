@@ -21406,5 +21406,173 @@
   "shop": "jcka",
   "variant": "pm-256-silver",
   "price": 227000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-1tb-burgundy",
+  "price": 353000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-1tb-silver",
+  "price": 330000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-black",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-2tb-black",
+  "price": 384000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-2tb-burgundy",
+  "price": 399000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-2tb-glacier",
+  "price": 384000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-2tb-silver",
+  "price": 383000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-burgundy",
+  "price": 289000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-glacier",
+  "price": 272000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "mobaste",
+  "variant": "pm-512-silver",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-1tb-black",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-1tb-burgundy",
+  "price": 353000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-1tb-glacier",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-1tb-silver",
+  "price": 332000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-256-black",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-512-burgundy",
+  "price": 289000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-512-glacier",
+  "price": 272000
+ },
+ {
+  "t": "2026-10-17T01:21:13+09:00",
+  "shop": "wiki",
+  "variant": "pm-512-silver",
+  "price": 269000
  }
 ]
