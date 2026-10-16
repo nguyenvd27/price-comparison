@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T14:31:42+09:00",
+ "generated_at": "2026-10-16T15:01:50+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-16T14:01:46+09:00",
+   "last_success_at": "2026-10-16T15:01:50+09:00",
    "display_at": "2026-10-16T11:31:25+09:00",
    "error": null,
    "prices": {
@@ -103,7 +103,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-16T14:01:46+09:00",
+   "last_success_at": "2026-10-16T15:01:50+09:00",
    "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
@@ -183,7 +183,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-16T14:01:46+09:00",
+   "last_success_at": "2026-10-16T15:01:50+09:00",
    "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
