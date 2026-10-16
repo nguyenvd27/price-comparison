@@ -1116,5 +1116,91 @@
    "max": 20600,
    "shop": "ichiban"
   }
+ },
+ "2026-10-16": {
+  "mega-30th": {
+   "max": 25600,
+   "shop": "oku"
+  },
+  "mega-30th-futuristic": {
+   "max": 61000,
+   "shop": "ichiban"
+  },
+  "mega-abyss-eye": {
+   "max": 9200,
+   "shop": "oku"
+  },
+  "mega-inferno-x": {
+   "max": 17500,
+   "shop": "ichiban"
+  },
+  "mega-mega-brave": {
+   "max": 8500,
+   "shop": "morimori"
+  },
+  "mega-mega-dream-ex": {
+   "max": 13000,
+   "shop": "ichiban"
+  },
+  "mega-mega-symphonia": {
+   "max": 8200,
+   "shop": "oku"
+  },
+  "mega-munikis-zero": {
+   "max": 9000,
+   "shop": "oku"
+  },
+  "mega-ninja-spinner": {
+   "max": 9500,
+   "shop": "morimori"
+  },
+  "mega-storm-emeralda": {
+   "max": 10300,
+   "shop": "oku"
+  },
+  "sv-151": {
+   "max": 47000,
+   "shop": "ichiban"
+  },
+  "sv-battle-partners": {
+   "max": 11500,
+   "shop": "oku"
+  },
+  "sv-black-bolt": {
+   "max": 23200,
+   "shop": "ichiban"
+  },
+  "sv-heat-arena": {
+   "max": 16500,
+   "shop": "morimori"
+  },
+  "sv-night-wanderer": {
+   "max": 11800,
+   "shop": "morimori"
+  },
+  "sv-paradise-dragona": {
+   "max": 15300,
+   "shop": "morimori"
+  },
+  "sv-rocket-gang": {
+   "max": 23200,
+   "shop": "morimori"
+  },
+  "sv-stellar-miracle": {
+   "max": 11600,
+   "shop": "morimori"
+  },
+  "sv-super-electric-breaker": {
+   "max": 26100,
+   "shop": "morimori"
+  },
+  "sv-terastal-fes-ex": {
+   "max": 20000,
+   "shop": "morimori"
+  },
+  "sv-white-flare": {
+   "max": 20600,
+   "shop": "ichiban"
+  }
  }
 }
