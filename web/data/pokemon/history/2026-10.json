@@ -5830,5 +5830,71 @@
   "shop": "shinsoku",
   "variant": "mega-storm-emeralda",
   "price": 10000
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "morimori",
+  "variant": "mega-ninja-spinner",
+  "price": 9700
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-brave",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-symphonia",
+  "price": 7900
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "mega-ninja-spinner",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 11200
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-black-bolt",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-paradise-dragona",
+  "price": 14500
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-rocket-gang",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-super-electric-breaker",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-16T11:01:16+09:00",
+  "shop": "ichome",
+  "variant": "sv-white-flare",
+  "price": 20000
  }
 ]
