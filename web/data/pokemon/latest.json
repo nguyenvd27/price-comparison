@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T19:02:54+09:00",
+ "generated_at": "2026-10-16T19:31:45+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-16T18:31:44+09:00",
+   "last_success_at": "2026-10-16T19:31:45+09:00",
    "display_at": "2026-10-16T11:31:25+09:00",
    "error": null,
    "prices": {
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-16T18:31:44+09:00",
+   "last_success_at": "2026-10-16T19:31:45+09:00",
    "display_at": "2026-10-16T18:31:44+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f1b3772fc20>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
@@ -104,7 +104,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-16T18:31:44+09:00",
+   "last_success_at": "2026-10-16T19:31:45+09:00",
    "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-16T18:31:44+09:00",
+   "last_success_at": "2026-10-16T19:31:45+09:00",
    "display_at": "2026-10-16T14:31:42+09:00",
    "error": null,
    "prices": {
@@ -156,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-16T18:31:44+09:00",
+   "last_success_at": "2026-10-16T19:31:45+09:00",
    "display_at": "2026-10-16T16:01:52+09:00",
    "error": null,
    "prices": {
@@ -184,7 +184,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-16T18:31:44+09:00",
+   "last_success_at": "2026-10-16T19:31:45+09:00",
    "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
