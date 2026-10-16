@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T16:31:29+09:00",
+ "generated_at": "2026-10-16T17:02:37+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T10:01:10+09:00",
    "error": null,
    "prices": {
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-16T16:31:29+09:00",
    "display_at": "2026-10-16T14:31:25+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f4aa3cccdd0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 353000,
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T10:01:10+09:00",
    "error": null,
    "prices": {
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T11:31:10+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T12:31:38+09:00",
    "error": null,
    "prices": {
@@ -183,7 +183,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T10:01:10+09:00",
    "error": null,
    "prices": {
@@ -225,7 +225,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T16:01:39+09:00",
    "error": null,
    "prices": {
@@ -248,7 +248,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T14:01:30+09:00",
    "error": null,
    "prices": {
@@ -294,7 +294,7 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-16T16:01:39+09:00",
+   "last_success_at": "2026-10-16T17:02:37+09:00",
    "display_at": "2026-10-16T12:31:38+09:00",
    "error": null,
    "prices": {
