@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T12:32:23+09:00",
+ "generated_at": "2026-10-16T13:02:27+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-16T12:32:23+09:00",
@@ -53,11 +53,11 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-16T12:32:23+09:00",
-   "display_at": "2026-10-16T10:01:24+09:00",
+   "last_success_at": "2026-10-16T13:02:27+09:00",
+   "display_at": "2026-10-16T13:02:27+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 22000,
+    "mega-30th": 22500,
     "mega-30th-futuristic": 59500,
     "mega-abyss-eye": 6100,
     "mega-inferno-x": 12500,
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-16T11:31:25+09:00",
+   "last_success_at": "2026-10-16T13:02:27+09:00",
    "display_at": "2026-10-16T10:01:24+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fae9860ec00>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
@@ -105,7 +105,7 @@
   "oku": {
    "last_success_at": "2026-10-16T12:32:23+09:00",
    "display_at": "2026-10-16T12:32:23+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7f58624184a0>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 26100,
     "mega-abyss-eye": 9200,
@@ -155,7 +155,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-16T12:01:23+09:00",
+   "last_success_at": "2026-10-16T13:02:27+09:00",
    "display_at": "2026-10-16T11:01:16+09:00",
    "error": null,
    "prices": {

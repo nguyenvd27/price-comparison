@@ -6022,5 +6022,11 @@
   "shop": "shinsoku",
   "variant": "sv-super-electric-breaker",
   "price": 27300
+ },
+ {
+  "t": "2026-10-16T13:02:27+09:00",
+  "shop": "rudeya",
+  "variant": "mega-30th",
+  "price": 22500
  }
 ]
