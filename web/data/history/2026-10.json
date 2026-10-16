@@ -21142,5 +21142,35 @@
   "shop": "sommelier",
   "variant": "pm-512-burgundy",
   "price": 289500
+ },
+ {
+  "t": "2026-10-16T12:31:38+09:00",
+  "shop": "mix",
+  "variant": "pm-512-silver",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-16T12:31:38+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-16T12:31:38+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-16T12:31:38+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-16T12:31:38+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 229000
  }
 ]

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T12:01:23+09:00",
+ "generated_at": "2026-10-16T12:32:23+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-16T11:31:25+09:00",
+   "last_success_at": "2026-10-16T12:32:23+09:00",
    "display_at": "2026-10-16T11:31:25+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-16T11:31:25+09:00",
+   "last_success_at": "2026-10-16T12:32:23+09:00",
    "display_at": "2026-10-16T10:01:24+09:00",
    "error": null,
    "prices": {
@@ -83,7 +83,7 @@
   "ichiban": {
    "last_success_at": "2026-10-16T11:31:25+09:00",
    "display_at": "2026-10-16T10:01:24+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7fae9860ec00>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
@@ -103,8 +103,8 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-16T12:01:23+09:00",
-   "display_at": "2026-10-16T12:01:23+09:00",
+   "last_success_at": "2026-10-16T12:32:23+09:00",
+   "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
     "mega-30th": 26100,
@@ -121,21 +121,21 @@
     "sv-heat-arena": 16500,
     "sv-night-wanderer": 11500,
     "sv-paradise-dragona": 15000,
-    "sv-rocket-gang": 23200,
+    "sv-rocket-gang": 23500,
     "sv-stellar-miracle": 11500,
     "sv-super-electric-breaker": 26000,
     "sv-terastal-fes-ex": 20000
    }
   },
   "runto": {
-   "last_success_at": "2026-10-16T11:31:25+09:00",
-   "display_at": "2026-10-16T10:01:24+09:00",
+   "last_success_at": "2026-10-16T12:32:23+09:00",
+   "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 60000,
     "mega-abyss-eye": 9000,
-    "mega-inferno-x": 17500,
+    "mega-inferno-x": 18100,
     "mega-mega-brave": 7800,
     "mega-mega-dream-ex": 12800,
     "mega-mega-symphonia": 7500,
@@ -183,28 +183,28 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-16T11:31:25+09:00",
-   "display_at": "2026-10-16T10:01:24+09:00",
+   "last_success_at": "2026-10-16T12:32:23+09:00",
+   "display_at": "2026-10-16T12:32:23+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 25800,
-    "mega-abyss-eye": 9200,
+    "mega-30th": 26000,
+    "mega-abyss-eye": 9300,
     "mega-inferno-x": 17500,
     "mega-mega-brave": 8600,
-    "mega-mega-dream-ex": 12800,
+    "mega-mega-dream-ex": 13100,
     "mega-mega-symphonia": 8200,
-    "mega-munikis-zero": 9200,
-    "mega-ninja-spinner": 9700,
-    "mega-storm-emeralda": 10000,
-    "sv-151": 47000,
-    "sv-battle-partners": 11700,
+    "mega-munikis-zero": 9300,
+    "mega-ninja-spinner": 9800,
+    "mega-storm-emeralda": 9800,
+    "sv-151": 47500,
+    "sv-battle-partners": 11800,
     "sv-black-bolt": 23500,
-    "sv-heat-arena": 17000,
-    "sv-night-wanderer": 12000,
-    "sv-paradise-dragona": 15300,
-    "sv-rocket-gang": 23500,
-    "sv-stellar-miracle": 12000,
-    "sv-super-electric-breaker": 27000,
+    "sv-heat-arena": 17300,
+    "sv-night-wanderer": 12100,
+    "sv-paradise-dragona": 15500,
+    "sv-rocket-gang": 23800,
+    "sv-stellar-miracle": 12100,
+    "sv-super-electric-breaker": 27300,
     "sv-terastal-fes-ex": 20000,
     "sv-white-flare": 20500
    }
