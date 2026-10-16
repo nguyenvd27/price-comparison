@@ -21364,5 +21364,11 @@
   "shop": "base",
   "variant": "pm-512-silver",
   "price": 269500
+ },
+ {
+  "t": "2026-10-16T14:31:25+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-black",
+  "price": 233000
  }
 ]
