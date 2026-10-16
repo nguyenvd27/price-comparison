@@ -21064,5 +21064,41 @@
   "shop": "jcka",
   "variant": "pm-512-silver",
   "price": 267000
+ },
+ {
+  "t": "2026-10-16T11:31:10+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-16T11:31:10+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-16T11:31:10+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-16T11:31:10+09:00",
+  "shop": "mix",
+  "variant": "pm-256-black",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-16T11:31:10+09:00",
+  "shop": "mix",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-16T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 235000
  }
 ]
