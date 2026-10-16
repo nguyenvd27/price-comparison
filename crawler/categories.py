@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 
+from crawler.normalize import Colors
 from crawler.store import DATA_DIR
 
 
@@ -15,10 +16,14 @@ class Category:
     price_range: tuple[int, int]
 
 
-def crawl_colors(catalog: dict) -> dict[str, list[str]]:
-    """Chỉ các màu thuộc dòng máy đang crawl, để parser không sinh giá cho màu của dòng máy khác."""
-    wanted = {color for model in catalog["models"] if model["crawl"] for color in model["colors"]}
-    return {color_id: color["aliases"] for color_id, color in catalog["colors"].items() if color_id in wanted}
+def crawl_colors(catalog: dict) -> Colors:
+    """Chỉ các màu thuộc dòng máy đang crawl, kèm bảng dòng máy → màu để không gán màu sai dòng máy."""
+    models = {model["id"]: model["colors"] for model in catalog["models"] if model["crawl"]}
+    wanted = {color for colors in models.values() for color in colors}
+    return Colors(
+        {color_id: color["aliases"] for color_id, color in catalog["colors"].items() if color_id in wanted},
+        models=models,
+    )
 
 
 def pokemon_items(catalog: dict) -> list[dict]:

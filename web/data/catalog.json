@@ -21,7 +21,7 @@
     "starwhite"
    ],
    "release": "2026-10-23",
-   "crawl": false
+   "crawl": true
   }
  ],
  "colors": {
@@ -62,14 +62,16 @@
    "vi": "Night Sky",
    "hex": "#1f2a44",
    "aliases": [
-    "ナイトスカイ"
+    "ナイトスカイ",
+    "Night Sky"
    ]
   },
   "starwhite": {
    "vi": "Star White",
    "hex": "#ecebe4",
    "aliases": [
-    "スターホワイト"
+    "スターホワイト",
+    "Star White"
    ]
   }
  },

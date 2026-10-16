@@ -4,18 +4,19 @@ from bs4 import BeautifulSoup
 
 from crawler.http import get_text
 from crawler.models import Offer
-from crawler.normalize import find_colors, is_pro_max, nfkc, parse_capacity, parse_price, variant_id
-from crawler.shops.common import dedupe, kanji_colors
+from crawler.normalize import find_colors, model_colors, nfkc, parse_capacity, parse_model, parse_price, variant_id
+from crawler.shops.common import dedupe, kanji_colors, real_price
 
-URL = "https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba/iphone18-promax/"
+SERIES = "https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba/"
+URLS = [SERIES + "iphone18-promax/", SERIES + "iphone-duo/"]
 AMOUNT = re.compile(r"(-?)\s*(\d[\d,]{3,})")
 
 
 def fetch(session) -> str:
-    return get_text(session, URL)
+    return "\n".join(get_text(session, url) for url in URLS)
 
 
-def card_offers(name: str, lines: list[str], new_price: int, colors: dict[str, list[str]]) -> list[Offer]:
+def card_offers(name: str, lines: list[str], new_price: int, colors: dict[str, list[str]], model: str = "pm") -> list[Offer]:
     """Mỗi dòng "黒/青 231,000" là giá riêng của các màu đó ("青/銀-2000" là trừ từ giá 新品).
 
     Màu không được nhắc tới (thường là バーガンディ) lấy giá 新品.
@@ -30,7 +31,7 @@ def card_offers(name: str, lines: list[str], new_price: int, colors: dict[str, l
         for color in listed:
             prices[color] = new_price - value if amount.group(1) else value
     capacity = parse_capacity(name)
-    return [Offer(variant_id(capacity, color), price) for color, price in prices.items()]
+    return [Offer(variant_id(capacity, color, model), price) for color, price in prices.items()]
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
@@ -45,6 +46,7 @@ def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
             continue
         name = title.get_text(" ", strip=True)
         new_price = parse_price(price.get_text())
-        if is_pro_max(name) and parse_capacity(name) and new_price:
-            offers += card_offers(name, lines, new_price, colors)
+        model = parse_model(name)
+        if model and parse_capacity(name) and real_price(new_price):
+            offers += card_offers(name, lines, new_price, model_colors(colors, model), model)
     return dedupe(offers)

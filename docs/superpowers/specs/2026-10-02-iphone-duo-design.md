@@ -59,3 +59,14 @@ Thông tin Duo (Apple Japan, công bố 2026-09-10): mở bán 2026-10-23; 4 dun
   - `hasPrices(latest, variantIds)` cho biết dòng máy đã có giá chưa.
 - `pytest`: `run.main` với catalog có màu Duo nhưng `crawl: false` không sinh giá cho màu Duo.
 - Trình duyệt: bảng chia nhóm (tiêu đề nhóm sticky khi vuốt ngang), bộ lọc dòng máy/màu/dung lượng, URL, biểu đồ Duo "Chưa có dữ liệu giá", màn hình điện thoại.
+
+## 6. Cập nhật 2026-10-17: bật crawl Duo
+
+- `catalog.json`: Duo `crawl: true`; thêm tên màu tiếng Anh `Night Sky`, `Star White`.
+- **Crawler nhận diện dòng máy theo tên:** `parse_model` trả `pm` cho "iPhone 18 Pro Max", `duo` cho "iPhone Duo". Mã phiên bản có dạng `<dòng máy>-<dung lượng>-<màu>`.
+  - Bộ màu truyền cho parser là `Colors`, có kèm `models` (dòng máy → các màu của nó), để màu của dòng này không bị gán cho dòng kia.
+  - `kanji_colors` giữ lại bảng `models` này.
+- **Giá giữ chỗ** dưới 10,000円 (ví dụ 999円 của アキモバ trước ngày mở bán) bị bỏ qua theo từng dòng sản phẩm, không làm lỗi cả tiệm.
+- **`run.py` kiểm tra mã phiên bản:** nếu parser trả về mã không có trong catalog, tiệm đó bị coi là lỗi và giữ giá cũ.
+- **Đã có trang Duo:** アキモバ (chung trang Pro Max) và 楽園 (thêm trang `iphone-duo/`).
+- **Chưa có trang Duo:** 12 tiệm còn lại chưa đăng Duo. Sau ngày mở bán (23/10), cần khảo sát trang Duo của từng tiệm và thêm vào parser.

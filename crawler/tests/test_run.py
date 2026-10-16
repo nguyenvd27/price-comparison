@@ -78,3 +78,14 @@ def test_run_only_passes_colors_of_crawled_models(tmp_path):
 
     main(tmp_path, {"a": SimpleNamespace(fetch=lambda session: "raw", parse=parse)}, NOW)
     assert seen == [{"black": ["ブラック"]}]
+
+
+def test_run_rejects_variant_ids_not_in_catalog(tmp_path):
+    catalog = {**CATALOG, "variants": [{"id": "pm-256-black"}]}
+    (tmp_path / "catalog.json").write_text(json.dumps(catalog), encoding="utf-8")
+    bad = SimpleNamespace(fetch=lambda session: "raw", parse=lambda raw, colors: [Offer("pm-256-nightsky", 240000)])
+    main(tmp_path, {"a": ok_shop(), "b": bad}, NOW)
+    latest = read(tmp_path / "latest.json")
+    assert latest["shops"]["a"]["prices"] == {"pm-256-black": 236000}
+    assert latest["shops"]["b"]["error"] == "Mã không có trong catalog: pm-256-nightsky"
+    assert latest["shops"]["b"]["prices"] == {}

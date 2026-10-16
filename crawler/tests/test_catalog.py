@@ -16,7 +16,8 @@ def test_catalog_is_consistent():
     duo = {v["id"]: v["apple_price"] for v in catalog["variants"] if v["model"] == "duo"}
     assert duo["duo-256-nightsky"] == 364800
     assert duo["duo-2tb-starwhite"] == 574800
-    assert models["duo"]["crawl"] is False and models["duo"]["release"] == "2026-10-23"
+    assert models["duo"]["crawl"] is True and models["duo"]["release"] == "2026-10-23"
+    assert "Night Sky" in catalog["colors"]["nightsky"]["aliases"] and "Star White" in catalog["colors"]["starwhite"]["aliases"]
 
 
 def test_every_catalog_shop_has_a_crawler_and_hours():

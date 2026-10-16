@@ -2,7 +2,8 @@ import json
 
 from crawler.http import get_text
 from crawler.models import Offer
-from crawler.normalize import is_pro_max, parse_capacity, parse_color, variant_id
+from crawler.normalize import model_colors, parse_capacity, parse_color, parse_model, variant_id
+from crawler.shops.common import real_price
 
 URL = (
     "https://www.1-chome.com/api/keitai/listPage?accCode=&page=1&size=50&keyword="
@@ -26,10 +27,11 @@ def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
             (d for d in item.get("goodsKbDetails") or [] if d.get("kbDetailName") == "未開封"),
             None,
         )
-        if not (is_pro_max(title) and capacity and unopened):
+        model = parse_model(title)
+        if not (model and capacity and unopened and real_price(unopened.get("kbDetailPrice"))):
             continue
         for option in item.get("keitaiColorOptions") or []:
-            color = parse_color(option.get("color") or "", colors)
+            color = parse_color(option.get("color") or "", model_colors(colors, model))
             if not color:
                 continue
             var_price = next(
@@ -40,5 +42,5 @@ def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
                 ),
                 None,
             )
-            offers.append(Offer(variant_id(capacity, color), unopened["kbDetailPrice"] + (var_price or 0)))
+            offers.append(Offer(variant_id(capacity, color, model), unopened["kbDetailPrice"] + (var_price or 0)))
     return offers

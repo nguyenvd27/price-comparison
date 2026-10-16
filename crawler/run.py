@@ -27,9 +27,15 @@ def main(data_dir: Path | None = None, shops: dict | None = None, now: datetime 
     context = cat.context(catalog)
     session = new_session()
 
+    # Danh mục có danh sách phiên bản (iPhone): mã lạ là dấu hiệu parser sai, coi như lỗi để giữ giá cũ.
+    known = {v["id"] for v in catalog.get("variants", [])} or {i["id"] for i in catalog.get("items", [])}
+
     results = {}
     for shop in catalog["shops"]:
         result = crawl_shop(shops[shop["id"]], session, context)
+        unknown = sorted(set(result.prices) - known) if known else []
+        if unknown:
+            result = ShopResult({}, f"Mã không có trong catalog: {', '.join(unknown)}")
         status = f"OK {len(result.prices)} giá" if result.error is None else f"LỖI {result.error}"
         print(f"[{category}/{shop['id']}] {status}")
         results[shop["id"]] = result

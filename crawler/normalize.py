@@ -8,9 +8,31 @@ def nfkc(text: str | None) -> str:
     return unicodedata.normalize("NFKC", text or "")
 
 
-def is_pro_max(name: str) -> bool:
+# Tên dòng máy (đã bỏ khoảng trắng, chữ thường) → mã dòng máy trong catalog.
+MODEL_KEYS = {"iphone18promax": "pm", "iphoneduo": "duo"}
+
+
+class Colors(dict):
+    """Màu → các cách viết tên màu. `models` cho biết màu nào thuộc dòng máy nào (mã dòng máy → mã màu)."""
+
+    def __init__(self, colors: dict[str, list[str]], models: dict[str, list[str]] | None = None):
+        super().__init__(colors)
+        self.models = models if models is not None else {"pm": list(colors)}
+
+
+def parse_model(name: str) -> str | None:
     compact = re.sub(r"\s+", "", nfkc(name)).lower()
-    return "iphone18promax" in compact
+    return next((model for key, model in MODEL_KEYS.items() if key in compact), None)
+
+
+def model_colors(colors: dict[str, list[str]], model: str) -> dict[str, list[str]]:
+    """Chỉ các màu của dòng máy đó. Dict thường (không có `models`) được coi là màu của 18 Pro Max."""
+    models = getattr(colors, "models", {"pm": list(colors)})
+    return {color: colors[color] for color in models.get(model, []) if color in colors}
+
+
+def is_pro_max(name: str) -> bool:
+    return parse_model(name) == "pm"
 
 
 def parse_capacity(name: str) -> str | None:
@@ -41,8 +63,8 @@ def parse_price(text: str | None) -> int | None:
     return int(digits) if digits else None
 
 
-def variant_id(capacity: str, color: str) -> str:
-    return f"pm-{capacity}-{color}"
+def variant_id(capacity: str, color: str, model: str = "pm") -> str:
+    return f"{model}-{capacity}-{color}"
 
 
 AMOUNT = re.compile(r"[-−‐]\s*(\d[\d,]*)")
