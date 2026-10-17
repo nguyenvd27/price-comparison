@@ -22786,5 +22786,35 @@
   "shop": "base",
   "variant": "pm-512-glacier",
   "price": 272500
+ },
+ {
+  "t": "2026-10-17T15:02:05+09:00",
+  "shop": "mix",
+  "variant": "pm-256-black",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-17T15:02:05+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-17T15:02:05+09:00",
+  "shop": "mix",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-17T15:02:05+09:00",
+  "shop": "mix",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-17T15:02:05+09:00",
+  "shop": "mix",
+  "variant": "pm-512-silver",
+  "price": 269000
  }
 ]
