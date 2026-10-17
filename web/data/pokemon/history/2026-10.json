@@ -6262,5 +6262,17 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 20600
+ },
+ {
+  "t": "2026-10-17T14:31:44+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-17T14:31:44+09:00",
+  "shop": "ichome",
+  "variant": "sv-night-wanderer",
+  "price": 11800
  }
 ]
