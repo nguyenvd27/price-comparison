@@ -22660,5 +22660,41 @@
   "shop": "base",
   "variant": "pm-256-black",
   "price": 235000
+ },
+ {
+  "t": "2026-10-17T13:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-17T13:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-17T13:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 227000
+ },
+ {
+  "t": "2026-10-17T13:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-black",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-17T13:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-17T13:01:31+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-silver",
+  "price": 267000
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T12:31:49+09:00",
+ "generated_at": "2026-10-17T13:01:46+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-17T12:31:49+09:00",
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-17T11:31:57+09:00",
+   "last_success_at": "2026-10-17T13:01:46+09:00",
    "display_at": "2026-10-17T10:02:04+09:00",
    "error": null,
    "prices": {
