@@ -6154,5 +6154,11 @@
   "shop": "ichome",
   "variant": "sv-battle-partners",
   "price": 11000
+ },
+ {
+  "t": "2026-10-17T11:02:44+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 61000
  }
 ]
