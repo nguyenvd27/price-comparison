@@ -21718,5 +21718,65 @@
   "shop": "rakuen",
   "variant": "pm-512-silver",
   "price": 266000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-black",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-burgundy",
+  "price": 245000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-silver",
+  "price": 227000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 287000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-silver",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 230500
+ },
+ {
+  "t": "2026-10-17T10:31:29+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 226500
  }
 ]

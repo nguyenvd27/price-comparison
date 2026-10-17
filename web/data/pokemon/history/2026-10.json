@@ -6148,5 +6148,11 @@
   "shop": "shinsoku",
   "variant": "sv-battle-partners",
   "price": 11700
+ },
+ {
+  "t": "2026-10-17T10:31:46+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 11000
  }
 ]
