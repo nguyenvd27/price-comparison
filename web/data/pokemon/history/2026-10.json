@@ -6160,5 +6160,11 @@
   "shop": "ichome",
   "variant": "mega-30th-futuristic",
   "price": 61000
+ },
+ {
+  "t": "2026-10-17T11:31:57+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 26000
  }
 ]
