@@ -1249,7 +1249,7 @@
    "shop": "morimori"
   },
   "sv-battle-partners": {
-   "max": 11500,
+   "max": 11700,
    "shop": "oku"
   },
   "sv-black-bolt": {
@@ -1261,28 +1261,28 @@
    "shop": "morimori"
   },
   "sv-night-wanderer": {
-   "max": 11800,
-   "shop": "morimori"
+   "max": 12000,
+   "shop": "oku"
   },
   "sv-paradise-dragona": {
-   "max": 15300,
-   "shop": "morimori"
+   "max": 15500,
+   "shop": "oku"
   },
   "sv-rocket-gang": {
-   "max": 23500,
-   "shop": "morimori"
+   "max": 23800,
+   "shop": "oku"
   },
   "sv-stellar-miracle": {
    "max": 11700,
    "shop": "rudeya"
   },
   "sv-super-electric-breaker": {
-   "max": 26100,
-   "shop": "morimori"
+   "max": 26500,
+   "shop": "oku"
   },
   "sv-terastal-fes-ex": {
-   "max": 20000,
-   "shop": "morimori"
+   "max": 20500,
+   "shop": "oku"
   },
   "sv-white-flare": {
    "max": 20600,

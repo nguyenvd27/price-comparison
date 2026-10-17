@@ -6178,5 +6178,89 @@
   "shop": "oku",
   "variant": "mega-munikis-zero",
   "price": 9300
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 47000
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 11700
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-night-wanderer",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-paradise-dragona",
+  "price": 15500
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 23800
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 26500
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20500
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25300
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8400
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 48000
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 23600
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20500
+ },
+ {
+  "t": "2026-10-17T12:31:49+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 20600
  }
 ]
