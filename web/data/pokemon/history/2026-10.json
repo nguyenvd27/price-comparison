@@ -6112,5 +6112,41 @@
   "shop": "ichiban",
   "variant": "sv-heat-arena",
   "price": 15000
+ },
+ {
+  "t": "2026-10-17T10:02:04+09:00",
+  "shop": "runto",
+  "variant": "mega-munikis-zero",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-17T10:02:04+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-17T10:02:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-17T10:02:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-17T10:02:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12800
+ },
+ {
+  "t": "2026-10-17T10:02:04+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 11700
  }
 ]
