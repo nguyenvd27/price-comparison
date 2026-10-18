@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-18T11:31:27+09:00",
+ "generated_at": "2026-10-18T12:01:32+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-18T11:31:27+09:00",
-   "display_at": "2026-10-18T10:01:32+09:00",
+   "last_success_at": "2026-10-18T12:01:32+09:00",
+   "display_at": "2026-10-18T12:01:32+09:00",
    "error": null,
    "prices": {
     "mega-abyss-eye": 9100,
@@ -20,7 +20,7 @@
     "sv-paradise-dragona": 15300,
     "sv-rocket-gang": 23500,
     "sv-stellar-miracle": 11600,
-    "sv-super-electric-breaker": 26100,
+    "sv-super-electric-breaker": 27000,
     "sv-terastal-fes-ex": 20000,
     "sv-white-flare": 19500
    }
@@ -104,7 +104,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-18T11:01:27+09:00",
+   "last_success_at": "2026-10-18T12:01:32+09:00",
    "display_at": "2026-10-18T11:01:27+09:00",
    "error": null,
    "prices": {

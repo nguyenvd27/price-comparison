@@ -1569,8 +1569,8 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 271000,
-   "shop": "morimori"
+   "max": 271500,
+   "shop": "sommelier"
   },
   "pm-512-burgundy": {
    "max": 289500,
@@ -1581,8 +1581,8 @@
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 269000,
-   "shop": "morimori"
+   "max": 269500,
+   "shop": "sommelier"
   }
  }
 }
