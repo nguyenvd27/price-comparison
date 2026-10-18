@@ -6448,5 +6448,29 @@
   "shop": "ichiban",
   "variant": "sv-stellar-miracle",
   "price": 11000
+ },
+ {
+  "t": "2026-10-18T20:01:40+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-18T20:01:40+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-18T20:01:40+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-18T20:01:40+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 48500
  }
 ]
