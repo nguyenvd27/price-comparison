@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T18:32:31+09:00",
+ "generated_at": "2026-10-18T19:01:26+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-18T18:32:31+09:00",
@@ -105,9 +105,9 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-18T17:32:20+09:00",
+   "last_success_at": "2026-10-18T19:01:26+09:00",
    "display_at": "2026-10-18T11:01:27+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7fce3ab89220>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-abyss-eye": 9200,
