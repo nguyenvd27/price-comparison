@@ -6442,5 +6442,11 @@
   "shop": "shinsoku",
   "variant": "sv-heat-arena",
   "price": 18000
+ },
+ {
+  "t": "2026-10-18T15:31:22+09:00",
+  "shop": "ichiban",
+  "variant": "sv-stellar-miracle",
+  "price": 11000
  }
 ]
