@@ -6346,5 +6346,47 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 20300
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 9800
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 9700
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 11400
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "sv-heat-arena",
+  "price": 17300
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "sv-stellar-miracle",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-18T11:01:27+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 27000
  }
 ]

@@ -1323,8 +1323,8 @@
    "shop": "oku"
   },
   "mega-ninja-spinner": {
-   "max": 9700,
-   "shop": "morimori"
+   "max": 9800,
+   "shop": "oku"
   },
   "mega-storm-emeralda": {
    "max": 10200,
@@ -1343,8 +1343,8 @@
    "shop": "ichiban"
   },
   "sv-heat-arena": {
-   "max": 16500,
-   "shop": "morimori"
+   "max": 17300,
+   "shop": "oku"
   },
   "sv-night-wanderer": {
    "max": 12000,
@@ -1359,11 +1359,11 @@
    "shop": "oku"
   },
   "sv-stellar-miracle": {
-   "max": 11700,
-   "shop": "rudeya"
+   "max": 12000,
+   "shop": "oku"
   },
   "sv-super-electric-breaker": {
-   "max": 26500,
+   "max": 27000,
    "shop": "oku"
   },
   "sv-terastal-fes-ex": {
