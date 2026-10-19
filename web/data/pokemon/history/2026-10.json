@@ -6508,5 +6508,53 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 21000
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "mega-inferno-x",
+  "price": 16000
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "mega-munikis-zero",
+  "price": 9100
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "mega-storm-emeralda",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "sv-heat-arena",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-19T10:32:33+09:00",
+  "shop": "ichome",
+  "variant": "sv-paradise-dragona",
+  "price": 15000
  }
 ]
