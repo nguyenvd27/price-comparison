@@ -6760,5 +6760,11 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 20200
+ },
+ {
+  "t": "2026-10-19T19:33:22+09:00",
+  "shop": "rudeya",
+  "variant": "mega-30th-futuristic",
+  "price": 59000
  }
 ]
