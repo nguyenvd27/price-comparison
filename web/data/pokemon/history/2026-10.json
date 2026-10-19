@@ -6472,5 +6472,41 @@
   "shop": "shinsoku",
   "variant": "sv-151",
   "price": 48500
+ },
+ {
+  "t": "2026-10-19T10:01:39+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25800
+ },
+ {
+  "t": "2026-10-19T10:01:39+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-19T10:01:39+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9300
+ },
+ {
+  "t": "2026-10-19T10:01:39+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 23500
+ },
+ {
+  "t": "2026-10-19T10:01:39+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 24000
+ },
+ {
+  "t": "2026-10-19T10:01:39+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 21000
  }
 ]
