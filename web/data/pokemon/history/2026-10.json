@@ -6616,5 +6616,65 @@
   "shop": "oku",
   "variant": "sv-terastal-fes-ex",
   "price": 20000
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-brave",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-dream-ex",
+  "price": 12900
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "morimori",
+  "variant": "sv-151",
+  "price": 50000
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-munikis-zero",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 50000
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 11100
+ },
+ {
+  "t": "2026-10-19T12:31:37+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-heat-arena",
+  "price": 18200
  }
 ]

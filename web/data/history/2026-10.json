@@ -23326,5 +23326,47 @@
   "shop": "sommelier",
   "variant": "pm-512-burgundy",
   "price": 290000
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 290000
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-glacier",
+  "price": 272500
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-silver",
+  "price": 269500
+ },
+ {
+  "t": "2026-10-19T12:31:18+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-black",
+  "price": 234500
  }
 ]

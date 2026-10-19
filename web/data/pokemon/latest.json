@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-19T12:01:40+09:00",
+ "generated_at": "2026-10-19T12:31:37+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-19T11:02:35+09:00",
-   "display_at": "2026-10-19T10:01:39+09:00",
+   "last_success_at": "2026-10-19T12:31:37+09:00",
+   "display_at": "2026-10-19T12:31:37+09:00",
    "error": null,
    "prices": {
     "mega-abyss-eye": 9100,
     "mega-inferno-x": 17000,
-    "mega-mega-brave": 8500,
-    "mega-mega-dream-ex": 13100,
+    "mega-mega-brave": 8300,
+    "mega-mega-dream-ex": 12900,
     "mega-mega-symphonia": 7700,
     "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 9700,
-    "sv-151": 47000,
+    "sv-151": 50000,
     "sv-black-bolt": 22500,
     "sv-heat-arena": 16500,
     "sv-night-wanderer": 11800,
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-19T11:02:35+09:00",
+   "last_success_at": "2026-10-19T12:31:37+09:00",
    "display_at": "2026-10-19T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -130,8 +130,8 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-19T11:02:35+09:00",
-   "display_at": "2026-10-19T10:01:39+09:00",
+   "last_success_at": "2026-10-19T12:31:37+09:00",
+   "display_at": "2026-10-19T12:31:37+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
@@ -143,7 +143,7 @@
     "mega-mega-symphonia": 7500,
     "mega-munikis-zero": 8300,
     "mega-ninja-spinner": 9000,
-    "mega-storm-emeralda": 10000,
+    "mega-storm-emeralda": 9500,
     "sv-battle-partners": 10500,
     "sv-black-bolt": 21000,
     "sv-heat-arena": 15000,
@@ -185,8 +185,8 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-19T11:02:35+09:00",
-   "display_at": "2026-10-19T10:01:39+09:00",
+   "last_success_at": "2026-10-19T12:31:37+09:00",
+   "display_at": "2026-10-19T12:31:37+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25800,
@@ -195,13 +195,13 @@
     "mega-mega-brave": 8200,
     "mega-mega-dream-ex": 12800,
     "mega-mega-symphonia": 8000,
-    "mega-munikis-zero": 9000,
-    "mega-ninja-spinner": 9800,
-    "mega-storm-emeralda": 9300,
-    "sv-151": 48500,
-    "sv-battle-partners": 11300,
+    "mega-munikis-zero": 8800,
+    "mega-ninja-spinner": 9500,
+    "mega-storm-emeralda": 9200,
+    "sv-151": 50000,
+    "sv-battle-partners": 11100,
     "sv-black-bolt": 23500,
-    "sv-heat-arena": 18000,
+    "sv-heat-arena": 18200,
     "sv-night-wanderer": 12100,
     "sv-paradise-dragona": 15500,
     "sv-rocket-gang": 24000,
