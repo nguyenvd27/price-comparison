@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T11:31:22+09:00",
+ "generated_at": "2026-10-19T12:01:21+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-19T11:01:52+09:00",
@@ -225,7 +225,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-19T10:31:47+09:00",
+   "last_success_at": "2026-10-19T12:01:21+09:00",
    "display_at": "2026-10-19T10:31:47+09:00",
    "error": null,
    "prices": {
@@ -248,31 +248,31 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-19T11:01:52+09:00",
-   "display_at": "2026-10-19T10:01:23+09:00",
+   "last_success_at": "2026-10-19T12:01:21+09:00",
+   "display_at": "2026-10-19T12:01:21+09:00",
    "error": null,
    "prices": {
-    "pm-1tb-black": 335800,
-    "pm-1tb-burgundy": 353800,
-    "pm-1tb-glacier": 335800,
-    "pm-1tb-silver": 331800,
-    "pm-256-black": 234800,
-    "pm-256-burgundy": 247800,
-    "pm-256-glacier": 236800,
-    "pm-256-silver": 229800,
-    "pm-2tb-black": 385800,
-    "pm-2tb-burgundy": 399800,
-    "pm-2tb-glacier": 385800,
-    "pm-2tb-silver": 385800,
-    "pm-512-black": 271800,
-    "pm-512-burgundy": 289800,
-    "pm-512-glacier": 272800,
-    "pm-512-silver": 269800
+    "pm-1tb-black": 336500,
+    "pm-1tb-burgundy": 354500,
+    "pm-1tb-glacier": 336500,
+    "pm-1tb-silver": 332500,
+    "pm-256-black": 235500,
+    "pm-256-burgundy": 248500,
+    "pm-256-glacier": 237500,
+    "pm-256-silver": 230500,
+    "pm-2tb-black": 386500,
+    "pm-2tb-burgundy": 400500,
+    "pm-2tb-glacier": 386500,
+    "pm-2tb-silver": 386500,
+    "pm-512-black": 273500,
+    "pm-512-burgundy": 291500,
+    "pm-512-glacier": 273500,
+    "pm-512-silver": 270500
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-19T11:01:52+09:00",
-   "display_at": "2026-10-19T10:01:23+09:00",
+   "last_success_at": "2026-10-19T12:01:21+09:00",
+   "display_at": "2026-10-19T12:01:21+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 336500,
@@ -280,7 +280,7 @@
     "pm-1tb-glacier": 336500,
     "pm-1tb-silver": 332500,
     "pm-256-black": 235000,
-    "pm-256-burgundy": 247500,
+    "pm-256-burgundy": 247000,
     "pm-256-glacier": 236500,
     "pm-256-silver": 229000,
     "pm-2tb-black": 388000,
@@ -288,7 +288,7 @@
     "pm-2tb-glacier": 388000,
     "pm-2tb-silver": 386000,
     "pm-512-black": 271500,
-    "pm-512-burgundy": 289500,
+    "pm-512-burgundy": 290000,
     "pm-512-glacier": 272500,
     "pm-512-silver": 269500
    }

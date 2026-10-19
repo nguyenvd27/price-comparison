@@ -6556,5 +6556,65 @@
   "shop": "ichome",
   "variant": "sv-paradise-dragona",
   "price": 15000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25800
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-brave",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 50000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 11000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "sv-heat-arena",
+  "price": 18000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 24000
+ },
+ {
+  "t": "2026-10-19T12:01:40+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20000
  }
 ]

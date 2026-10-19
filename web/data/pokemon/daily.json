@@ -1377,8 +1377,8 @@
  },
  "2026-10-19": {
   "mega-30th": {
-   "max": 25500,
-   "shop": "ichiban"
+   "max": 25800,
+   "shop": "oku"
   },
   "mega-30th-futuristic": {
    "max": 61000,
@@ -1417,8 +1417,8 @@
    "shop": "ichiban"
   },
   "sv-151": {
-   "max": 47000,
-   "shop": "morimori"
+   "max": 50000,
+   "shop": "oku"
   },
   "sv-battle-partners": {
    "max": 11400,
@@ -1429,7 +1429,7 @@
    "shop": "ichiban"
   },
   "sv-heat-arena": {
-   "max": 17300,
+   "max": 18000,
    "shop": "oku"
   },
   "sv-night-wanderer": {
@@ -1441,7 +1441,7 @@
    "shop": "oku"
   },
   "sv-rocket-gang": {
-   "max": 23800,
+   "max": 24000,
    "shop": "oku"
   },
   "sv-stellar-miracle": {
