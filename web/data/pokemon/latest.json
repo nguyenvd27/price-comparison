@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:01:37+09:00",
+ "generated_at": "2026-10-19T13:31:33+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-19T12:31:37+09:00",
@@ -53,11 +53,11 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-19T12:31:37+09:00",
-   "display_at": "2026-10-19T10:01:39+09:00",
+   "last_success_at": "2026-10-19T13:31:33+09:00",
+   "display_at": "2026-10-19T13:31:33+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 22500,
+    "mega-30th": 23000,
     "mega-30th-futuristic": 60000,
     "mega-abyss-eye": 6100,
     "mega-inferno-x": 12500,
@@ -81,8 +81,8 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-19T13:01:37+09:00",
-   "display_at": "2026-10-19T10:01:39+09:00",
+   "last_success_at": "2026-10-19T13:31:33+09:00",
+   "display_at": "2026-10-19T13:31:33+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
@@ -94,7 +94,7 @@
     "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 7000,
     "mega-ninja-spinner": 7000,
-    "mega-storm-emeralda": 10200,
+    "mega-storm-emeralda": 9000,
     "sv-151": 47000,
     "sv-black-bolt": 23200,
     "sv-heat-arena": 15000,
@@ -105,7 +105,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-19T12:01:40+09:00",
+   "last_success_at": "2026-10-19T13:31:33+09:00",
    "display_at": "2026-10-19T12:01:40+09:00",
    "error": null,
    "prices": {
@@ -157,8 +157,8 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-19T13:01:37+09:00",
-   "display_at": "2026-10-19T13:01:37+09:00",
+   "last_success_at": "2026-10-19T13:31:33+09:00",
+   "display_at": "2026-10-19T13:31:33+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
@@ -166,11 +166,11 @@
     "mega-abyss-eye": 9100,
     "mega-inferno-x": 16000,
     "mega-mega-brave": 8200,
-    "mega-mega-dream-ex": 12900,
+    "mega-mega-dream-ex": 12800,
     "mega-mega-symphonia": 7900,
     "mega-munikis-zero": 9100,
     "mega-ninja-spinner": 9500,
-    "mega-storm-emeralda": 9300,
+    "mega-storm-emeralda": 8900,
     "sv-151": 46500,
     "sv-battle-partners": 10800,
     "sv-black-bolt": 23000,
