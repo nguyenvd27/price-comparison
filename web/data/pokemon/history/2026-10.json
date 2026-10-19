@@ -6706,5 +6706,17 @@
   "shop": "ichome",
   "variant": "mega-storm-emeralda",
   "price": 8900
+ },
+ {
+  "t": "2026-10-19T16:01:35+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 26000
+ },
+ {
+  "t": "2026-10-19T16:01:35+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9100
  }
 ]

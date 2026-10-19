@@ -1587,7 +1587,7 @@
  },
  "2026-10-19": {
   "pm-1tb-black": {
-   "max": 336500,
+   "max": 337000,
    "shop": "sommelier"
   },
   "pm-1tb-burgundy": {
@@ -1643,11 +1643,11 @@
    "shop": "akimoba"
   },
   "pm-512-glacier": {
-   "max": 272500,
+   "max": 273000,
    "shop": "sommelier"
   },
   "pm-512-silver": {
-   "max": 269500,
+   "max": 270000,
    "shop": "sommelier"
   }
  }
