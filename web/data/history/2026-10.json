@@ -23182,5 +23182,41 @@
   "shop": "mix",
   "variant": "pm-512-burgundy",
   "price": 290000
+ },
+ {
+  "t": "2026-10-19T11:31:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 272000
+ },
+ {
+  "t": "2026-10-19T11:31:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-burgundy",
+  "price": 290000
+ },
+ {
+  "t": "2026-10-19T11:31:22+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-silver",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-19T11:31:22+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-black",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-19T11:31:22+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-burgundy",
+  "price": 247000
+ },
+ {
+  "t": "2026-10-19T11:31:22+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-burgundy",
+  "price": 290500
  }
 ]

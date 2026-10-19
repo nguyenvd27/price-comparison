@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T11:01:52+09:00",
+ "generated_at": "2026-10-19T11:31:22+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-19T11:01:52+09:00",
@@ -25,16 +25,16 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-19T10:01:23+09:00",
-   "display_at": "2026-10-19T10:01:23+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f9f2fd59dc0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "last_success_at": "2026-10-19T11:31:22+09:00",
+   "display_at": "2026-10-19T11:31:22+09:00",
+   "error": null,
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 353000,
     "pm-1tb-glacier": 335000,
     "pm-1tb-silver": 331000,
-    "pm-256-black": 233000,
-    "pm-256-burgundy": 246000,
+    "pm-256-black": 234000,
+    "pm-256-burgundy": 247000,
     "pm-256-glacier": 236000,
     "pm-256-silver": 229000,
     "pm-2tb-black": 385000,
@@ -94,8 +94,8 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-19T10:31:47+09:00",
-   "display_at": "2026-10-19T10:31:47+09:00",
+   "last_success_at": "2026-10-19T11:31:22+09:00",
+   "display_at": "2026-10-19T11:31:22+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 332000,
@@ -110,10 +110,10 @@
     "pm-2tb-burgundy": 399000,
     "pm-2tb-glacier": 385000,
     "pm-2tb-silver": 385000,
-    "pm-512-black": 270000,
-    "pm-512-burgundy": 289000,
+    "pm-512-black": 272000,
+    "pm-512-burgundy": 290000,
     "pm-512-glacier": 272000,
-    "pm-512-silver": 267000
+    "pm-512-silver": 269000
    }
   },
   "mix": {
@@ -137,8 +137,8 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-19T11:01:52+09:00",
-   "display_at": "2026-10-19T10:01:23+09:00",
+   "last_success_at": "2026-10-19T11:31:22+09:00",
+   "display_at": "2026-10-19T11:31:22+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 335000,
@@ -154,7 +154,7 @@
     "pm-2tb-glacier": 385000,
     "pm-2tb-silver": 384000,
     "pm-512-black": 271000,
-    "pm-512-burgundy": 289500,
+    "pm-512-burgundy": 290500,
     "pm-512-glacier": 272000,
     "pm-512-silver": 269000
    }

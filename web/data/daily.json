@@ -1635,12 +1635,12 @@
    "shop": "sommelier"
   },
   "pm-512-black": {
-   "max": 271500,
-   "shop": "sommelier"
+   "max": 272000,
+   "shop": "ichome"
   },
   "pm-512-burgundy": {
-   "max": 290000,
-   "shop": "mix"
+   "max": 290500,
+   "shop": "akimoba"
   },
   "pm-512-glacier": {
    "max": 272500,
