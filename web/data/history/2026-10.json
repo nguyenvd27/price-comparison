@@ -23368,5 +23368,41 @@
   "shop": "sommelier",
   "variant": "pm-256-black",
   "price": 234500
+ },
+ {
+  "t": "2026-10-19T13:01:25+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-black",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-19T13:01:25+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-burgundy",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-19T13:01:25+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-glacier",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-19T13:01:25+09:00",
+  "shop": "shouten",
+  "variant": "pm-2tb-silver",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-19T13:01:25+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-burgundy",
+  "price": 290000
+ },
+ {
+  "t": "2026-10-19T13:01:25+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 232000
  }
 ]
