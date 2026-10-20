@@ -23716,5 +23716,29 @@
   "shop": "rakuen",
   "variant": "pm-256-silver",
   "price": 227000
+ },
+ {
+  "t": "2026-10-20T10:31:09+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-20T10:31:09+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-black",
+  "price": 232000
+ },
+ {
+  "t": "2026-10-20T10:31:09+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 245000
+ },
+ {
+  "t": "2026-10-20T10:31:09+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-glacier",
+  "price": 234000
  }
 ]
