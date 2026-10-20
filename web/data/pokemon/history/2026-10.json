@@ -6886,5 +6886,35 @@
   "shop": "runto",
   "variant": "mega-storm-emeralda",
   "price": 9200
+ },
+ {
+  "t": "2026-10-20T12:32:26+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-20T12:32:26+09:00",
+  "shop": "rudeya",
+  "variant": "sv-151",
+  "price": 36500
+ },
+ {
+  "t": "2026-10-20T12:32:26+09:00",
+  "shop": "rudeya",
+  "variant": "sv-night-wanderer",
+  "price": 11800
+ },
+ {
+  "t": "2026-10-20T12:32:26+09:00",
+  "shop": "rudeya",
+  "variant": "sv-paradise-dragona",
+  "price": 15000
+ },
+ {
+  "t": "2026-10-20T12:32:26+09:00",
+  "shop": "rudeya",
+  "variant": "sv-stellar-miracle",
+  "price": 11500
  }
 ]
