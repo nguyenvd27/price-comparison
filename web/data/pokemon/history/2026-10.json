@@ -6976,5 +6976,47 @@
   "shop": "ichome",
   "variant": "mega-30th-futuristic",
   "price": 61000
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "runto",
+  "variant": "mega-30th-futuristic",
+  "price": 61000
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 18000
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12800
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-20T13:31:25+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-heat-arena",
+  "price": 18500
  }
 ]

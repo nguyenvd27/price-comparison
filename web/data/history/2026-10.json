@@ -24250,5 +24250,29 @@
   "shop": "sommelier",
   "variant": "pm-256-silver",
   "price": 229500
+ },
+ {
+  "t": "2026-10-20T13:31:09+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 246000
+ },
+ {
+  "t": "2026-10-20T13:31:09+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-20T13:31:09+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-20T13:31:09+09:00",
+  "shop": "base",
+  "variant": "pm-256-silver",
+  "price": 230500
  }
 ]
