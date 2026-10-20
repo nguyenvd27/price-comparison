@@ -1463,7 +1463,7 @@
  },
  "2026-10-20": {
   "mega-30th": {
-   "max": 25800,
+   "max": 26000,
    "shop": "oku"
   },
   "mega-30th-futuristic": {
@@ -1535,8 +1535,8 @@
    "shop": "oku"
   },
   "sv-super-electric-breaker": {
-   "max": 27000,
-   "shop": "morimori"
+   "max": 27500,
+   "shop": "oku"
   },
   "sv-terastal-fes-ex": {
    "max": 20000,
