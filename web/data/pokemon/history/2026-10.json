@@ -6862,5 +6862,29 @@
   "shop": "oku",
   "variant": "sv-super-electric-breaker",
   "price": 27500
+ },
+ {
+  "t": "2026-10-20T12:01:30+09:00",
+  "shop": "rudeya",
+  "variant": "mega-abyss-eye",
+  "price": 6500
+ },
+ {
+  "t": "2026-10-20T12:01:30+09:00",
+  "shop": "rudeya",
+  "variant": "mega-munikis-zero",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-20T12:01:30+09:00",
+  "shop": "rudeya",
+  "variant": "mega-storm-emeralda",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-20T12:01:30+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9200
  }
 ]
