@@ -24172,5 +24172,83 @@
   "shop": "sommelier",
   "variant": "pm-256-black",
   "price": 232500
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 246000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-burgundy",
+  "price": 354000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 246500
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-black",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-burgundy",
+  "price": 354000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-glacier",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-burgundy",
+  "price": 289500
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 246000
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-glacier",
+  "price": 236500
+ },
+ {
+  "t": "2026-10-20T13:01:15+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-silver",
+  "price": 229500
  }
 ]

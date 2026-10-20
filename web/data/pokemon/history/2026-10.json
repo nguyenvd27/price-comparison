@@ -6916,5 +6916,65 @@
   "shop": "rudeya",
   "variant": "sv-stellar-miracle",
   "price": 11500
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "mega-inferno-x",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-dream-ex",
+  "price": 13000
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "mega-mega-symphonia",
+  "price": 7600
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "mega-storm-emeralda",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "sv-black-bolt",
+  "price": 22500
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "sv-heat-arena",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "sv-rocket-gang",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "sv-super-electric-breaker",
+  "price": 26500
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "runto",
+  "variant": "sv-white-flare",
+  "price": 20500
+ },
+ {
+  "t": "2026-10-20T13:01:33+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 61000
  }
 ]
