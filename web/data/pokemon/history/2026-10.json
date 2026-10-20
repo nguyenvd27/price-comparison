@@ -6796,5 +6796,11 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 20000
+ },
+ {
+  "t": "2026-10-20T11:02:33+09:00",
+  "shop": "runto",
+  "variant": "mega-inferno-x",
+  "price": 18800
  }
 ]
