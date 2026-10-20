@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-20T14:31:10+09:00",
+ "generated_at": "2026-10-20T15:01:49+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-20T14:31:10+09:00",
    "display_at": "2026-10-20T14:31:10+09:00",
-   "error": null,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Read timed out. (read timeout=30)",
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 354000,
@@ -25,8 +25,8 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-20T14:31:10+09:00",
-   "display_at": "2026-10-20T13:01:15+09:00",
+   "last_success_at": "2026-10-20T15:01:49+09:00",
+   "display_at": "2026-10-20T15:01:49+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 335000,
@@ -36,7 +36,7 @@
     "pm-256-black": 232000,
     "pm-256-burgundy": 245000,
     "pm-256-glacier": 234000,
-    "pm-256-silver": 227000,
+    "pm-256-silver": 229000,
     "pm-2tb-black": 385000,
     "pm-2tb-burgundy": 395000,
     "pm-2tb-glacier": 385000,
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-20T14:01:11+09:00",
+   "last_success_at": "2026-10-20T15:01:49+09:00",
    "display_at": "2026-10-20T14:01:11+09:00",
    "error": null,
    "prices": {
@@ -183,7 +183,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-20T14:01:11+09:00",
+   "last_success_at": "2026-10-20T15:01:49+09:00",
    "display_at": "2026-10-20T10:31:09+09:00",
    "error": null,
    "prices": {
@@ -294,7 +294,7 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-20T14:01:11+09:00",
+   "last_success_at": "2026-10-20T15:01:49+09:00",
    "display_at": "2026-10-20T11:01:45+09:00",
    "error": null,
    "prices": {

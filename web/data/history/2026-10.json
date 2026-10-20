@@ -24310,5 +24310,11 @@
   "shop": "base",
   "variant": "pm-256-glacier",
   "price": 237500
+ },
+ {
+  "t": "2026-10-20T15:01:49+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-silver",
+  "price": 229000
  }
 ]
