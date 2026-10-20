@@ -24316,5 +24316,17 @@
   "shop": "ichiban",
   "variant": "pm-256-silver",
   "price": 229000
+ },
+ {
+  "t": "2026-10-20T16:01:10+09:00",
+  "shop": "base",
+  "variant": "pm-1tb-burgundy",
+  "price": 355500
+ },
+ {
+  "t": "2026-10-20T16:01:10+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-glacier",
+  "price": 273500
  }
 ]
