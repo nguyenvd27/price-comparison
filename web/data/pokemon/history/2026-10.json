@@ -6766,5 +6766,35 @@
   "shop": "rudeya",
   "variant": "mega-30th-futuristic",
   "price": 59000
+ },
+ {
+  "t": "2026-10-20T10:01:41+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 60500
+ },
+ {
+  "t": "2026-10-20T10:01:41+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-20T10:01:41+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-20T10:01:41+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12600
+ },
+ {
+  "t": "2026-10-20T10:01:41+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 20000
  }
 ]
