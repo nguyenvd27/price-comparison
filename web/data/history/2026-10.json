@@ -24274,5 +24274,23 @@
   "shop": "base",
   "variant": "pm-256-silver",
   "price": 230500
+ },
+ {
+  "t": "2026-10-20T14:01:11+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-black",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-20T14:01:11+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-glacier",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-20T14:01:11+09:00",
+  "shop": "shouten",
+  "variant": "pm-1tb-silver",
+  "price": 332000
  }
 ]
