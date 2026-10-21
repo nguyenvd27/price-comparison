@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T12:31:44+09:00",
+ "generated_at": "2026-10-21T13:01:41+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-21T12:31:44+09:00",
@@ -27,7 +27,7 @@
   "ichiban": {
    "last_success_at": "2026-10-21T12:01:11+09:00",
    "display_at": "2026-10-21T10:31:17+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f863dfcedb0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/1/01/40 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f8d5ca1e2a0>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 354000,
@@ -71,8 +71,8 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-21T12:01:11+09:00",
-   "display_at": "2026-10-21T10:31:17+09:00",
+   "last_success_at": "2026-10-21T13:01:41+09:00",
+   "display_at": "2026-10-21T13:01:41+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 336000,
@@ -80,7 +80,7 @@
     "pm-1tb-glacier": 336000,
     "pm-1tb-silver": 332000,
     "pm-256-black": 231000,
-    "pm-256-burgundy": 244000,
+    "pm-256-burgundy": 243000,
     "pm-256-glacier": 233000,
     "pm-256-silver": 228000,
     "pm-2tb-black": 386000,
@@ -94,7 +94,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-21T12:01:11+09:00",
+   "last_success_at": "2026-10-21T13:01:41+09:00",
    "display_at": "2026-10-21T10:31:17+09:00",
    "error": null,
    "prices": {
@@ -117,7 +117,7 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-21T12:01:11+09:00",
+   "last_success_at": "2026-10-21T13:01:41+09:00",
    "display_at": "2026-10-21T12:01:11+09:00",
    "error": null,
    "prices": {
@@ -137,8 +137,8 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-21T12:01:11+09:00",
-   "display_at": "2026-10-21T12:01:11+09:00",
+   "last_success_at": "2026-10-21T13:01:41+09:00",
+   "display_at": "2026-10-21T13:01:41+09:00",
    "error": null,
    "prices": {
     "pm-1tb-black": 335000,
@@ -155,8 +155,8 @@
     "pm-2tb-silver": 385000,
     "pm-512-black": 268000,
     "pm-512-burgundy": 288500,
-    "pm-512-glacier": 269000,
-    "pm-512-silver": 266000
+    "pm-512-glacier": 270000,
+    "pm-512-silver": 267000
    }
   },
   "homura": {
@@ -225,9 +225,9 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-21T12:01:11+09:00",
+   "last_success_at": "2026-10-21T13:01:41+09:00",
    "display_at": "2026-10-21T10:31:17+09:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/iphone18-promax/ (Server=openresty/1.31.1.1)",
+   "error": null,
    "prices": {
     "pm-1tb-black": 336000,
     "pm-1tb-burgundy": 354000,

@@ -25096,5 +25096,23 @@
   "shop": "sommelier",
   "variant": "pm-512-burgundy",
   "price": 288000
+ },
+ {
+  "t": "2026-10-21T13:01:41+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-burgundy",
+  "price": 243000
+ },
+ {
+  "t": "2026-10-21T13:01:41+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-21T13:01:41+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-silver",
+  "price": 267000
  }
 ]
