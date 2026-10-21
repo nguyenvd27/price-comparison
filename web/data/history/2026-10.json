@@ -24508,5 +24508,149 @@
   "shop": "ichiban",
   "variant": "pm-512-silver",
   "price": 270000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-black",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-burgundy",
+  "price": 244000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-256-silver",
+  "price": 228000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-burgundy",
+  "price": 287000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-silver",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-silver",
+  "price": 228000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-silver",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-black",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-burgundy",
+  "price": 287000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-glacier",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-silver",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-black",
+  "price": 231500
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-glacier",
+  "price": 233500
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "rakuen",
+  "variant": "pm-256-silver",
+  "price": 228500
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-21T10:31:17+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-silver",
+  "price": 268000
  }
 ]
