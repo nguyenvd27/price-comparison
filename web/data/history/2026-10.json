@@ -24652,5 +24652,275 @@
   "shop": "rakuen",
   "variant": "pm-512-silver",
   "price": 268000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-256-black",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 244000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-512-black",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-512-burgundy",
+  "price": 287000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-512-glacier",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "mix",
+  "variant": "pm-512-silver",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-burgundy",
+  "price": 245000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-burgundy",
+  "price": 288000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-1tb-glacier",
+  "price": 355000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-black",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 244500
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 234000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-silver",
+  "price": 228000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-2tb-silver",
+  "price": 385000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-black",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-burgundy",
+  "price": 287500
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-glacier",
+  "price": 269000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-silver",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-1tb-black",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-1tb-burgundy",
+  "price": 354000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-1tb-glacier",
+  "price": 336000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-1tb-silver",
+  "price": 332000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-black",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-burgundy",
+  "price": 244000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-256-silver",
+  "price": 228000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-black",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-burgundy",
+  "price": 400000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-glacier",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-2tb-silver",
+  "price": 386000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-black",
+  "price": 270000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-burgundy",
+  "price": 287000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-glacier",
+  "price": 271000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "rudeya",
+  "variant": "pm-512-silver",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 240000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 231000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-black",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-burgundy",
+  "price": 278000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-glacier",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-21T11:01:14+09:00",
+  "shop": "jcka",
+  "variant": "pm-512-silver",
+  "price": 265000
  }
 ]
