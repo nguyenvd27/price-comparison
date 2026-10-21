@@ -7192,5 +7192,47 @@
   "shop": "runto",
   "variant": "mega-inferno-x",
   "price": 18500
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25800
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12800
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 12400
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 24200
+ },
+ {
+  "t": "2026-10-21T18:30:58+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19500
  }
 ]
