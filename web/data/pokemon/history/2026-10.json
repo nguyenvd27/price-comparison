@@ -7186,5 +7186,11 @@
   "shop": "ichiban",
   "variant": "mega-mega-dream-ex",
   "price": 12500
+ },
+ {
+  "t": "2026-10-21T15:32:14+09:00",
+  "shop": "runto",
+  "variant": "mega-inferno-x",
+  "price": 18500
  }
 ]
