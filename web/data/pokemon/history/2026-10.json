@@ -7174,5 +7174,11 @@
   "shop": "shinsoku",
   "variant": "sv-black-bolt",
   "price": 24500
+ },
+ {
+  "t": "2026-10-21T12:32:28+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-brave",
+  "price": 8000
  }
 ]
