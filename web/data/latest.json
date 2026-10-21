@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:30:44+09:00",
+ "generated_at": "2026-10-21T19:00:50+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-21T18:30:44+09:00",
@@ -271,7 +271,7 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-21T17:31:30+09:00",
+   "last_success_at": "2026-10-21T19:00:50+09:00",
    "display_at": "2026-10-21T17:31:30+09:00",
    "error": null,
    "prices": {

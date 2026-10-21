@@ -7234,5 +7234,11 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 19500
+ },
+ {
+  "t": "2026-10-21T19:01:03+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 26000
  }
 ]
