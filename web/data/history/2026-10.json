@@ -25042,5 +25042,53 @@
   "shop": "base",
   "variant": "pm-512-silver",
   "price": 269000
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "mix",
+  "variant": "pm-512-silver",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-glacier",
+  "price": 233000
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-burgundy",
+  "price": 288500
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-black",
+  "price": 231500
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 244500
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-glacier",
+  "price": 234500
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-silver",
+  "price": 229000
+ },
+ {
+  "t": "2026-10-21T12:01:11+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-black",
+  "price": 271500
  }
 ]
