@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-21T10:01:39+09:00",
+ "generated_at": "2026-10-21T11:31:31+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -105,7 +105,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -156,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
    "error": null,
    "prices": {
@@ -184,11 +184,11 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-21T10:01:39+09:00",
-   "display_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-21T11:31:31+09:00",
+   "display_at": "2026-10-21T11:31:31+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 26000,
+    "mega-30th": 25500,
     "mega-abyss-eye": 8800,
     "mega-inferno-x": 18300,
     "mega-mega-brave": 8200,
@@ -198,8 +198,8 @@
     "mega-ninja-spinner": 9600,
     "mega-storm-emeralda": 9100,
     "sv-151": 50000,
-    "sv-battle-partners": 11000,
-    "sv-black-bolt": 24000,
+    "sv-battle-partners": 10800,
+    "sv-black-bolt": 24500,
     "sv-heat-arena": 18500,
     "sv-night-wanderer": 12200,
     "sv-paradise-dragona": 15500,
