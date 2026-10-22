@@ -7360,5 +7360,47 @@
   "shop": "ichome",
   "variant": "mega-storm-emeralda",
   "price": 8700
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "sv-151",
+  "price": 51000
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 10800
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "sv-heat-arena",
+  "price": 18800
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "sv-night-wanderer",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "sv-paradise-dragona",
+  "price": 15500
+ },
+ {
+  "t": "2026-10-22T11:31:54+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 24400
  }
 ]
