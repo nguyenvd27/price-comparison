@@ -27598,5 +27598,23 @@
   "shop": "akimoba",
   "variant": "pm-512-silver",
   "price": 264000
+ },
+ {
+  "t": "2026-10-22T14:00:56+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-black",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-22T14:00:56+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-glacier",
+  "price": 268000
+ },
+ {
+  "t": "2026-10-22T14:00:56+09:00",
+  "shop": "shouten",
+  "variant": "pm-512-silver",
+  "price": 264000
  }
 ]
