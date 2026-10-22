@@ -7402,5 +7402,29 @@
   "shop": "oku",
   "variant": "sv-rocket-gang",
   "price": 24400
+ },
+ {
+  "t": "2026-10-22T12:31:38+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 26000
+ },
+ {
+  "t": "2026-10-22T12:31:38+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-heat-arena",
+  "price": 19000
+ },
+ {
+  "t": "2026-10-22T12:31:38+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-super-electric-breaker",
+  "price": 27800
+ },
+ {
+  "t": "2026-10-22T12:31:38+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19800
  }
 ]
