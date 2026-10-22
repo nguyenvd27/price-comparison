@@ -7342,5 +7342,23 @@
   "shop": "ichome",
   "variant": "sv-white-flare",
   "price": 20500
+ },
+ {
+  "t": "2026-10-22T11:01:36+09:00",
+  "shop": "ichiban",
+  "variant": "mega-inferno-x",
+  "price": 18000
+ },
+ {
+  "t": "2026-10-22T11:01:36+09:00",
+  "shop": "ichome",
+  "variant": "mega-abyss-eye",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-22T11:01:36+09:00",
+  "shop": "ichome",
+  "variant": "mega-storm-emeralda",
+  "price": 8700
  }
 ]
