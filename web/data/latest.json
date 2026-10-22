@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-22T12:31:20+09:00",
+ "generated_at": "2026-10-22T13:00:53+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-22T11:31:34+09:00",
+   "last_success_at": "2026-10-22T13:00:53+09:00",
    "display_at": "2026-10-22T11:31:34+09:00",
    "error": null,
    "prices": {
@@ -25,14 +25,14 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-22T12:01:26+09:00",
-   "display_at": "2026-10-22T11:01:22+09:00",
+   "last_success_at": "2026-10-22T13:00:53+09:00",
+   "display_at": "2026-10-22T13:00:53+09:00",
    "error": null,
    "prices": {
-    "pm-1tb-black": 329000,
-    "pm-1tb-burgundy": 348000,
-    "pm-1tb-glacier": 329000,
-    "pm-1tb-silver": 325000,
+    "pm-1tb-black": 334000,
+    "pm-1tb-burgundy": 349000,
+    "pm-1tb-glacier": 334000,
+    "pm-1tb-silver": 330000,
     "pm-256-black": 224000,
     "pm-256-burgundy": 238000,
     "pm-256-glacier": 226000,
@@ -41,10 +41,10 @@
     "pm-2tb-burgundy": 395000,
     "pm-2tb-glacier": 385000,
     "pm-2tb-silver": 385000,
-    "pm-512-black": 265000,
+    "pm-512-black": 267000,
     "pm-512-burgundy": 280000,
-    "pm-512-glacier": 266000,
-    "pm-512-silver": 262000
+    "pm-512-glacier": 268000,
+    "pm-512-silver": 264000
    }
   },
   "mobaste": {
@@ -71,7 +71,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-22T11:31:34+09:00",
+   "last_success_at": "2026-10-22T13:00:53+09:00",
    "display_at": "2026-10-22T11:31:34+09:00",
    "error": null,
    "prices": {
@@ -119,7 +119,7 @@
   "mix": {
    "last_success_at": "2026-10-21T19:30:51+09:00",
    "display_at": "2026-10-21T18:30:44+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='mobile-mix.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='mobile-mix.jp', port=443) at 0x7f784630aa50>, 'Connection to mobile-mix.jp timed out. (connect timeout=30)'))",
+   "error": "Không lấy được giá nào",
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 354000,
@@ -137,9 +137,9 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-21T19:30:51+09:00",
-   "display_at": "2026-10-21T19:30:51+09:00",
-   "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://akiba-mobile.co.jp/ (Server=Apache, title=502 Bad Gateway)",
+   "last_success_at": "2026-10-22T13:00:53+09:00",
+   "display_at": "2026-10-22T13:00:53+09:00",
+   "error": null,
    "prices": {
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 354000,
@@ -225,14 +225,14 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-22T12:01:26+09:00",
-   "display_at": "2026-10-22T12:01:26+09:00",
+   "last_success_at": "2026-10-22T13:00:53+09:00",
+   "display_at": "2026-10-22T13:00:53+09:00",
    "error": null,
    "prices": {
-    "pm-1tb-black": 331000,
-    "pm-1tb-burgundy": 348000,
-    "pm-1tb-glacier": 331000,
-    "pm-1tb-silver": 327000,
+    "pm-1tb-black": 333000,
+    "pm-1tb-burgundy": 349000,
+    "pm-1tb-glacier": 333000,
+    "pm-1tb-silver": 329000,
     "pm-256-black": 224500,
     "pm-256-burgundy": 238000,
     "pm-256-glacier": 226500,
@@ -241,10 +241,10 @@
     "pm-2tb-burgundy": 385000,
     "pm-2tb-glacier": 375000,
     "pm-2tb-silver": 375000,
-    "pm-512-black": 263500,
+    "pm-512-black": 267000,
     "pm-512-burgundy": 280000,
-    "pm-512-glacier": 264500,
-    "pm-512-silver": 261000
+    "pm-512-glacier": 267000,
+    "pm-512-silver": 262000
    }
   },
   "base": {
