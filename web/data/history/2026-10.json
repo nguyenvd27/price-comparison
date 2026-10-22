@@ -27778,5 +27778,29 @@
   "shop": "ichome",
   "variant": "pm-512-silver",
   "price": 262000
+ },
+ {
+  "t": "2026-10-22T16:31:12+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-black",
+  "price": 221000
+ },
+ {
+  "t": "2026-10-22T16:31:12+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-burgundy",
+  "price": 235000
+ },
+ {
+  "t": "2026-10-22T16:31:12+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-glacier",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-22T16:31:12+09:00",
+  "shop": "jcka",
+  "variant": "pm-256-silver",
+  "price": 218000
  }
 ]
