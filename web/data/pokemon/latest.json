@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:01:05+09:00",
+ "generated_at": "2026-10-22T19:31:03+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-22T19:01:05+09:00",
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-22T18:02:09+09:00",
+   "last_success_at": "2026-10-22T19:31:03+09:00",
    "display_at": "2026-10-22T11:01:36+09:00",
    "error": null,
    "prices": {
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-22T18:02:09+09:00",
+   "last_success_at": "2026-10-22T19:31:03+09:00",
    "display_at": "2026-10-22T13:31:06+09:00",
    "error": null,
    "prices": {
@@ -156,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-22T18:02:09+09:00",
+   "last_success_at": "2026-10-22T19:31:03+09:00",
    "display_at": "2026-10-22T17:02:09+09:00",
    "error": null,
    "prices": {
