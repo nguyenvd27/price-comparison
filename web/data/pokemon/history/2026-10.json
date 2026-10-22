@@ -7432,5 +7432,11 @@
   "shop": "runto",
   "variant": "mega-mega-dream-ex",
   "price": 12800
+ },
+ {
+  "t": "2026-10-22T17:02:09+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th-futuristic",
+  "price": 60000
  }
 ]
