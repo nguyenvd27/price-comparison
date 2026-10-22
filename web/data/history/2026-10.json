@@ -27730,5 +27730,53 @@
   "shop": "base",
   "variant": "pm-512-silver",
   "price": 268000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-black",
+  "price": 222000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-burgundy",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-glacier",
+  "price": 224000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-256-silver",
+  "price": 219000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-black",
+  "price": 265000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-burgundy",
+  "price": 278000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-glacier",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-22T16:01:12+09:00",
+  "shop": "ichome",
+  "variant": "pm-512-silver",
+  "price": 262000
  }
 ]

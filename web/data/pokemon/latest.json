@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:31:00+09:00",
+ "generated_at": "2026-10-22T16:01:58+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-22T15:31:00+09:00",
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-22T15:01:08+09:00",
+   "last_success_at": "2026-10-22T16:01:58+09:00",
    "display_at": "2026-10-22T11:01:36+09:00",
    "error": null,
    "prices": {
@@ -107,7 +107,7 @@
   "oku": {
    "last_success_at": "2026-10-22T15:31:00+09:00",
    "display_at": "2026-10-22T11:31:54+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=340&cat2=363&cat3=367&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7fdd893a6e40>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 26000,
     "mega-abyss-eye": 9000,
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-22T15:01:08+09:00",
+   "last_success_at": "2026-10-22T16:01:58+09:00",
    "display_at": "2026-10-22T13:31:06+09:00",
    "error": null,
    "prices": {
@@ -156,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-22T15:01:08+09:00",
+   "last_success_at": "2026-10-22T16:01:58+09:00",
    "display_at": "2026-10-22T11:01:36+09:00",
    "error": null,
    "prices": {
