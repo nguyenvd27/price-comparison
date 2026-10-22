@@ -7240,5 +7240,35 @@
   "shop": "ichome",
   "variant": "mega-30th",
   "price": 26000
+ },
+ {
+  "t": "2026-10-22T10:02:55+09:00",
+  "shop": "runto",
+  "variant": "mega-inferno-x",
+  "price": 18000
+ },
+ {
+  "t": "2026-10-22T10:02:55+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-22T10:02:55+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8900
+ },
+ {
+  "t": "2026-10-22T10:02:55+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-22T10:02:55+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8200
  }
 ]

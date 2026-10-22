@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-21T20:02:06+09:00",
+ "generated_at": "2026-10-22T10:02:55+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-21T19:31:05+09:00",
-   "display_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-22T10:02:55+09:00",
+   "display_at": "2026-10-22T10:02:55+09:00",
    "error": null,
    "prices": {
     "mega-abyss-eye": 8900,
@@ -55,7 +55,7 @@
   "rudeya": {
    "last_success_at": "2026-10-21T20:02:06+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-rudeya.com', port=443): Max retries exceeded with url: /category/detail/114 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-rudeya.com', port=443) at 0x7f17062a2990>, 'Connection to kaitori-rudeya.com timed out. (connect timeout=30)'))",
    "prices": {
     "mega-30th": 23000,
     "mega-30th-futuristic": 59000,
@@ -81,9 +81,9 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-21T19:31:05+09:00",
-   "display_at": "2026-10-21T14:31:26+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mobile-ichiban.com', port=443): Max retries exceeded with url: /Prod/3/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mobile-ichiban.com', port=443) at 0x7f6444d77800>, 'Connection to www.mobile-ichiban.com timed out. (connect timeout=30)'))",
+   "last_success_at": "2026-10-22T10:02:55+09:00",
+   "display_at": "2026-10-22T10:02:55+09:00",
+   "error": null,
    "prices": {
     "mega-30th": 24000,
     "mega-abyss-eye": 8000,
@@ -105,8 +105,8 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-21T19:31:05+09:00",
-   "display_at": "2026-10-21T10:01:39+09:00",
+   "last_success_at": "2026-10-22T10:02:55+09:00",
+   "display_at": "2026-10-22T10:02:55+09:00",
    "error": null,
    "prices": {
     "mega-30th": 26000,
@@ -129,14 +129,14 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-21T19:31:05+09:00",
-   "display_at": "2026-10-21T15:32:14+09:00",
+   "last_success_at": "2026-10-22T10:02:55+09:00",
+   "display_at": "2026-10-22T10:02:55+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
     "mega-abyss-eye": 9000,
-    "mega-inferno-x": 18500,
+    "mega-inferno-x": 18000,
     "mega-mega-brave": 7800,
     "mega-mega-dream-ex": 13000,
     "mega-mega-symphonia": 7600,
@@ -156,11 +156,11 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-21T20:02:06+09:00",
-   "display_at": "2026-10-21T19:01:03+09:00",
+   "last_success_at": "2026-10-22T10:02:55+09:00",
+   "display_at": "2026-10-22T10:02:55+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 26000,
+    "mega-30th": 25500,
     "mega-30th-futuristic": 61000,
     "mega-abyss-eye": 9100,
     "mega-inferno-x": 16000,
@@ -184,16 +184,16 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-21T19:31:05+09:00",
-   "display_at": "2026-10-21T18:30:58+09:00",
+   "last_success_at": "2026-10-22T10:02:55+09:00",
+   "display_at": "2026-10-22T10:02:55+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25800,
-    "mega-abyss-eye": 8800,
+    "mega-abyss-eye": 8900,
     "mega-inferno-x": 18300,
-    "mega-mega-brave": 8200,
+    "mega-mega-brave": 8300,
     "mega-mega-dream-ex": 12800,
-    "mega-mega-symphonia": 8100,
+    "mega-mega-symphonia": 8200,
     "mega-munikis-zero": 8800,
     "mega-ninja-spinner": 9600,
     "mega-storm-emeralda": 9100,
