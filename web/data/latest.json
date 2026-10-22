@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:01:25+09:00",
+ "generated_at": "2026-10-22T18:30:47+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-22T17:31:16+09:00",
@@ -185,7 +185,7 @@
   "rudeya": {
    "last_success_at": "2026-10-21T19:30:51+09:00",
    "display_at": "2026-10-21T18:01:04+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-rudeya.com', port=443): Max retries exceeded with url: /category/detail/253 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-rudeya.com', port=443) at 0x7f055bfc5a30>, 'Connection to kaitori-rudeya.com timed out. (connect timeout=30)'))",
+   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://kaitori-rudeya.com/category/detail/253 (Server=nginx, title=メンテナンス中のお知らせ)",
    "prices": {
     "pm-1tb-black": 336000,
     "pm-1tb-burgundy": 351000,

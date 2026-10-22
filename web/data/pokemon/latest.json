@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:02:09+09:00",
+ "generated_at": "2026-10-22T18:30:59+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-22T17:32:01+09:00",
@@ -55,7 +55,7 @@
   "rudeya": {
    "last_success_at": "2026-10-21T20:02:06+09:00",
    "display_at": "2026-10-21T10:01:39+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-rudeya.com', port=443): Max retries exceeded with url: /category/detail/114 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-rudeya.com', port=443) at 0x7f9e833a2600>, 'Connection to kaitori-rudeya.com timed out. (connect timeout=30)'))",
+   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://kaitori-rudeya.com/category/detail/114 (Server=nginx, title=メンテナンス中のお知らせ)",
    "prices": {
     "mega-30th": 23000,
     "mega-30th-futuristic": 59000,
