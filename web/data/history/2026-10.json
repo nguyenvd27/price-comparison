@@ -26848,5 +26848,95 @@
   "shop": "rakuen",
   "variant": "pm-512-burgundy",
   "price": 280000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-black",
+  "price": 329000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-burgundy",
+  "price": 348000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-glacier",
+  "price": 329000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichome",
+  "variant": "pm-1tb-silver",
+  "price": 325000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-black",
+  "price": 329000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-burgundy",
+  "price": 348000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-glacier",
+  "price": 329000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-silver",
+  "price": 325000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-black",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-burgundy",
+  "price": 348000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-glacier",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-1tb-silver",
+  "price": 327000
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-black",
+  "price": 263500
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-glacier",
+  "price": 264500
+ },
+ {
+  "t": "2026-10-22T10:31:16+09:00",
+  "shop": "rakuen",
+  "variant": "pm-512-silver",
+  "price": 261000
  }
 ]
