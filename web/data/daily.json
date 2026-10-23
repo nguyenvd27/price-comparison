@@ -1851,20 +1851,20 @@
  },
  "2026-10-23": {
   "duo-1tb-nightsky": {
-   "max": 525000,
-   "shop": "akimoba"
+   "max": 530000,
+   "shop": "morimori"
   },
   "duo-1tb-starwhite": {
-   "max": 525000,
-   "shop": "akimoba"
+   "max": 530000,
+   "shop": "morimori"
   },
   "duo-256-nightsky": {
-   "max": 451000,
-   "shop": "rakuen"
+   "max": 456000,
+   "shop": "sommelier"
   },
   "duo-256-starwhite": {
-   "max": 451000,
-   "shop": "rakuen"
+   "max": 456000,
+   "shop": "sommelier"
   },
   "duo-2tb-nightsky": {
    "max": 616000,
@@ -1875,12 +1875,12 @@
    "shop": "rakuen"
   },
   "duo-512-nightsky": {
-   "max": 491000,
-   "shop": "rakuen"
+   "max": 500000,
+   "shop": "morimori"
   },
   "duo-512-starwhite": {
-   "max": 491000,
-   "shop": "rakuen"
+   "max": 500000,
+   "shop": "morimori"
   },
   "pm-1tb-black": {
    "max": 335000,
