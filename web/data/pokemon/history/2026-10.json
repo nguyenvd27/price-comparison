@@ -7468,5 +7468,29 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 21800
+ },
+ {
+  "t": "2026-10-23T10:01:14+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 18000
+ },
+ {
+  "t": "2026-10-23T10:01:14+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12700
+ },
+ {
+  "t": "2026-10-23T10:01:14+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-23T10:01:14+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19500
  }
 ]
