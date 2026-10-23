@@ -23,7 +23,7 @@ def test_morimori_jan_and_skips_dx_and_no_promo():
 
 
 def test_homura_jan_from_last_13_digits_and_skips_dx():
-    assert as_dict(homura.parse(read("homura.html"), ITEMS)) == {"mega-30th": 26500}
+    assert as_dict(homura.parse(read("homura.json"), ITEMS)) == {"mega-30th": 26500}
 
 
 def test_rudeya_new_cards_with_jan():

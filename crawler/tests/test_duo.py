@@ -111,7 +111,6 @@ class RecordingSession:
 @pytest.mark.parametrize("module_name, duo_part", [
     ("morimori", "/category/0301071"),
     ("ichiban", "/Prod/1/01/41"),
-    ("homura", "product_sub_category_id_eq%5D=194"),
 ])
 def test_html_shops_also_fetch_duo_page(module_name, duo_part):
     import importlib
@@ -120,6 +119,15 @@ def test_html_shops_also_fetch_duo_page(module_name, duo_part):
     session = RecordingSession()
     module.fetch(session)
     assert any(duo_part in url for url in session.calls), session.calls
+
+
+def test_homura_fetches_api_pages_for_pro_max_and_duo():
+    from crawler.shops import homura
+
+    session = RecordingSession('{"data": [], "meta": {"total_pages": 2}}')
+    homura.fetch(session)
+    assert any("product_sub_category_id=192&page=2" in u for u in session.calls), session.calls
+    assert any("product_sub_category_id=194" in u for u in session.calls), session.calls
 
 
 def test_shouten_fetches_and_parses_both_categories(colors_all):

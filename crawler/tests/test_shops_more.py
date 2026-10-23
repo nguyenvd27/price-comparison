@@ -37,7 +37,8 @@ def test_rudeya_new_unopened_cards(colors):
 
 
 def test_homura_english_colors(colors):
-    assert as_dict(homura.parse(read("homura.html"), colors)) == {
+    # API JSON (giao diện mới từ 2026-10-12); bỏ 【開封open】, gộp nhiều trang.
+    assert as_dict(homura.parse(read("homura.json"), colors)) == {
         "pm-256-burgundy": 256000, "pm-256-glacier": 222000,
         "pm-256-silver": 222000, "pm-256-black": 226000,
     }

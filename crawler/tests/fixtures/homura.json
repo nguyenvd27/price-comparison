@@ -1,0 +1,11 @@
+{"pages": [
+ {"data": [
+  {"name": "【開封open】iPhone 18 Pro Max 256GB burgundy", "price": 217000, "jan_code": "524549995734645"},
+  {"name": "【未開封】iPhone 18 Pro Max 256GB burgundy", "price": 256000, "jan_code": "514549995734645"},
+  {"name": "【未開封】iPhone 18 Pro Max 256GB glacier", "price": 222000, "jan_code": "514549995734690"}
+ ], "meta": {"total_count": 5, "total_pages": 2, "current_page": 1, "per_page": 3}},
+ {"data": [
+  {"name": "【未開封】iPhone 18 Pro Max 256GB silver", "price": 222000, "jan_code": "514549995734591"},
+  {"name": "【未開封】iPhone 18 Pro Max 256GB black", "price": 226000, "jan_code": "514549995734546"}
+ ], "meta": {"total_count": 5, "total_pages": 2, "current_page": 2, "per_page": 3}}
+]}

@@ -1,34 +1,33 @@
-from bs4 import BeautifulSoup
+import json
 
 from crawler.http import get_text
 from crawler.models import Offer
-from crawler.normalize import parse_price
 from crawler.pokemon.match import clean_jan, match_item
 from crawler.shops.common import dedupe
 
-# Danh mục "シュリンク有り" (BOX còn màng co).
-URL = (
-    "https://kaitori-homura.com/products"
-    "?q%5Bproduct_sub_category_id_eq%5D=128&q%5Bproduct_sub_category_product_category_id_eq%5D=14"
-)
-MAX_PAGES = 3
+# Từ 2026-10-12 trang web dựng bằng JavaScript; giá lấy từ API công khai mà trang gọi.
+# Danh mục 128 = "シュリンク有り" (BOX còn màng co).
+API = "https://api.kaitori-homura.com/api/v1/products?product_sub_category_id=128&page={page}"
+MAX_PAGES = 5
 
 
 def fetch(session) -> str:
-    return "\n".join(get_text(session, f"{URL}&page={page}") for page in range(1, MAX_PAGES + 1))
+    pages = []
+    for page in range(1, MAX_PAGES + 1):
+        data = json.loads(get_text(session, API.format(page=page)))
+        pages.append(data)
+        if page >= (data.get("meta") or {}).get("total_pages", 1):
+            break
+    return json.dumps({"pages": pages}, ensure_ascii=False)
 
 
 def parse(raw: str, items: list[dict]) -> list[Offer]:
-    soup = BeautifulSoup(raw, "html.parser")
     offers = []
-    for title in soup.select("h5"):
-        card = title.find_parent(lambda tag: tag.name == "div" and tag.select_one("span.text-lg"))
-        if not card:
-            continue
-        # Dãy số trong thẻ là JAN có thêm 2 chữ số phía trước, ví dụ 114521329462424.
-        jan = clean_jan(" ".join(span.get_text() for span in card.select("span.text-xs")))
-        item = match_item(" ".join(title.get_text().split()), jan, items)
-        value = parse_price(card.select_one("span.text-lg").get_text())
-        if item and value:
-            offers.append(Offer(item, value))
+    for page in json.loads(raw)["pages"]:
+        for product in page.get("data") or []:
+            # jan_code có thêm 2 chữ số phía trước, ví dụ 114521329462424.
+            item = match_item(product.get("name") or "", clean_jan(product.get("jan_code")), items)
+            price = product.get("price")
+            if item and isinstance(price, int) and price > 0:
+                offers.append(Offer(item, price))
     return dedupe(offers)
