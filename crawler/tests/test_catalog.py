@@ -6,7 +6,7 @@ from crawler.store import DATA_DIR
 def test_catalog_is_consistent():
     catalog = json.loads((DATA_DIR / "catalog.json").read_text(encoding="utf-8"))
     models = {m["id"]: m for m in catalog["models"]}
-    assert list(models) == ["pm", "duo"]
+    assert list(models) == ["duo", "pm"]  # Duo xếp trên 18 Pro Max
     for variant in catalog["variants"]:
         model = models[variant["model"]]
         assert variant["color"] in model["colors"], variant["id"]

@@ -1,6 +1,17 @@
 {
  "models": [
   {
+   "id": "duo",
+   "name": "iPhone Duo",
+   "short": "Duo",
+   "colors": [
+    "nightsky",
+    "starwhite"
+   ],
+   "release": "2026-10-23",
+   "crawl": true
+  },
+  {
    "id": "pm",
    "name": "iPhone 18 Pro Max",
    "short": "18 Pro Max",
@@ -10,17 +21,6 @@
     "black",
     "silver"
    ],
-   "crawl": true
-  },
-  {
-   "id": "duo",
-   "name": "iPhone Duo",
-   "short": "Duo",
-   "colors": [
-    "nightsky",
-    "starwhite"
-   ],
-   "release": "2026-10-23",
    "crawl": true
   }
  ],
@@ -76,6 +76,70 @@
   }
  },
  "variants": [
+  {
+   "id": "duo-256-nightsky",
+   "model": "duo",
+   "capacity": "256GB",
+   "color": "nightsky",
+   "apple_price": 364800,
+   "jan": "4549995732696"
+  },
+  {
+   "id": "duo-256-starwhite",
+   "model": "duo",
+   "capacity": "256GB",
+   "color": "starwhite",
+   "apple_price": 364800,
+   "jan": "4549995732641"
+  },
+  {
+   "id": "duo-512-nightsky",
+   "model": "duo",
+   "capacity": "512GB",
+   "color": "nightsky",
+   "apple_price": 399800,
+   "jan": "4549995732795"
+  },
+  {
+   "id": "duo-512-starwhite",
+   "model": "duo",
+   "capacity": "512GB",
+   "color": "starwhite",
+   "apple_price": 399800,
+   "jan": "4549995732740"
+  },
+  {
+   "id": "duo-1tb-nightsky",
+   "model": "duo",
+   "capacity": "1TB",
+   "color": "nightsky",
+   "apple_price": 469800,
+   "jan": "4549995732894"
+  },
+  {
+   "id": "duo-1tb-starwhite",
+   "model": "duo",
+   "capacity": "1TB",
+   "color": "starwhite",
+   "apple_price": 469800,
+   "jan": "4549995732849"
+  },
+  {
+   "id": "duo-2tb-nightsky",
+   "model": "duo",
+   "capacity": "2TB",
+   "color": "nightsky",
+   "apple_price": 574800,
+   "jan": "4549995732993"
+  },
+  {
+   "id": "duo-2tb-starwhite",
+   "model": "duo",
+   "capacity": "2TB",
+   "color": "starwhite",
+   "apple_price": 574800,
+   "jan": "4549995732948"
+  },
   {
    "id": "pm-256-burgundy",
    "capacity": "256GB",
@@ -203,70 +267,6 @@
    "apple_price": 449800,
    "model": "pm",
    "jan": "4549995735192"
-  },
-  {
-   "id": "duo-256-nightsky",
-   "model": "duo",
-   "capacity": "256GB",
-   "color": "nightsky",
-   "apple_price": 364800,
-   "jan": "4549995732696"
-  },
-  {
-   "id": "duo-256-starwhite",
-   "model": "duo",
-   "capacity": "256GB",
-   "color": "starwhite",
-   "apple_price": 364800,
-   "jan": "4549995732641"
-  },
-  {
-   "id": "duo-512-nightsky",
-   "model": "duo",
-   "capacity": "512GB",
-   "color": "nightsky",
-   "apple_price": 399800,
-   "jan": "4549995732795"
-  },
-  {
-   "id": "duo-512-starwhite",
-   "model": "duo",
-   "capacity": "512GB",
-   "color": "starwhite",
-   "apple_price": 399800,
-   "jan": "4549995732740"
-  },
-  {
-   "id": "duo-1tb-nightsky",
-   "model": "duo",
-   "capacity": "1TB",
-   "color": "nightsky",
-   "apple_price": 469800,
-   "jan": "4549995732894"
-  },
-  {
-   "id": "duo-1tb-starwhite",
-   "model": "duo",
-   "capacity": "1TB",
-   "color": "starwhite",
-   "apple_price": 469800,
-   "jan": "4549995732849"
-  },
-  {
-   "id": "duo-2tb-nightsky",
-   "model": "duo",
-   "capacity": "2TB",
-   "color": "nightsky",
-   "apple_price": 574800,
-   "jan": "4549995732993"
-  },
-  {
-   "id": "duo-2tb-starwhite",
-   "model": "duo",
-   "capacity": "2TB",
-   "color": "starwhite",
-   "apple_price": 574800,
-   "jan": "4549995732948"
   }
  ],
  "shops": [
