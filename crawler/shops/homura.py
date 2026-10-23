@@ -12,8 +12,11 @@ URL = (
 )
 
 
+DUO_URL = URL.replace("eq%5D=192", "eq%5D=194")  # iPhone Duo (sub_category 194)
+
+
 def fetch(session) -> str:
-    return get_text(session, URL)
+    return "\n".join(get_text(session, url) for url in (URL, DUO_URL))
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:

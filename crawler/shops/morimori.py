@@ -8,18 +8,23 @@ from crawler.normalize import parse_price
 from crawler.shops.common import dedupe, offer_from_name
 
 URL = "https://www.morimori-kaitori.jp/category/0301070"
+DUO_URL = "https://www.morimori-kaitori.jp/category/0301071"  # iPhone Duo
 MAX_PAGES = 5
 
 
-def fetch(session) -> str:
+def fetch_category(session, start: str) -> list[str]:
     pages = []
-    url = URL
+    url = start
     while url and len(pages) < MAX_PAGES:
         html = get_text(session, url)
         pages.append(html)
         next_link = BeautifulSoup(html, "html.parser").select_one("ul.pagination li.next a")
-        url = urljoin(URL, next_link["href"]) if next_link else None
-    return "\n".join(pages)
+        url = urljoin(start, next_link["href"]) if next_link else None
+    return pages
+
+
+def fetch(session) -> str:
+    return "\n".join(fetch_category(session, URL) + fetch_category(session, DUO_URL))
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:

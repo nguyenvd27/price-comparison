@@ -45,7 +45,7 @@ def test_morimori_fetch_follows_pagination():
         '<a href="https://www.morimori-kaitori.jp/category/0301070?page=2"><span>次のページ</span></a>'
         "</p></li></ul>"
     )
-    pages = {morimori.URL: page1, morimori.URL + "?page=2": "<p>trang 2</p>"}
+    pages = {morimori.URL: page1, morimori.URL + "?page=2": "<p>trang 2</p>", morimori.DUO_URL: "<p>duo</p>"}
     calls = []
 
     class FakeSession:
@@ -53,5 +53,5 @@ def test_morimori_fetch_follows_pagination():
             calls.append(url)
             return SimpleNamespace(encoding="utf-8", text=pages[url], raise_for_status=lambda: None)
 
-    assert morimori.fetch(FakeSession()) == page1 + "\n<p>trang 2</p>"
-    assert calls == [morimori.URL, morimori.URL + "?page=2"]
+    assert morimori.fetch(FakeSession()) == page1 + "\n<p>trang 2</p>\n<p>duo</p>"
+    assert calls == [morimori.URL, morimori.URL + "?page=2", morimori.DUO_URL]

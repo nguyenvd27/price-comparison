@@ -9,7 +9,7 @@ def nfkc(text: str | None) -> str:
 
 
 # Tên dòng máy (đã bỏ khoảng trắng, chữ thường) → mã dòng máy trong catalog.
-MODEL_KEYS = {"iphone18promax": "pm", "iphoneduo": "duo"}
+MODEL_KEYS = {"iphone18promax": "pm", "iphoneduo": "duo", "iphone18duo": "duo"}  # BASE ghi "18 Duo"
 
 
 class Colors(dict):

@@ -11,16 +11,26 @@ URL = (
 )
 
 
+DUO_URL = URL.replace("cateCode=eOd8WFZllXmBd3Rt", "cateCode=DtVXYic3qit6ckmN")  # iPhone Duo
+
+
 def fetch(session) -> str:
-    return get_text(session, URL)
+    return json.dumps({"pages": [json.loads(get_text(session, url)) for url in (URL, DUO_URL)]}, ensure_ascii=False)
+
+
+def items_of(raw: str) -> list[dict]:
+    data = json.loads(raw)
+    items = []
+    for page in data.get("pages", [data]):
+        if page.get("code") != 200:
+            raise ValueError(f"API trả về code {page.get('code')}: {page.get('msg')}")
+        items += page["data"]["content"]
+    return items
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
-    data = json.loads(raw)
-    if data.get("code") != 200:
-        raise ValueError(f"API trả về code {data.get('code')}: {data.get('msg')}")
     offers = []
-    for item in data["data"]["content"]:
+    for item in items_of(raw):
         title = item.get("title") or ""
         capacity = parse_capacity(title)
         unopened = next(

@@ -10,16 +10,26 @@ URL = "https://www.kaitorishouten-co.jp/api/v1/products?per_page=100&perPage=100
 NEW_LABEL = "新品"  # máy mới chưa kích hoạt; các nhãn "新品 開封済…", "中古…" bị bỏ qua
 
 
+DUO_URL = URL.replace("category_id=747", "category_id=748")  # iPhone Duo
+
+
 def fetch(session) -> str:
-    return get_text(session, URL)
+    return json.dumps({"pages": [json.loads(get_text(session, url)) for url in (URL, DUO_URL)]}, ensure_ascii=False)
+
+
+def items_of(raw: str) -> list[dict]:
+    data = json.loads(raw)
+    items = []
+    for page in data.get("pages", [data]):
+        if page["total"] > page["per_page"]:
+            raise ValueError(f"API có {page['total']} sản phẩm, nhiều hơn 1 trang ({page['per_page']})")
+        items += page["items"]
+    return items
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
-    data = json.loads(raw)
-    if data["total"] > data["per_page"]:
-        raise ValueError(f"API có {data['total']} sản phẩm, nhiều hơn 1 trang ({data['per_page']})")
     offers = []
-    for item in data["items"]:
+    for item in items_of(raw):
         if item.get("price_undecided"):
             continue
         price = next((p["amount"] for p in item.get("prices") or [] if p.get("label") == NEW_LABEL), None)

@@ -6,10 +6,11 @@ from crawler.normalize import parse_price
 from crawler.shops.common import dedupe, offers_from_base
 
 URL = "https://www.mobile-ichiban.com/Prod/1/01/40"
+DUO_URL = "https://www.mobile-ichiban.com/Prod/1/01/41"  # iPhone Duo
 
 
 def fetch(session) -> str:
-    return get_text(session, URL)
+    return "\n".join(get_text(session, url) for url in (URL, DUO_URL))
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:

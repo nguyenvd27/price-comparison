@@ -6,7 +6,8 @@ from crawler.normalize import parse_price
 from crawler.shops.common import dedupe, kanji_colors, offers_from_base
 
 URL = "https://www.jcka-mobile.co.jp/kisyu/iphone/"
-UNOPENED = "未開封 判定〇"  # chưa mở hộp, đã trả góp xong; "判定△" là đang trả góp
+# Dòng máy chưa mở hộp: "未開封 判定〇", hoặc kèm ghi chú như "未開封（郵送買取中止）17時まで".
+# "判定△" là máy đang trả góp, bỏ qua.
 
 
 def fetch(session) -> str:
@@ -21,7 +22,8 @@ def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
         title = post.select_one(".vk_post_title")
         for row in post.select("tbody tr"):
             cells = row.find_all("td")
-            if not title or len(cells) < 3 or cells[0].get_text(" ", strip=True) != UNOPENED:
+            label = cells[0].get_text(" ", strip=True) if cells else ""
+            if not title or len(cells) < 3 or not label.startswith("未開封") or "△" in label:
                 continue
             offers += offers_from_base(
                 title.get_text(" ", strip=True),
