@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-23T10:31:10+09:00",
+ "generated_at": "2026-10-23T11:01:45+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-23T10:01:14+09:00",
    "display_at": "2026-10-23T10:01:14+09:00",
-   "error": null,
+   "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.morimori-kaitori.jp/category/2401010 (Server=nginx, title=502 Bad Gateway)",
    "prices": {
     "mega-abyss-eye": 8900,
     "mega-inferno-x": 17000,
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-23T10:01:14+09:00",
+   "last_success_at": "2026-10-23T11:01:45+09:00",
    "display_at": "2026-10-23T10:01:14+09:00",
    "error": null,
    "prices": {
@@ -105,7 +105,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-23T10:01:14+09:00",
+   "last_success_at": "2026-10-23T11:01:45+09:00",
    "display_at": "2026-10-23T10:01:14+09:00",
    "error": null,
    "prices": {
@@ -129,7 +129,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-23T10:01:14+09:00",
+   "last_success_at": "2026-10-23T11:01:45+09:00",
    "display_at": "2026-10-23T10:01:14+09:00",
    "error": null,
    "prices": {
@@ -156,7 +156,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-23T10:01:14+09:00",
+   "last_success_at": "2026-10-23T11:01:45+09:00",
    "display_at": "2026-10-23T10:01:14+09:00",
    "error": null,
    "prices": {
