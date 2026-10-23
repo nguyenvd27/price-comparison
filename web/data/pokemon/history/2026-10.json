@@ -7642,5 +7642,47 @@
   "shop": "oku",
   "variant": "sv-rocket-gang",
   "price": 24500
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-dream-ex",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T13:31:11+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": null
  }
 ]
