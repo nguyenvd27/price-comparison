@@ -59,8 +59,16 @@ def test_mix_fetch_visits_home_first():
             calls.append(url)
             return FakeResponse()
 
-    assert mix.fetch(FakeSession()) == "ok"
+    # Trang danh mục (18 Pro Max) trước, rồi trang chủ (có iPhone Duo).
+    assert mix.fetch(FakeSession()) == "ok\nok"
     assert calls == ["https://mobile-mix.jp/", "https://mobile-mix.jp/?category=7"]
+
+
+def test_mix_home_page_duo_rows(colors_all):
+    assert {o.variant: o.price for o in mix.parse(read("mix_home.html"), colors_all)} == {
+        "duo-256-nightsky": 450000, "duo-256-starwhite": 450000,
+        "duo-2tb-nightsky": 615000, "duo-2tb-starwhite": 615000,
+    }
 
 
 def test_offer_type(colors):

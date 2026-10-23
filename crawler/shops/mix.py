@@ -11,8 +11,9 @@ URL = "https://mobile-mix.jp/?category=7"
 
 def fetch(session) -> str:
     # Lần đầu chưa có cookie, MIX chuyển hướng sang /cookie-error, nên phải gọi trang chủ trước để nhận cookie.
-    get_text(session, HOME)
-    return get_text(session, URL)
+    # Trang chủ cũng là nơi duy nhất có giá iPhone Duo, nên giữ lại cả hai (trang danh mục trước).
+    home = get_text(session, HOME)
+    return get_text(session, URL) + "\n" + home
 
 
 def parse(raw: str, colors: dict[str, list[str]]) -> list[Offer]:
