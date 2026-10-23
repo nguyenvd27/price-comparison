@@ -7684,5 +7684,41 @@
   "shop": "oku",
   "variant": "mega-storm-emeralda",
   "price": null
+ },
+ {
+  "t": "2026-10-23T14:01:27+09:00",
+  "shop": "ichiban",
+  "variant": "mega-mega-brave",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T14:01:27+09:00",
+  "shop": "ichiban",
+  "variant": "sv-rocket-gang",
+  "price": 22000
+ },
+ {
+  "t": "2026-10-23T14:01:27+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": null
+ },
+ {
+  "t": "2026-10-23T14:01:27+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12500
+ },
+ {
+  "t": "2026-10-23T14:01:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-black-bolt",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-23T14:01:27+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-white-flare",
+  "price": 22000
  }
 ]
