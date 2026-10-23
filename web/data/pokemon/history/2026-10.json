@@ -7624,5 +7624,23 @@
   "shop": "homura",
   "variant": "sv-white-flare",
   "price": 22500
+ },
+ {
+  "t": "2026-10-23T11:31:28+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25800
+ },
+ {
+  "t": "2026-10-23T11:31:28+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-23T11:31:28+09:00",
+  "shop": "oku",
+  "variant": "sv-rocket-gang",
+  "price": 24500
  }
 ]

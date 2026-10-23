@@ -1859,28 +1859,28 @@
    "shop": "akimoba"
   },
   "duo-256-nightsky": {
-   "max": 450000,
-   "shop": "akimoba"
+   "max": 451000,
+   "shop": "rakuen"
   },
   "duo-256-starwhite": {
-   "max": 450000,
-   "shop": "akimoba"
+   "max": 451000,
+   "shop": "rakuen"
   },
   "duo-2tb-nightsky": {
-   "max": 615000,
-   "shop": "ichiban"
+   "max": 616000,
+   "shop": "rakuen"
   },
   "duo-2tb-starwhite": {
-   "max": 615000,
-   "shop": "ichiban"
+   "max": 616000,
+   "shop": "rakuen"
   },
   "duo-512-nightsky": {
-   "max": 490000,
-   "shop": "akimoba"
+   "max": 491000,
+   "shop": "rakuen"
   },
   "duo-512-starwhite": {
-   "max": 490000,
-   "shop": "akimoba"
+   "max": 491000,
+   "shop": "rakuen"
   },
   "pm-1tb-black": {
    "max": 335000,
