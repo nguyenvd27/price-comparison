@@ -1733,8 +1733,8 @@
    "shop": "oku"
   },
   "mega-inferno-x": {
-   "max": 18000,
-   "shop": "ichiban"
+   "max": 18100,
+   "shop": "homura"
   },
   "mega-mega-brave": {
    "max": 8500,
@@ -1745,8 +1745,8 @@
    "shop": "morimori"
   },
   "mega-mega-symphonia": {
-   "max": 8100,
-   "shop": "oku"
+   "max": 8300,
+   "shop": "homura"
   },
   "mega-munikis-zero": {
    "max": 8800,
@@ -1769,8 +1769,8 @@
    "shop": "ichome"
   },
   "sv-black-bolt": {
-   "max": 24500,
-   "shop": "ichiban"
+   "max": 25000,
+   "shop": "homura"
   },
   "sv-heat-arena": {
    "max": 19500,
@@ -1785,8 +1785,8 @@
    "shop": "oku"
   },
   "sv-rocket-gang": {
-   "max": 24400,
-   "shop": "oku"
+   "max": 24500,
+   "shop": "homura"
   },
   "sv-stellar-miracle": {
    "max": 12000,
@@ -1801,8 +1801,8 @@
    "shop": "morimori"
   },
   "sv-white-flare": {
-   "max": 22000,
-   "shop": "ichiban"
+   "max": 22500,
+   "shop": "homura"
   }
  }
 }

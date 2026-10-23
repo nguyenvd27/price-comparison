@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-23T11:01:45+09:00",
+ "generated_at": "2026-10-23T11:12:51+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-23T10:01:14+09:00",
+   "last_success_at": "2026-10-23T11:12:51+09:00",
    "display_at": "2026-10-23T10:01:14+09:00",
-   "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.morimori-kaitori.jp/category/2401010 (Server=nginx, title=502 Bad Gateway)",
+   "error": null,
    "prices": {
     "mega-abyss-eye": 8900,
     "mega-inferno-x": 17000,
@@ -26,30 +26,30 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-12T19:31:54+09:00",
-   "display_at": "2026-10-12T17:01:33+09:00",
-   "error": "Không lấy được giá nào",
+   "last_success_at": "2026-10-23T11:12:51+09:00",
+   "display_at": "2026-10-23T11:12:51+09:00",
+   "error": null,
    "prices": {
-    "mega-30th": 25000,
-    "mega-abyss-eye": 9100,
-    "mega-inferno-x": 15200,
-    "mega-mega-brave": 8200,
-    "mega-mega-dream-ex": 12300,
-    "mega-mega-symphonia": 7700,
+    "mega-30th": 25800,
+    "mega-abyss-eye": 9000,
+    "mega-inferno-x": 18100,
+    "mega-mega-brave": 8100,
+    "mega-mega-dream-ex": 12700,
+    "mega-mega-symphonia": 8300,
     "mega-munikis-zero": 8800,
-    "mega-ninja-spinner": 9100,
-    "mega-storm-emeralda": 10500,
-    "sv-151": 44000,
-    "sv-battle-partners": 11200,
-    "sv-black-bolt": 22000,
-    "sv-heat-arena": 15000,
-    "sv-night-wanderer": 11500,
-    "sv-paradise-dragona": 14500,
-    "sv-rocket-gang": 22000,
-    "sv-stellar-miracle": 11500,
-    "sv-super-electric-breaker": 25000,
-    "sv-terastal-fes-ex": 19000,
-    "sv-white-flare": 19500
+    "mega-ninja-spinner": 9600,
+    "mega-storm-emeralda": 9000,
+    "sv-151": 52000,
+    "sv-battle-partners": 10500,
+    "sv-black-bolt": 25000,
+    "sv-heat-arena": 18800,
+    "sv-night-wanderer": 12300,
+    "sv-paradise-dragona": 15500,
+    "sv-rocket-gang": 24500,
+    "sv-stellar-miracle": 12000,
+    "sv-super-electric-breaker": 27500,
+    "sv-terastal-fes-ex": 19500,
+    "sv-white-flare": 22500
    }
   },
   "rudeya": {

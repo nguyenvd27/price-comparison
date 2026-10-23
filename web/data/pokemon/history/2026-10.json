@@ -7510,5 +7510,119 @@
   "shop": "shinsoku",
   "variant": "sv-heat-arena",
   "price": 18800
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 25800
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-abyss-eye",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-inferno-x",
+  "price": 18100
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-brave",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-dream-ex",
+  "price": 12700
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-symphonia",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 9600
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "mega-storm-emeralda",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-151",
+  "price": 52000
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-heat-arena",
+  "price": 18800
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-night-wanderer",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-paradise-dragona",
+  "price": 15500
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-rocket-gang",
+  "price": 24500
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-stellar-miracle",
+  "price": 12000
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-super-electric-breaker",
+  "price": 27500
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19500
+ },
+ {
+  "t": "2026-10-23T11:12:51+09:00",
+  "shop": "homura",
+  "variant": "sv-white-flare",
+  "price": 22500
  }
 ]

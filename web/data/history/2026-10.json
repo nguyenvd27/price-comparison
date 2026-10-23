@@ -29536,5 +29536,179 @@
   "shop": "dragon",
   "variant": "pm-512-burgundy",
   "price": 275000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-nightsky",
+  "price": 520000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-starwhite",
+  "price": 520000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-nightsky",
+  "price": 440000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-starwhite",
+  "price": 440000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-nightsky",
+  "price": 615000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-starwhite",
+  "price": 615000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-nightsky",
+  "price": 475000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-starwhite",
+  "price": 475000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-black",
+  "price": 334000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-burgundy",
+  "price": 345000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-glacier",
+  "price": 334000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-silver",
+  "price": 330000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-black",
+  "price": 265000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-burgundy",
+  "price": 275000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-glacier",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "morimori",
+  "variant": "pm-512-silver",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-black",
+  "price": 334000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-burgundy",
+  "price": 345000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-glacier",
+  "price": 334000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-1tb-silver",
+  "price": 330000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-256-black",
+  "price": 222000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-256-burgundy",
+  "price": 236000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-256-glacier",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-256-silver",
+  "price": 221000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-2tb-burgundy",
+  "price": 395000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-512-black",
+  "price": 262000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-512-burgundy",
+  "price": 275000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-512-glacier",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-23T11:12:42+09:00",
+  "shop": "homura",
+  "variant": "pm-512-silver",
+  "price": 262000
  }
 ]
