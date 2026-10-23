@@ -33562,5 +33562,65 @@
   "shop": "dragon",
   "variant": "duo-1tb-nightsky",
   "price": 480000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-1tb-nightsky",
+  "price": 495000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-1tb-starwhite",
+  "price": 495000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-256-nightsky",
+  "price": 405000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-256-starwhite",
+  "price": 405000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-2tb-nightsky",
+  "price": 582000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-2tb-starwhite",
+  "price": 582000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-512-nightsky",
+  "price": 435000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "akimoba",
+  "variant": "duo-512-starwhite",
+  "price": 435000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "rakuen",
+  "variant": "duo-256-nightsky",
+  "price": 393000
+ },
+ {
+  "t": "2026-10-23T16:31:14+09:00",
+  "shop": "rakuen",
+  "variant": "duo-256-starwhite",
+  "price": 393000
  }
 ]
