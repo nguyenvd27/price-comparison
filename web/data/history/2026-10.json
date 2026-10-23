@@ -34192,5 +34192,59 @@
   "shop": "dragon",
   "variant": "duo-512-nightsky",
   "price": 442000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-1tb-nightsky",
+  "price": 500000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-1tb-starwhite",
+  "price": 500000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-256-nightsky",
+  "price": 408000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-256-starwhite",
+  "price": 408000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-2tb-nightsky",
+  "price": 580000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-2tb-starwhite",
+  "price": 580000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-512-nightsky",
+  "price": 442000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "jcka",
+  "variant": "duo-512-starwhite",
+  "price": 442000
+ },
+ {
+  "t": "2026-10-23T19:31:02+09:00",
+  "shop": "dragon",
+  "variant": "duo-256-nightsky",
+  "price": 403000
  }
 ]
