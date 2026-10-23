@@ -7720,5 +7720,53 @@
   "shop": "shinsoku",
   "variant": "sv-white-flare",
   "price": 22000
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25800
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": 18100
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12700
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-munikis-zero",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 9600
+ },
+ {
+  "t": "2026-10-23T16:01:38+09:00",
+  "shop": "oku",
+  "variant": "mega-storm-emeralda",
+  "price": 9000
  }
 ]
