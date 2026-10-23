@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:31:26+09:00",
+ "generated_at": "2026-10-23T19:01:04+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-23T18:31:26+09:00",
@@ -428,14 +428,14 @@
    }
   },
   "dragon": {
-   "last_success_at": "2026-10-23T18:31:26+09:00",
-   "display_at": "2026-10-23T17:01:30+09:00",
+   "last_success_at": "2026-10-23T19:01:04+09:00",
+   "display_at": "2026-10-23T19:01:04+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 480000,
-    "duo-256-nightsky": 390000,
-    "duo-2tb-nightsky": 570000,
-    "duo-512-nightsky": 420000,
+    "duo-1tb-nightsky": 497000,
+    "duo-256-nightsky": 407000,
+    "duo-2tb-nightsky": 575000,
+    "duo-512-nightsky": 442000,
     "pm-1tb-burgundy": 345000,
     "pm-256-burgundy": 236000,
     "pm-2tb-burgundy": 390000,
