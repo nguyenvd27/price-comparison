@@ -26,7 +26,7 @@ def test_every_catalog_shop_has_a_crawler_and_hours():
     catalog = json.loads((DATA_DIR / "catalog.json").read_text(encoding="utf-8"))
     ids = [shop["id"] for shop in catalog["shops"]]
     assert sorted(ids) == sorted(SHOPS)
-    assert len(ids) == 14
+    assert len(ids) == 17
     for shop in catalog["shops"]:
         assert set(shop["hours"]) == {"mon", "tue", "wed", "thu", "fri", "sat", "sun"}, shop["id"]
         assert any(shop["hours"].values()), shop["id"]

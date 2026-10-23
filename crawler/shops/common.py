@@ -56,4 +56,5 @@ def kanji_colors(colors: dict[str, list[str]]) -> dict[str, list[str]]:
     return Colors(
         {color: KANJI_COLORS.get(color, []) for color in colors},
         models=getattr(colors, "models", None),
+        jans=getattr(colors, "jans", None),
     )

@@ -23,6 +23,7 @@ def crawl_colors(catalog: dict) -> Colors:
     return Colors(
         {color_id: color["aliases"] for color_id, color in catalog["colors"].items() if color_id in wanted},
         models=models,
+        jans={v["jan"]: v["id"] for v in catalog.get("variants", []) if v.get("jan") and v.get("model") in models},
     )
 
 

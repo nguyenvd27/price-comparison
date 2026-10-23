@@ -15,9 +15,11 @@ MODEL_KEYS = {"iphone18promax": "pm", "iphoneduo": "duo", "iphone18duo": "duo"} 
 class Colors(dict):
     """Màu → các cách viết tên màu. `models` cho biết màu nào thuộc dòng máy nào (mã dòng máy → mã màu)."""
 
-    def __init__(self, colors: dict[str, list[str]], models: dict[str, list[str]] | None = None):
+    def __init__(self, colors: dict[str, list[str]], models: dict[str, list[str]] | None = None,
+                 jans: dict[str, str] | None = None):
         super().__init__(colors)
         self.models = models if models is not None else {"pm": list(colors)}
+        self.jans = jans or {}  # JAN → mã phiên bản, cho cửa hàng chỉ ghi dung lượng mà không ghi màu
 
 
 def parse_model(name: str) -> str | None:

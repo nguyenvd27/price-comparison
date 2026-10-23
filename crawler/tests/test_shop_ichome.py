@@ -26,5 +26,6 @@ def test_registry_has_all_shops():
     assert set(SHOPS) == {
         "morimori", "ichiban", "mobaste", "shouten", "ichome", "mix",
         "akimoba", "homura", "rudeya", "wiki", "rakuen", "base", "sommelier", "jcka",
+        "twinkle", "oku", "dragon",
     }
     assert all(hasattr(m, "fetch") and hasattr(m, "parse") for m in SHOPS.values())

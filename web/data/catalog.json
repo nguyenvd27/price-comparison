@@ -81,168 +81,192 @@
    "capacity": "256GB",
    "color": "burgundy",
    "apple_price": 239800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734645"
   },
   {
    "id": "pm-256-glacier",
    "capacity": "256GB",
    "color": "glacier",
    "apple_price": 239800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734690"
   },
   {
    "id": "pm-256-black",
    "capacity": "256GB",
    "color": "black",
    "apple_price": 239800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734546"
   },
   {
    "id": "pm-256-silver",
    "capacity": "256GB",
    "color": "silver",
    "apple_price": 239800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734591"
   },
   {
    "id": "pm-512-burgundy",
    "capacity": "512GB",
    "color": "burgundy",
    "apple_price": 274800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734843"
   },
   {
    "id": "pm-512-glacier",
    "capacity": "512GB",
    "color": "glacier",
    "apple_price": 274800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734898"
   },
   {
    "id": "pm-512-black",
    "capacity": "512GB",
    "color": "black",
    "apple_price": 274800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734744"
   },
   {
    "id": "pm-512-silver",
    "capacity": "512GB",
    "color": "silver",
    "apple_price": 274800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734799"
   },
   {
    "id": "pm-1tb-burgundy",
    "capacity": "1TB",
    "color": "burgundy",
    "apple_price": 344800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995735048"
   },
   {
    "id": "pm-1tb-glacier",
    "capacity": "1TB",
    "color": "glacier",
    "apple_price": 344800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995735093"
   },
   {
    "id": "pm-1tb-black",
    "capacity": "1TB",
    "color": "black",
    "apple_price": 344800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734942"
   },
   {
    "id": "pm-1tb-silver",
    "capacity": "1TB",
    "color": "silver",
    "apple_price": 344800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995734997"
   },
   {
    "id": "pm-2tb-burgundy",
    "capacity": "2TB",
    "color": "burgundy",
    "apple_price": 449800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995735246"
   },
   {
    "id": "pm-2tb-glacier",
    "capacity": "2TB",
    "color": "glacier",
    "apple_price": 449800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995735291"
   },
   {
    "id": "pm-2tb-black",
    "capacity": "2TB",
    "color": "black",
    "apple_price": 449800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995735147"
   },
   {
    "id": "pm-2tb-silver",
    "capacity": "2TB",
    "color": "silver",
    "apple_price": 449800,
-   "model": "pm"
+   "model": "pm",
+   "jan": "4549995735192"
   },
   {
    "id": "duo-256-nightsky",
    "model": "duo",
    "capacity": "256GB",
    "color": "nightsky",
-   "apple_price": 364800
+   "apple_price": 364800,
+   "jan": "4549995732696"
   },
   {
    "id": "duo-256-starwhite",
    "model": "duo",
    "capacity": "256GB",
    "color": "starwhite",
-   "apple_price": 364800
+   "apple_price": 364800,
+   "jan": "4549995732641"
   },
   {
    "id": "duo-512-nightsky",
    "model": "duo",
    "capacity": "512GB",
    "color": "nightsky",
-   "apple_price": 399800
+   "apple_price": 399800,
+   "jan": "4549995732795"
   },
   {
    "id": "duo-512-starwhite",
    "model": "duo",
    "capacity": "512GB",
    "color": "starwhite",
-   "apple_price": 399800
+   "apple_price": 399800,
+   "jan": "4549995732740"
   },
   {
    "id": "duo-1tb-nightsky",
    "model": "duo",
    "capacity": "1TB",
    "color": "nightsky",
-   "apple_price": 469800
+   "apple_price": 469800,
+   "jan": "4549995732894"
   },
   {
    "id": "duo-1tb-starwhite",
    "model": "duo",
    "capacity": "1TB",
    "color": "starwhite",
-   "apple_price": 469800
+   "apple_price": 469800,
+   "jan": "4549995732849"
   },
   {
    "id": "duo-2tb-nightsky",
    "model": "duo",
    "capacity": "2TB",
    "color": "nightsky",
-   "apple_price": 574800
+   "apple_price": 574800,
+   "jan": "4549995732993"
   },
   {
    "id": "duo-2tb-starwhite",
    "model": "duo",
    "capacity": "2TB",
    "color": "starwhite",
-   "apple_price": 574800
+   "apple_price": 574800,
+   "jan": "4549995732948"
   }
  ],
  "shops": [
@@ -748,6 +772,114 @@
    },
    "closed_dates": [],
    "note": "Cửa hàng 大阪日本橋; nghỉ Chủ nhật"
+  },
+  {
+   "id": "twinkle",
+   "name": "トゥインクル",
+   "url": "https://twinkle-mobile.com/shop/products/category/0/1?page=1&pageSize=200&keyword=iPhone%2018",
+   "hours": {
+    "mon": [
+     "10:30",
+     "19:30"
+    ],
+    "tue": [
+     "10:30",
+     "19:30"
+    ],
+    "wed": [
+     "10:30",
+     "19:30"
+    ],
+    "thu": [
+     "10:30",
+     "19:30"
+    ],
+    "fri": [
+     "10:30",
+     "19:30"
+    ],
+    "sat": [
+     "10:30",
+     "19:30"
+    ],
+    "sun": [
+     "10:30",
+     "19:30"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Giờ của 秋葉原本店; không nghỉ ngày nào"
+  },
+  {
+   "id": "oku",
+   "name": "オク",
+   "url": "https://kaitori-oku.jp/category.html?cat1=222&cat2=778",
+   "hours": {
+    "mon": [
+     "11:00",
+     "19:00"
+    ],
+    "tue": [
+     "11:00",
+     "19:00"
+    ],
+    "wed": [
+     "11:00",
+     "19:00"
+    ],
+    "thu": [
+     "11:00",
+     "19:00"
+    ],
+    "fri": [
+     "11:00",
+     "19:00"
+    ],
+    "sat": [
+     "11:00",
+     "19:00"
+    ],
+    "sun": [
+     "11:00",
+     "19:00"
+    ]
+   },
+   "closed_dates": [],
+   "note": "Cửa hàng 神田須田町"
+  },
+  {
+   "id": "dragon",
+   "name": "ドラゴン",
+   "url": "https://mobileone.co.jp/sell.html?cat1=140&cat2=144&cat3=446",
+   "hours": {
+    "mon": [
+     "11:00",
+     "19:30"
+    ],
+    "tue": [
+     "11:00",
+     "19:30"
+    ],
+    "wed": [
+     "11:00",
+     "19:30"
+    ],
+    "thu": [
+     "11:00",
+     "19:30"
+    ],
+    "fri": [
+     "11:00",
+     "19:30"
+    ],
+    "sat": [
+     "11:00",
+     "19:30"
+    ],
+    "sun": null
+   },
+   "closed_dates": [],
+   "note": "ドラゴンモバイル 秋葉原; nghỉ Chủ nhật. Mỗi dung lượng chỉ ghi 1 giá (màu theo JAN: バーガンディ / ナイトスカイ)"
   }
  ]
 }

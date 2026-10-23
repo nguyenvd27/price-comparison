@@ -5,7 +5,7 @@ Website so sánh giá thu mua (買取 / kaitori) của các cửa hàng ở Nh�
 | Trang | Nội dung |
 |---|---|
 | `/` | Trang chủ: các danh mục, kèm mức lãi cao nhất hiện tại |
-| `/iphone-18/` | iPhone 18 Pro Max (và iPhone Duo) mới chưa kích hoạt (新品未開封), 14 cửa hàng: bảng so sánh, biểu đồ giá theo ngày, giá theo thứ trong tuần |
+| `/iphone-18/` | iPhone 18 Pro Max và iPhone Duo mới chưa kích hoạt (新品未開封), 17 cửa hàng: bảng so sánh, biểu đồ giá theo ngày, giá theo thứ trong tuần |
 | `/pokemon-card/` | BOX Pokémon Card chưa bóc, còn màng co (シュリンク付), 21 BOX × 8 cửa hàng |
 
 Mỗi trang có:
