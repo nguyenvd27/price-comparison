@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:12:42+09:00",
+ "generated_at": "2026-10-23T11:19:20+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-23T11:12:42+09:00",
@@ -149,10 +149,18 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-23T11:01:34+09:00",
-   "display_at": "2026-10-23T11:01:34+09:00",
+   "last_success_at": "2026-10-23T11:19:20+09:00",
+   "display_at": "2026-10-23T11:19:20+09:00",
    "error": null,
    "prices": {
+    "duo-1tb-nightsky": 520000,
+    "duo-1tb-starwhite": 520000,
+    "duo-256-nightsky": 450000,
+    "duo-256-starwhite": 450000,
+    "duo-2tb-nightsky": 615000,
+    "duo-2tb-starwhite": 615000,
+    "duo-512-nightsky": 490000,
+    "duo-512-starwhite": 490000,
     "pm-1tb-black": 329000,
     "pm-1tb-burgundy": 345000,
     "pm-1tb-glacier": 329000,
@@ -169,12 +177,12 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-23T11:08:28+09:00",
-   "display_at": "2026-10-23T11:08:28+09:00",
-   "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://akiba-mobile.co.jp/ (Server=Apache, title=503 Error - Service Temporarily Unavailable)",
+   "last_success_at": "2026-10-23T11:19:20+09:00",
+   "display_at": "2026-10-23T11:19:20+09:00",
+   "error": null,
    "prices": {
-    "duo-1tb-nightsky": 520000,
-    "duo-1tb-starwhite": 520000,
+    "duo-1tb-nightsky": 525000,
+    "duo-1tb-starwhite": 525000,
     "duo-256-nightsky": 450000,
     "duo-256-starwhite": 450000,
     "duo-2tb-nightsky": 615000,
@@ -404,18 +412,18 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-23T11:08:28+09:00",
-   "display_at": "2026-10-23T11:08:28+09:00",
+   "last_success_at": "2026-10-23T11:19:20+09:00",
+   "display_at": "2026-10-23T11:19:20+09:00",
    "error": null,
    "prices": {
     "duo-1tb-nightsky": 520000,
     "duo-1tb-starwhite": 520000,
-    "duo-256-nightsky": 440000,
-    "duo-256-starwhite": 440000,
+    "duo-256-nightsky": 450000,
+    "duo-256-starwhite": 450000,
     "duo-2tb-nightsky": 615000,
     "duo-2tb-starwhite": 615000,
-    "duo-512-nightsky": 475000,
-    "duo-512-starwhite": 475000,
+    "duo-512-nightsky": 490000,
+    "duo-512-starwhite": 490000,
     "pm-1tb-black": 329000,
     "pm-1tb-burgundy": 345000,
     "pm-1tb-glacier": 329000,
