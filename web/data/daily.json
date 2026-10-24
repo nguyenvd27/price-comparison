@@ -1953,8 +1953,8 @@
    "shop": "akimoba"
   },
   "duo-1tb-starwhite": {
-   "max": 501000,
-   "shop": "akimoba"
+   "max": 502000,
+   "shop": "rakuen"
   },
   "duo-256-nightsky": {
    "max": 410000,
@@ -1965,12 +1965,12 @@
    "shop": "jcka"
   },
   "duo-2tb-nightsky": {
-   "max": 586000,
-   "shop": "akimoba"
+   "max": 588000,
+   "shop": "morimori"
   },
   "duo-2tb-starwhite": {
-   "max": 586000,
-   "shop": "akimoba"
+   "max": 588000,
+   "shop": "morimori"
   },
   "duo-512-nightsky": {
    "max": 450000,

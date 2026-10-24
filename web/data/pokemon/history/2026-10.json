@@ -7978,5 +7978,17 @@
   "shop": "shinsoku",
   "variant": "sv-rocket-gang",
   "price": 24000
+ },
+ {
+  "t": "2026-10-24T14:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 17500
+ },
+ {
+  "t": "2026-10-24T14:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-paradise-dragona",
+  "price": 15600
  }
 ]
