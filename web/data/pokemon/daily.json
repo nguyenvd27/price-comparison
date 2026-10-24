@@ -1855,7 +1855,7 @@
    "shop": "ichome"
   },
   "sv-black-bolt": {
-   "max": 25000,
+   "max": 25200,
    "shop": "homura"
   },
   "sv-heat-arena": {
@@ -1875,11 +1875,11 @@
    "shop": "homura"
   },
   "sv-stellar-miracle": {
-   "max": 12000,
+   "max": 12100,
    "shop": "homura"
   },
   "sv-super-electric-breaker": {
-   "max": 27500,
+   "max": 27800,
    "shop": "homura"
   },
   "sv-terastal-fes-ex": {

@@ -7804,5 +7804,47 @@
   "shop": "shinsoku",
   "variant": "sv-rocket-gang",
   "price": 24300
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-symphonia",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "sv-151",
+  "price": 51500
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "sv-black-bolt",
+  "price": 25200
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "sv-stellar-miracle",
+  "price": 12100
+ },
+ {
+  "t": "2026-10-24T10:31:15+09:00",
+  "shop": "homura",
+  "variant": "sv-super-electric-breaker",
+  "price": 27800
  }
 ]
