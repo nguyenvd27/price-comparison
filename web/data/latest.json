@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-24T19:30:59+09:00",
+ "generated_at": "2026-10-24T20:01:13+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T17:30:59+09:00",
    "error": null,
    "prices": {
@@ -87,7 +87,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T17:01:23+09:00",
    "error": null,
    "prices": {
@@ -118,7 +118,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -169,7 +169,7 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T18:31:00+09:00",
    "error": null,
    "prices": {
@@ -200,7 +200,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -296,7 +296,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -327,7 +327,7 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "last_success_at": "2026-10-24T20:01:13+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
