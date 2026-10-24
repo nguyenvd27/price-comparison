@@ -8014,5 +8014,11 @@
   "shop": "homura",
   "variant": "mega-30th",
   "price": 25200
+ },
+ {
+  "t": "2026-10-24T18:31:18+09:00",
+  "shop": "ichome",
+  "variant": "mega-30th",
+  "price": 25000
  }
 ]

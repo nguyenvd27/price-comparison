@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-24T18:01:11+09:00",
+ "generated_at": "2026-10-24T18:31:00+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-24T17:30:59+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
    "display_at": "2026-10-24T17:30:59+09:00",
    "error": null,
    "prices": {
@@ -87,7 +87,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-24T17:01:23+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
    "display_at": "2026-10-24T17:01:23+09:00",
    "error": null,
    "prices": {
@@ -118,7 +118,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-24T17:30:59+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -169,16 +169,16 @@
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-24T18:01:11+09:00",
-   "display_at": "2026-10-24T15:30:50+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
+   "display_at": "2026-10-24T18:31:00+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 505000,
-    "duo-1tb-starwhite": 505000,
+    "duo-1tb-nightsky": 508000,
+    "duo-1tb-starwhite": 508000,
     "duo-256-nightsky": 410000,
     "duo-256-starwhite": 410000,
-    "duo-2tb-nightsky": 590000,
-    "duo-2tb-starwhite": 590000,
+    "duo-2tb-nightsky": 595000,
+    "duo-2tb-starwhite": 595000,
     "duo-512-nightsky": 450000,
     "duo-512-starwhite": 450000,
     "pm-1tb-black": 334000,
@@ -200,7 +200,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-24T17:30:59+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -296,7 +296,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-24T17:30:59+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -327,7 +327,7 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-24T17:30:59+09:00",
+   "last_success_at": "2026-10-24T18:31:00+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
