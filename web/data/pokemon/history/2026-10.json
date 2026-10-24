@@ -7990,5 +7990,11 @@
   "shop": "shinsoku",
   "variant": "sv-paradise-dragona",
   "price": 15600
+ },
+ {
+  "t": "2026-10-24T15:31:04+09:00",
+  "shop": "runto",
+  "variant": "mega-30th",
+  "price": 25200
  }
 ]
