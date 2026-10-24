@@ -37498,5 +37498,17 @@
   "shop": "sommelier",
   "variant": "duo-512-starwhite",
   "price": 451000
+ },
+ {
+  "t": "2026-10-24T16:31:13+09:00",
+  "shop": "dragon",
+  "variant": "pm-256-burgundy",
+  "price": 236500
+ },
+ {
+  "t": "2026-10-24T16:31:13+09:00",
+  "shop": "dragon",
+  "variant": "pm-512-burgundy",
+  "price": 275500
  }
 ]
