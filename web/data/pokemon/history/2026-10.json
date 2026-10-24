@@ -7768,5 +7768,41 @@
   "shop": "oku",
   "variant": "mega-storm-emeralda",
   "price": 9000
+ },
+ {
+  "t": "2026-10-24T10:01:20+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-24T10:01:20+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 17800
+ },
+ {
+  "t": "2026-10-24T10:01:20+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-24T10:01:20+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-storm-emeralda",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-24T10:01:20+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 10000
+ },
+ {
+  "t": "2026-10-24T10:01:20+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 24300
  }
 ]
