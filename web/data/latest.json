@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-24T17:01:23+09:00",
+ "generated_at": "2026-10-24T17:30:59+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-24T16:31:13+09:00",
-   "display_at": "2026-10-24T15:01:57+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/0301070 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7f2636540f20>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
+   "last_success_at": "2026-10-24T17:30:59+09:00",
+   "display_at": "2026-10-24T17:30:59+09:00",
+   "error": null,
    "prices": {
-    "duo-1tb-nightsky": 505000,
-    "duo-1tb-starwhite": 505000,
+    "duo-1tb-nightsky": 508000,
+    "duo-1tb-starwhite": 508000,
     "duo-256-nightsky": 410000,
     "duo-256-starwhite": 410000,
-    "duo-2tb-nightsky": 590000,
-    "duo-2tb-starwhite": 590000,
+    "duo-2tb-nightsky": 595000,
+    "duo-2tb-starwhite": 595000,
     "duo-512-nightsky": 450000,
     "duo-512-starwhite": 450000,
     "pm-1tb-black": 334000,
@@ -118,7 +118,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-24T16:01:25+09:00",
+   "last_success_at": "2026-10-24T17:30:59+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -200,7 +200,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-24T16:01:25+09:00",
+   "last_success_at": "2026-10-24T17:30:59+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -296,7 +296,7 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-24T16:01:25+09:00",
+   "last_success_at": "2026-10-24T17:30:59+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
@@ -327,7 +327,7 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-24T16:01:25+09:00",
+   "last_success_at": "2026-10-24T17:30:59+09:00",
    "display_at": "2026-10-24T16:01:25+09:00",
    "error": null,
    "prices": {
