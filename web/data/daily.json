@@ -2001,8 +2001,8 @@
    "shop": "rudeya"
   },
   "pm-256-burgundy": {
-   "max": 236500,
-   "shop": "rudeya"
+   "max": 237000,
+   "shop": "akimoba"
   },
   "pm-256-glacier": {
    "max": 232000,
@@ -2033,12 +2033,12 @@
    "shop": "rudeya"
   },
   "pm-512-burgundy": {
-   "max": 275500,
-   "shop": "rakuen"
+   "max": 276000,
+   "shop": "akimoba"
   },
   "pm-512-glacier": {
-   "max": 266500,
-   "shop": "rudeya"
+   "max": 267000,
+   "shop": "akimoba"
   },
   "pm-512-silver": {
    "max": 263000,

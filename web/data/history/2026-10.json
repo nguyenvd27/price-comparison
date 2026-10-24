@@ -36418,5 +36418,131 @@
   "shop": "oku",
   "variant": "duo-512-starwhite",
   "price": 445000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "duo-1tb-nightsky",
+  "price": 500000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "duo-1tb-starwhite",
+  "price": 500000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "duo-2tb-nightsky",
+  "price": 585000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "duo-2tb-starwhite",
+  "price": 585000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "duo-512-nightsky",
+  "price": 445000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "duo-512-starwhite",
+  "price": 445000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-black",
+  "price": 224500
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-burgundy",
+  "price": 237000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-256-silver",
+  "price": 222500
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-black",
+  "price": 265500
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-burgundy",
+  "price": 276000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-glacier",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "akimoba",
+  "variant": "pm-512-silver",
+  "price": 262500
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-nightsky",
+  "price": 500000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-starwhite",
+  "price": 500000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-nightsky",
+  "price": 409000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-starwhite",
+  "price": 409000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-2tb-nightsky",
+  "price": 586000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-2tb-starwhite",
+  "price": 586000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-nightsky",
+  "price": 450000
+ },
+ {
+  "t": "2026-10-24T14:00:49+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-starwhite",
+  "price": 450000
  }
 ]
