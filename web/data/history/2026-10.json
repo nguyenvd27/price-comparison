@@ -36766,5 +36766,197 @@
   "shop": "twinkle",
   "variant": "duo-512-starwhite",
   "price": 446000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "duo-1tb-nightsky",
+  "price": 502000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "duo-1tb-starwhite",
+  "price": 502000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "duo-2tb-nightsky",
+  "price": 588000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "duo-2tb-starwhite",
+  "price": 588000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "duo-512-nightsky",
+  "price": 450000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "duo-512-starwhite",
+  "price": 450000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-black",
+  "price": 334500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-burgundy",
+  "price": 345500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-glacier",
+  "price": 334500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-1tb-silver",
+  "price": 330500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-256-black",
+  "price": 224500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-256-burgundy",
+  "price": 236500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-256-glacier",
+  "price": 230500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-256-silver",
+  "price": 221500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-512-black",
+  "price": 265500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-512-burgundy",
+  "price": 275500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-512-glacier",
+  "price": 266500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "mix",
+  "variant": "pm-512-silver",
+  "price": 262500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-nightsky",
+  "price": 505000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-starwhite",
+  "price": 505000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-nightsky",
+  "price": 590000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-starwhite",
+  "price": 590000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "rakuen",
+  "variant": "duo-256-nightsky",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "rakuen",
+  "variant": "duo-256-starwhite",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "rakuen",
+  "variant": "duo-512-nightsky",
+  "price": 448000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "rakuen",
+  "variant": "duo-512-starwhite",
+  "price": 448000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "sommelier",
+  "variant": "duo-1tb-nightsky",
+  "price": 502000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "sommelier",
+  "variant": "duo-1tb-starwhite",
+  "price": 502000
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-nightsky",
+  "price": 410500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-starwhite",
+  "price": 410500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "sommelier",
+  "variant": "duo-512-nightsky",
+  "price": 450500
+ },
+ {
+  "t": "2026-10-24T15:01:57+09:00",
+  "shop": "sommelier",
+  "variant": "duo-512-starwhite",
+  "price": 450500
  }
 ]

@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-24T14:30:50+09:00",
+ "generated_at": "2026-10-24T15:01:57+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-24T14:30:50+09:00",
-   "display_at": "2026-10-24T14:30:50+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
+   "display_at": "2026-10-24T15:01:57+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 501000,
-    "duo-1tb-starwhite": 501000,
+    "duo-1tb-nightsky": 505000,
+    "duo-1tb-starwhite": 505000,
     "duo-256-nightsky": 410000,
     "duo-256-starwhite": 410000,
-    "duo-2tb-nightsky": 588000,
-    "duo-2tb-starwhite": 588000,
+    "duo-2tb-nightsky": 590000,
+    "duo-2tb-starwhite": 590000,
     "duo-512-nightsky": 450000,
     "duo-512-starwhite": 450000,
     "pm-1tb-black": 334000,
@@ -33,7 +33,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-24T13:30:52+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
    "display_at": "2026-10-24T13:30:52+09:00",
    "error": null,
    "prices": {
@@ -87,7 +87,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-24T13:30:52+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
    "display_at": "2026-10-24T13:30:52+09:00",
    "error": null,
    "prices": {
@@ -141,35 +141,35 @@
    }
   },
   "mix": {
-   "last_success_at": "2026-10-24T14:30:50+09:00",
-   "display_at": "2026-10-24T14:30:50+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
+   "display_at": "2026-10-24T15:01:57+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 500000,
-    "duo-1tb-starwhite": 500000,
+    "duo-1tb-nightsky": 502000,
+    "duo-1tb-starwhite": 502000,
     "duo-256-nightsky": 410000,
     "duo-256-starwhite": 410000,
-    "duo-2tb-nightsky": 585000,
-    "duo-2tb-starwhite": 585000,
-    "duo-512-nightsky": 445000,
-    "duo-512-starwhite": 445000,
-    "pm-1tb-black": 334000,
-    "pm-1tb-burgundy": 345000,
-    "pm-1tb-glacier": 334000,
-    "pm-1tb-silver": 330000,
-    "pm-256-black": 224000,
-    "pm-256-burgundy": 236000,
-    "pm-256-glacier": 230000,
-    "pm-256-silver": 221000,
+    "duo-2tb-nightsky": 588000,
+    "duo-2tb-starwhite": 588000,
+    "duo-512-nightsky": 450000,
+    "duo-512-starwhite": 450000,
+    "pm-1tb-black": 334500,
+    "pm-1tb-burgundy": 345500,
+    "pm-1tb-glacier": 334500,
+    "pm-1tb-silver": 330500,
+    "pm-256-black": 224500,
+    "pm-256-burgundy": 236500,
+    "pm-256-glacier": 230500,
+    "pm-256-silver": 221500,
     "pm-2tb-burgundy": 399000,
-    "pm-512-black": 265000,
-    "pm-512-burgundy": 275000,
-    "pm-512-glacier": 266000,
-    "pm-512-silver": 262000
+    "pm-512-black": 265500,
+    "pm-512-burgundy": 275500,
+    "pm-512-glacier": 266500,
+    "pm-512-silver": 262500
    }
   },
   "akimoba": {
-   "last_success_at": "2026-10-24T14:00:49+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
    "display_at": "2026-10-24T14:00:49+09:00",
    "error": null,
    "prices": {
@@ -265,18 +265,18 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-24T14:30:50+09:00",
-   "display_at": "2026-10-24T14:30:50+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
+   "display_at": "2026-10-24T15:01:57+09:00",
    "error": null,
    "prices": {
     "duo-1tb-nightsky": 502000,
     "duo-1tb-starwhite": 502000,
-    "duo-256-nightsky": 409000,
-    "duo-256-starwhite": 409000,
+    "duo-256-nightsky": 410000,
+    "duo-256-starwhite": 410000,
     "duo-2tb-nightsky": 580000,
     "duo-2tb-starwhite": 580000,
-    "duo-512-nightsky": 447000,
-    "duo-512-starwhite": 447000,
+    "duo-512-nightsky": 448000,
+    "duo-512-starwhite": 448000,
     "pm-1tb-black": 334500,
     "pm-1tb-burgundy": 345500,
     "pm-1tb-glacier": 334500,
@@ -298,7 +298,7 @@
   "base": {
    "last_success_at": "2026-10-24T11:30:56+09:00",
    "display_at": "2026-10-24T10:01:05+09:00",
-   "error": "ValueError: Không hiểu ghi chú: '青-10,000､銀-15,000､黒12,000'",
+   "error": "ValueError: Không hiểu ghi chú: '青-10,500､銀-14,000､黒12,000'",
    "prices": {
     "duo-1tb-nightsky": 493000,
     "duo-1tb-starwhite": 493000,
@@ -327,18 +327,18 @@
    }
   },
   "sommelier": {
-   "last_success_at": "2026-10-24T14:30:50+09:00",
-   "display_at": "2026-10-24T14:30:50+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
+   "display_at": "2026-10-24T15:01:57+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 500500,
-    "duo-1tb-starwhite": 500500,
-    "duo-256-nightsky": 410000,
-    "duo-256-starwhite": 410000,
+    "duo-1tb-nightsky": 502000,
+    "duo-1tb-starwhite": 502000,
+    "duo-256-nightsky": 410500,
+    "duo-256-starwhite": 410500,
     "duo-2tb-nightsky": 586000,
     "duo-2tb-starwhite": 586000,
-    "duo-512-nightsky": 447000,
-    "duo-512-starwhite": 447000,
+    "duo-512-nightsky": 450500,
+    "duo-512-starwhite": 450500,
     "pm-1tb-black": 334500,
     "pm-1tb-burgundy": 345500,
     "pm-1tb-glacier": 334500,
@@ -360,7 +360,7 @@
   "jcka": {
    "last_success_at": "2026-10-24T14:30:50+09:00",
    "display_at": "2026-10-24T14:30:50+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jcka-mobile.co.jp', port=443): Max retries exceeded with url: /kisyu/iphone/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jcka-mobile.co.jp', port=443) at 0x7feb862ac260>, 'Connection to www.jcka-mobile.co.jp timed out. (connect timeout=30)'))",
    "prices": {
     "duo-1tb-nightsky": 501000,
     "duo-1tb-starwhite": 501000,
@@ -422,7 +422,7 @@
   "oku": {
    "last_success_at": "2026-10-24T13:30:52+09:00",
    "display_at": "2026-10-24T13:30:52+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='kaitori-oku.jp', port=443): Max retries exceeded with url: /category.html?cat1=222&cat2=778 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kaitori-oku.jp', port=443) at 0x7feb859ef9b0>, 'Connection to kaitori-oku.jp timed out. (connect timeout=30)'))",
    "prices": {
     "duo-1tb-nightsky": 500000,
     "duo-1tb-starwhite": 500000,
@@ -444,7 +444,7 @@
    }
   },
   "dragon": {
-   "last_success_at": "2026-10-24T13:30:52+09:00",
+   "last_success_at": "2026-10-24T15:01:57+09:00",
    "display_at": "2026-10-24T12:30:51+09:00",
    "error": null,
    "prices": {
