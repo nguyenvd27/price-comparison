@@ -7936,5 +7936,11 @@
   "shop": "ichome",
   "variant": "sv-super-electric-breaker",
   "price": 26500
+ },
+ {
+  "t": "2026-10-24T12:01:06+09:00",
+  "shop": "morimori",
+  "variant": "mega-mega-dream-ex",
+  "price": 12700
  }
 ]
