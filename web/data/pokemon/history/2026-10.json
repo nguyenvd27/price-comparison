@@ -7846,5 +7846,53 @@
   "shop": "homura",
   "variant": "sv-super-electric-breaker",
   "price": 27800
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-brave",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "ichiban",
+  "variant": "sv-rocket-gang",
+  "price": null
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25500
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "oku",
+  "variant": "mega-inferno-x",
+  "price": 18000
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 8100
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 10300
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "oku",
+  "variant": "sv-super-electric-breaker",
+  "price": 27800
+ },
+ {
+  "t": "2026-10-24T11:01:15+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19500
  }
 ]
