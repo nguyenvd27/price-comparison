@@ -7894,5 +7894,47 @@
   "shop": "oku",
   "variant": "sv-terastal-fes-ex",
   "price": 19500
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "mega-inferno-x",
+  "price": 17000
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "sv-battle-partners",
+  "price": 10500
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "sv-black-bolt",
+  "price": 23500
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "sv-heat-arena",
+  "price": 18500
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "sv-rocket-gang",
+  "price": 24000
+ },
+ {
+  "t": "2026-10-24T11:31:10+09:00",
+  "shop": "ichome",
+  "variant": "sv-super-electric-breaker",
+  "price": 26500
  }
 ]

@@ -1981,36 +1981,36 @@
    "shop": "morimori"
   },
   "pm-1tb-black": {
-   "max": 334000,
-   "shop": "morimori"
+   "max": 334500,
+   "shop": "rudeya"
   },
   "pm-1tb-burgundy": {
-   "max": 345000,
-   "shop": "morimori"
+   "max": 345500,
+   "shop": "rudeya"
   },
   "pm-1tb-glacier": {
-   "max": 334000,
-   "shop": "morimori"
+   "max": 334500,
+   "shop": "rudeya"
   },
   "pm-1tb-silver": {
-   "max": 330000,
-   "shop": "morimori"
+   "max": 330500,
+   "shop": "rudeya"
   },
   "pm-256-black": {
-   "max": 224000,
-   "shop": "morimori"
+   "max": 224500,
+   "shop": "rudeya"
   },
   "pm-256-burgundy": {
-   "max": 236000,
-   "shop": "morimori"
+   "max": 236500,
+   "shop": "rudeya"
   },
   "pm-256-glacier": {
-   "max": 226000,
-   "shop": "morimori"
+   "max": 226500,
+   "shop": "rudeya"
   },
   "pm-256-silver": {
-   "max": 222000,
-   "shop": "morimori"
+   "max": 222500,
+   "shop": "rudeya"
   },
   "pm-2tb-black": {
    "max": 386000,
@@ -2029,20 +2029,20 @@
    "shop": "shouten"
   },
   "pm-512-black": {
-   "max": 265000,
-   "shop": "morimori"
+   "max": 265500,
+   "shop": "rudeya"
   },
   "pm-512-burgundy": {
    "max": 275500,
    "shop": "rakuen"
   },
   "pm-512-glacier": {
-   "max": 266000,
-   "shop": "morimori"
+   "max": 266500,
+   "shop": "rudeya"
   },
   "pm-512-silver": {
-   "max": 262000,
-   "shop": "morimori"
+   "max": 262500,
+   "shop": "rudeya"
   }
  }
 }
