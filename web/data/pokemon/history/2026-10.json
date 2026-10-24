@@ -7942,5 +7942,41 @@
   "shop": "morimori",
   "variant": "mega-mega-dream-ex",
   "price": 12700
+ },
+ {
+  "t": "2026-10-24T12:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-24T12:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-symphonia",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-24T12:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9500
+ },
+ {
+  "t": "2026-10-24T12:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-151",
+  "price": 48000
+ },
+ {
+  "t": "2026-10-24T12:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-night-wanderer",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-24T12:31:04+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-rocket-gang",
+  "price": 24000
  }
 ]
