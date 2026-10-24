@@ -37582,5 +37582,77 @@
   "shop": "morimori",
   "variant": "duo-2tb-starwhite",
   "price": 595000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "mix",
+  "variant": "duo-1tb-nightsky",
+  "price": 508000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "mix",
+  "variant": "duo-1tb-starwhite",
+  "price": 508000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "mix",
+  "variant": "duo-2tb-nightsky",
+  "price": 595000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "mix",
+  "variant": "duo-2tb-starwhite",
+  "price": 595000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-nightsky",
+  "price": 502000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-starwhite",
+  "price": 502000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-nightsky",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-starwhite",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-2tb-nightsky",
+  "price": 585000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-2tb-starwhite",
+  "price": 585000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-nightsky",
+  "price": 450000
+ },
+ {
+  "t": "2026-10-24T18:01:11+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-starwhite",
+  "price": 450000
  }
 ]
