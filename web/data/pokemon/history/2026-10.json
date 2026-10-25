@@ -8068,5 +8068,17 @@
   "shop": "shinsoku",
   "variant": "sv-terastal-fes-ex",
   "price": 19000
+ },
+ {
+  "t": "2026-10-25T10:31:13+09:00",
+  "shop": "ichiban",
+  "variant": "mega-30th",
+  "price": 23000
+ },
+ {
+  "t": "2026-10-25T10:31:13+09:00",
+  "shop": "ichiban",
+  "variant": "mega-inferno-x",
+  "price": 18200
  }
 ]

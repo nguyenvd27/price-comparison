@@ -37792,5 +37792,11 @@
   "shop": "ichiban",
   "variant": "pm-512-silver",
   "price": 263000
+ },
+ {
+  "t": "2026-10-25T10:30:58+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-glacier",
+  "price": 266000
  }
 ]

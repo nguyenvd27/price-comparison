@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:01:16+09:00",
+ "generated_at": "2026-10-25T10:31:13+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-25T10:01:16+09:00",
@@ -81,13 +81,13 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
-   "display_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T10:31:13+09:00",
+   "display_at": "2026-10-25T10:31:13+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 24000,
+    "mega-30th": 23000,
     "mega-abyss-eye": 8000,
-    "mega-inferno-x": 18000,
+    "mega-inferno-x": 18200,
     "mega-mega-dream-ex": 12500,
     "mega-mega-symphonia": 7000,
     "mega-munikis-zero": 7000,

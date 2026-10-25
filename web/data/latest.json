@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:01:01+09:00",
+ "generated_at": "2026-10-25T10:30:58+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-25T10:01:01+09:00",
@@ -33,8 +33,8 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-25T10:01:01+09:00",
-   "display_at": "2026-10-25T10:01:01+09:00",
+   "last_success_at": "2026-10-25T10:30:58+09:00",
+   "display_at": "2026-10-25T10:30:58+09:00",
    "error": null,
    "prices": {
     "duo-1tb-nightsky": 505000,
@@ -59,7 +59,7 @@
     "pm-2tb-silver": 385000,
     "pm-512-black": 266000,
     "pm-512-burgundy": 276000,
-    "pm-512-glacier": 267000,
+    "pm-512-glacier": 266000,
     "pm-512-silver": 263000
    }
   },
