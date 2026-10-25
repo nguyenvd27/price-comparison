@@ -8194,5 +8194,11 @@
   "shop": "ichiban",
   "variant": "sv-super-electric-breaker",
   "price": null
+ },
+ {
+  "t": "2026-10-25T13:01:07+09:00",
+  "shop": "ichiban",
+  "variant": "sv-151",
+  "price": 48000
  }
 ]

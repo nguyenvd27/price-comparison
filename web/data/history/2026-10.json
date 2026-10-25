@@ -38722,5 +38722,131 @@
   "shop": "base",
   "variant": "pm-256-silver",
   "price": 226000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-nightsky",
+  "price": 412000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-starwhite",
+  "price": 412000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-nightsky",
+  "price": 452000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-starwhite",
+  "price": 452000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "base",
+  "variant": "duo-256-nightsky",
+  "price": 413000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "base",
+  "variant": "duo-256-starwhite",
+  "price": 413000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "base",
+  "variant": "duo-512-nightsky",
+  "price": 453000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "base",
+  "variant": "duo-512-starwhite",
+  "price": 453000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-nightsky",
+  "price": 508000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-starwhite",
+  "price": 508000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-nightsky",
+  "price": 412000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-starwhite",
+  "price": 412000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-nightsky",
+  "price": 452000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-starwhite",
+  "price": 452000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-1tb-burgundy",
+  "price": 346000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-512-black",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-512-glacier",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-25T13:00:55+09:00",
+  "shop": "oku",
+  "variant": "pm-512-silver",
+  "price": 263000
  }
 ]
