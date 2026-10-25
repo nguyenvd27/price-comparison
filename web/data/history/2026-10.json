@@ -39448,5 +39448,41 @@
   "shop": "base",
   "variant": "pm-256-glacier",
   "price": 233000
+ },
+ {
+  "t": "2026-10-25T16:31:00+09:00",
+  "shop": "ichiban",
+  "variant": "duo-256-nightsky",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:31:00+09:00",
+  "shop": "ichiban",
+  "variant": "duo-256-starwhite",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-nightsky",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-starwhite",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:31:00+09:00",
+  "shop": "oku",
+  "variant": "duo-256-nightsky",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:31:00+09:00",
+  "shop": "oku",
+  "variant": "duo-256-starwhite",
+  "price": 415000
  }
 ]
