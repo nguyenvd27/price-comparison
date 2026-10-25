@@ -2044,5 +2044,103 @@
    "max": 263000,
    "shop": "rakuen"
   }
+ },
+ "2026-10-25": {
+  "duo-1tb-nightsky": {
+   "max": 508000,
+   "shop": "morimori"
+  },
+  "duo-1tb-starwhite": {
+   "max": 508000,
+   "shop": "morimori"
+  },
+  "duo-256-nightsky": {
+   "max": 411000,
+   "shop": "sommelier"
+  },
+  "duo-256-starwhite": {
+   "max": 411000,
+   "shop": "sommelier"
+  },
+  "duo-2tb-nightsky": {
+   "max": 595000,
+   "shop": "morimori"
+  },
+  "duo-2tb-starwhite": {
+   "max": 595000,
+   "shop": "morimori"
+  },
+  "duo-512-nightsky": {
+   "max": 451000,
+   "shop": "sommelier"
+  },
+  "duo-512-starwhite": {
+   "max": 451000,
+   "shop": "sommelier"
+  },
+  "pm-1tb-black": {
+   "max": 335000,
+   "shop": "ichiban"
+  },
+  "pm-1tb-burgundy": {
+   "max": 346000,
+   "shop": "ichiban"
+  },
+  "pm-1tb-glacier": {
+   "max": 335000,
+   "shop": "ichiban"
+  },
+  "pm-1tb-silver": {
+   "max": 331000,
+   "shop": "ichiban"
+  },
+  "pm-256-black": {
+   "max": 225000,
+   "shop": "ichiban"
+  },
+  "pm-256-burgundy": {
+   "max": 238000,
+   "shop": "ichiban"
+  },
+  "pm-256-glacier": {
+   "max": 232000,
+   "shop": "morimori"
+  },
+  "pm-256-silver": {
+   "max": 223000,
+   "shop": "ichiban"
+  },
+  "pm-2tb-black": {
+   "max": 387000,
+   "shop": "sommelier"
+  },
+  "pm-2tb-burgundy": {
+   "max": 400000,
+   "shop": "shouten"
+  },
+  "pm-2tb-glacier": {
+   "max": 387000,
+   "shop": "sommelier"
+  },
+  "pm-2tb-silver": {
+   "max": 387000,
+   "shop": "sommelier"
+  },
+  "pm-512-black": {
+   "max": 266000,
+   "shop": "ichiban"
+  },
+  "pm-512-burgundy": {
+   "max": 276000,
+   "shop": "ichiban"
+  },
+  "pm-512-glacier": {
+   "max": 267000,
+   "shop": "ichiban"
+  },
+  "pm-512-silver": {
+   "max": 263000,
+   "shop": "ichiban"
+  }
  }
 }

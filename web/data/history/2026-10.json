@@ -37678,5 +37678,119 @@
   "shop": "akimoba",
   "variant": "duo-2tb-starwhite",
   "price": 595000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-1tb-nightsky",
+  "price": 505000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-1tb-starwhite",
+  "price": 505000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-256-nightsky",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-256-starwhite",
+  "price": 410000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-2tb-nightsky",
+  "price": 585000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-2tb-starwhite",
+  "price": 585000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-512-nightsky",
+  "price": 450000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "duo-512-starwhite",
+  "price": 450000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-burgundy",
+  "price": 346000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-black",
+  "price": 225000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-256-silver",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-black",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-burgundy",
+  "price": 276000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-glacier",
+  "price": 267000
+ },
+ {
+  "t": "2026-10-25T10:01:01+09:00",
+  "shop": "ichiban",
+  "variant": "pm-512-silver",
+  "price": 263000
  }
 ]
