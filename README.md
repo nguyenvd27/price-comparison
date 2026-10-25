@@ -22,15 +22,19 @@ Cloudflare Worker (Cron 30 phút)
    │  gọi workflow_dispatch
    ▼
 GitHub Actions: crawl.yml
+   │  tools/sync-data.sh pull          (lấy dữ liệu cũ từ nhánh data)
    │  python -m crawler.run --category iphone | pokemon
+   │  tools/sync-data.sh push          (ghi đè commit duy nhất của nhánh data)
    ▼
-web/data/**/*.json ──git commit──► GitHub (raw.githubusercontent.com)
-                                         ▲
-Cloudflare Pages (web/, trang tĩnh) ─────┘  trình duyệt đọc JSON trực tiếp từ GitHub
+GitHub (raw.githubusercontent.com)
+   ├─ nhánh data: latest.json, daily.json, history/  ◄─┐
+   └─ nhánh main: web/data/**/catalog.json           ◄─┤ trình duyệt đọc JSON trực tiếp
+Cloudflare Pages (web/, trang tĩnh) ────────────────────┘
 ```
 
-- **Không có database.** Dữ liệu là các file JSON trong `web/data/`, được crawler commit vào repo.
-- **Crawler commit dữ liệu không làm Cloudflare Pages build lại.** Pages chỉ build khi code thay đổi (watch paths loại trừ `web/data/*`), còn trình duyệt đọc JSON thẳng từ `raw.githubusercontent.com` (xem `web/js/config.js`).
+- **Không có database.** Dữ liệu là các file JSON. `catalog.json` (sửa tay) nằm trong `main`; dữ liệu crawl nằm ở nhánh `data`.
+- **Crawler không commit vào `main`.** Nhánh `data` chỉ có đúng một commit, mỗi lần crawl thì amend và force push, nên lịch sử không dài thêm.
+- **Crawl không làm Cloudflare Pages build lại.** Trình duyệt đọc JSON thẳng từ `raw.githubusercontent.com` (xem `web/js/config.js`), cache khoảng 5 phút.
 - **Lịch chạy do Cloudflare Worker gọi** (`worker/crawl-trigger.js`). Lịch `schedule` của GitHub Actions chạy trễ hàng giờ với repo này, nên `crawl.yml` không dùng nó.
 
 ### Thư mục
@@ -45,12 +49,13 @@ crawler/                Python: tải trang, đọc giá, cập nhật JSON
   pokemon/shops/*.py    parser Pokémon
   tests/                pytest + fixture HTML/JSON cắt từ trang thật
 web/                    trang tĩnh (HTML/CSS/JS module, không cần build)
-  data/                 catalog.json (sửa tay), latest.json, daily.json, history/
+  data/                 catalog.json (sửa tay, trong main); latest.json, daily.json, history/ (nhánh data, không commit vào main)
   data/pokemon/         dữ liệu Pokémon, cùng định dạng
   js/logic.js           hàm thuần dùng chung (có test bằng node --test)
   js/table.js           tiêu đề cột cửa hàng và cửa sổ xếp hạng, dùng chung cho các trang
 worker/crawl-trigger.js Cloudflare Worker hẹn giờ chạy crawl
-tools/                  script phụ (nhập lịch sử giá từ CSV…)
+tools/sync-data.sh      đồng bộ web/data/ với nhánh data: pull | push
+tools/                  script phụ khác (nhập lịch sử giá từ CSV…)
 docs/                   spec thiết kế và ghi chú dữ liệu
 ```
 
@@ -77,9 +82,11 @@ Cần Python 3.12 trở lên và Node 22 trở lên.
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
-# Crawl và ghi vào web/data/
+# Crawl: lấy dữ liệu mới nhất từ nhánh data, crawl, rồi đẩy lên lại
+tools/sync-data.sh pull
 .venv/bin/python -m crawler.run                     # iPhone
 .venv/bin/python -m crawler.run --category pokemon  # Pokémon BOX
+tools/sync-data.sh push                             # bỏ bước này nếu chỉ muốn thử ở máy
 
 # Xem trang (khi chạy ở localhost, trang đọc dữ liệu từ web/data/ trong máy)
 cd web && python3 -m http.server 8765               # mở http://localhost:8765/
@@ -108,7 +115,7 @@ CI (`.github/workflows/ci.yml`) chạy cả hai bộ test mỗi khi push.
 
 1. **GitHub:**
    - Repo public.
-   - Settings → Actions → General → Workflow permissions: **Read and write**, để workflow commit được dữ liệu.
+   - Settings → Actions → General → Workflow permissions: **Read and write**, để workflow đẩy được nhánh `data`.
 2. **Cloudflare Pages:**
    - Kết nối repo; Build command để trống; Build output directory: `web`.
    - Settings → Build watch paths: Include `*`, Exclude `web/data/*`.
@@ -120,7 +127,7 @@ CI (`.github/workflows/ci.yml`) chạy cả hai bộ test mỗi khi push.
 
 ## Hạn chế đã biết
 
-- **モバステ (pastec.net) và 買取wiki chặn IP máy chủ** (GitHub Actions, Cloudflare). Hai tiệm này chỉ crawl được từ IP mạng gia đình. Trên web, cột của chúng giữ giá lần cuối lấy được và bị làm mờ.
+- **モバステ (pastec.net) và 買取wiki chặn IP máy chủ** (GitHub Actions, Cloudflare). Hai tiệm này chỉ crawl được từ IP mạng gia đình. Trên web, cột của chúng giữ giá lần cuối lấy được và bị làm mờ. Có thể crawl ở máy rồi `tools/sync-data.sh push`.
 - **Một số tiệm ẩn danh sách ngoài giờ làm việc** (ví dụ trang iPhone của ホムラ). Crawler coi đó là lỗi và giữ giá cũ.
 - **Parser phụ thuộc giao diện trang của từng tiệm.** Khi một tiệm đổi giao diện, cột của tiệm đó báo "Không lấy được giá nào" cho tới khi sửa parser.
 - **Dữ liệu iPhone trước ngày 2026-10-02** được bổ sung từ bản lưu Wayback và dữ liệu công khai của trang so sánh khác. Xem `docs/sample-data.md`.

@@ -2,3 +2,8 @@
 __pycache__/
 .venv/
 .DS_Store
+# Dữ liệu crawl nằm ở nhánh `data` (tools/sync-data.sh); trong `main` chỉ có catalog.json.
+.data-branch/
+web/data/**/latest.json
+web/data/**/daily.json
+web/data/**/history/

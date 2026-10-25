@@ -1,4 +1,4 @@
-import { DATA_BASE } from "./config.js";
+import { dataUrl } from "./config.js";
 import {
   bestOffer, esc, filterItems, formatDiff, formatYen, isUsable, pickPokemonFilters, rankOffers, rankedShopIds, sortItems,
 } from "./logic.js";
@@ -10,7 +10,7 @@ let data = null;
 const $ = (selector) => document.querySelector(selector);
 
 async function loadJson(name) {
-  const res = await fetch(`${DATA_BASE}pokemon/${name}?t=${Date.now()}`, { cache: "no-store" });
+  const res = await fetch(`${dataUrl(`pokemon/${name}`)}?t=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
   return res.json();
 }

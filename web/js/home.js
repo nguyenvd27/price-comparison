@@ -1,4 +1,4 @@
-import { DATA_BASE } from "./config.js";
+import { dataUrl } from "./config.js";
 import { bestDiff, bestItemDiff, formatDiff, legacyRedirect } from "./logic.js";
 
 // Link cũ của trang iPhone (trước khi tách trang) vẫn mở đúng bảng giá.
@@ -6,7 +6,7 @@ const redirect = legacyRedirect(location.search);
 if (redirect) location.replace(redirect);
 
 async function loadJson(name) {
-  const res = await fetch(`${DATA_BASE}${name}?t=${Date.now()}`, { cache: "no-store" });
+  const res = await fetch(`${dataUrl(name)}?t=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
   return res.json();
 }
