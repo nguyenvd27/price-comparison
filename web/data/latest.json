@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T17:01:12+09:00",
+ "generated_at": "2026-10-25T17:31:01+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-25T17:01:12+09:00",
@@ -33,7 +33,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T16:31:00+09:00",
    "error": null,
    "prices": {
@@ -87,7 +87,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -118,7 +118,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -200,7 +200,7 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T12:00:58+09:00",
    "error": null,
    "prices": {
@@ -223,7 +223,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -265,7 +265,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -358,7 +358,7 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T12:00:58+09:00",
    "error": null,
    "prices": {
@@ -389,7 +389,7 @@
    }
   },
   "twinkle": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T13:00:55+09:00",
    "error": null,
    "prices": {
@@ -420,18 +420,18 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
-   "display_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
+   "display_at": "2026-10-25T17:31:01+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 508000,
-    "duo-1tb-starwhite": 508000,
-    "duo-256-nightsky": 415000,
-    "duo-256-starwhite": 415000,
-    "duo-2tb-nightsky": 595000,
-    "duo-2tb-starwhite": 595000,
-    "duo-512-nightsky": 452000,
-    "duo-512-starwhite": 452000,
+    "duo-1tb-nightsky": 512000,
+    "duo-1tb-starwhite": 512000,
+    "duo-256-nightsky": 416000,
+    "duo-256-starwhite": 416000,
+    "duo-2tb-nightsky": 598000,
+    "duo-2tb-starwhite": 598000,
+    "duo-512-nightsky": 455000,
+    "duo-512-starwhite": 455000,
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 346000,
     "pm-1tb-glacier": 335000,
@@ -446,7 +446,7 @@
    }
   },
   "dragon": {
-   "last_success_at": "2026-10-25T16:31:00+09:00",
+   "last_success_at": "2026-10-25T17:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
