@@ -319,3 +319,8 @@ export function refreshView(status, now) {
   }
   return { label: "🔄 Lấy giá mới nhất", disabled: false, note };
 }
+
+// Link của tiệm cho một dòng máy: trang riêng (catalog `urls`, ví dụ trang iPhone Duo) nếu có, không thì `url` chung.
+export function shopUrl(shop, model) {
+  return shop.urls?.[model] ?? shop.url;
+}

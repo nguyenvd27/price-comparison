@@ -274,6 +274,7 @@
    "id": "shouten",
    "name": "商店",
    "url": "https://www.kaitorishouten-co.jp/category/1/747",
+   "urls": {"duo": "https://www.kaitorishouten-co.jp/category/1/748"},
    "hours": {
     "mon": [
      "10:20",
@@ -308,6 +309,7 @@
    "id": "mix",
    "name": "MIX",
    "url": "https://mobile-mix.jp/?category=7",
+   "urls": {"duo": "https://mobile-mix.jp/"},
    "hours": {
     "mon": [
      "11:00",
@@ -350,6 +352,7 @@
    "id": "morimori",
    "name": "森森",
    "url": "https://www.morimori-kaitori.jp/category/0301070",
+   "urls": {"duo": "https://www.morimori-kaitori.jp/category/0301071"},
    "hours": {
     "mon": [
      "11:00",
@@ -387,6 +390,7 @@
    "id": "ichome",
    "name": "一丁目",
    "url": "https://www.1-chome.com/mobile?category=eOd8WFZllXmBd3Rt",
+   "urls": {"duo": "https://www.1-chome.com/mobile?category=DtVXYic3qit6ckmN"},
    "hours": {
     "mon": [
      "10:00",
@@ -421,6 +425,7 @@
    "id": "ichiban",
    "name": "モバイル一番",
    "url": "https://www.mobile-ichiban.com/Prod/1/01/40",
+   "urls": {"duo": "https://www.mobile-ichiban.com/Prod/1/01/41"},
    "hours": {
     "mon": [
      "10:00",
@@ -526,6 +531,7 @@
    "id": "homura",
    "name": "ホムラ",
    "url": "https://kaitori-homura.com/products?q%5Bproduct_sub_category_id_eq%5D=192&q%5Bproduct_sub_category_product_category_id_eq%5D=10",
+   "urls": {"duo": "https://kaitori-homura.com/products?q%5Bproduct_sub_category_id_eq%5D=194&q%5Bproduct_sub_category_product_category_id_eq%5D=10"},
    "hours": {
     "mon": [
      "13:00",
@@ -634,6 +640,7 @@
    "id": "rakuen",
    "name": "楽園",
    "url": "https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba/iphone18-promax/",
+   "urls": {"duo": "https://www.keitairakuen.com/product-category/keitai/iphone/iphone18-%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba/iphone-duo/"},
    "hours": {
     "mon": [
      "10:00",
@@ -814,6 +821,7 @@
    "id": "oku",
    "name": "オク",
    "url": "https://kaitori-oku.jp/category.html?cat1=222&cat2=778",
+   "urls": {"duo": "https://kaitori-oku.jp/category.html?cat1=222&cat2=780"},
    "hours": {
     "mon": [
      "11:00",
@@ -851,6 +859,7 @@
    "id": "dragon",
    "name": "ドラゴン",
    "url": "https://mobileone.co.jp/sell.html?cat1=140&cat2=144&cat3=446",
+   "urls": {"duo": "https://mobileone.co.jp/sell.html?cat1=140&cat2=144&cat3=447"},
    "hours": {
     "mon": [
      "11:00",

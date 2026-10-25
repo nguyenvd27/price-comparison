@@ -35,3 +35,14 @@ def test_every_catalog_shop_has_a_crawler_and_hours():
 def test_mail_only_shops():
     catalog = json.loads((DATA_DIR / "catalog.json").read_text(encoding="utf-8"))
     assert [s["id"] for s in catalog["shops"] if s.get("mail_only")] == ["base"]
+
+
+def test_model_urls_point_to_known_models():
+    # Link trang Duo riêng của từng tiệm; tiệm không có thì dùng `url` chung.
+    catalog = json.loads((DATA_DIR / "catalog.json").read_text(encoding="utf-8"))
+    models = {m["id"] for m in catalog["models"]}
+    urls = {s["id"]: s["urls"] for s in catalog["shops"] if "urls" in s}
+    assert all(set(u) <= models and all(v.startswith("https://") for v in u.values()) for u in urls.values())
+    assert {sid for sid, u in urls.items() if "duo" in u} == {
+        "shouten", "mix", "morimori", "ichome", "ichiban", "homura", "rakuen", "oku", "dragon",
+    }

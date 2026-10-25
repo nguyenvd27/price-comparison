@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { filterVariants, groupLabel, hasPrices, modelColors } from "../../web/js/logic.js";
+import { filterVariants, groupLabel, hasPrices, modelColors, shopUrl } from "../../web/js/logic.js";
 
 const CATALOG = {
   models: [
@@ -43,4 +43,12 @@ test("groupLabel hides release note on release day", () => {
   const latest = { shops: { a: { prices: { "duo-256-nightsky": 400000 } } } };
   assert.equal(groupLabel(CATALOG.models[1], ["duo-256-nightsky"], latest, "2026-10-23"), "iPhone Duo");
   assert.equal(groupLabel(CATALOG.models[1], ["duo-256-nightsky"], latest, "2026-10-22"), "iPhone Duo · mở bán 10/23");
+});
+
+test("shopUrl: model page when the shop has one, else the main page", () => {
+  const shop = { url: "https://a/pm", urls: { duo: "https://a/duo" } };
+  assert.equal(shopUrl(shop, "duo"), "https://a/duo");
+  assert.equal(shopUrl(shop, "pm"), "https://a/pm");
+  assert.equal(shopUrl(shop, "all"), "https://a/pm");
+  assert.equal(shopUrl({ url: "https://b" }, "duo"), "https://b");
 });

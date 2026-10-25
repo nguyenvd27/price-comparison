@@ -155,7 +155,7 @@ function renderTable() {
   const shopIds = rankedShopIds(shops);
   const columns = 3 + shops.length;
   const head = `<thead><tr><th class="s1"><span class="long">Model</span><span class="short">Model</span></th><th class="s2">Apple</th><th class="s3"><span class="long">Diff</span><span class="short">Diff</span></th>${shops
-    .map((s) => shopHeader(s, latest.shops?.[s.id], now))
+    .map((s) => shopHeader(s, latest.shops?.[s.id], now, state.model))
     .join("")}</tr></thead>`;
 
   const variants = filterVariants(catalog.variants, state);
@@ -180,6 +180,7 @@ function openOfferModal(variantId, shopId) {
   renderRankModal($("#offer-modal"), {
     titleHtml: `<span class="dot" style="background:${esc(color.hex)}" title="${esc(color.vi)}" aria-label="${esc(color.vi)}"></span>${esc(variant.capacity)}`,
     refLabel: "Apple",
+    model: variant.model,
     refPrice: variant.apple_price,
     rows: rankOffers(variantId, latest, catalog.shops, variant.apple_price, new Date()),
     shopId,
