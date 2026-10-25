@@ -38932,5 +38932,17 @@
   "shop": "oku",
   "variant": "duo-512-starwhite",
   "price": 452000
+ },
+ {
+  "t": "2026-10-25T14:30:59+09:00",
+  "shop": "oku",
+  "variant": "duo-2tb-nightsky",
+  "price": 595000
+ },
+ {
+  "t": "2026-10-25T14:30:59+09:00",
+  "shop": "oku",
+  "variant": "duo-2tb-starwhite",
+  "price": 595000
  }
 ]
