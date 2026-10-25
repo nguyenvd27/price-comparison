@@ -39772,5 +39772,41 @@
   "shop": "ichiban",
   "variant": "duo-512-starwhite",
   "price": 455000
+ },
+ {
+  "t": "2026-10-25T18:31:07+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-nightsky",
+  "price": 512000
+ },
+ {
+  "t": "2026-10-25T18:31:07+09:00",
+  "shop": "twinkle",
+  "variant": "duo-1tb-starwhite",
+  "price": 512000
+ },
+ {
+  "t": "2026-10-25T18:31:07+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-nightsky",
+  "price": 416000
+ },
+ {
+  "t": "2026-10-25T18:31:07+09:00",
+  "shop": "twinkle",
+  "variant": "duo-256-starwhite",
+  "price": 416000
+ },
+ {
+  "t": "2026-10-25T18:31:07+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-nightsky",
+  "price": 455000
+ },
+ {
+  "t": "2026-10-25T18:31:07+09:00",
+  "shop": "twinkle",
+  "variant": "duo-512-starwhite",
+  "price": 455000
  }
 ]
