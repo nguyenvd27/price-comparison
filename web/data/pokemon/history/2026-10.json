@@ -8116,5 +8116,65 @@
   "shop": "homura",
   "variant": "sv-terastal-fes-ex",
   "price": 19300
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 9400
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "oku",
+  "variant": "mega-30th",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "oku",
+  "variant": "mega-abyss-eye",
+  "price": 8800
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "oku",
+  "variant": "mega-mega-symphonia",
+  "price": 8200
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "oku",
+  "variant": "mega-ninja-spinner",
+  "price": 9400
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "oku",
+  "variant": "sv-battle-partners",
+  "price": 10200
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "oku",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19300
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-30th",
+  "price": 25000
+ },
+ {
+  "t": "2026-10-25T11:31:13+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-inferno-x",
+  "price": 17000
  }
 ]

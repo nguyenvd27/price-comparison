@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T11:01:15+09:00",
+ "generated_at": "2026-10-25T11:31:13+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -26,8 +26,8 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-25T11:01:15+09:00",
-   "display_at": "2026-10-25T11:01:15+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
+   "display_at": "2026-10-25T11:31:13+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
@@ -37,10 +37,10 @@
     "mega-mega-dream-ex": 12700,
     "mega-mega-symphonia": 8200,
     "mega-munikis-zero": 8800,
-    "mega-ninja-spinner": 9500,
+    "mega-ninja-spinner": 9400,
     "mega-storm-emeralda": 9000,
     "sv-151": 51000,
-    "sv-battle-partners": 10300,
+    "sv-battle-partners": 10200,
     "sv-black-bolt": 25200,
     "sv-heat-arena": 18800,
     "sv-night-wanderer": 12300,
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-25T10:31:13+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
    "display_at": "2026-10-25T10:31:13+09:00",
    "error": null,
    "prices": {
@@ -104,31 +104,31 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
-   "display_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
+   "display_at": "2026-10-25T11:31:13+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 25500,
-    "mega-abyss-eye": 9000,
+    "mega-30th": 25000,
+    "mega-abyss-eye": 8800,
     "mega-inferno-x": 18000,
     "mega-mega-dream-ex": 12700,
-    "mega-mega-symphonia": 8100,
+    "mega-mega-symphonia": 8200,
     "mega-munikis-zero": 8800,
-    "mega-ninja-spinner": 9600,
+    "mega-ninja-spinner": 9400,
     "mega-storm-emeralda": 9000,
     "sv-151": 51000,
-    "sv-battle-partners": 10300,
+    "sv-battle-partners": 10200,
     "sv-heat-arena": 18800,
     "sv-night-wanderer": 12300,
     "sv-paradise-dragona": 15500,
     "sv-rocket-gang": 24500,
     "sv-stellar-miracle": 12000,
     "sv-super-electric-breaker": 27800,
-    "sv-terastal-fes-ex": 19500
+    "sv-terastal-fes-ex": 19300
    }
   },
   "runto": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -155,7 +155,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -183,13 +183,13 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-25T10:01:16+09:00",
-   "display_at": "2026-10-25T10:01:16+09:00",
+   "last_success_at": "2026-10-25T11:31:13+09:00",
+   "display_at": "2026-10-25T11:31:13+09:00",
    "error": null,
    "prices": {
-    "mega-30th": 25300,
+    "mega-30th": 25000,
     "mega-abyss-eye": 8600,
-    "mega-inferno-x": 17500,
+    "mega-inferno-x": 17000,
     "mega-mega-brave": 8000,
     "mega-mega-dream-ex": 12500,
     "mega-mega-symphonia": 8000,
