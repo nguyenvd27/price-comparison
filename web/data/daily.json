@@ -2047,36 +2047,36 @@
  },
  "2026-10-25": {
   "duo-1tb-nightsky": {
-   "max": 509000,
-   "shop": "jcka"
+   "max": 510500,
+   "shop": "sommelier"
   },
   "duo-1tb-starwhite": {
-   "max": 509000,
-   "shop": "jcka"
+   "max": 510500,
+   "shop": "sommelier"
   },
   "duo-256-nightsky": {
-   "max": 413000,
-   "shop": "jcka"
+   "max": 414000,
+   "shop": "mix"
   },
   "duo-256-starwhite": {
-   "max": 413000,
-   "shop": "jcka"
+   "max": 414000,
+   "shop": "mix"
   },
   "duo-2tb-nightsky": {
-   "max": 596000,
-   "shop": "jcka"
+   "max": 596500,
+   "shop": "sommelier"
   },
   "duo-2tb-starwhite": {
-   "max": 596000,
-   "shop": "jcka"
+   "max": 596500,
+   "shop": "sommelier"
   },
   "duo-512-nightsky": {
-   "max": 453000,
-   "shop": "jcka"
+   "max": 453500,
+   "shop": "sommelier"
   },
   "duo-512-starwhite": {
-   "max": 453000,
-   "shop": "jcka"
+   "max": 453500,
+   "shop": "sommelier"
   },
   "pm-1tb-black": {
    "max": 335000,
@@ -2131,8 +2131,8 @@
    "shop": "ichiban"
   },
   "pm-512-burgundy": {
-   "max": 276000,
-   "shop": "ichiban"
+   "max": 276500,
+   "shop": "akimoba"
   },
   "pm-512-glacier": {
    "max": 267000,
