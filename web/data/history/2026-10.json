@@ -39292,5 +39292,161 @@
   "shop": "sommelier",
   "variant": "pm-512-burgundy",
   "price": 276500
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "mix",
+  "variant": "duo-256-nightsky",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "mix",
+  "variant": "duo-256-starwhite",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-nightsky",
+  "price": 511000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-starwhite",
+  "price": 511000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-nightsky",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-starwhite",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-nightsky",
+  "price": 597000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-starwhite",
+  "price": 597000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-nightsky",
+  "price": 454000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-starwhite",
+  "price": 454000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-burgundy",
+  "price": 346000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-black",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-burgundy",
+  "price": 236500
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "morimori",
+  "variant": "pm-256-silver",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-1tb-nightsky",
+  "price": 511000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-1tb-starwhite",
+  "price": 511000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-256-nightsky",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-256-starwhite",
+  "price": 415000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-2tb-nightsky",
+  "price": 597000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-2tb-starwhite",
+  "price": 597000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-512-nightsky",
+  "price": 454000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "duo-512-starwhite",
+  "price": 454000
+ },
+ {
+  "t": "2026-10-25T16:00:59+09:00",
+  "shop": "base",
+  "variant": "pm-256-glacier",
+  "price": 233000
  }
 ]
