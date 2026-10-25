@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-25T18:01:16+09:00",
+ "generated_at": "2026-10-25T19:02:09+09:00",
  "shops": {
   "morimori": {
    "last_success_at": "2026-10-25T18:01:16+09:00",
    "display_at": "2026-10-25T12:01:11+09:00",
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/2401010 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7fe7872c1910>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
    "prices": {
     "mega-abyss-eye": 8800,
     "mega-inferno-x": 17000,
@@ -26,21 +26,21 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
-   "display_at": "2026-10-25T11:31:13+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
+   "display_at": "2026-10-25T19:02:09+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
-    "mega-abyss-eye": 8800,
+    "mega-abyss-eye": 8600,
     "mega-inferno-x": 18000,
-    "mega-mega-brave": 8200,
-    "mega-mega-dream-ex": 12700,
-    "mega-mega-symphonia": 8200,
-    "mega-munikis-zero": 8800,
-    "mega-ninja-spinner": 9400,
+    "mega-mega-brave": 8000,
+    "mega-mega-dream-ex": 12600,
+    "mega-mega-symphonia": 8000,
+    "mega-munikis-zero": 8600,
+    "mega-ninja-spinner": 9200,
     "mega-storm-emeralda": 9000,
     "sv-151": 51000,
-    "sv-battle-partners": 10200,
+    "sv-battle-partners": 10000,
     "sv-black-bolt": 25200,
     "sv-heat-arena": 18800,
     "sv-night-wanderer": 12300,
@@ -53,7 +53,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -81,7 +81,7 @@
    }
   },
   "ichiban": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
    "display_at": "2026-10-25T13:31:15+09:00",
    "error": null,
    "prices": {
@@ -104,7 +104,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
    "display_at": "2026-10-25T12:01:11+09:00",
    "error": null,
    "prices": {
@@ -128,7 +128,7 @@
    }
   },
   "runto": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -155,7 +155,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
    "display_at": "2026-10-25T10:01:16+09:00",
    "error": null,
    "prices": {
@@ -183,7 +183,7 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:02:09+09:00",
    "display_at": "2026-10-25T11:31:13+09:00",
    "error": null,
    "prices": {

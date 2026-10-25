@@ -8206,5 +8206,47 @@
   "shop": "ichiban",
   "variant": "sv-super-electric-breaker",
   "price": 26000
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "mega-abyss-eye",
+  "price": 8600
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-brave",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-dream-ex",
+  "price": 12600
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "mega-mega-symphonia",
+  "price": 8000
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "mega-munikis-zero",
+  "price": 8600
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "mega-ninja-spinner",
+  "price": 9200
+ },
+ {
+  "t": "2026-10-25T19:02:09+09:00",
+  "shop": "homura",
+  "variant": "sv-battle-partners",
+  "price": 10000
  }
 ]
