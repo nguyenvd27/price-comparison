@@ -38848,5 +38848,41 @@
   "shop": "oku",
   "variant": "pm-512-silver",
   "price": 263000
+ },
+ {
+  "t": "2026-10-25T13:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-1tb-nightsky",
+  "price": 509000
+ },
+ {
+  "t": "2026-10-25T13:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-1tb-starwhite",
+  "price": 509000
+ },
+ {
+  "t": "2026-10-25T13:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-nightsky",
+  "price": 412000
+ },
+ {
+  "t": "2026-10-25T13:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-starwhite",
+  "price": 412000
+ },
+ {
+  "t": "2026-10-25T13:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-512-nightsky",
+  "price": 452000
+ },
+ {
+  "t": "2026-10-25T13:31:00+09:00",
+  "shop": "sommelier",
+  "variant": "duo-512-starwhite",
+  "price": 452000
  }
 ]
