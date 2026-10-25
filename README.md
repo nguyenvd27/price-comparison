@@ -14,6 +14,7 @@ Mỗi trang có:
 - ô giá cao nhất được tô xanh
 - cửa sổ xếp hạng các cửa hàng khi bấm vào một ô giá
 - giờ mở cửa hôm nay của từng tiệm (🟢 đang mở / 🔴 đã đóng; 📦 = chỉ mua qua bưu điện)
+- nút **🔄 Lấy giá mới nhất** (trang iPhone và Pokémon): chạy crawl ngay, giới hạn 2 phút một lần cho mọi người, hiện lần bấm gần nhất; crawl xong bảng tự tải lại giá
 
 ## Kiến trúc
 
@@ -34,7 +35,8 @@ Cloudflare Pages (web/, trang tĩnh) ──────────────�
 
 - **Không có database.** Dữ liệu là các file JSON. `catalog.json` (sửa tay) nằm trong `main`; dữ liệu crawl nằm ở nhánh `data`.
 - **Crawler không commit vào `main`.** Nhánh `data` chỉ có đúng một commit, mỗi lần crawl thì amend và force push, nên lịch sử không dài thêm.
-- **Crawl không làm Cloudflare Pages build lại.** Trình duyệt đọc JSON thẳng từ `raw.githubusercontent.com` (xem `web/js/config.js`), cache khoảng 5 phút.
+- **Crawl không làm Cloudflare Pages build lại.** Trình duyệt đọc JSON thẳng từ `raw.githubusercontent.com` (xem `web/js/config.js`). URL theo tên nhánh bị cache 5 phút, nên trang hỏi Worker (`GET /status`) mã commit mới nhất của nhánh `data` rồi đọc theo mã đó; Worker lỗi thì đọc theo tên nhánh.
+- **Nút "Lấy giá mới nhất"** gọi Worker (`POST /crawl`). Lần chạy do nút bấm có tên "crawl (nút bấm)" (`run-name` trong `crawl.yml`); Worker đọc lịch sử chạy workflow để biết lần bấm gần nhất và chặn bấm lại trong 2 phút, không cần database.
 - **Lịch chạy do Cloudflare Worker gọi** (`worker/crawl-trigger.js`). Lịch `schedule` của GitHub Actions chạy trễ hàng giờ với repo này, nên `crawl.yml` không dùng nó.
 
 ### Thư mục
@@ -53,7 +55,7 @@ web/                    trang tĩnh (HTML/CSS/JS module, không cần build)
   data/pokemon/         dữ liệu Pokémon, cùng định dạng
   js/logic.js           hàm thuần dùng chung (có test bằng node --test)
   js/table.js           tiêu đề cột cửa hàng và cửa sổ xếp hạng, dùng chung cho các trang
-worker/crawl-trigger.js Cloudflare Worker hẹn giờ chạy crawl
+worker/crawl-trigger.js Cloudflare Worker: hẹn giờ chạy crawl, nút "Lấy giá mới nhất" (/crawl, /status)
 tools/sync-data.sh      đồng bộ web/data/ với nhánh data: pull | push
 tools/                  script phụ khác (nhập lịch sử giá từ CSV…)
 docs/                   spec thiết kế và ghi chú dữ liệu
@@ -120,7 +122,8 @@ CI (`.github/workflows/ci.yml`) chạy cả hai bộ test mỗi khi push.
    - Kết nối repo; Build command để trống; Build output directory: `web`.
    - Settings → Build watch paths: Include `*`, Exclude `web/data/*`.
 3. **Cloudflare Worker** (`worker/crawl-trigger.js`):
-   - Secret `GITHUB_TOKEN`: fine-grained token, chỉ cho repo này, quyền **Actions: Read and write**.
+   - Secret `GITHUB_TOKEN`: fine-grained token, chỉ cho repo này, quyền **Actions: Read and write** (và Contents: Read, có sẵn).
+   - Địa chỉ Worker ghi ở `WORKER_URL` trong `web/js/config.js`.
    - Secret `PROXY_KEY`: khoá dùng khi gọi thử Worker bằng tay.
    - Cron Triggers (giờ UTC): `*/30 1-10 * * *` và `0 11 * * *`, tức 10:00–20:00 JST.
    - Đổi giờ crawl thì sửa cả các Cron Triggers này lẫn `CRAWL_HOURS` trong `web/js/logic.js`.

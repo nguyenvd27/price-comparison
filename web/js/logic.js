@@ -304,3 +304,18 @@ export function bestItemDiff(catalog, latest, now) {
   }
   return best;
 }
+
+// Nút "Lấy giá mới nhất": trạng thái từ Worker (GET /status) → nhãn nút, khoá hay không, dòng ghi chú.
+// null khi không đọc được trạng thái (ẩn nút).
+export function refreshView(status, now) {
+  if (!status) return null;
+  const note = status.last_press ? `Lần bấm gần nhất: ${formatTime(status.last_press)}` : "Chưa có ai bấm";
+  if (status.running) return { label: "⏳ Đang lấy giá…", disabled: true, note };
+  const left = status.last_press
+    ? Math.ceil((Date.parse(status.last_press) + status.cooldown_s * 1000 - now.getTime()) / 1000)
+    : 0;
+  if (left > 0) {
+    return { label: `Bấm lại sau ${Math.floor(left / 60)}:${String(left % 60).padStart(2, "0")}`, disabled: true, note };
+  }
+  return { label: "🔄 Lấy giá mới nhất", disabled: false, note };
+}

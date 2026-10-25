@@ -1,4 +1,5 @@
 import { dataUrl } from "./config.js";
+import { fetchStatus, setupRefresh } from "./refresh.js";
 import {
   bestOffer, esc, filterVariants, formatDiff, formatYen, groupLabel, isUsable, jstDate, modelColors,
   pickFilters, rankOffers, rankedShopIds,
@@ -8,11 +9,12 @@ import { bindRankModal, diffClass, renderRankModal, shopHeader } from "./table.j
 
 const state = { model: "all", cap: "all", color: "all", chartModel: null, chartCap: null, chartColor: null, range: 30 };
 let data = null;
+let dataSha = null; // mã commit nhánh data đang hiển thị (null: đọc theo tên nhánh)
 
 const $ = (selector) => document.querySelector(selector);
 
 async function loadJson(name) {
-  const res = await fetch(`${dataUrl(name)}?t=${Date.now()}`, { cache: "no-store" });
+  const res = await fetch(`${dataUrl(name, dataSha)}?t=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
   return res.json();
 }
@@ -191,7 +193,21 @@ function update() {
   renderCharts(data, state);
 }
 
+// Nhánh data có commit mới (crawl xong): tải lại giá, giữ nguyên bộ lọc. Lỗi thì giữ giá đang hiện.
+async function reloadPrices(sha) {
+  dataSha = sha;
+  try {
+    const [latest, daily] = await Promise.all(["latest.json", "daily.json"].map(loadJson));
+    data = { ...data, latest, daily };
+    update();
+  } catch (err) {
+    console.warn("Không tải lại được giá:", err);
+  }
+}
+
 async function init() {
+  const status = await fetchStatus();
+  dataSha = status?.data_sha ?? null;
   try {
     const [catalog, latest, daily] = await Promise.all(["catalog.json", "latest.json", "daily.json"].map(loadJson));
     data = { catalog, latest, daily };
@@ -203,6 +219,7 @@ async function init() {
   readState();
   bindRankModal($("#price-table"), $("#offer-modal"), (cell) => openOfferModal(cell.dataset.variant, cell.dataset.shop));
   update();
+  setupRefresh($("#refresh"), status, reloadPrices);
   // Cập nhật lại trạng thái mở cửa và nhãn "dữ liệu cũ" mỗi phút mà không cần tải lại trang.
   setInterval(renderTable, 60 * 1000);
 }

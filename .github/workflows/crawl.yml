@@ -1,10 +1,17 @@
 name: crawl
+# Lần chạy do nút "Lấy giá mới nhất" trên web có tên riêng: Worker dựa vào tên này để biết lần bấm gần nhất.
+run-name: ${{ inputs.source == 'button' && 'crawl (nút bấm)' || 'crawl' }}
 
 on:
   # Không dùng `schedule` của GitHub: với repo này lịch chạy trễ hàng giờ (có lần 00:07 JST).
   # Cloudflare Worker (worker/crawl-trigger.js) gọi workflow_dispatch đúng giờ:
   # 30 phút một lần, 10:00–20:00 giờ Nhật. Đổi giờ thì sửa Cron Triggers của Worker và CRAWL_HOURS trong web/js/logic.js.
   workflow_dispatch:
+    inputs:
+      source:
+        description: "Ai gọi: schedule (Worker hẹn giờ), button (nút trên web), manual"
+        required: false
+        default: manual
 
 permissions:
   contents: write
