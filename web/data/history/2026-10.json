@@ -39094,5 +39094,203 @@
   "shop": "sommelier",
   "variant": "duo-512-starwhite",
   "price": 453500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-nightsky",
+  "price": 510500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-1tb-starwhite",
+  "price": 510500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-nightsky",
+  "price": 414000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-256-starwhite",
+  "price": 414000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-nightsky",
+  "price": 596500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-2tb-starwhite",
+  "price": 596500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-nightsky",
+  "price": 453500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "morimori",
+  "variant": "duo-512-starwhite",
+  "price": 453500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-1tb-nightsky",
+  "price": 510500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-1tb-starwhite",
+  "price": 510500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-256-nightsky",
+  "price": 414000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-256-starwhite",
+  "price": 414000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-2tb-nightsky",
+  "price": 596500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-2tb-starwhite",
+  "price": 596500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-512-nightsky",
+  "price": 453500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "base",
+  "variant": "duo-512-starwhite",
+  "price": 453500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-1tb-nightsky",
+  "price": 511000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-1tb-starwhite",
+  "price": 511000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-nightsky",
+  "price": 414500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-256-starwhite",
+  "price": 414500
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-2tb-nightsky",
+  "price": 597000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-2tb-starwhite",
+  "price": 597000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-512-nightsky",
+  "price": 454000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "duo-512-starwhite",
+  "price": 454000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-black",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-burgundy",
+  "price": 346000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-glacier",
+  "price": 335000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-1tb-silver",
+  "price": 331000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-black",
+  "price": 226000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-burgundy",
+  "price": 238000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-256-silver",
+  "price": 223000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-black",
+  "price": 266000
+ },
+ {
+  "t": "2026-10-25T15:31:01+09:00",
+  "shop": "sommelier",
+  "variant": "pm-512-burgundy",
+  "price": 276500
  }
 ]
