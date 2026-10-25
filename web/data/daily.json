@@ -2047,12 +2047,12 @@
  },
  "2026-10-25": {
   "duo-1tb-nightsky": {
-   "max": 512000,
-   "shop": "mix"
+   "max": 513000,
+   "shop": "jcka"
   },
   "duo-1tb-starwhite": {
-   "max": 512000,
-   "shop": "mix"
+   "max": 513000,
+   "shop": "jcka"
   },
   "duo-256-nightsky": {
    "max": 416000,
@@ -2063,20 +2063,20 @@
    "shop": "mix"
   },
   "duo-2tb-nightsky": {
-   "max": 598000,
-   "shop": "mix"
+   "max": 599000,
+   "shop": "jcka"
   },
   "duo-2tb-starwhite": {
-   "max": 598000,
-   "shop": "mix"
+   "max": 599000,
+   "shop": "jcka"
   },
   "duo-512-nightsky": {
-   "max": 455000,
-   "shop": "mix"
+   "max": 456000,
+   "shop": "jcka"
   },
   "duo-512-starwhite": {
-   "max": 455000,
-   "shop": "mix"
+   "max": 456000,
+   "shop": "jcka"
   },
   "pm-1tb-black": {
    "max": 335000,

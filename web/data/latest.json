@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-25T19:01:27+09:00",
+ "generated_at": "2026-10-25T19:31:02+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-25T18:31:07+09:00",
-   "display_at": "2026-10-25T16:00:59+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/0301070 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7f79679d8e60>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
+   "last_success_at": "2026-10-25T19:31:02+09:00",
+   "display_at": "2026-10-25T19:31:02+09:00",
+   "error": null,
    "prices": {
     "duo-1tb-nightsky": 511000,
     "duo-1tb-starwhite": 511000,
@@ -19,7 +19,7 @@
     "pm-1tb-glacier": 335000,
     "pm-1tb-silver": 331000,
     "pm-256-black": 226000,
-    "pm-256-burgundy": 236500,
+    "pm-256-burgundy": 238000,
     "pm-256-glacier": 232000,
     "pm-256-silver": 223000,
     "pm-2tb-black": 385000,
@@ -358,18 +358,18 @@
    }
   },
   "jcka": {
-   "last_success_at": "2026-10-25T18:31:07+09:00",
-   "display_at": "2026-10-25T12:00:58+09:00",
+   "last_success_at": "2026-10-25T19:31:02+09:00",
+   "display_at": "2026-10-25T19:31:02+09:00",
    "error": null,
    "prices": {
-    "duo-1tb-nightsky": 509000,
-    "duo-1tb-starwhite": 509000,
-    "duo-256-nightsky": 413000,
-    "duo-256-starwhite": 413000,
-    "duo-2tb-nightsky": 596000,
-    "duo-2tb-starwhite": 596000,
-    "duo-512-nightsky": 453000,
-    "duo-512-starwhite": 453000,
+    "duo-1tb-nightsky": 513000,
+    "duo-1tb-starwhite": 513000,
+    "duo-256-nightsky": 416000,
+    "duo-256-starwhite": 416000,
+    "duo-2tb-nightsky": 599000,
+    "duo-2tb-starwhite": 599000,
+    "duo-512-nightsky": 456000,
+    "duo-512-starwhite": 456000,
     "pm-1tb-black": 335000,
     "pm-1tb-burgundy": 346000,
     "pm-1tb-glacier": 335000,

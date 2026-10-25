@@ -8248,5 +8248,59 @@
   "shop": "homura",
   "variant": "sv-battle-partners",
   "price": 10000
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "homura",
+  "variant": "mega-inferno-x",
+  "price": 17800
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "homura",
+  "variant": "mega-munikis-zero",
+  "price": 8500
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "homura",
+  "variant": "sv-151",
+  "price": 50000
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "homura",
+  "variant": "sv-terastal-fes-ex",
+  "price": 19200
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "homura",
+  "variant": "sv-white-flare",
+  "price": 22200
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-abyss-eye",
+  "price": 8300
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-mega-dream-ex",
+  "price": 12300
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "mega-ninja-spinner",
+  "price": 9000
+ },
+ {
+  "t": "2026-10-25T19:31:16+09:00",
+  "shop": "shinsoku",
+  "variant": "sv-battle-partners",
+  "price": 9800
  }
 ]

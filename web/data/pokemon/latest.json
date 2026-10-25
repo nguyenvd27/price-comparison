@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-25T19:02:09+09:00",
+ "generated_at": "2026-10-25T19:31:16+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-25T18:01:16+09:00",
+   "last_success_at": "2026-10-25T19:31:16+09:00",
    "display_at": "2026-10-25T12:01:11+09:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.morimori-kaitori.jp', port=443): Max retries exceeded with url: /category/2401010 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.morimori-kaitori.jp', port=443) at 0x7fe7872c1910>, 'Connection to www.morimori-kaitori.jp timed out. (connect timeout=30)'))",
+   "error": null,
    "prices": {
     "mega-abyss-eye": 8800,
     "mega-inferno-x": 17000,
@@ -26,20 +26,20 @@
    }
   },
   "homura": {
-   "last_success_at": "2026-10-25T19:02:09+09:00",
-   "display_at": "2026-10-25T19:02:09+09:00",
+   "last_success_at": "2026-10-25T19:31:16+09:00",
+   "display_at": "2026-10-25T19:31:16+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
     "mega-abyss-eye": 8600,
-    "mega-inferno-x": 18000,
+    "mega-inferno-x": 17800,
     "mega-mega-brave": 8000,
     "mega-mega-dream-ex": 12600,
     "mega-mega-symphonia": 8000,
-    "mega-munikis-zero": 8600,
+    "mega-munikis-zero": 8500,
     "mega-ninja-spinner": 9200,
     "mega-storm-emeralda": 9000,
-    "sv-151": 51000,
+    "sv-151": 50000,
     "sv-battle-partners": 10000,
     "sv-black-bolt": 25200,
     "sv-heat-arena": 18800,
@@ -48,8 +48,8 @@
     "sv-rocket-gang": 24500,
     "sv-stellar-miracle": 12100,
     "sv-super-electric-breaker": 27800,
-    "sv-terastal-fes-ex": 19300,
-    "sv-white-flare": 22500
+    "sv-terastal-fes-ex": 19200,
+    "sv-white-flare": 22200
    }
   },
   "rudeya": {
@@ -183,21 +183,21 @@
    }
   },
   "shinsoku": {
-   "last_success_at": "2026-10-25T19:02:09+09:00",
-   "display_at": "2026-10-25T11:31:13+09:00",
+   "last_success_at": "2026-10-25T19:31:16+09:00",
+   "display_at": "2026-10-25T19:31:16+09:00",
    "error": null,
    "prices": {
     "mega-30th": 25000,
-    "mega-abyss-eye": 8600,
+    "mega-abyss-eye": 8300,
     "mega-inferno-x": 17000,
     "mega-mega-brave": 8000,
-    "mega-mega-dream-ex": 12500,
+    "mega-mega-dream-ex": 12300,
     "mega-mega-symphonia": 8000,
     "mega-munikis-zero": 8500,
-    "mega-ninja-spinner": 9200,
+    "mega-ninja-spinner": 9000,
     "mega-storm-emeralda": 9000,
     "sv-151": 48000,
-    "sv-battle-partners": 10000,
+    "sv-battle-partners": 9800,
     "sv-black-bolt": 25000,
     "sv-heat-arena": 18800,
     "sv-night-wanderer": 12300,
