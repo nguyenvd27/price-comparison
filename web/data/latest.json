@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T12:00:58+09:00",
+ "generated_at": "2026-10-25T12:31:01+09:00",
  "shops": {
   "morimori": {
-   "last_success_at": "2026-10-25T11:01:00+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T11:01:00+09:00",
    "error": null,
    "prices": {
@@ -87,7 +87,7 @@
    }
   },
   "shouten": {
-   "last_success_at": "2026-10-25T11:30:59+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -118,7 +118,7 @@
    }
   },
   "ichome": {
-   "last_success_at": "2026-10-25T11:30:59+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -223,7 +223,7 @@
    }
   },
   "rudeya": {
-   "last_success_at": "2026-10-25T11:30:59+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -265,7 +265,7 @@
    }
   },
   "rakuen": {
-   "last_success_at": "2026-10-25T11:30:59+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {
@@ -296,8 +296,8 @@
    }
   },
   "base": {
-   "last_success_at": "2026-10-25T12:00:58+09:00",
-   "display_at": "2026-10-25T12:00:58+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
+   "display_at": "2026-10-25T12:31:01+09:00",
    "error": null,
    "prices": {
     "duo-1tb-nightsky": 509000,
@@ -308,14 +308,14 @@
     "duo-2tb-starwhite": 596000,
     "duo-512-nightsky": 452000,
     "duo-512-starwhite": 452000,
-    "pm-1tb-black": 337000,
-    "pm-1tb-burgundy": 348000,
-    "pm-1tb-glacier": 337000,
-    "pm-1tb-silver": 333000,
-    "pm-256-black": 227000,
-    "pm-256-burgundy": 239000,
-    "pm-256-glacier": 234000,
-    "pm-256-silver": 225000,
+    "pm-1tb-black": 338000,
+    "pm-1tb-burgundy": 349000,
+    "pm-1tb-glacier": 338000,
+    "pm-1tb-silver": 334000,
+    "pm-256-black": 228000,
+    "pm-256-burgundy": 240000,
+    "pm-256-glacier": 235000,
+    "pm-256-silver": 226000,
     "pm-2tb-black": 389000,
     "pm-2tb-burgundy": 403000,
     "pm-2tb-glacier": 389000,
@@ -389,7 +389,7 @@
    }
   },
   "twinkle": {
-   "last_success_at": "2026-10-25T11:30:59+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T11:30:59+09:00",
    "error": null,
    "prices": {
@@ -420,7 +420,7 @@
    }
   },
   "oku": {
-   "last_success_at": "2026-10-25T11:01:00+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T11:01:00+09:00",
    "error": null,
    "prices": {
@@ -444,7 +444,7 @@
    }
   },
   "dragon": {
-   "last_success_at": "2026-10-25T11:30:59+09:00",
+   "last_success_at": "2026-10-25T12:31:01+09:00",
    "display_at": "2026-10-25T10:01:01+09:00",
    "error": null,
    "prices": {

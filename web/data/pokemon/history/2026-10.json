@@ -8188,5 +8188,11 @@
   "shop": "oku",
   "variant": "mega-30th",
   "price": 25200
+ },
+ {
+  "t": "2026-10-25T12:31:18+09:00",
+  "shop": "ichiban",
+  "variant": "sv-super-electric-breaker",
+  "price": null
  }
 ]
