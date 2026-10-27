@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pytest
-from types import SimpleNamespace
 
 from crawler.models import Offer
 from crawler.shops import morimori, shouten
@@ -38,20 +37,11 @@ def test_parsers_return_empty_on_unrelated_html(colors):
     assert shouten.parse('{"page": 1, "per_page": 100, "total": 0, "items": []}', colors) == []
 
 
-def test_morimori_fetch_follows_pagination():
-    page1 = (
-        '<div id="category-0301070-products"></div>'
-        '<ul class="pagination"><li class="next"><p>'
-        '<a href="https://www.morimori-kaitori.jp/category/0301070?page=2"><span>次のページ</span></a>'
-        "</p></li></ul>"
-    )
-    pages = {morimori.URL: page1, morimori.URL + "?page=2": "<p>trang 2</p>", morimori.DUO_URL: "<p>duo</p>"}
-    calls = []
-
-    class FakeSession:
-        def get(self, url, timeout):
-            calls.append(url)
-            return SimpleNamespace(encoding="utf-8", text=pages[url], raise_for_status=lambda: None)
-
-    assert morimori.fetch(FakeSession()) == page1 + "\n<p>trang 2</p>\n<p>duo</p>"
-    assert calls == [morimori.URL, morimori.URL + "?page=2", morimori.DUO_URL]
+def test_morimori_iphone18_landing_cards_pro_max_and_duo(colors_all):
+    # Trang /iphone18: mỗi sản phẩm là article.mm1551-ip18-card, giá ở data-mm-price; bỏ iPhone 18 Pro.
+    assert morimori.parse(read("morimori_iphone18.html"), colors_all) == [
+        Offer("duo-256-nightsky", 380000),
+        Offer("duo-256-starwhite", 365000),
+        Offer("pm-256-burgundy", 240500),
+        Offer("pm-256-glacier", 236000),
+    ]

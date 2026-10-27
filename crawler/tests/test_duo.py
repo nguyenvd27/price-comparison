@@ -109,7 +109,7 @@ class RecordingSession:
 
 
 @pytest.mark.parametrize("module_name, duo_part", [
-    ("morimori", "/category/0301071"),
+    ("morimori", "/iphone18"),  # từ 2026-10-26 trang danh mục chặn crawler; trang tổng hợp có cả Duo
     ("ichiban", "/Prod/1/01/41"),
 ])
 def test_html_shops_also_fetch_duo_page(module_name, duo_part):

@@ -131,6 +131,7 @@ CI (`.github/workflows/ci.yml`) chạy cả hai bộ test mỗi khi push.
 ## Hạn chế đã biết
 
 - **モバステ (pastec.net) và 買取wiki chặn IP máy chủ** (GitHub Actions, Cloudflare). Hai tiệm này chỉ crawl được từ IP mạng gia đình. Trên web, cột của chúng giữ giá lần cuối lấy được và bị làm mờ. Có thể crawl ở máy rồi `tools/sync-data.sh push`.
+- **森森 ngắt kết nối với crawler ở các trang danh mục** (từ 2026-10-26). Giá iPhone lấy từ trang tổng hợp `/iphone18`; giá Pokémon BOX của 森森 không có trang thay thế nên giữ giá cũ.
 - **Một số tiệm ẩn danh sách ngoài giờ làm việc** (ví dụ trang iPhone của ホムラ). Crawler coi đó là lỗi và giữ giá cũ.
 - **Parser phụ thuộc giao diện trang của từng tiệm.** Khi một tiệm đổi giao diện, cột của tiệm đó báo "Không lấy được giá nào" cho tới khi sửa parser.
 - **Dữ liệu iPhone trước ngày 2026-10-02** được bổ sung từ bản lưu Wayback và dữ liệu công khai của trang so sánh khác. Xem `docs/sample-data.md`.
